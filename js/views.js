@@ -57,12 +57,11 @@ function infoRepo(name){
     h += o.bio ? `<div class="field">${o.bio}</div>` : ''
 
     h += '<div class="field multi">'
+    h += o.nbFollowers ? `${icon('followers')}<a href="https://github.com/${o.login}?tab=followers" target="${'follow_'+o.name}" rel="noopener">${o.nbFollowers}</a>` : ''
     if(isMe){ 
-      h += o.nbFollowers ? iconTextField('followers', o.nbFollowers) : ''
       h += o.nbStars ? iconTextField('star', o.nbStars) : ''
       h += o.nbForks ? iconTextField('fork', o.nbForks) : ''
     }else{
-      h += o.nbFollowers ? `${icon('followers')}<a href="https://github.com/${o.login}?tab=followers" target="${'follow_'+o.name}" rel="noopener">${o.nbFollowers}</a>` : ''
       h += o.nbRepos ? `${icon('repos')}<a href="https://github.com/${o.login}?tab=repositories" target="${o.name}" rel="noopener">${o.nbRepos}</a>` : ''
     }
     h += '</div>'
