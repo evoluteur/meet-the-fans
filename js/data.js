@@ -1,4 +1,10 @@
-reposH = { '*' : gitUser }
+/*  
+    Meet-the-Fans
+    https://github.com/evoluteur/meet-the-fans
+    (c) 2020 Olivier Giulieri
+*/ 
+
+let reposH = { '*' : gitUser }
 let totals = {
     nbStars: 0,
     nbForks: 0,

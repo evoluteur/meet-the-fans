@@ -1,0 +1,128 @@
+
+body {
+  padding: 20px;
+  font-size: 14pt;
+  font-family: "Overpass", arial;
+  background-color: #0288d1;
+  color: white;
+  background-image: none !important;
+}
+a, a:visited{
+    color: #ffb74d;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffcc80;
+    text-decoration: underline;
+}
+label{
+    color: white;
+}
+textarea {
+  width: 100%;
+}
+#status{
+    border: dashed 1px white;
+    font-style: italic;
+  padding: 0 20px;
+  height: 210px;
+  width: 100%;
+  overflow-y: scroll;
+  color: white;
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 14px;
+}
+#user,
+#fans{
+  height: 410px;
+}
+.r-user{
+    padding-right: 20px;
+    width: 410px;
+}
+.r-fans{
+    flex-grow: 1;
+}
+
+.response2c{
+  display: flex;
+  justify-content: space-between;
+
+}
+#response > div {
+  flex-grow: 1;
+  margin: 0 5px;
+}
+#response textarea {
+    font-size: 14px;
+}
+.form-login-token{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin: 40px 0;
+}
+.form-login-token{
+    display: flex;
+    justify-content: left;
+  }
+.form-field label {
+  display: block;
+  font-size: .8em;
+  margin-bottom: 4px;
+
+}
+.form-field{
+  margin-bottom: 10px;
+}
+.hidden{
+    display: none;
+    opacity: 0;
+}
+
+textarea,
+input{
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Overpass", arial;
+}
+.btn.mtf{
+  margin: 22px 20px;
+  white-space: nowrap;
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0277bd;
+  color: white;
+}
+#github_token{
+  height: 92px;
+  font-size: .9em;
+  padding: 10px;
+
+}
+.red{
+  color: pink;
+}
+.icon.copy{
+  position: relative;
+  top: 4px;
+  left: 6px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;;
+	background-image: url(checkbox-multiple-blank-outline.svg);
+}
+footer{
+    margin-top: 50px;
+}
+.github{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    fill: white;
+}
+.github:hover{
+    fill: orange;
+}

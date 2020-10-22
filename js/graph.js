@@ -1,3 +1,9 @@
+/*  
+    Meet-the-Fans
+    https://github.com/evoluteur/meet-the-fans
+    (c) 2020 Olivier Giulieri
+*/ 
+
 const height = config.height || 1600;
 const width = config.width || 1200;
 

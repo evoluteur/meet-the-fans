@@ -1,3 +1,9 @@
+/*  
+    Meet-the-Fans
+    https://github.com/evoluteur/meet-the-fans
+    (c) 2020 Olivier Giulieri
+*/ 
+
 const repoArr = repoIds => repoIds.sort((a, b) => a.localeCompare(b)).map(id => id==='*' ? gitUser : reposH[id])
 
 const textField = (label, value) => value ? `<div class="field"><label>${label}:</label> ${value}</div>` : ''
