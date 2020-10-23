@@ -18,7 +18,8 @@ a{
 a:hover{
 	text-decoration: underline;
 }
-svg{
+
+.graph{
 	/*background-color: white;*/
 	width: 1600px;
 }
@@ -44,6 +45,18 @@ label{
 	background-color: white;
 	overflow-x: hidden;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+svg.home {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+    fill: #1f77b4;
+    cursor: pointer;
+}
+svg.home:hover {
+    fill: navy;
 }
 #details{
 	display: none;
