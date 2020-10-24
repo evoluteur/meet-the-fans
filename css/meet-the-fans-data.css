@@ -7,6 +7,17 @@ body {
   color: white;
   background-image: none !important;
 }
+svg.home {
+    position: relative;
+    top: 8px;
+    height: 40px;
+    width: 40px;
+    fill: #86BDDC;
+    cursor: pointer;
+}
+svg.home:hover {
+    fill: #ffb74d;
+}
 a, a:visited{
     color: #ffb74d;
     text-decoration: none;
