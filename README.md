@@ -47,6 +47,12 @@ const config = {
 }
 ```
 
+To rebuild run:
+
+```javascript
+npm install
+gulp
+```
 
 
 ## License
