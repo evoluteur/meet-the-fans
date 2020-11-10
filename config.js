@@ -1,6 +1,6 @@
 const config = {
-    height: 1600,
-    width: 1200,
+    height: 2500,
+    width: 2000,
     strength: -30,
     distance: 50,
     userColors: {
@@ -9,7 +9,7 @@ const config = {
         fork: '#1966AC',
         both: '#4A96C9',
     },
-    // on white background, use colorFaded: '#eeeeee',
-    colorFaded: '#e1e1e1',
+    circleBorder: 'white',
+    colorFaded: '#37a3de',//'#e1e1e1', '#eeeeee',
     maxTopics: 5,
 }
