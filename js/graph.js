@@ -60,7 +60,6 @@ function graph(data) {
         .force('collision', d3.forceCollide().radius(d => d.radius));
 
     const svg = d3.create('svg')
-        .attr('class', 'graph')
         .attr("viewBox", [0, 0, width, height])
         .on('click', hideDetails);
 
@@ -88,6 +87,7 @@ function graph(data) {
         .selectAll("circle")
         .data(nodes)
         .join("circle")
+        .attr("id", d => d.id)
         .attr("r", d => d.radius)
         .attr("stroke", circleBorder)
         .attr("fill", color)
@@ -150,9 +150,11 @@ function showDetails(evt, d) {
     if (evt.target.style.fill === 'rgb(238, 238, 238)' && d.oType !== 'repo') {
         return null;
     }
-    const e = document.getElementById('details')
-    e.innerHTML = (d.isRepo && d.id !== '*') ? infoRepo(d.id) : infoUser(d.id)
-    e.className = (d.x > width / 2 ? 'left' : 'right') + (d.isRepo ? ' w220' : '')
+    if(!evt.detail.skipModal){
+        const e = document.getElementById('details')
+        e.innerHTML = (d.isRepo && d.id !== '*') ? infoRepo(d.id) : infoUser(d.id)
+        e.className = (d.x > width / 2 ? 'left' : 'right') + (d.isRepo ? ' w220' : '')
+    }
 
     // highlightRepo (disable the rest) 
     let fnFilterCircles
@@ -200,8 +202,14 @@ function showDetails(evt, d) {
     }
 }
 
+function selectProject(id){
+    var evt = new CustomEvent('click', {detail: {skipModal: true}})
+    var e = document.getElementById(id)
+    if(e) e.dispatchEvent(evt);
+}
+
 const renderGraph = () => {
-    document.body.appendChild(graph(getData()))
+    document.getElementById('graph').appendChild(graph(getData()));
     document.getElementById('details').onclick = evt => evt.stopPropagation();
     document.onclick = () => document.getElementById('details').className = '';
 }
