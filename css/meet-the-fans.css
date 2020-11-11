@@ -120,11 +120,14 @@ svg.home:hover {
 .reposList > div:hover .multi{
 	display: block;
 }
-.reposList > div:hover{
+.reposList > div{
 	margin: 0 -6px;
 	padding: 5px 5px 0 5px;
-	border: solid 1px silver;
+	border: solid 1px white;
 	border-radius: 5px;
+}
+.reposList > div:hover{
+	border-color: silver;
 }
 .reposList .repoIco{
 	display: inline-block;
