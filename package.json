@@ -1,6 +1,6 @@
 {
   "name": "meet-the-fans",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Network graph of GitHub repositories, followers, stars, and forks.",
   "repository": {
     "type": "git",
@@ -17,15 +17,16 @@
     "gulp-header": "^2.0.9"
   },
   "keywords": [
+    "github",
     "visualization",
     "network",
     "graph",
-    "github",
     "followers",
     "stars",
     "forks",
     "repository",
     "fans",
+    "graphql",
     "d3"
   ]
 }

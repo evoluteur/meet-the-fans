@@ -1,27 +1,63 @@
+
 /*
-  evoluteur on 9/27/2020 9:10:36 PM
+  evoluteur on 11/10/2020 3:25:12 PM
   meet-the-fans: https://github.com/evoluteur/meet-the-fans
 */
 
 const gitUser = {
   "login": "evoluteur",
+  "avatarUrl": "https://avatars2.githubusercontent.com/u/880119?u=072c4e106f55eba09e92f565e982bf21cbf99a65&v=4",
+  "createdAt": "6/27/2011",
+  "nbFollowers": 86,
+  "nbFollowings": 29,
+  "nbStarredRepos": 0,
+  "nbRepos": 24,
+  "follower": false,
+  "websiteUrl": "https://evoluteur.github.io",
   "bio": "Creative UI engineer with an eye for UX and a passion for model-driven UIs.",
   "location": "San Mateo, CA",
-  "avatarUrl": "https://avatars3.githubusercontent.com/u/880119?u=18c9101d150c64311723ae62bc75c5519aa5bca3&v=4",
-  "websiteUrl": "https://evoluteur.github.io",
-  "createdAt": "6/27/2011",
-  "nbFollowers": 85,
-  "nbFollowings": 29,
-  "nbRepos": 21,
-  "follower": false,
   "repos": [
+    {
+      "name": "bouncing-ball",
+      "description": "Bouncing ball using CSS or JavaScript.",
+      "nbStars": 0,
+      "nbForks": 0,
+      "createdAt": "10/14/2020",
+      "updatedAt": "10/24/2020",
+      "homepageUrl": "https://evoluteur.github.io/bouncing-ball/",
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "http://choosealicense.com/licenses/mit/"
+      },
+      "languages": [
+        {
+          "name": "HTML",
+          "color": "#e34c26"
+        }
+      ],
+      "nbReleases": 1,
+      "version": "1.0",
+      "topics": [
+        "bouncing-ball",
+        "animation",
+        "animation-css",
+        "javascript",
+        "animated",
+        "fullscreen",
+        "animation-effects",
+        "ball",
+        "bounce-animations",
+        "css"
+      ]
+    },
     {
       "name": "braille-tools",
       "description": "CSS and Javascript to display Braille in web pages (for sighted people).",
       "nbStars": 3,
       "nbForks": 2,
       "createdAt": "11/29/2016",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "10/8/2020",
       "homepageUrl": "http://evoluteur.github.io/braille-tools/index.html",
       "licenseInfo": {
         "key": "mit",
@@ -52,17 +88,19 @@ const gitUser = {
         "braille-alphabet",
         "braille-characters",
         "braille-display",
-        "braille-translator"
+        "braille-translator",
+        "braille-symbols",
+        "ui"
       ]
     },
     {
       "name": "colorpicker",
       "description": "jQuery UI widget for color picking (similar to the one in Microsoft Office 2010).",
-      "nbStars": 262,
+      "nbStars": 266,
       "nbForks": 119,
       "createdAt": "6/3/2012",
-      "updatedAt": "9/14/2020",
-      "homepageUrl": "http://evoluteur.github.io/colorpicker/",
+      "updatedAt": "11/6/2020",
+      "homepageUrl": "https://evoluteur.github.io/colorpicker/",
       "licenseInfo": {
         "key": "mit",
         "name": "MIT License",
@@ -80,6 +118,10 @@ const gitUser = {
         {
           "name": "HTML",
           "color": "#e34c26"
+        },
+        {
+          "name": "Less",
+          "color": "#1d365d"
         }
       ],
       "nbReleases": 17,
@@ -99,7 +141,11 @@ const gitUser = {
         "widget",
         "colorpickerview",
         "office",
-        "ui-components"
+        "ui-components",
+        "picker-component",
+        "color-theme",
+        "jquery",
+        "color-selector"
       ]
     },
     {
@@ -108,7 +154,7 @@ const gitUser = {
       "nbStars": 6,
       "nbForks": 3,
       "createdAt": "4/4/2017",
-      "updatedAt": "9/18/2020",
+      "updatedAt": "10/24/2020",
       "homepageUrl": "https://evoluteur.github.io/d3-dual-range-slider/",
       "licenseInfo": {
         "key": "mit",
@@ -141,16 +187,22 @@ const gitUser = {
         "svg-component",
         "range-slider",
         "range",
-        "javascript"
+        "javascript",
+        "component",
+        "ui",
+        "slider-component",
+        "slider-range",
+        "slider-plugin",
+        "range-picker"
       ]
     },
     {
       "name": "d3-table-cards",
       "description": "Table/Cards views using D3.js for animated transitions on sorting and changing view.",
-      "nbStars": 12,
+      "nbStars": 13,
       "nbForks": 1,
       "createdAt": "4/11/2017",
-      "updatedAt": "9/18/2020",
+      "updatedAt": "11/6/2020",
       "homepageUrl": "https://evoluteur.github.io/d3-table-cards/",
       "licenseInfo": {
         "key": "mit",
@@ -171,8 +223,8 @@ const gitUser = {
           "color": "#e34c26"
         }
       ],
-      "nbReleases": 5,
-      "version": "1.1.0",
+      "nbReleases": 6,
+      "version": "1.1.1",
       "topics": [
         "d3",
         "d3js",
@@ -188,7 +240,58 @@ const gitUser = {
         "animation",
         "animations",
         "data-grid-view",
-        "transformation"
+        "transformation",
+        "transition-animation",
+        "d3v6"
+      ]
+    },
+    {
+      "name": "database-export-wizard",
+      "description": "A step wizard for ASP.NET to export database objects to CSV, TXT, HTML, XML, or SQL.",
+      "nbStars": 0,
+      "nbForks": 0,
+      "createdAt": "9/30/2020",
+      "updatedAt": "10/24/2020",
+      "homepageUrl": "",
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "http://choosealicense.com/licenses/mit/"
+      },
+      "languages": [
+        {
+          "name": "Visual Basic .NET",
+          "color": "#945db7"
+        },
+        {
+          "name": "ASP.NET",
+          "color": "#9400ff"
+        },
+        {
+          "name": "C#",
+          "color": "#178600"
+        },
+        {
+          "name": "CSS",
+          "color": "#563d7c"
+        }
+      ],
+      "nbReleases": 0,
+      "version": "",
+      "topics": [
+        "database",
+        "export",
+        "wizard",
+        "vb",
+        "vbnet",
+        "aspnet",
+        "asp-net",
+        "vb-net",
+        "step-wizard",
+        "csv",
+        "json",
+        "exporter",
+        "webcontrol"
       ]
     },
     {
@@ -197,7 +300,7 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "7/12/2020",
-      "updatedAt": "9/15/2020",
+      "updatedAt": "10/13/2020",
       "homepageUrl": "https://github.com/evoluteur",
       "licenseInfo": null,
       "languages": [],
@@ -209,9 +312,9 @@ const gitUser = {
       "name": "evoluteur.github.io",
       "description": "My Home Page: Coding, Cooking, Graphic Novels, Movies...",
       "nbStars": 0,
-      "nbForks": 0,
+      "nbForks": 2,
       "createdAt": "12/7/2016",
-      "updatedAt": "9/24/2020",
+      "updatedAt": "11/7/2020",
       "homepageUrl": "https://evoluteur.github.io",
       "licenseInfo": {
         "key": "agpl-3.0",
@@ -240,16 +343,17 @@ const gitUser = {
         "cooking",
         "comics",
         "sci-fi",
+        "recipes",
         "movies"
       ]
     },
     {
       "name": "evolutility-asp.net",
       "description": "Lightweight CRUD framework for heavy lifting using ASP.net and MS-SQL Server.",
-      "nbStars": 19,
+      "nbStars": 21,
       "nbForks": 7,
       "createdAt": "6/8/2018",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "11/5/2020",
       "homepageUrl": "http://evolutility.org",
       "licenseInfo": {
         "key": "agpl-3.0",
@@ -266,28 +370,24 @@ const gitUser = {
           "color": "#f1e05a"
         },
         {
-          "name": "Visual Basic",
-          "color": "#945db7"
-        },
-        {
           "name": "C#",
           "color": "#178600"
         },
         {
-          "name": "SQLPL",
-          "color": null
-        },
-        {
-          "name": "PLpgSQL",
-          "color": null
-        },
-        {
-          "name": "ASP",
-          "color": "#6a40fd"
-        },
-        {
           "name": "HTML",
           "color": "#e34c26"
+        },
+        {
+          "name": "Visual Basic .NET",
+          "color": "#945db7"
+        },
+        {
+          "name": "ASP.NET",
+          "color": "#9400ff"
+        },
+        {
+          "name": "TSQL",
+          "color": null
         }
       ],
       "nbReleases": 5,
@@ -305,16 +405,18 @@ const gitUser = {
         "no-code",
         "mysql",
         "asp",
-        "framework"
+        "framework",
+        "evolutility",
+        "aspnet-mvc"
       ]
     },
     {
       "name": "evolutility-models",
-      "description": "Models for Evolutility Apps",
-      "nbStars": 5,
+      "description": "Models for Evolutility CRUD Apps",
+      "nbStars": 6,
       "nbForks": 2,
       "createdAt": "12/9/2018",
-      "updatedAt": "9/15/2020",
+      "updatedAt": "11/9/2020",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -335,18 +437,22 @@ const gitUser = {
         "models",
         "metadata",
         "metamodel",
-        "cards",
         "no-code",
-        "mda"
+        "mda",
+        "evolutility",
+        "crud",
+        "crud-application",
+        "model-driven-development",
+        "metadata-driven"
       ]
     },
     {
       "name": "evolutility-server-node",
       "description": "Model-driven REST or GraphQL backend for CRUD and more, written in Javascript, using Node.js, Express, and PostgreSQL.",
-      "nbStars": 72,
+      "nbStars": 77,
       "nbForks": 28,
       "createdAt": "7/12/2015",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "11/9/2020",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -359,8 +465,8 @@ const gitUser = {
           "color": "#f1e05a"
         }
       ],
-      "nbReleases": 40,
-      "version": "1.1.2",
+      "nbReleases": 41,
+      "version": "1.1.3",
       "topics": [
         "crud",
         "database",
@@ -369,29 +475,29 @@ const gitUser = {
         "crud-functionality",
         "model-driven-development",
         "mda",
-        "postgresql",
-        "express",
         "orm",
         "rest",
         "rest-api",
         "crud-api",
         "postgres",
         "low-code",
-        "graphql",
         "no-code",
         "metadata",
         "models",
-        "code-generation"
+        "evolutility",
+        "sql",
+        "metadata-driven",
+        "query-builder"
       ]
     },
     {
       "name": "evolutility-ui-jquery",
-      "description": "Model-driven Web UI for CRUD using jQuery and Backbone (for REST or localStorage).",
-      "nbStars": 158,
-      "nbForks": 49,
+      "description": "Model-driven Web UI for CRUD using REST or localStorage.",
+      "nbStars": 160,
+      "nbForks": 53,
       "createdAt": "12/12/2012",
-      "updatedAt": "9/18/2020",
-      "homepageUrl": "http://evoluteur.github.io/evolutility-ui-jquery/",
+      "updatedAt": "11/7/2020",
+      "homepageUrl": "https://evoluteur.github.io/evolutility-ui-jquery/",
       "licenseInfo": {
         "key": "mit",
         "name": "MIT License",
@@ -407,12 +513,12 @@ const gitUser = {
           "color": "#f1e05a"
         },
         {
-          "name": "CSS",
-          "color": "#563d7c"
+          "name": "SCSS",
+          "color": "#c6538c"
         }
       ],
-      "nbReleases": 31,
-      "version": "1.2.3",
+      "nbReleases": 32,
+      "version": "1.2.4",
       "topics": [
         "model-driven-development",
         "jquery",
@@ -425,24 +531,24 @@ const gitUser = {
         "no-code",
         "metadata",
         "backbone-model",
-        "charts",
         "ui",
         "models",
         "forms",
         "javascript",
-        "mvc",
         "code-generation",
         "code-generator",
-        "form"
+        "evolutility",
+        "crud-functionality",
+        "metadata-driven"
       ]
     },
     {
       "name": "evolutility-ui-react",
-      "description": "Model-driven CRUD UI for GraphQL or REST.",
-      "nbStars": 63,
+      "description": "Model-driven Web UI for CRUD using REST.",
+      "nbStars": 68,
       "nbForks": 20,
       "createdAt": "6/16/2016",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "11/1/2020",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -459,12 +565,12 @@ const gitUser = {
           "color": "#e34c26"
         },
         {
-          "name": "CSS",
-          "color": "#563d7c"
+          "name": "SCSS",
+          "color": "#c6538c"
         }
       ],
-      "nbReleases": 19,
-      "version": "0.3.3",
+      "nbReleases": 20,
+      "version": "0.3.4",
       "topics": [
         "react",
         "views",
@@ -474,10 +580,65 @@ const gitUser = {
         "react-component",
         "mda",
         "low-code",
-        "graphql",
         "rest",
         "no-code",
-        "metadata"
+        "metadata",
+        "evolutility",
+        "crud-functionality",
+        "javascipt",
+        "metadata-driven"
+      ]
+    },
+    {
+      "name": "isomorphic-table-cards",
+      "description": "Table and Cards views with animated transitions. No dependencies, just Vanilla Javascript, CSS, and HTML.",
+      "nbStars": 0,
+      "nbForks": 0,
+      "createdAt": "10/2/2020",
+      "updatedAt": "11/6/2020",
+      "homepageUrl": "https://evoluteur.github.io/isomorphic-table-cards/",
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "http://choosealicense.com/licenses/mit/"
+      },
+      "languages": [
+        {
+          "name": "CSS",
+          "color": "#563d7c"
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26"
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      ],
+      "nbReleases": 1,
+      "version": "0.1.0",
+      "topics": [
+        "card",
+        "cards",
+        "cardview",
+        "table",
+        "table-view",
+        "ui",
+        "transition",
+        "transition-animation",
+        "animation",
+        "animation-css",
+        "transformation",
+        "morph",
+        "css3-animations",
+        "css-animations",
+        "isomorphism",
+        "isomorphic",
+        "javascript",
+        "animated-transitions",
+        "cards-views",
+        "animation-effects"
       ]
     },
     {
@@ -486,7 +647,7 @@ const gitUser = {
       "nbStars": 1,
       "nbForks": 0,
       "createdAt": "6/4/2020",
-      "updatedAt": "8/29/2020",
+      "updatedAt": "9/28/2020",
       "homepageUrl": "https://evoluteur.github.io/kaggle-look-alike/",
       "licenseInfo": null,
       "languages": [
@@ -499,8 +660,8 @@ const gitUser = {
           "color": "#f1e05a"
         },
         {
-          "name": "CSS",
-          "color": "#563d7c"
+          "name": "SCSS",
+          "color": "#c6538c"
         }
       ],
       "nbReleases": 0,
@@ -508,7 +669,8 @@ const gitUser = {
       "topics": [
         "kaggle",
         "data",
-        "data-science"
+        "data-science",
+        "explorer"
       ]
     },
     {
@@ -517,7 +679,7 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "10/6/2018",
-      "updatedAt": "9/18/2020",
+      "updatedAt": "11/5/2020",
       "homepageUrl": "https://evoluteur.github.io/madeleine-radars/",
       "licenseInfo": {
         "key": "mit",
@@ -551,7 +713,8 @@ const gitUser = {
         "eggs",
         "recipes",
         "food",
-        "data-visualization"
+        "data-visualization",
+        "madeleine"
       ]
     },
     {
@@ -560,7 +723,7 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "7/3/2017",
-      "updatedAt": "9/18/2020",
+      "updatedAt": "9/29/2020",
       "homepageUrl": "https://evoluteur.github.io/madeleinology/",
       "licenseInfo": {
         "key": "mit",
@@ -594,34 +757,66 @@ const gitUser = {
         "dessert",
         "cake",
         "data-visualization",
-        "data-science"
+        "data-science",
+        "madeleine"
       ]
     },
     {
       "name": "meet-the-fans",
-      "description": "Graph of GitHub repositories, followers, stargazers, and forks.",
+      "description": "Query and Visualize the network graph of your GitHub repositories, followers, stargazers, and forks.",
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "9/27/2020",
-      "updatedAt": "9/27/2020",
-      "homepageUrl": null,
+      "updatedAt": "11/9/2020",
+      "homepageUrl": "https://evoluteur.github.io/meet-the-fans/",
       "licenseInfo": {
         "key": "mit",
         "name": "MIT License",
         "url": "http://choosealicense.com/licenses/mit/"
       },
-      "languages": [],
+      "languages": [
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        },
+        {
+          "name": "CSS",
+          "color": "#563d7c"
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26"
+        }
+      ],
       "nbReleases": 0,
       "version": "",
-      "topics": []
+      "topics": [
+        "visualization",
+        "network",
+        "graph",
+        "github",
+        "followers",
+        "stars",
+        "forks",
+        "repository",
+        "fans",
+        "d3js",
+        "javascript",
+        "social-network",
+        "developer",
+        "social-networks",
+        "force-layout",
+        "github-api",
+        "graphql"
+      ]
     },
     {
       "name": "motivational-numerology",
-      "description": "Simple web page to calculate and interpret the numerology numbers derived from your name and birth date.",
-      "nbStars": 7,
-      "nbForks": 3,
+      "description": "Simple web page to calculate and interpret the numerology numbers derived from your name and birth date (in English or French).",
+      "nbStars": 8,
+      "nbForks": 4,
       "createdAt": "9/5/2018",
-      "updatedAt": "9/21/2020",
+      "updatedAt": "10/3/2020",
       "homepageUrl": "https://evoluteur.github.io/motivational-numerology/",
       "licenseInfo": null,
       "languages": [
@@ -638,8 +833,8 @@ const gitUser = {
           "color": "#f1e05a"
         }
       ],
-      "nbReleases": 1,
-      "version": "1.0.0",
+      "nbReleases": 2,
+      "version": "2.0.0",
       "topics": [
         "numerology",
         "numbers",
@@ -649,16 +844,19 @@ const gitUser = {
         "interpretation",
         "motivation",
         "pythagore",
-        "esoteric"
+        "esoteric",
+        "javascript",
+        "forecast",
+        "destiny"
       ]
     },
     {
       "name": "react-crud-icons",
-      "description": "45 SVG icons for CRUD applications, a React component for Web UI.",
+      "description": "48 SVG icons for CRUD applications, packaged as a React component for Web UI.",
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "8/31/2019",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "10/21/2020",
       "homepageUrl": "https://evoluteur.github.io/react-crud-icons/",
       "licenseInfo": {
         "key": "mit",
@@ -671,12 +869,12 @@ const gitUser = {
           "color": "#f1e05a"
         },
         {
-          "name": "CSS",
-          "color": "#563d7c"
+          "name": "SCSS",
+          "color": "#c6538c"
         }
       ],
-      "nbReleases": 6,
-      "version": "0.1.2",
+      "nbReleases": 7,
+      "version": "0.1.3",
       "topics": [
         "icons",
         "svg-icons",
@@ -689,17 +887,22 @@ const gitUser = {
         "icon-pack",
         "crud-applications",
         "react-component",
-        "react-components"
+        "react-components",
+        "material-design",
+        "material-ui",
+        "svg-sprites",
+        "inline-svg",
+        "button-animation"
       ]
     },
     {
       "name": "structured-filter",
       "description": "jQuery UI widget for structured queries like \"Contacts where Firstname starts with A and Birthday before 1/1/2000 and State in (CA, NY, FL)\"...",
-      "nbStars": 191,
-      "nbForks": 55,
+      "nbStars": 200,
+      "nbForks": 56,
       "createdAt": "9/2/2012",
-      "updatedAt": "9/19/2020",
-      "homepageUrl": "http://evoluteur.github.io/structured-filter/",
+      "updatedAt": "11/6/2020",
+      "homepageUrl": "https://evoluteur.github.io/structured-filter/",
       "licenseInfo": {
         "key": "mit",
         "name": "MIT License",
@@ -717,6 +920,10 @@ const gitUser = {
         {
           "name": "HTML",
           "color": "#e34c26"
+        },
+        {
+          "name": "Less",
+          "color": "#1d365d"
         }
       ],
       "nbReleases": 17,
@@ -732,17 +939,25 @@ const gitUser = {
         "ui",
         "widget",
         "ui-component",
-        "form",
-        "javascript"
+        "javascript",
+        "filtering",
+        "filterlist",
+        "filter-plugin",
+        "evolutility",
+        "search-interface",
+        "searchview",
+        "instant-search",
+        "metadata",
+        "metadata-driven"
       ]
     },
     {
       "name": "structured-filter-react",
       "description": "React component for structured queries like \"Contacts where Firstname starts with 'A' and Birthday before 1/1/2000 and State in (CA, NY, FL)\"...",
-      "nbStars": 3,
-      "nbForks": 0,
+      "nbStars": 4,
+      "nbForks": 1,
       "createdAt": "10/9/2018",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "11/7/2020",
       "homepageUrl": "",
       "licenseInfo": null,
       "languages": [
@@ -776,26 +991,26 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "7/29/2020",
-      "updatedAt": "9/14/2020",
+      "updatedAt": "10/15/2020",
       "homepageUrl": "",
       "licenseInfo": null,
       "languages": [],
-      "nbReleases": 0,
-      "version": "",
+      "nbReleases": 1,
+      "version": "0.1.0",
       "topics": [
         "scraper",
         "scraping",
-        "scraping-websites",
         "web-scraping",
         "web-scraper",
         "scrapping",
         "data",
-        "sitemap"
+        "sitemap",
+        "chrome-extension"
       ]
     }
   ],
-  "nbStars": 802,
-  "nbForks": 289
+  "nbStars": 833,
+  "nbForks": 298
 };
 
 const fans = {
@@ -805,9 +1020,7 @@ const fans = {
     "createdAt": "3/24/2015",
     "nbFollowers": 8,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 25
-    },
+    "nbStarredRepos": 25,
     "nbRepos": 23,
     "follower": false,
     "starred": [
@@ -842,15 +1055,28 @@ const fans = {
     ],
     "starred": []
   },
+  "Hansi1007": {
+    "login": "Hansi1007",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/15261495?v=4",
+    "createdAt": "10/23/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 10,
+    "nbStarredRepos": 9,
+    "nbRepos": 27,
+    "follower": true,
+    "starred": [
+      "*"
+    ],
+    "forked": [],
+    "company": "@mahle.com"
+  },
   "yn-": {
     "login": "yn-",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5469990?v=4",
     "createdAt": "9/16/2013",
     "nbFollowers": 7,
     "nbFollowings": 62,
-    "nbStarredRepos": {
-      "totalCount": 559
-    },
+    "nbStarredRepos": 558,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -861,110 +1087,98 @@ const fans = {
   },
   "mranilkish": {
     "login": "mranilkish",
-    "bio": "Academician",
-    "location": "India",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/29652635?v=4",
-    "company": "Indie",
     "createdAt": "6/23/2017",
     "nbFollowers": 0,
-    "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 6
-    },
-    "nbRepos": 11,
+    "nbFollowings": 33,
+    "nbStarredRepos": 25,
+    "nbRepos": 12,
     "follower": true,
     "starred": [
       "*",
       "motivational-numerology"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Academician",
+    "location": "India",
+    "company": "Indie"
   },
   "GarthOrmsby": {
     "login": "GarthOrmsby",
-    "location": "Sydney",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4186517?u=5ccc637d3219c61209632f62be9eaa7f6a49b7f5&v=4",
     "createdAt": "4/17/2013",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 13
-    },
+    "nbStarredRepos": 13,
     "nbRepos": 1,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Sydney"
   },
   "birarodrigues": {
     "login": "birarodrigues",
-    "bio": "C# dev!",
-    "location": "Maceió - Alagoas",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17939812?u=79d59e7d3ced11862bb6ca57fc6cfe992594f1ca&v=4",
-    "company": "Mesha Tecnologia",
     "createdAt": "3/18/2016",
     "nbFollowers": 4,
-    "nbFollowings": 17,
-    "nbStarredRepos": {
-      "totalCount": 5
-    },
+    "nbFollowings": 18,
+    "nbStarredRepos": 6,
     "nbRepos": 12,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "C# dev!",
+    "location": "Maceió - Alagoas",
+    "company": "Mesha Tecnologia"
   },
   "IAmNithi": {
     "login": "IAmNithi",
-    "bio": "Software Engineer @ Nielsen | Mentor | Public Speaker | Blogging @ kalanithi.dev/blog\r\n\r\n",
-    "location": "Chennai",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/27952340?u=5762ebdb35150954ddc77e340a8b3e76b96611fc&v=4",
-    "websiteUrl": "https://kalanithi.dev/",
-    "company": "Nielsen",
     "createdAt": "4/24/2017",
-    "nbFollowers": 521,
-    "nbFollowings": 12491,
-    "nbStarredRepos": {
-      "totalCount": 34
-    },
+    "nbFollowers": 569,
+    "nbFollowings": 12484,
+    "nbStarredRepos": 34,
     "nbRepos": 35,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://kalanithi.dev/",
+    "bio": "Software Engineer @ Nielsen | Mentor | Public Speaker | Blogging @ kalanithi.dev/blog\r\n\r\n",
+    "location": "Chennai",
+    "company": "Nielsen"
   },
   "marcelomata": {
     "login": "marcelomata",
-    "bio": "Software/Research Engineer",
-    "location": "São Paulo",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4195468?u=83a561209cba1d8c1fd86cb2891ecb1be331b893&v=4",
-    "websiteUrl": "http://acuriousview.blogspot.com",
-    "company": "UFRGS (Brazil)",
     "createdAt": "4/18/2013",
-    "nbFollowers": 71,
-    "nbFollowings": 6220,
-    "nbStarredRepos": {
-      "totalCount": 331
-    },
-    "nbRepos": 1586,
+    "nbFollowers": 80,
+    "nbFollowings": 6301,
+    "nbStarredRepos": 346,
+    "nbRepos": 1634,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://acuriousview.blogspot.com",
+    "bio": "Software/Research Engineer",
+    "location": "São Paulo",
+    "company": "UFRGS (Brazil)"
   },
   "saskw2010": {
     "login": "saskw2010",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3606587?v=4",
     "createdAt": "2/15/2013",
     "nbFollowers": 1,
-    "nbFollowings": 78,
-    "nbStarredRepos": {
-      "totalCount": 22
-    },
-    "nbRepos": 2,
+    "nbFollowings": 79,
+    "nbStarredRepos": 22,
+    "nbRepos": 3,
     "follower": true,
     "starred": [
       "*"
@@ -973,54 +1187,44 @@ const fans = {
   },
   "hcasado": {
     "login": "hcasado",
-    "bio": "Full Stack Senior Developer",
-    "location": "Buenos Aires, Argentina",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3035776?u=28e6483fbc9b4085628575a7c8c9976444a799a4&v=4",
     "createdAt": "12/13/2012",
     "nbFollowers": 2,
     "nbFollowings": 20,
-    "nbStarredRepos": {
-      "totalCount": 64
-    },
+    "nbStarredRepos": 65,
     "nbRepos": 18,
     "follower": true,
     "starred": [
       "*",
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Full Stack Senior Developer",
+    "location": "Buenos Aires, Argentina"
   },
   "killboard": {
     "login": "killboard",
-    "bio": "# Software Engineer",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/15525599?u=dabacc58a11c747a081ef432dcf03fca0459a65e&v=4",
-    "websiteUrl": "https://killboard.github.io",
     "createdAt": "10/31/2015",
-    "nbFollowers": 17,
-    "nbFollowings": 25,
-    "nbStarredRepos": {
-      "totalCount": 200
-    },
+    "nbFollowers": 18,
+    "nbFollowings": 26,
+    "nbStarredRepos": 202,
     "nbRepos": 30,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://killboard.github.io",
+    "bio": "# Software Engineer"
   },
   "RenatGilmanov": {
     "login": "RenatGilmanov",
-    "bio": "Senior solution architect @epam",
-    "location": "Lviv, Ukraine",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/44075?v=4",
-    "websiteUrl": "http://stackoverflow.com/users/1435741/renat-gilmanov",
-    "company": "@epam",
     "createdAt": "1/4/2009",
     "nbFollowers": 12,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 8
-    },
+    "nbStarredRepos": 8,
     "nbRepos": 7,
     "follower": true,
     "starred": [
@@ -1029,7 +1233,11 @@ const fans = {
       "d3-table-cards",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://stackoverflow.com/users/1435741/renat-gilmanov",
+    "bio": "Senior solution architect @epam",
+    "location": "Lviv, Ukraine",
+    "company": "@epam"
   },
   "MattQuarneri": {
     "login": "MattQuarneri",
@@ -1037,9 +1245,7 @@ const fans = {
     "createdAt": "10/11/2013",
     "nbFollowers": 2,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 143
-    },
+    "nbStarredRepos": 142,
     "nbRepos": 23,
     "follower": true,
     "starred": [
@@ -1052,11 +1258,9 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/42387931?v=4",
     "createdAt": "8/14/2018",
     "nbFollowers": 0,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 7
-    },
-    "nbRepos": 2,
+    "nbFollowings": 8,
+    "nbStarredRepos": 16,
+    "nbRepos": 3,
     "follower": true,
     "starred": [
       "*",
@@ -1072,9 +1276,7 @@ const fans = {
     "createdAt": "9/24/2017",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -1085,32 +1287,26 @@ const fans = {
   "tomerry": {
     "login": "tomerry",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/10774891?v=4",
-    "company": "Tecent",
     "createdAt": "1/30/2015",
     "nbFollowers": 7,
     "nbFollowings": 57,
-    "nbStarredRepos": {
-      "totalCount": 331
-    },
+    "nbStarredRepos": 331,
     "nbRepos": 27,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "company": "Tecent"
   },
   "mrtokarev": {
     "login": "mrtokarev",
-    "location": "Skopje, Macedonia",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1983393?u=51774c52b6d4574221fd68ce36a0339682371153&v=4",
-    "company": "NA",
     "createdAt": "7/16/2012",
     "nbFollowers": 2,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 10
-    },
+    "nbStarredRepos": 10,
     "nbRepos": 3,
     "follower": true,
     "starred": [
@@ -1119,27 +1315,27 @@ const fans = {
       "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Skopje, Macedonia",
+    "company": "NA"
   },
   "gustavohleal": {
     "login": "gustavohleal",
-    "bio": "Laboratory Assistant at PUCRS Polytechnic school;\r\nJunior developer;\r\nOpen source hardware & software enthusiastic",
-    "location": "Porto Alegre - RS",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/22385451?u=933957d10feb8cd0621050501aa2cd5199b9bf74&v=4",
-    "company": "PUCRS",
     "createdAt": "9/22/2016",
     "nbFollowers": 28,
-    "nbFollowings": 39,
-    "nbStarredRepos": {
-      "totalCount": 27
-    },
-    "nbRepos": 23,
+    "nbFollowings": 40,
+    "nbStarredRepos": 31,
+    "nbRepos": 25,
     "follower": true,
     "starred": [
       "*",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Laboratory Assistant at PUCRS Polytechnic school;\r\nJunior developer;\r\nOpen source hardware & software enthusiastic",
+    "location": "Porto Alegre - RS",
+    "company": "PUCRS"
   },
   "diligentcat": {
     "login": "diligentcat",
@@ -1147,9 +1343,7 @@ const fans = {
     "createdAt": "7/24/2013",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 137
-    },
+    "nbStarredRepos": 140,
     "nbRepos": 3,
     "follower": true,
     "starred": [
@@ -1164,9 +1358,7 @@ const fans = {
     "createdAt": "5/31/2017",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -1176,39 +1368,35 @@ const fans = {
   },
   "chabb": {
     "login": "chabb",
-    "location": "USA  <-> Suisse",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6769316?u=ec9fc03c71aab3dbac511aa564c64d1f26f2ddab&v=4",
-    "websiteUrl": "http://bl.ocks.org/chabb",
     "createdAt": "2/24/2014",
     "nbFollowers": 13,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 15
-    },
+    "nbStarredRepos": 15,
     "nbRepos": 67,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://bl.ocks.org/chabb",
+    "location": "USA  <-> Suisse"
   },
   "corlin": {
     "login": "corlin",
-    "bio": "软件工程师",
-    "location": "beijing",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/512805?u=0f0c9733442177c7bf3727e0c98678b4fa2eaaba&v=4",
     "createdAt": "12/7/2010",
     "nbFollowers": 12,
-    "nbFollowings": 461,
-    "nbStarredRepos": {
-      "totalCount": 1205
-    },
+    "nbFollowings": 462,
+    "nbStarredRepos": 1216,
     "nbRepos": 47,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "软件工程师",
+    "location": "beijing"
   },
   "pymeup": {
     "login": "pymeup",
@@ -1216,9 +1404,7 @@ const fans = {
     "createdAt": "10/22/2017",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -1228,33 +1414,29 @@ const fans = {
   },
   "stevenbeales": {
     "login": "stevenbeales",
-    "bio": "I am a drug safety and clinical trials subject matter expert who develops clinical trials apps in Ruby, Python and c#.",
-    "location": "Pennsylvania",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/35103?u=5f48a014695f8cba36fd1a301f25b4bdd205c486&v=4",
     "createdAt": "11/17/2008",
     "nbFollowers": 6,
     "nbFollowings": 68,
-    "nbStarredRepos": {
-      "totalCount": 410
-    },
+    "nbStarredRepos": 411,
     "nbRepos": 46,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "I am a drug safety and clinical trials subject matter expert who develops clinical trials apps in Ruby, Python and c#.",
+    "location": "Pennsylvania"
   },
   "buibup": {
     "login": "buibup",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1407409?v=4",
     "createdAt": "2/3/2012",
-    "nbFollowers": 13,
-    "nbFollowings": 143,
-    "nbStarredRepos": {
-      "totalCount": 1445
-    },
-    "nbRepos": 505,
+    "nbFollowers": 14,
+    "nbFollowings": 148,
+    "nbStarredRepos": 1464,
+    "nbRepos": 513,
     "follower": true,
     "starred": [
       "*",
@@ -1264,15 +1446,11 @@ const fans = {
   },
   "progkix": {
     "login": "progkix",
-    "location": "Indianapolis, IN",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/719946?u=d53278493759ae84206a63aa610520de05d27ea2&v=4",
-    "websiteUrl": "http://www.sdps-bbs.com",
     "createdAt": "4/9/2011",
-    "nbFollowers": 27,
-    "nbFollowings": 1131,
-    "nbStarredRepos": {
-      "totalCount": 3532
-    },
+    "nbFollowers": 30,
+    "nbFollowings": 1161,
+    "nbStarredRepos": 3576,
     "nbRepos": 14,
     "follower": true,
     "starred": [
@@ -1281,57 +1459,49 @@ const fans = {
       "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.sdps-bbs.com",
+    "location": "Indianapolis, IN"
   },
   "luciancapdefier": {
     "login": "luciancapdefier",
-    "location": "Bucharest, Romania",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10577416?u=28c9acd0bc2f5b514d12a4440f657ad4f876c348&v=4",
     "createdAt": "1/17/2015",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 3
-    },
+    "nbStarredRepos": 3,
     "nbRepos": 0,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Bucharest, Romania"
   },
   "etsangsplk": {
     "login": "etsangsplk",
-    "location": "westworld",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/24395937?v=4",
     "createdAt": "12/5/2016",
-    "nbFollowers": 22,
-    "nbFollowings": 1102,
-    "nbStarredRepos": {
-      "totalCount": 8
-    },
-    "nbRepos": 4265,
+    "nbFollowers": 23,
+    "nbFollowings": 1115,
+    "nbStarredRepos": 8,
+    "nbRepos": 4398,
     "follower": true,
     "starred": [
       "*"
     ],
     "forked": [
       "evolutility-server-node"
-    ]
+    ],
+    "location": "westworld"
   },
   "david-pfx": {
     "login": "david-pfx",
-    "bio": "Veteran developer, C/C++, C# and many others.\r\nFounder, owner, investor.",
-    "location": "Melbourne Australia",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/12763741?v=4",
-    "websiteUrl": "pfxcorp.com",
-    "company": "Powerflex Corporation",
     "createdAt": "6/5/2015",
     "nbFollowers": 4,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 10
-    },
+    "nbStarredRepos": 10,
     "nbRepos": 17,
     "follower": true,
     "starred": [
@@ -1341,118 +1511,107 @@ const fans = {
     "forked": [
       "evolutility-ui-react",
       "evolutility-server-node"
-    ]
+    ],
+    "websiteUrl": "http://pfxcorp.com",
+    "bio": "Veteran developer, C/C++, C# and many others.\r\nFounder, owner, investor.",
+    "location": "Melbourne Australia",
+    "company": "Powerflex Corporation"
   },
   "rclarofynpal": {
     "login": "rclarofynpal",
-    "bio": "Ingeniero en Ciencias Informáticas con 10 años de experiencia en el desarrollo, despliegue y soporte de aplicaciones empresariales.",
-    "location": "La Habana, Cuba",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/38693843?u=e819480ec4006d43973969df0b4a47ec4e44bb82&v=4",
-    "company": "Elasbit",
     "createdAt": "4/24/2018",
     "nbFollowers": 12,
     "nbFollowings": 424,
-    "nbStarredRepos": {
-      "totalCount": 62
-    },
+    "nbStarredRepos": 62,
     "nbRepos": 0,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Ingeniero en Ciencias Informáticas con 10 años de experiencia en el desarrollo, despliegue y soporte de aplicaciones empresariales.",
+    "location": "La Habana, Cuba",
+    "company": "Elasbit"
   },
   "scratcher28": {
     "login": "scratcher28",
-    "bio": "hacker-minded person",
-    "location": "Russia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/778716?v=4",
     "createdAt": "5/10/2011",
-    "nbFollowers": 150,
-    "nbFollowings": 253,
-    "nbStarredRepos": {
-      "totalCount": 11811
-    },
+    "nbFollowers": 149,
+    "nbFollowings": 255,
+    "nbStarredRepos": 11821,
     "nbRepos": 34,
     "follower": true,
     "starred": [
       "*",
-      "colorpicker",
       "evolutility-server-node",
+      "colorpicker",
       "structured-filter",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "hacker-minded person",
+    "location": "Russia"
   },
   "gmgiordano": {
     "login": "gmgiordano",
-    "location": "Ciriè (TO) Italy",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/9769629?u=904169247bb7f372bf0415da992417e4f3c4f9eb&v=4",
-    "company": "CooperStandard",
     "createdAt": "11/15/2014",
     "nbFollowers": 1,
-    "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbFollowings": 13,
+    "nbStarredRepos": 1,
     "nbRepos": 2,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Ciriè (TO) Italy",
+    "company": "CooperStandard"
   },
   "mohamedebrahim96": {
     "login": "mohamedebrahim96",
-    "bio": "Android Developer, I love making simple things with great impact. I spend most of my time writing code or reading about interesting things.",
-    "location": "Dubai",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/16405013?u=49f59bdcccbefbd9790172c1016f4d9c74502818&v=4",
-    "websiteUrl": "mohamedebrahim96.vercel.app",
-    "company": "@PlexMediaInc",
     "createdAt": "12/22/2015",
-    "nbFollowers": 348,
-    "nbFollowings": 1922,
-    "nbStarredRepos": {
-      "totalCount": 1567
-    },
+    "nbFollowers": 358,
+    "nbFollowings": 1925,
+    "nbStarredRepos": 1567,
     "nbRepos": 113,
     "follower": true,
     "starred": [
       "*",
       "motivational-numerology"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://mohamedebrahim96.vercel.app",
+    "bio": "Android Developer, I love making simple things with great impact. I spend most of my time writing code or reading about interesting things.",
+    "location": "Dubai",
+    "company": "@PlexMediaInc"
   },
   "ProgramCodes": {
     "login": "ProgramCodes",
-    "bio": "@BaseMax ",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/40146766?u=adb1644ab39fc334c9903a7faeb849767d5ff5ea&v=4",
     "createdAt": "6/10/2018",
-    "nbFollowers": 698,
-    "nbFollowings": 8424,
-    "nbStarredRepos": {
-      "totalCount": 18
-    },
+    "nbFollowers": 699,
+    "nbFollowings": 8421,
+    "nbStarredRepos": 18,
     "nbRepos": 20,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "@BaseMax "
   },
   "korrio": {
     "login": "korrio",
-    "bio": "Full-stack Developer",
-    "location": "Thailand",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2325299?u=861a00298df0fb68620ba4c3789fa3fbc16d1395&v=4",
-    "company": "@botbaht ",
     "createdAt": "9/11/2012",
-    "nbFollowers": 27,
-    "nbFollowings": 149,
-    "nbStarredRepos": {
-      "totalCount": 653
-    },
-    "nbRepos": 181,
+    "nbFollowers": 28,
+    "nbFollowings": 150,
+    "nbStarredRepos": 659,
+    "nbRepos": 184,
     "follower": true,
     "starred": [
       "*",
@@ -1460,46 +1619,45 @@ const fans = {
     ],
     "forked": [
       "evolutility-ui-jquery"
-    ]
+    ],
+    "bio": "Full-stack Developer",
+    "location": "Thailand",
+    "company": "@botbaht "
   },
   "thomasl29": {
     "login": "thomasl29",
-    "bio": "I'm a student in e-commerce and digital marketing looking for a new challenge in high technology.",
-    "location": "France",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/39442522?v=4",
     "createdAt": "5/19/2018",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 10,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "I'm a student in e-commerce and digital marketing looking for a new challenge in high technology.",
+    "location": "France"
   },
   "rememberlenny": {
     "login": "rememberlenny",
-    "bio": "I am large, I contain multitudes.",
-    "location": "New York",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1332366?u=a0f76ff789eb9e8b570a7fa3026370fd3fcdba7f&v=4",
-    "websiteUrl": "https://www.rememberlenny.com",
-    "company": "Public Art",
     "createdAt": "1/15/2012",
-    "nbFollowers": 179,
-    "nbFollowings": 1018,
-    "nbStarredRepos": {
-      "totalCount": 2935
-    },
-    "nbRepos": 389,
+    "nbFollowers": 180,
+    "nbFollowings": 1053,
+    "nbStarredRepos": 3020,
+    "nbRepos": 409,
     "follower": true,
     "starred": [
       "*",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.rememberlenny.com",
+    "bio": "I am large, I contain multitudes.",
+    "location": "New York",
+    "company": "Milk Video"
   },
   "pranjalnigam": {
     "login": "pranjalnigam",
@@ -1507,9 +1665,7 @@ const fans = {
     "createdAt": "1/23/2018",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
+    "nbStarredRepos": 2,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -1523,9 +1679,7 @@ const fans = {
     "createdAt": "2/23/2014",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 2,
     "follower": true,
     "starred": [
@@ -1535,133 +1689,118 @@ const fans = {
   },
   "mehreencs87": {
     "login": "mehreencs87",
-    "bio": "\r\n    \r\n",
-    "location": "Islamabad, Pakistan.",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/14890513?u=a7fc957f5eaeefa9906424b9d54d5cf71ae23464&v=4",
-    "company": "Center for Advanced Research and Engineering",
     "createdAt": "9/29/2015",
     "nbFollowers": 1,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 158,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "\r\n    \r\n",
+    "location": "Islamabad, Pakistan.",
+    "company": "Center for Advanced Research and Engineering"
   },
   "ansyeow": {
     "login": "ansyeow",
-    "location": "PJ, Selangor, Malaysia",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/721561?u=6d750a266742454739116840704cb730e40ea90a&v=4",
     "createdAt": "4/10/2011",
-    "nbFollowers": 81,
-    "nbFollowings": 837,
-    "nbStarredRepos": {
-      "totalCount": 4936
-    },
-    "nbRepos": 7,
+    "nbFollowers": 86,
+    "nbFollowings": 848,
+    "nbStarredRepos": 5020,
+    "nbRepos": 1,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "PJ, Selangor, Malaysia"
   },
   "chokami": {
     "login": "chokami",
-    "bio": "a developer interested in machine learning.",
-    "location": "Tehran, Iran",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6959642?u=90dad6059e7c1ddc5dcbd21e735ba1316e359ef0&v=4",
-    "websiteUrl": "http://chokami.com",
-    "company": "Mega Business Group",
     "createdAt": "3/15/2014",
     "nbFollowers": 10,
     "nbFollowings": 33,
-    "nbStarredRepos": {
-      "totalCount": 8
-    },
+    "nbStarredRepos": 8,
     "nbRepos": 0,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://chokami.com",
+    "bio": "a developer interested in machine learning.",
+    "location": "Tehran, Iran",
+    "company": "Mega Business Group"
   },
   "treviettreviet": {
     "login": "treviettreviet",
-    "bio": ".Net Developer",
-    "location": "Ha Noi",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3423283?v=4",
-    "websiteUrl": "https://github.com/treviettreviet",
-    "company": "Abc Ltd",
     "createdAt": "1/29/2013",
     "nbFollowers": 4,
     "nbFollowings": 69,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 61,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://github.com/treviettreviet",
+    "bio": ".Net Developer",
+    "location": "Ha Noi",
+    "company": "Abc Ltd"
   },
   "Fxztam": {
     "login": "Fxztam",
-    "bio": "Oracle - DB \r\n- ERM \r\n- PL/SQL \r\n- SQL \r\n- Forms \r\n- Spatial \r\n- Maps \r\n- Concurrent &\r\n- Real-Time programming.",
-    "location": "Spremberg, DE",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5808032?u=1bd40ed196d67163eed70e2deca6446bdc8ec243&v=4",
-    "websiteUrl": "http://friedhold-matz.blogspot.de/",
-    "company": "Private",
     "createdAt": "10/29/2013",
-    "nbFollowers": 15,
-    "nbFollowings": 135,
-    "nbStarredRepos": {
-      "totalCount": 1488
-    },
-    "nbRepos": 24,
+    "nbFollowers": 17,
+    "nbFollowings": 144,
+    "nbStarredRepos": 1555,
+    "nbRepos": 29,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://friedhold-matz.blogspot.de/",
+    "bio": "Oracle - DB \r\n- ERM \r\n- PL/SQL \r\n- SQL \r\n- Forms \r\n- Spatial \r\n- Maps \r\n- Concurrent &\r\n- Real-Time programming.",
+    "location": "Spremberg, DE",
+    "company": "Private"
   },
   "jorgeponto": {
     "login": "jorgeponto",
-    "bio": "Web Accessibility Professional",
-    "location": "Lisboa",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10554023?u=00fee568549bf48f464a51c886c8c431c503a7fd&v=4",
-    "websiteUrl": "https://www.acessibilidade.gov.pt",
-    "company": "AMA - Agência para a Modernização Administrativa, IP",
     "createdAt": "1/15/2015",
     "nbFollowers": 1,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 50,
+    "nbStarredRepos": 1,
+    "nbRepos": 51,
     "follower": true,
     "starred": [
       "*"
     ],
     "forked": [
       "braille-tools"
-    ]
+    ],
+    "websiteUrl": "https://www.acessibilidade.gov.pt",
+    "bio": "Web Accessibility Professional",
+    "location": "Lisboa",
+    "company": "AMA - Agência para a Modernização Administrativa, IP"
   },
   "vamsibatchu1": {
     "login": "vamsibatchu1",
-    "bio": "UX Designer and Frontend Developer",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/26433261?u=e45375d78a8a5282146108d0deba232c8f47d572&v=4",
     "createdAt": "3/15/2017",
     "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 31,
     "follower": true,
     "starred": [
@@ -1669,25 +1808,24 @@ const fans = {
     ],
     "forked": [
       "evolutility-ui-jquery"
-    ]
+    ],
+    "bio": "UX Designer and Frontend Developer"
   },
   "Puneethkumarck": {
     "login": "Puneethkumarck",
-    "bio": "Java Web & System Integration Developer\r\nTech Stack #JAVA #Groovy #Spring \r\n#Boot #Cloud #Cassandra #Oracle #RabbitMQ #ApacheKafka #Spock #GEB #AWS #Docker",
-    "location": "Paris France",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/11880606?u=b7a44736d1452e7c7101be71614c00c9e13e496a&v=4",
     "createdAt": "4/9/2015",
-    "nbFollowers": 11,
-    "nbFollowings": 73,
-    "nbStarredRepos": {
-      "totalCount": 289
-    },
-    "nbRepos": 41,
+    "nbFollowers": 12,
+    "nbFollowings": 74,
+    "nbStarredRepos": 302,
+    "nbRepos": 45,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Java Web & System Integration Developer\r\nTech Stack #JAVA #Groovy #Spring \r\n#Boot #Cloud #Cassandra #Oracle #RabbitMQ #ApacheKafka #Spock #GEB #AWS #Docker",
+    "location": "Paris France"
   },
   "AbhishekPatil9844": {
     "login": "AbhishekPatil9844",
@@ -1695,9 +1833,7 @@ const fans = {
     "createdAt": "4/4/2016",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 3,
     "follower": true,
     "starred": [
@@ -1708,19 +1844,17 @@ const fans = {
   "haoxl3": {
     "login": "haoxl3",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/15046133?u=00062860cd7f321fb019c3026fe57c6dcef8b930&v=4",
-    "websiteUrl": "https://juejin.im/user/589a975c86b599006b1b436d/posts",
     "createdAt": "10/9/2015",
     "nbFollowers": 17,
     "nbFollowings": 40,
-    "nbStarredRepos": {
-      "totalCount": 106
-    },
-    "nbRepos": 42,
+    "nbStarredRepos": 115,
+    "nbRepos": 43,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://juejin.im/user/589a975c86b599006b1b436d/posts"
   },
   "spindo": {
     "login": "spindo",
@@ -1728,9 +1862,7 @@ const fans = {
     "createdAt": "1/25/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -1740,41 +1872,37 @@ const fans = {
   },
   "syedhasanabbaszaidi": {
     "login": "syedhasanabbaszaidi",
-    "location": "Noida",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/13048828?v=4",
-    "websiteUrl": "hasanabbas.in",
     "createdAt": "6/25/2015",
     "nbFollowers": 2,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 9,
+    "nbStarredRepos": 2,
+    "nbRepos": 11,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://hasanabbas.in",
+    "location": "Noida"
   },
   "bcavileer": {
     "login": "bcavileer",
-    "bio": "\r\n    NO RECRUITERS\r\nwill code for fun\r\n\r\n",
-    "location": "New York / Philadelphia Region",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/96518?v=4",
-    "websiteUrl": "https://app.pluralsight.com/profile/bcavileer",
-    "company": "Holman Enterprises",
     "createdAt": "6/17/2009",
     "nbFollowers": 39,
-    "nbFollowings": 444,
-    "nbStarredRepos": {
-      "totalCount": 303
-    },
+    "nbFollowings": 464,
+    "nbStarredRepos": 320,
     "nbRepos": 113,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://app.pluralsight.com/profile/bcavileer",
+    "bio": "\r\n    NO RECRUITERS\r\nwill code for fun\r\n\r\n",
+    "location": "New York / Philadelphia Region",
+    "company": "Holman Enterprises"
   },
   "restoretheday": {
     "login": "restoretheday",
@@ -1782,9 +1910,7 @@ const fans = {
     "createdAt": "10/2/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -1794,15 +1920,12 @@ const fans = {
   },
   "hackur": {
     "login": "hackur",
-    "location": "Las Vegas, NV",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/161835?u=078e7a4811185ac3168844407e8282e3958dedac&v=4",
     "createdAt": "12/4/2009",
-    "nbFollowers": 54,
+    "nbFollowers": 53,
     "nbFollowings": 388,
-    "nbStarredRepos": {
-      "totalCount": 5271
-    },
-    "nbRepos": 1313,
+    "nbStarredRepos": 5271,
+    "nbRepos": 1314,
     "follower": true,
     "starred": [
       "*",
@@ -1810,79 +1933,72 @@ const fans = {
       "evolutility-ui-jquery",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Las Vegas, NV"
   },
   "wangchongya": {
     "login": "wangchongya",
-    "bio": "有没事没，没事找事",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/8991635?u=e2e78025a5001e7a55f6bca40c9f8cf5a73fe2ce&v=4",
     "createdAt": "10/1/2014",
-    "nbFollowers": 17,
+    "nbFollowers": 19,
     "nbFollowings": 180,
-    "nbStarredRepos": {
-      "totalCount": 1452
-    },
+    "nbStarredRepos": 1502,
     "nbRepos": 3,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "有没事没，没事找事"
   },
   "okashperuk": {
     "login": "okashperuk",
-    "location": "Rivne, Ukraine",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/13574992?u=3e38e08d72da5b872844b32025bd90b7b1ca841a&v=4",
     "createdAt": "7/30/2015",
     "nbFollowers": 2,
-    "nbFollowings": 125,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbFollowings": 126,
+    "nbStarredRepos": 1,
     "nbRepos": 1,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Rivne, Ukraine"
   },
   "ad5jo": {
     "login": "ad5jo",
-    "bio": "Electrical Engineer/ Software Developer\r\nwww.linkedin.com/in/david-durkee-607b07a\r\n",
-    "location": "Texas, USA",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3166538?u=5646454a8cd771bf69295ee56410b411bcb865d6&v=4",
-    "websiteUrl": "www.linkedin.com/in/david-durkee-607b07a",
-    "company": "Durkee Technology Services",
     "createdAt": "1/1/2013",
     "nbFollowers": 12,
     "nbFollowings": 25,
-    "nbStarredRepos": {
-      "totalCount": 20
-    },
+    "nbStarredRepos": 20,
     "nbRepos": 94,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.linkedin.com/in/david-durkee-607b07a",
+    "bio": "Electrical Engineer/ Software Developer\r\nwww.linkedin.com/in/david-durkee-607b07a\r\n",
+    "location": "Texas, USA",
+    "company": "Durkee Technology Services"
   },
   "Dearblackswan": {
     "login": "Dearblackswan",
-    "location": "Brussels",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/22214316?u=1dc79bdf192b075021151859ac25f65630400d04&v=4",
     "createdAt": "9/15/2016",
     "nbFollowers": 5,
-    "nbFollowings": 77,
-    "nbStarredRepos": {
-      "totalCount": 1180
-    },
+    "nbFollowings": 80,
+    "nbStarredRepos": 1184,
     "nbRepos": 11,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Brussels"
   },
   "slawkor": {
     "login": "slawkor",
@@ -1890,9 +2006,7 @@ const fans = {
     "createdAt": "8/16/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 2,
     "follower": true,
     "starred": [
@@ -1905,11 +2019,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/16579942?v=4",
     "createdAt": "1/6/2016",
     "nbFollowers": 0,
-    "nbFollowings": 36,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
-    "nbRepos": 245,
+    "nbFollowings": 37,
+    "nbStarredRepos": 0,
+    "nbRepos": 254,
     "follower": true,
     "starred": [
       "*"
@@ -1918,20 +2030,18 @@ const fans = {
   },
   "yaguza2": {
     "login": "yaguza2",
-    "location": "Thailand",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/395866?v=4",
     "createdAt": "9/11/2010",
     "nbFollowers": 15,
     "nbFollowings": 203,
-    "nbStarredRepos": {
-      "totalCount": 302
-    },
+    "nbStarredRepos": 302,
     "nbRepos": 13,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Thailand"
   },
   "schredder": {
     "login": "schredder",
@@ -1939,9 +2049,7 @@ const fans = {
     "createdAt": "3/3/2012",
     "nbFollowers": 3,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 24
-    },
+    "nbStarredRepos": 24,
     "nbRepos": 27,
     "follower": true,
     "starred": [
@@ -1951,81 +2059,73 @@ const fans = {
   },
   "JAugustoGuimaraes": {
     "login": "JAugustoGuimaraes",
-    "location": "Brasil - Rio de Janeiro",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1640514?u=1f17c392d80871bec26b5b5f49a361edf79b6cf7&v=4",
-    "websiteUrl": "http:\\\\www.energisa.com.br",
-    "company": "Energisa",
     "createdAt": "4/13/2012",
     "nbFollowers": 53,
-    "nbFollowings": 690,
-    "nbStarredRepos": {
-      "totalCount": 5155
-    },
+    "nbFollowings": 693,
+    "nbStarredRepos": 5166,
     "nbRepos": 23,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http:\\\\www.energisa.com.br",
+    "location": "Brasil - Rio de Janeiro",
+    "company": "Energisa"
   },
   "shayanzare": {
     "login": "shayanzare",
-    "bio": "C++/Qt And Ruby programmer",
-    "location": "iran",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17108348?u=fc523b6e8a535eea972ee2df5709737b289e7482&v=4",
     "createdAt": "2/7/2016",
     "nbFollowers": 66,
     "nbFollowings": 283,
-    "nbStarredRepos": {
-      "totalCount": 18
-    },
+    "nbStarredRepos": 18,
     "nbRepos": 18,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "C++/Qt And Ruby programmer",
+    "location": "iran"
   },
   "JT5D": {
     "login": "JT5D",
-    "location": "New York City",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/391299?v=4",
-    "websiteUrl": "http://JamesTunick.com",
-    "company": "Web5design, StudioIMC, The IMC Lab + Gallery",
     "createdAt": "9/7/2010",
     "nbFollowers": 337,
-    "nbFollowings": 6958,
-    "nbStarredRepos": {
-      "totalCount": 31370
-    },
+    "nbFollowings": 6979,
+    "nbStarredRepos": 31428,
     "nbRepos": 214,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://JamesTunick.com",
+    "location": "New York City",
+    "company": "Web5design, StudioIMC, The IMC Lab + Gallery"
   },
   "jcaponte": {
     "login": "jcaponte",
-    "location": "Venezuela",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/8532228?u=51fc8387a380bbf5f0874d10bac4cfbddfeff7d4&v=4",
-    "websiteUrl": "www.digitaldesignsgroup.com.ve",
-    "company": "Digital Designs Group",
     "createdAt": "8/23/2014",
     "nbFollowers": 15,
-    "nbFollowings": 188,
-    "nbStarredRepos": {
-      "totalCount": 29
-    },
+    "nbFollowings": 189,
+    "nbStarredRepos": 29,
     "nbRepos": 57,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.digitaldesignsgroup.com.ve",
+    "location": "Venezuela",
+    "company": "Digital Designs Group"
   },
   "pete21": {
     "login": "pete21",
@@ -2033,10 +2133,8 @@ const fans = {
     "createdAt": "12/8/2013",
     "nbFollowers": 2,
     "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 29,
+    "nbStarredRepos": 1,
+    "nbRepos": 31,
     "follower": true,
     "starred": [
       "*"
@@ -2045,20 +2143,18 @@ const fans = {
   },
   "m-0-r-t": {
     "login": "m-0-r-t",
-    "location": "México",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/15640202?v=4",
     "createdAt": "11/3/2015",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 0,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "location": "México"
   },
   "w2s2k": {
     "login": "w2s2k",
@@ -2066,9 +2162,7 @@ const fans = {
     "createdAt": "7/1/2015",
     "nbFollowers": 3,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 60,
     "follower": true,
     "starred": [
@@ -2085,9 +2179,7 @@ const fans = {
     "createdAt": "12/4/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 0,
     "follower": true,
     "starred": [
@@ -2097,15 +2189,11 @@ const fans = {
   },
   "angusshire": {
     "login": "angusshire",
-    "location": "Berkeley, CA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5877145?v=4",
-    "company": "UC Berkeley",
     "createdAt": "11/6/2013",
-    "nbFollowers": 11799,
-    "nbFollowings": 229430,
-    "nbStarredRepos": {
-      "totalCount": 49695
-    },
+    "nbFollowers": 11827,
+    "nbFollowings": 229378,
+    "nbStarredRepos": 49654,
     "nbRepos": 19,
     "follower": true,
     "starred": [
@@ -2113,7 +2201,9 @@ const fans = {
       "evolutility-ui-jquery",
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Berkeley, CA",
+    "company": "UC Berkeley"
   },
   "vikas84": {
     "login": "vikas84",
@@ -2121,9 +2211,7 @@ const fans = {
     "createdAt": "3/10/2012",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 4,
     "follower": true,
     "starred": [
@@ -2133,63 +2221,58 @@ const fans = {
   },
   "samdubey": {
     "login": "samdubey",
-    "bio": "@Antargyan ",
-    "location": "Pune",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4013722?v=4",
-    "websiteUrl": "http://www.antargyan.com",
-    "company": "@Antargyan",
     "createdAt": "3/30/2013",
-    "nbFollowers": 19,
-    "nbFollowings": 63,
-    "nbStarredRepos": {
-      "totalCount": 45
-    },
+    "nbFollowers": 20,
+    "nbFollowings": 64,
+    "nbStarredRepos": 45,
     "nbRepos": 137,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.antargyan.com",
+    "bio": "@Antargyan ",
+    "location": "Pune",
+    "company": "@Antargyan"
   },
   "cusspvz": {
     "login": "cusspvz",
-    "bio": "Want to offer me a cup of coffee?\r\nBTC:\r\n1KVXAKkU5Yh5xm9g1YvzkWxmBnRT97yC9w",
-    "location": "Póvoa de Varzim, Porto, Portugal",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3604053?u=7168d8bc67b15b53fe756897fb82ec51037f98bb&v=4",
-    "company": "mosano.eu",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3604053?u=d1fe198629ce2efb587438237749f22ee93bbafe&v=4",
     "createdAt": "2/15/2013",
-    "nbFollowers": 7325,
-    "nbFollowings": 128790,
-    "nbStarredRepos": {
-      "totalCount": 1454
-    },
+    "nbFollowers": 7348,
+    "nbFollowings": 128769,
+    "nbStarredRepos": 1463,
     "nbRepos": 141,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://josemoreira.eu",
+    "bio": "Software Architecture, Security and Infrastructure | Open-Source <3",
+    "location": "Póvoa de Varzim, Porto, Portugal",
+    "company": "mosano.eu"
   },
   "l3dlp": {
     "login": "l3dlp",
-    "bio": "Serial CTO @cardpm @datamixio @nadaprod @GesturesIO\r\n-\r\nPlayground on @l3dlp-sandbox",
-    "location": "France",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/60765?u=fe7025d624d1ce846be6bb51868fe41c9a43987b&v=4",
-    "websiteUrl": "https://l3dlp.com/",
-    "company": "@l3dlp-sandbox ",
     "createdAt": "3/6/2009",
-    "nbFollowers": 93,
-    "nbFollowings": 1067,
-    "nbStarredRepos": {
-      "totalCount": 859
-    },
-    "nbRepos": 83,
+    "nbFollowers": 92,
+    "nbFollowings": 1070,
+    "nbStarredRepos": 857,
+    "nbRepos": 84,
     "follower": true,
     "starred": [
       "*",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://l3dlp.com/",
+    "bio": "Serial CTO @cardpm @datamixio @nadaprod @GesturesIO\r\n-\r\nPlayground on @l3dlp-sandbox",
+    "location": "France",
+    "company": "@l3dlp-sandbox "
   },
   "gitric": {
     "login": "gitric",
@@ -2197,9 +2280,7 @@ const fans = {
     "createdAt": "12/3/2012",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 11
-    },
+    "nbStarredRepos": 11,
     "nbRepos": 6,
     "follower": true,
     "starred": [
@@ -2212,23 +2293,21 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/342078?u=780459a096b8257925b390c0ef293b3170b341da&v=4",
     "createdAt": "7/23/2010",
     "nbFollowers": 9,
-    "nbFollowings": 23,
-    "nbStarredRepos": {
-      "totalCount": 2491
-    },
+    "nbFollowings": 25,
+    "nbStarredRepos": 2598,
     "nbRepos": 68,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
       "evolutility-server-node",
+      "evolutility-ui-jquery",
       "structured-filter"
     ],
     "forked": [
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ]
   },
   "anandkumarroyall": {
@@ -2237,9 +2316,7 @@ const fans = {
     "createdAt": "7/31/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 1,
     "follower": true,
     "starred": [
@@ -2253,9 +2330,7 @@ const fans = {
     "createdAt": "2/9/2013",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 0
-    },
+    "nbStarredRepos": 0,
     "nbRepos": 2,
     "follower": true,
     "starred": [
@@ -2265,15 +2340,11 @@ const fans = {
   },
   "zartata": {
     "login": "zartata",
-    "location": "Ivry sur Seine",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/12644699?v=4",
-    "company": "Procyon",
     "createdAt": "5/28/2015",
     "nbFollowers": 2,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 18
-    },
+    "nbStarredRepos": 18,
     "nbRepos": 455,
     "follower": true,
     "starred": [
@@ -2285,111 +2356,103 @@ const fans = {
     "forked": [
       "evolutility-models",
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
       "evolutility-server-node",
+      "evolutility-ui-jquery",
       "structured-filter"
-    ]
+    ],
+    "location": "Ivry sur Seine",
+    "company": "Procyon"
   },
   "ganeshan": {
     "login": "ganeshan",
-    "location": "Sterling,MA",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/115037?v=4",
     "createdAt": "8/13/2009",
     "nbFollowers": 29,
     "nbFollowings": 209,
-    "nbStarredRepos": {
-      "totalCount": 6550
-    },
-    "nbRepos": 46,
+    "nbStarredRepos": 6610,
+    "nbRepos": 47,
     "follower": true,
     "starred": [
       "*",
-      "d3-table-cards",
       "evolutility-models",
+      "d3-table-cards",
       "structured-filter-react",
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
       "evolutility-server-node",
+      "evolutility-ui-jquery",
       "structured-filter",
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Sterling,MA"
   },
   "jkells": {
     "login": "jkells",
-    "location": "Wollongong, Australia",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/149110?v=4",
     "createdAt": "11/4/2009",
-    "nbFollowers": 25,
+    "nbFollowers": 26,
     "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 57
-    },
+    "nbStarredRepos": 56,
     "nbRepos": 82,
     "follower": true,
     "starred": [
       "*",
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Wollongong, Australia"
   },
   "damienbod": {
     "login": "damienbod",
-    "bio": "I am living in Switzerland interested in web development, application security and Azure. Interests: ASP.NET Core, OpenID Connect, OAuth, FIDO2, SQL, Angular",
-    "location": "Switzerland",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3442158?v=4",
-    "websiteUrl": "http://damienbod.com",
     "createdAt": "1/31/2013",
-    "nbFollowers": 952,
+    "nbFollowers": 993,
     "nbFollowings": 151,
-    "nbStarredRepos": {
-      "totalCount": 426
-    },
-    "nbRepos": 198,
+    "nbStarredRepos": 434,
+    "nbRepos": 202,
     "follower": true,
     "starred": [
       "*",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://damienbod.com",
+    "bio": "I am living in Switzerland interested in web development, application security and Azure. Interests: ASP.NET Core, OpenID Connect, OAuth, FIDO2, SQL, Angular",
+    "location": "Switzerland"
   },
   "srsgores": {
     "login": "srsgores",
-    "location": "Calgary, Canada",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1750837?v=4",
-    "websiteUrl": "http://seangoresht.com/",
     "createdAt": "5/17/2012",
-    "nbFollowers": 117,
+    "nbFollowers": 116,
     "nbFollowings": 966,
-    "nbStarredRepos": {
-      "totalCount": 7090
-    },
-    "nbRepos": 141,
+    "nbStarredRepos": 7114,
+    "nbRepos": 142,
     "follower": true,
     "starred": [
       "*",
       "colorpicker",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://seangoresht.com/",
+    "location": "Calgary, Canada"
   },
   "bantynigam": {
     "login": "bantynigam",
-    "location": "India",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/186838?v=4",
     "createdAt": "1/21/2010",
     "nbFollowers": 3,
-    "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 16
-    },
+    "nbFollowings": 19,
+    "nbStarredRepos": 16,
     "nbRepos": 3,
     "follower": true,
     "starred": [
       "*",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "India"
   },
   "Rajesh00175": {
     "login": "Rajesh00175",
@@ -2397,9 +2460,7 @@ const fans = {
     "createdAt": "1/17/2013",
     "nbFollowers": 0,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 9
-    },
+    "nbStarredRepos": 9,
     "nbRepos": 22,
     "follower": true,
     "starred": [
@@ -2409,16 +2470,11 @@ const fans = {
   },
   "madhukard": {
     "login": "madhukard",
-    "bio": "Distinguished Engineer (Innovation Team)",
-    "location": "San Francisco",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/920330?u=3901ecbbd5b516b3147c828966e59e7c9dbf7c35&v=4",
-    "company": "StreamSets",
     "createdAt": "7/16/2011",
     "nbFollowers": 26,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 234
-    },
+    "nbStarredRepos": 234,
     "nbRepos": 51,
     "follower": true,
     "starred": [
@@ -2426,9 +2482,21 @@ const fans = {
       "evolutility-ui-jquery"
     ],
     "forked": [
-      "evolutility-ui-jquery",
-      "colorpicker"
-    ]
+      "colorpicker",
+      "evolutility-ui-jquery"
+    ],
+    "bio": "Distinguished Engineer (Innovation Team)",
+    "location": "San Francisco",
+    "company": "StreamSets"
+  },
+  "Sc0808": {
+    "login": "Sc0808",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/71998376?v=4",
+    "nbRepos": 5,
+    "forked": [
+      "evoluteur.github.io"
+    ],
+    "starred": []
   },
   "cicaglisa80": {
     "login": "cicaglisa80",
@@ -2436,9 +2504,7 @@ const fans = {
     "createdAt": "11/6/2014",
     "nbFollowers": 6,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 1583
-    },
+    "nbStarredRepos": 1589,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -2448,48 +2514,44 @@ const fans = {
   },
   "duplaja": {
     "login": "duplaja",
-    "bio": "capital_P_dangit",
-    "location": "Central US",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/20245408?v=4",
-    "websiteUrl": "https://dandulaney.com",
-    "company": "Convex Code",
     "createdAt": "7/1/2016",
     "nbFollowers": 31,
     "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 88
-    },
+    "nbStarredRepos": 88,
     "nbRepos": 42,
     "follower": false,
     "starred": [
       "braille-tools"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://dandulaney.com",
+    "bio": "capital_P_dangit",
+    "location": "Central US",
+    "company": "Convex Code"
   },
   "johnpierson": {
     "login": "johnpierson",
-    "bio": "\r\n    dabbling in this code stuff and trying my best\r\n",
-    "location": "+34° 59' 20.00, -106° 36' 52",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/15744724?u=ef037b8882c464b3f9e65435acba5cb4ac2b64d3&v=4",
-    "websiteUrl": "http://www.sixtysecondrevit.com",
-    "company": "Prestige Worldwide",
     "createdAt": "11/9/2015",
-    "nbFollowers": 117,
-    "nbFollowings": 68,
-    "nbStarredRepos": {
-      "totalCount": 308
-    },
-    "nbRepos": 42,
+    "nbFollowers": 124,
+    "nbFollowings": 73,
+    "nbStarredRepos": 339,
+    "nbRepos": 43,
     "follower": false,
     "starred": [
       "braille-tools"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.sixtysecondrevit.com",
+    "bio": "\r\n    dabbling in this code stuff and trying my best\r\n",
+    "location": "+34° 59' 20.00, -106° 36' 52",
+    "company": "Prestige Worldwide"
   },
   "anzeljg": {
     "login": "anzeljg",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1914175?v=4",
-    "nbRepos": 72,
+    "nbRepos": 73,
     "forked": [
       "braille-tools"
     ],
@@ -2497,41 +2559,37 @@ const fans = {
   },
   "PedroF20": {
     "login": "PedroF20",
-    "bio": "Master's Degree in Instituto Superior Técnico. Passion for front-end and data-vis. I air drum too much.",
-    "location": "Lisbon/Montijo, Portugal",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/9113750?u=8b75c5cd28b2a6166d7dd52d55799953149d55ac&v=4",
-    "company": "@wide-ventures",
     "createdAt": "10/9/2014",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 6
-    },
+    "nbStarredRepos": 6,
     "nbRepos": 10,
     "follower": false,
     "starred": [
       "d3-dual-range-slider"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Master's Degree in Instituto Superior Técnico. Passion for front-end and data-vis. I air drum too much.",
+    "location": "Lisbon/Montijo, Portugal",
+    "company": "@wide-ventures"
   },
   "SdeWit": {
     "login": "SdeWit",
-    "bio": "\r\n    Computer Science student\r\n",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/7398100?u=9ce837ea01c612b332a906d4cd307e123fe0766a&v=4",
     "createdAt": "4/24/2014",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 7,
+    "nbStarredRepos": 1,
+    "nbRepos": 9,
     "follower": false,
     "starred": [
       "d3-dual-range-slider"
     ],
     "forked": [
       "d3-dual-range-slider"
-    ]
+    ],
+    "bio": "\r\n    Computer Science student\r\n"
   },
   "tapthoppe": {
     "login": "tapthoppe",
@@ -2539,9 +2597,7 @@ const fans = {
     "createdAt": "12/16/2015",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 546
-    },
+    "nbStarredRepos": 561,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -2551,20 +2607,18 @@ const fans = {
   },
   "ysunaw": {
     "login": "ysunaw",
-    "bio": "Starting my next great project",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/24187279?u=0ebb52f08dc600e2bc52ea898c419ee59a694b90&v=4",
     "createdAt": "11/26/2016",
     "nbFollowers": 11,
     "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 37
-    },
+    "nbStarredRepos": 38,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "d3-dual-range-slider"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Starting my next great project"
   },
   "chenpeng1102": {
     "login": "chenpeng1102",
@@ -2572,9 +2626,7 @@ const fans = {
     "createdAt": "7/30/2013",
     "nbFollowers": 20,
     "nbFollowings": 43,
-    "nbStarredRepos": {
-      "totalCount": 713
-    },
+    "nbStarredRepos": 676,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -2600,219 +2652,48 @@ const fans = {
     ],
     "starred": []
   },
-  "mgamarra": {
-    "login": "mgamarra",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1192733?v=4",
-    "createdAt": "11/13/2011",
-    "nbFollowers": 13,
+  "tzw5099": {
+    "login": "tzw5099",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6289023?u=3197972ba389672927487bfbd9350fc8ba958a5d&v=4",
+    "createdAt": "12/30/2013",
+    "nbFollowers": 8,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 2487
-    },
-    "nbRepos": 38,
+    "nbStarredRepos": 2020,
+    "nbRepos": 34,
     "follower": false,
     "starred": [
-      "d3-table-cards",
-      "evolutility-ui-jquery",
-      "structured-filter"
+      "kaggle-look-alike"
     ],
     "forked": []
-  },
-  "igordelorenzi": {
-    "login": "igordelorenzi",
-    "bio": "Web/mobile App Consultant",
-    "location": "São Paulo, SP, Brazil",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/2574541?u=8bb17a29ebbd49bdcddf211344af237a3541fbcb&v=4",
-    "createdAt": "10/16/2012",
-    "nbFollowers": 9,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 348
-    },
-    "nbRepos": 27,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "alexthe-red": {
-    "login": "alexthe-red",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/9519338?v=4",
-    "createdAt": "11/2/2014",
-    "nbFollowers": 1,
-    "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 71
-    },
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "DaveAldon": {
-    "login": "DaveAldon",
-    "bio": "❤️ code!\r\n\r\nReact Native App Developer at Spot Inc.",
-    "location": "Carmel, Indiana",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/12663271?u=9b4001c788e4e8144b7bdb78b7e77002009d3f20&v=4",
-    "websiteUrl": "https://www.linkedin.com/in/davidcrawfordprofile",
-    "company": "Spot Inc",
-    "createdAt": "5/29/2015",
-    "nbFollowers": 13,
-    "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 116
-    },
-    "nbRepos": 76,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "sangskf": {
-    "login": "sangskf",
-    "bio": "EveryDay To No.1",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/23091156?u=9f4b535c15b017ccbb058d9eb9af8a047829081e&v=4",
-    "websiteUrl": "https://sangskf.github.io",
-    "createdAt": "10/26/2016",
-    "nbFollowers": 5,
-    "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 320
-    },
-    "nbRepos": 97,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "crapthings": {
-    "login": "crapthings",
-    "bio": "javascript, coffeescript, ableton live, edm music",
-    "location": "Harbin, China",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1147704?u=5ab8078369b77e42b2fb1efe31e58eb12384a61d&v=4",
-    "websiteUrl": "https://soundcloud.com/drujk",
-    "createdAt": "10/24/2011",
-    "nbFollowers": 61,
-    "nbFollowings": 184,
-    "nbStarredRepos": {
-      "totalCount": 5339
-    },
-    "nbRepos": 246,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "ix4": {
-    "login": "ix4",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/38112035?u=6386dc5772b562e2503ee296e2ba5d05013e066e&v=4",
-    "createdAt": "4/5/2018",
-    "nbFollowers": 30,
-    "nbFollowings": 89,
-    "nbStarredRepos": {
-      "totalCount": 5119
-    },
-    "nbRepos": 799,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "hery84": {
-    "login": "hery84",
-    "location": "Karaganda",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/340397?u=8259c8325fcf87aad02e4deb276e288f929333ae&v=4",
-    "createdAt": "7/21/2010",
-    "nbFollowers": 24,
-    "nbFollowings": 84,
-    "nbStarredRepos": {
-      "totalCount": 3937
-    },
-    "nbRepos": 27,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "Chugainov": {
-    "login": "Chugainov",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/15717664?u=f355ab8636205379e67c08758536a24c45bc6def&v=4",
-    "createdAt": "11/8/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "dlmoraes": {
-    "login": "dlmoraes",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/11023204?u=0fb219d699a094d4d7e74a4f85af62f076916a89&v=4",
-    "createdAt": "2/15/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 16
-    },
-    "nbRepos": 29,
-    "follower": false,
-    "starred": [
-      "d3-table-cards"
-    ],
-    "forked": []
-  },
-  "bchae-holyname": {
-    "login": "bchae-holyname",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/53534150?v=4",
-    "nbRepos": 1,
-    "forked": [
-      "d3-table-cards"
-    ],
-    "starred": []
   },
   "jmptrader": {
     "login": "jmptrader",
-    "location": "world",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/580082?u=abe81343558c9f93cbd43e98e53ab0c986954f79&v=4",
-    "websiteUrl": "treasuris",
-    "company": "treasuris",
     "createdAt": "1/23/2011",
     "nbFollowers": 13,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 600
-    },
-    "nbRepos": 2596,
+    "nbStarredRepos": 610,
+    "nbRepos": 2608,
     "follower": false,
     "starred": [
       "evolutility-models",
-      "evolutility-asp.net",
       "motivational-numerology",
+      "evolutility-asp.net",
       "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": [
-      "evolutility-asp.net",
       "motivational-numerology",
+      "evolutility-asp.net",
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "colorpicker",
       "evolutility-server-node",
+      "colorpicker",
+      "evolutility-ui-jquery",
       "structured-filter"
-    ]
+    ],
+    "websiteUrl": "http://treasuris",
+    "location": "world",
+    "company": "treasuris"
   },
   "udoughong": {
     "login": "udoughong",
@@ -2820,9 +2701,7 @@ const fans = {
     "createdAt": "10/8/2013",
     "nbFollowers": 3,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 437
-    },
+    "nbStarredRepos": 435,
     "nbRepos": 44,
     "follower": false,
     "starred": [
@@ -2832,21 +2711,34 @@ const fans = {
   },
   "zoom2madan": {
     "login": "zoom2madan",
-    "location": "Gurgaon, India",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/11515979?u=649683da5a1c7b1fdaa8806ae4cfb9ffd949eb93&v=4",
-    "websiteUrl": "https://www.akqa.com/",
-    "company": "AKQA",
     "createdAt": "3/16/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 13
-    },
-    "nbRepos": 13,
+    "nbStarredRepos": 13,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "evolutility-models",
       "evolutility-ui-react",
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.akqa.com/",
+    "location": "Gurgaon, India",
+    "company": "AKQA"
+  },
+  "hassan-jahan": {
+    "login": "hassan-jahan",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1667391?v=4",
+    "createdAt": "4/22/2012",
+    "nbFollowers": 8,
+    "nbFollowings": 52,
+    "nbStarredRepos": 652,
+    "nbRepos": 9,
+    "follower": false,
+    "starred": [
+      "evolutility-models",
       "evolutility-server-node"
     ],
     "forked": []
@@ -2860,15 +2752,293 @@ const fans = {
     ],
     "starred": []
   },
+  "mgamarra": {
+    "login": "mgamarra",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1192733?v=4",
+    "createdAt": "11/13/2011",
+    "nbFollowers": 15,
+    "nbFollowings": 7,
+    "nbStarredRepos": 2490,
+    "nbRepos": 41,
+    "follower": false,
+    "starred": [
+      "d3-table-cards",
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "igordelorenzi": {
+    "login": "igordelorenzi",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2574541?u=8bb17a29ebbd49bdcddf211344af237a3541fbcb&v=4",
+    "createdAt": "10/16/2012",
+    "nbFollowers": 11,
+    "nbFollowings": 7,
+    "nbStarredRepos": 353,
+    "nbRepos": 30,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": [],
+    "bio": "Web/mobile App Consultant",
+    "location": "São Paulo, SP, Brazil"
+  },
+  "alexthe-red": {
+    "login": "alexthe-red",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/9519338?v=4",
+    "createdAt": "11/2/2014",
+    "nbFollowers": 1,
+    "nbFollowings": 4,
+    "nbStarredRepos": 71,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": []
+  },
+  "DaveAldon": {
+    "login": "DaveAldon",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12663271?u=9b4001c788e4e8144b7bdb78b7e77002009d3f20&v=4",
+    "createdAt": "5/29/2015",
+    "nbFollowers": 13,
+    "nbFollowings": 6,
+    "nbStarredRepos": 123,
+    "nbRepos": 81,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.linkedin.com/in/davidcrawfordprofile",
+    "bio": "❤️         code!\r\n\r\nReact Native App Developer at Spot Inc.",
+    "location": "Carmel, Indiana",
+    "company": "Spot Inc"
+  },
+  "sangskf": {
+    "login": "sangskf",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/23091156?u=9f4b535c15b017ccbb058d9eb9af8a047829081e&v=4",
+    "createdAt": "10/26/2016",
+    "nbFollowers": 5,
+    "nbFollowings": 14,
+    "nbStarredRepos": 320,
+    "nbRepos": 97,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": [],
+    "websiteUrl": "https://sangskf.github.io",
+    "bio": "EveryDay To No.1"
+  },
+  "crapthings": {
+    "login": "crapthings",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1147704?u=5ab8078369b77e42b2fb1efe31e58eb12384a61d&v=4",
+    "createdAt": "10/24/2011",
+    "nbFollowers": 61,
+    "nbFollowings": 184,
+    "nbStarredRepos": 5362,
+    "nbRepos": 246,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": [],
+    "websiteUrl": "https://soundcloud.com/drujk",
+    "bio": "javascript, coffeescript, ableton live, edm music",
+    "location": "Harbin, China"
+  },
+  "ix4": {
+    "login": "ix4",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/38112035?u=6386dc5772b562e2503ee296e2ba5d05013e066e&v=4",
+    "createdAt": "4/5/2018",
+    "nbFollowers": 31,
+    "nbFollowings": 91,
+    "nbStarredRepos": 5148,
+    "nbRepos": 799,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": []
+  },
+  "hery84": {
+    "login": "hery84",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/340397?u=8259c8325fcf87aad02e4deb276e288f929333ae&v=4",
+    "createdAt": "7/21/2010",
+    "nbFollowers": 24,
+    "nbFollowings": 88,
+    "nbStarredRepos": 3975,
+    "nbRepos": 27,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": [],
+    "location": "Karaganda"
+  },
+  "Chugainov": {
+    "login": "Chugainov",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/15717664?u=f355ab8636205379e67c08758536a24c45bc6def&v=4",
+    "createdAt": "11/8/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 2,
+    "nbRepos": 11,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": []
+  },
+  "dlmoraes": {
+    "login": "dlmoraes",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/11023204?u=0fb219d699a094d4d7e74a4f85af62f076916a89&v=4",
+    "createdAt": "2/15/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 16,
+    "nbRepos": 29,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": []
+  },
+  "glud123": {
+    "login": "glud123",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/22994043?u=e9080a9bf6365ae2366aa81a72cc866105a91737&v=4",
+    "createdAt": "10/22/2016",
+    "nbFollowers": 2,
+    "nbFollowings": 10,
+    "nbStarredRepos": 145,
+    "nbRepos": 17,
+    "follower": false,
+    "starred": [
+      "d3-table-cards"
+    ],
+    "forked": [],
+    "websiteUrl": "https://glud.site"
+  },
+  "bchae-holyname": {
+    "login": "bchae-holyname",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/53534150?v=4",
+    "nbRepos": 1,
+    "forked": [
+      "d3-table-cards"
+    ],
+    "starred": []
+  },
+  "kelvin-dev": {
+    "login": "kelvin-dev",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19224355?u=68766ea4818e964e036a5a1b15928612b22e9f22&v=4",
+    "createdAt": "5/6/2016",
+    "nbFollowers": 244,
+    "nbFollowings": 12239,
+    "nbStarredRepos": 2148,
+    "nbRepos": 36,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [],
+    "bio": "✔ cout << \"A minimalism practitioner and an abstract thinker in SW development \\n\"",
+    "location": "Phu Quoc, VietNam"
+  },
+  "ndamack": {
+    "login": "ndamack",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/57536352?v=4",
+    "createdAt": "11/8/2019",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 1,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": []
+  },
+  "GeoffMall": {
+    "login": "GeoffMall",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12783254?u=915d47edd1d16c00435c2866fb1761ddd8876148&v=4",
+    "createdAt": "6/7/2015",
+    "nbFollowers": 2,
+    "nbFollowings": 3,
+    "nbStarredRepos": 20,
+    "nbRepos": 13,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.geoffmall.com"
+  },
+  "Kalyanagunavardhanaya": {
+    "login": "Kalyanagunavardhanaya",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/56344392?u=46d2460979727867edb5f34ccac0119e3ff7d415&v=4",
+    "createdAt": "10/9/2019",
+    "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 5,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [],
+    "location": "India"
+  },
+  "InnoScorpio": {
+    "login": "InnoScorpio",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/70449772?u=b9ca4bae986806b7ca493ce5be8ed87a5c4fa068&v=4",
+    "createdAt": "8/29/2020",
+    "nbFollowers": 23,
+    "nbFollowings": 303,
+    "nbStarredRepos": 3250,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [],
+    "location": "USA"
+  },
+  "goda02": {
+    "login": "goda02",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/63078102?v=4",
+    "nbRepos": 2,
+    "forked": [
+      "motivational-numerology"
+    ],
+    "starred": []
+  },
+  "avinash8526": {
+    "login": "avinash8526",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2865238?u=91467f32fe5f07f0e33c08b914b76b99e25780cb&v=4",
+    "nbRepos": 23,
+    "forked": [
+      "motivational-numerology"
+    ],
+    "starred": []
+  },
+  "tygrysco": {
+    "login": "tygrysco",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/53409354?u=60121a1fe056d699a3769037e5dbd2840be15b70&v=4",
+    "nbRepos": 10,
+    "forked": [
+      "motivational-numerology"
+    ],
+    "starred": []
+  },
   "srock82": {
     "login": "srock82",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/40375829?v=4",
     "createdAt": "6/18/2018",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 76
-    },
+    "nbStarredRepos": 76,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -2879,25 +3049,23 @@ const fans = {
   },
   "EitanBlumin": {
     "login": "EitanBlumin",
-    "bio": "Microsoft Data Platform MVP, Solutions Architect.\r\n\r\nSubscribe to my feed to be notified about new gists before anyone: https://gist.github.com/EitanBlumin.atom",
-    "location": "Israel",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/30114607?u=a9587d0c015f51920d173ac4c64d0311185173fa&v=4",
-    "websiteUrl": "https://www.eitanblumin.com/",
-    "company": "Madeira Data Solutions",
     "createdAt": "7/12/2017",
     "nbFollowers": 24,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 55
-    },
-    "nbRepos": 26,
+    "nbStarredRepos": 57,
+    "nbRepos": 27,
     "follower": false,
     "starred": [
       "evolutility-asp.net",
       "evolutility-ui-jquery",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.eitanblumin.com/",
+    "bio": "Microsoft Data Platform MVP, Solutions Architect.\r\n\r\nSubscribe to my feed to be notified about new gists before anyone: https://gist.github.com/EitanBlumin.atom",
+    "location": "Israel",
+    "company": "Madeira Data Solutions"
   },
   "yadavrg": {
     "login": "yadavrg",
@@ -2905,9 +3073,7 @@ const fans = {
     "createdAt": "8/27/2013",
     "nbFollowers": 1,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 215
-    },
+    "nbStarredRepos": 214,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -2922,9 +3088,7 @@ const fans = {
     "createdAt": "11/22/2013",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 15
-    },
+    "nbStarredRepos": 15,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -2934,30 +3098,26 @@ const fans = {
   },
   "javis86": {
     "login": "javis86",
-    "location": "Buenos Aires, Argentina",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/5216084?u=64d58da7ae584fbc809b94908a3fcc58bdec4cf3&v=4",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5216084?u=4508025ba23f33096be577b8d80b158a5b9e8bf8&v=4",
     "createdAt": "8/12/2013",
     "nbFollowers": 5,
-    "nbFollowings": 29,
-    "nbStarredRepos": {
-      "totalCount": 75
-    },
+    "nbFollowings": 32,
+    "nbStarredRepos": 86,
     "nbRepos": 12,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Buenos Aires, Argentina"
   },
   "send2vinnie": {
     "login": "send2vinnie",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/261418?v=4",
     "createdAt": "5/1/2010",
-    "nbFollowers": 51,
+    "nbFollowers": 52,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 4724
-    },
+    "nbStarredRepos": 4808,
     "nbRepos": 45,
     "follower": false,
     "starred": [
@@ -2969,100 +3129,90 @@ const fans = {
   },
   "rkapl123": {
     "login": "rkapl123",
-    "bio": "opensource and automation enthusiast, for financial applications I like using @quantlib and @OpenSourceRisk, for Excel Addins @ExcelDNA",
-    "location": "Austria",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7430763?u=f27243fe825548041c8d3db3912b208c9a2df632&v=4",
-    "websiteUrl": "www.kapl.org",
     "createdAt": "4/28/2014",
     "nbFollowers": 5,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 9
-    },
+    "nbStarredRepos": 9,
     "nbRepos": 15,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.kapl.org",
+    "bio": "opensource and automation enthusiast, for financial applications I like using @quantlib and @OpenSourceRisk, for Excel Addins @ExcelDNA",
+    "location": "Austria"
   },
   "amzar96": {
     "login": "amzar96",
-    "bio": "Python Developer",
-    "location": "Malaysia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/19677928?u=cdb0103bc7a8819b618fe164c364a1f0c286900e&v=4",
-    "websiteUrl": "mohdamzar.com",
-    "company": "DHL eCommerce",
     "createdAt": "5/31/2016",
     "nbFollowers": 9,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 169
-    },
-    "nbRepos": 16,
+    "nbStarredRepos": 178,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://mohdamzar.com",
+    "bio": "Python Developer",
+    "location": "Malaysia",
+    "company": "DHL eCommerce"
   },
   "PeteSral": {
     "login": "PeteSral",
-    "bio": "Developing software solutions since 1996 I have and still continue to work with great people and clients side-by-side.  Continuing the education journey.",
-    "location": "Elmhurst, IL",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/36866437?u=2f8d4fccd767135e5eb108d9adbfb2a0e42292b4&v=4",
-    "websiteUrl": "https://nettrax.net",
-    "company": "Bradford Systems Corporation",
     "createdAt": "2/26/2018",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 73
-    },
+    "nbStarredRepos": 73,
     "nbRepos": 0,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://nettrax.net",
+    "bio": "Developing software solutions since 1996 I have and still continue to work with great people and clients side-by-side.  Continuing the education journey.",
+    "location": "Elmhurst, IL",
+    "company": "Bradford Systems Corporation"
   },
   "cmalpass": {
     "login": "cmalpass",
-    "bio": "Software developer, data geek, photographer, gadget aficionado.",
-    "location": "Virginia, USA",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/12421043?v=4",
     "createdAt": "5/12/2015",
-    "nbFollowers": 1,
+    "nbFollowers": 0,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 540
-    },
+    "nbStarredRepos": 539,
     "nbRepos": 0,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Software developer, data geek, photographer, gadget aficionado.",
+    "location": "Virginia, USA"
   },
   "bikaqiou2000": {
     "login": "bikaqiou2000",
-    "bio": "Hello World !",
-    "location": "China",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/5955197?u=083a74edc7f17a5800a8e608db0db511e65f58d6&v=4",
-    "company": "SunRise",
     "createdAt": "11/16/2013",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 199
-    },
-    "nbRepos": 83,
+    "nbStarredRepos": 217,
+    "nbRepos": 84,
     "follower": false,
     "starred": [
       "evolutility-asp.net",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Hello World !",
+    "location": "China",
+    "company": "SunRise"
   },
   "tuga1975": {
     "login": "tuga1975",
@@ -3070,9 +3220,7 @@ const fans = {
     "createdAt": "6/4/2016",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 526
-    },
+    "nbStarredRepos": 526,
     "nbRepos": 186,
     "follower": false,
     "starred": [
@@ -3082,23 +3230,21 @@ const fans = {
   },
   "dchumpitaz": {
     "login": "dchumpitaz",
-    "bio": "Founder of People in Motion. Software development agency focused in banks, ports & e-commerce.",
-    "location": "Panamá",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/12180613?u=b2b0f84a34ac34c7a2d48b2c57076f0f73fe8cba&v=4",
-    "websiteUrl": "http://people-inmotion.com",
-    "company": "People in Motion",
     "createdAt": "4/29/2015",
-    "nbFollowers": 1,
+    "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
-    "nbRepos": 1,
+    "nbStarredRepos": 4,
+    "nbRepos": 2,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://people-inmotion.com",
+    "bio": "Founder of People in Motion. Software development agency focused in banks, ports & e-commerce.",
+    "location": "Panamá",
+    "company": "People in Motion"
   },
   "pwmckee": {
     "login": "pwmckee",
@@ -3106,9 +3252,7 @@ const fans = {
     "createdAt": "7/7/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 14
-    },
+    "nbStarredRepos": 14,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -3118,35 +3262,28 @@ const fans = {
   },
   "brunneis": {
     "login": "brunneis",
-    "bio": "Blockchain @Councilbox & @blockchain-gal • Big Data & Information Retrieval @citiususc",
-    "location": "Compostela",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/9011434?u=6294d133347434d99d9ba046a89544796a876d48&v=4",
-    "websiteUrl": "https://twitter.com/brunn3is",
-    "company": "@Labteral",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9011434?u=77c806353bbcd5e58c67b43ced07f6a68d1e79fa&v=4",
     "createdAt": "10/3/2014",
-    "nbFollowers": 51,
-    "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 341
-    },
-    "nbRepos": 102,
+    "nbFollowers": 57,
+    "nbFollowings": 21,
+    "nbStarredRepos": 355,
+    "nbRepos": 105,
     "follower": false,
     "starred": [
       "evolutility-asp.net"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Blockchain @Councilbox & @blockchain-gal • Big Data & Artificial Intelligence @citiususc",
+    "location": "Compostela",
+    "company": "@Labteral"
   },
   "landall": {
     "login": "landall",
-    "bio": "a former delphi/php/c coder.\r\n",
-    "location": "Beijing",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/7061302?u=c981ad95e7e2b4a1218c24bfac0e655124a3acba&v=4",
     "createdAt": "3/25/2014",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 193
-    },
+    "nbStarredRepos": 193,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -3154,12 +3291,49 @@ const fans = {
     ],
     "forked": [
       "evolutility-asp.net"
-    ]
+    ],
+    "bio": "a former delphi/php/c coder.\r\n",
+    "location": "Beijing"
+  },
+  "ajamaeen": {
+    "login": "ajamaeen",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11008302?u=3caa19263a0eeb738feb64285c091a744c2626c5&v=4",
+    "createdAt": "2/14/2015",
+    "nbFollowers": 3,
+    "nbFollowings": 8,
+    "nbStarredRepos": 96,
+    "nbRepos": 13,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://ajamaeen.blogspot.com",
+    "bio": "I am a solution designer with a wide range of experience in application areas and types. I am serious about creating designs that meet requirements.",
+    "location": "Jordan",
+    "company": "http://www.stopmenu.com"
+  },
+  "fishonline": {
+    "login": "fishonline",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1931909?u=46d23708c6c11580fd3949ae7914e3990316a48f&v=4",
+    "createdAt": "7/6/2012",
+    "nbFollowers": 15,
+    "nbFollowings": 15,
+    "nbStarredRepos": 2676,
+    "nbRepos": 122,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Shanghai, China"
   },
   "dillishrestha": {
     "login": "dillishrestha",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10883545?v=4",
-    "nbRepos": 375,
+    "nbRepos": 385,
     "forked": [
       "evolutility-asp.net"
     ],
@@ -3187,7 +3361,7 @@ const fans = {
   "eksotama": {
     "login": "eksotama",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/42229128?v=4",
-    "nbRepos": 562,
+    "nbRepos": 563,
     "forked": [
       "evolutility-asp.net"
     ],
@@ -3199,149 +3373,62 @@ const fans = {
     "nbRepos": 22,
     "forked": [
       "evolutility-asp.net",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "tzw5099": {
-    "login": "tzw5099",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6289023?u=3197972ba389672927487bfbd9350fc8ba958a5d&v=4",
-    "createdAt": "12/30/2013",
-    "nbFollowers": 8,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 1707
-    },
-    "nbRepos": 34,
-    "follower": false,
-    "starred": [
-      "kaggle-look-alike"
-    ],
-    "forked": []
-  },
-  "kelvin-dev": {
-    "login": "kelvin-dev",
-    "bio": "✔ cout << \"A minimalism practitioner and an abstract thinker in SW development \\n\"",
-    "location": "Phu Quoc, VietNam",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/19224355?u=68766ea4818e964e036a5a1b15928612b22e9f22&v=4",
-    "createdAt": "5/6/2016",
-    "nbFollowers": 235,
-    "nbFollowings": 12239,
-    "nbStarredRepos": {
-      "totalCount": 2151
-    },
-    "nbRepos": 36,
-    "follower": false,
-    "starred": [
-      "motivational-numerology"
-    ],
-    "forked": []
-  },
-  "ndamack": {
-    "login": "ndamack",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/57536352?v=4",
-    "createdAt": "11/8/2019",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "motivational-numerology"
-    ],
-    "forked": []
-  },
-  "GeoffMall": {
-    "login": "GeoffMall",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/12783254?u=915d47edd1d16c00435c2866fb1761ddd8876148&v=4",
-    "websiteUrl": "http://www.geoffmall.com",
-    "createdAt": "6/7/2015",
-    "nbFollowers": 2,
-    "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 20
-    },
-    "nbRepos": 13,
-    "follower": false,
-    "starred": [
-      "motivational-numerology"
-    ],
-    "forked": []
-  },
-  "Kalyanagunavardhanaya": {
-    "login": "Kalyanagunavardhanaya",
-    "location": "India",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/56344392?u=46d2460979727867edb5f34ccac0119e3ff7d415&v=4",
-    "createdAt": "10/9/2019",
-    "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "motivational-numerology"
-    ],
-    "forked": []
-  },
-  "goda02": {
-    "login": "goda02",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/63078102?v=4",
-    "nbRepos": 2,
-    "forked": [
-      "motivational-numerology"
-    ],
-    "starred": []
-  },
-  "avinash8526": {
-    "login": "avinash8526",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/2865238?u=91467f32fe5f07f0e33c08b914b76b99e25780cb&v=4",
-    "nbRepos": 23,
-    "forked": [
-      "motivational-numerology"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
   "narigondelsiglo": {
     "login": "narigondelsiglo",
-    "location": "Buenos Aires, Argentina",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5419598?v=4",
-    "company": "9code",
     "createdAt": "9/9/2013",
     "nbFollowers": 4,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 412
-    },
+    "nbStarredRepos": 412,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "structured-filter-react"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Buenos Aires, Argentina",
+    "company": "9code"
   },
   "yardfarmer": {
     "login": "yardfarmer",
-    "location": "HangZhou",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1446828?v=4",
-    "company": "Alibaba.inc",
     "createdAt": "2/17/2012",
-    "nbFollowers": 22,
+    "nbFollowers": 23,
     "nbFollowings": 92,
-    "nbStarredRepos": {
-      "totalCount": 571
-    },
+    "nbStarredRepos": 579,
     "nbRepos": 56,
     "follower": false,
     "starred": [
       "structured-filter-react",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "HangZhou",
+    "company": "Alibaba.inc"
+  },
+  "imluckyhussain": {
+    "login": "imluckyhussain",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17722529?u=f0a5f31de910ab711867bd1accc194b8cd58b118&v=4",
+    "createdAt": "3/8/2016",
+    "nbFollowers": 1,
+    "nbFollowings": 1,
+    "nbStarredRepos": 61,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "structured-filter-react",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://iMHussa.in",
+    "bio": "Senior Software Engineer at Emirates Group IT, Dubai.",
+    "location": "Dubai",
+    "company": "@Emirates"
   },
   "stevenkath": {
     "login": "stevenkath",
@@ -3349,31 +3436,23 @@ const fans = {
     "createdAt": "9/11/2013",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 3
-    },
+    "nbStarredRepos": 3,
     "nbRepos": 0,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
   "wwfalcon": {
     "login": "wwfalcon",
-    "bio": "Make IT Easy",
-    "location": "Dalian,China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/72378?u=92ad5bd25bc34e46467bb87a47afb20b7e6cc4c5&v=4",
-    "websiteUrl": "http://about.me/wwfalcon",
-    "company": "Neusoft",
     "createdAt": "4/9/2009",
     "nbFollowers": 42,
-    "nbFollowings": 275,
-    "nbStarredRepos": {
-      "totalCount": 2892
-    },
+    "nbFollowings": 277,
+    "nbStarredRepos": 2948,
     "nbRepos": 69,
     "follower": false,
     "starred": [
@@ -3381,46 +3460,46 @@ const fans = {
       "evolutility-server-node",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://about.me/wwfalcon",
+    "bio": "Make IT Easy",
+    "location": "Dalian,China",
+    "company": "Neusoft"
   },
   "skariel": {
     "login": "skariel",
-    "bio": "Physics PhD,\r\nHigh performance computing,\r\nMachine learning,\r\nStatistics,\r\netc.\r\n",
-    "location": "Haifa, Israel",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2347816?u=8952f318e56853a216eed63834207722d8c88745&v=4",
-    "company": "Huawei / Senior Software Architect",
     "createdAt": "9/14/2012",
-    "nbFollowers": 42,
+    "nbFollowers": 41,
     "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 1999
-    },
+    "nbStarredRepos": 2011,
     "nbRepos": 44,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Physics PhD,\r\nHigh performance computing,\r\nMachine learning,\r\nStatistics,\r\netc.\r\n",
+    "location": "Haifa, Israel",
+    "company": "Huawei / Senior Software Architect"
   },
   "andrenventer": {
     "login": "andrenventer",
-    "location": "Hermanus",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/9292462?u=11305bb5ed74a45dc2a463a10a56da2420f824a8&v=4",
-    "websiteUrl": "http://andrenventer.github.io/",
     "createdAt": "10/18/2014",
     "nbFollowers": 13,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 154
-    },
+    "nbStarredRepos": 154,
     "nbRepos": 48,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://andrenventer.github.io/",
+    "location": "Hermanus"
   },
   "hpinio": {
     "login": "hpinio",
@@ -3428,10 +3507,8 @@ const fans = {
     "createdAt": "11/6/2011",
     "nbFollowers": 10,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 290
-    },
-    "nbRepos": 18,
+    "nbStarredRepos": 295,
+    "nbRepos": 20,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
@@ -3442,33 +3519,26 @@ const fans = {
   },
   "SamXP2004": {
     "login": "SamXP2004",
-    "bio": "Never Ever Give Up.",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1940915?u=170348787c9e2db377ba70b200cd1497b934cb2a&v=4",
     "createdAt": "7/8/2012",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 59
-    },
+    "nbStarredRepos": 59,
     "nbRepos": 3,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Never Ever Give Up."
   },
   "thepearson": {
     "login": "thepearson",
-    "location": "Wellington NZ",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1651296?v=4",
-    "websiteUrl": "http://www.pixelite.co.nz",
-    "company": "@haunt-digital ",
     "createdAt": "4/17/2012",
     "nbFollowers": 15,
     "nbFollowings": 34,
-    "nbStarredRepos": {
-      "totalCount": 308
-    },
+    "nbStarredRepos": 309,
     "nbRepos": 59,
     "follower": false,
     "starred": [
@@ -3476,37 +3546,36 @@ const fans = {
     ],
     "forked": [
       "evolutility-ui-react"
-    ]
+    ],
+    "websiteUrl": "http://www.pixelite.co.nz",
+    "location": "Wellington NZ",
+    "company": "@haunt-digital "
   },
   "kulakowka": {
     "login": "kulakowka",
-    "bio": "Fullstack JavaScript Developer",
-    "location": "Russian, Moscow",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/557190?u=7f2445e125a2258715ebb74d22362a93ce218ef8&v=4",
-    "websiteUrl": "https://sportrecs.com",
     "createdAt": "1/11/2011",
-    "nbFollowers": 128,
-    "nbFollowings": 286,
-    "nbStarredRepos": {
-      "totalCount": 4832
-    },
+    "nbFollowers": 129,
+    "nbFollowings": 288,
+    "nbStarredRepos": 4838,
     "nbRepos": 101,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://sportrecs.com",
+    "bio": "Fullstack JavaScript Developer",
+    "location": "Russian, Moscow"
   },
   "Vishal-Isharani": {
     "login": "Vishal-Isharani",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/10386581?u=ad330ae234ee5a2287806c06b9bf4b98722bea56&v=4",
     "createdAt": "1/3/2015",
-    "nbFollowers": 20,
+    "nbFollowers": 21,
     "nbFollowings": 131,
-    "nbStarredRepos": {
-      "totalCount": 5353
-    },
-    "nbRepos": 17,
+    "nbStarredRepos": 5353,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
@@ -3515,22 +3584,20 @@ const fans = {
   },
   "asakura89": {
     "login": "asakura89",
-    "location": "Bandung",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/614434?u=0bb3d7cbff40fb755649b715d4743b81abb83278&v=4",
     "createdAt": "2/12/2011",
-    "nbFollowers": 16,
-    "nbFollowings": 188,
-    "nbStarredRepos": {
-      "totalCount": 1499
-    },
-    "nbRepos": 46,
+    "nbFollowers": 17,
+    "nbFollowings": 191,
+    "nbStarredRepos": 1501,
+    "nbRepos": 50,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Bandung"
   },
   "edson": {
     "login": "edson",
@@ -3538,9 +3605,7 @@ const fans = {
     "createdAt": "3/11/2009",
     "nbFollowers": 9,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 94
-    },
+    "nbStarredRepos": 94,
     "nbRepos": 22,
     "follower": false,
     "starred": [
@@ -3551,140 +3616,125 @@ const fans = {
   },
   "josx": {
     "login": "josx",
-    "location": "Buenos Aires, Argentina",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/791137?u=3387bcd15ffe314a399d54ff667617aec8080e22&v=4",
-    "websiteUrl": "http://www.camba.coop",
-    "company": "Cambá",
     "createdAt": "5/16/2011",
     "nbFollowers": 28,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 651
-    },
-    "nbRepos": 50,
+    "nbStarredRepos": 667,
+    "nbRepos": 51,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.camba.coop",
+    "location": "Buenos Aires, Argentina",
+    "company": "Cambá"
   },
   "gingerhot": {
     "login": "gingerhot",
-    "location": "Beijing",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1658618?u=715c816dcacd998ee7a387a5554f877f2c678406&v=4",
     "createdAt": "4/19/2012",
-    "nbFollowers": 41,
-    "nbFollowings": 38,
-    "nbStarredRepos": {
-      "totalCount": 1932
-    },
-    "nbRepos": 217,
+    "nbFollowers": 42,
+    "nbFollowings": 35,
+    "nbStarredRepos": 1953,
+    "nbRepos": 220,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Beijing"
   },
   "HalidCisse": {
     "login": "HalidCisse",
-    "bio": "I do lots of things. some of them well.\r\nTalk less, Think more.\r\n　　　　　　　　　　🚀　　　　 　　　　　　　　★○•　　　　　 　　　　　¸. ¸☆　☆　　　　　　 　　　　°　○ °　★　　　　　　　 　　　☾　",
-    "location": "Nigeria",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6313791?u=a01bd0b035e3412bc5b67ea1b19b7115b327525e&v=4",
-    "websiteUrl": "halidcisse.me",
-    "company": "@Microsoft",
     "createdAt": "1/3/2014",
-    "nbFollowers": 109,
+    "nbFollowers": 110,
     "nbFollowings": 353,
-    "nbStarredRepos": {
-      "totalCount": 2779
-    },
-    "nbRepos": 34,
+    "nbStarredRepos": 2797,
+    "nbRepos": 35,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://halidcisse.me",
+    "bio": "I do lots of things. some of them well.\r\nTalk less, Think more.\r\n　　　　　　　　　　🚀　　　　 　　　　　　　　★○•　　　　　 　　　　　¸. ¸☆　☆　　　　　　 　　　　°　○ °　★　　　　　　　 　　　☾　",
+    "location": "Nigeria",
+    "company": "@Microsoft"
   },
   "kiskovacs": {
     "login": "kiskovacs",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2733311?u=fb69916c5695ec4fce22b9e3104a35f3bb5bf276&v=4",
-    "company": "SMILEUPPS-080433C6C5",
     "createdAt": "11/6/2012",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 365
-    },
+    "nbStarredRepos": 365,
     "nbRepos": 64,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "company": "SMILEUPPS-080433C6C5"
   },
   "ovidiusabou": {
     "login": "ovidiusabou",
-    "location": "Cluj-Napoca",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/991166?u=8178ab89c5710a9549cc4dd989d5357f95efd022&v=4",
-    "company": "@SectorLabs ",
     "createdAt": "8/19/2011",
     "nbFollowers": 10,
     "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 223
-    },
+    "nbStarredRepos": 223,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Cluj-Napoca",
+    "company": "@SectorLabs "
   },
   "dkimot": {
     "login": "dkimot",
-    "bio": "I'm a Rails and JavaScript developer from SLC Utah.",
-    "location": "SLC, UT",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/20249639?u=26acbf195866cec0ca11e72abba6204a1765d4c5&v=4",
-    "company": "@solium",
     "createdAt": "7/1/2016",
     "nbFollowers": 4,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 122
-    },
-    "nbRepos": 41,
+    "nbStarredRepos": 125,
+    "nbRepos": 42,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://insidertrading.deals",
+    "bio": "I'm a Rails and JavaScript developer from SLC Utah.",
+    "location": "SLC, UT",
+    "company": "@solium"
   },
   "julio347": {
     "login": "julio347",
-    "location": "McAllen, TX",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6179232?u=173640a84707db47447001230f11193284926105&v=4",
     "createdAt": "12/13/2013",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 127
-    },
+    "nbStarredRepos": 127,
     "nbRepos": 14,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "location": "McAllen, TX"
   },
   "Bulletninja": {
     "login": "Bulletninja",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/71659?v=4",
     "createdAt": "4/7/2009",
     "nbFollowers": 13,
-    "nbFollowings": 102,
-    "nbStarredRepos": {
-      "totalCount": 648
-    },
+    "nbFollowings": 103,
+    "nbStarredRepos": 653,
     "nbRepos": 93,
     "follower": false,
     "starred": [
@@ -3698,9 +3748,7 @@ const fans = {
     "createdAt": "5/7/2013",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 20
-    },
+    "nbStarredRepos": 21,
     "nbRepos": 19,
     "follower": false,
     "starred": [
@@ -3714,9 +3762,7 @@ const fans = {
     "createdAt": "6/17/2013",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 69
-    },
+    "nbStarredRepos": 70,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -3731,19 +3777,17 @@ const fans = {
   "chucktrukk": {
     "login": "chucktrukk",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/65679?u=f3d6705b4bcf89e4e8989b116d7c675dc3843a99&v=4",
-    "company": "ProWebscape",
     "createdAt": "3/21/2009",
     "nbFollowers": 31,
     "nbFollowings": 61,
-    "nbStarredRepos": {
-      "totalCount": 1052
-    },
+    "nbStarredRepos": 1051,
     "nbRepos": 73,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "company": "ProWebscape"
   },
   "joaovieirabr": {
     "login": "joaovieirabr",
@@ -3751,9 +3795,7 @@ const fans = {
     "createdAt": "11/11/2012",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 177
-    },
+    "nbStarredRepos": 177,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -3765,22 +3807,20 @@ const fans = {
   },
   "chezianr": {
     "login": "chezianr",
-    "location": "SFO",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/14961290?v=4",
-    "company": "NGINX",
     "createdAt": "10/3/2015",
     "nbFollowers": 0,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 74
-    },
+    "nbStarredRepos": 74,
     "nbRepos": 3,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "location": "SFO",
+    "company": "NGINX"
   },
   "championo": {
     "login": "championo",
@@ -3788,9 +3828,7 @@ const fans = {
     "createdAt": "3/21/2018",
     "nbFollowers": 0,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 75
-    },
+    "nbStarredRepos": 77,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -3804,10 +3842,8 @@ const fans = {
     "createdAt": "6/4/2012",
     "nbFollowers": 24,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 1346
-    },
-    "nbRepos": 43,
+    "nbStarredRepos": 1346,
+    "nbRepos": 45,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
@@ -3818,49 +3854,43 @@ const fans = {
   "jamesfowler": {
     "login": "jamesfowler",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1284971?u=523de2ec6b18cacc140d1faf8f2aa2861c028284&v=4",
-    "company": "Shieldpay",
     "createdAt": "12/25/2011",
     "nbFollowers": 12,
     "nbFollowings": 24,
-    "nbStarredRepos": {
-      "totalCount": 268
-    },
-    "nbRepos": 2,
+    "nbStarredRepos": 272,
+    "nbRepos": 3,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "company": "Shieldpay"
   },
   "ilp2020": {
     "login": "ilp2020",
-    "location": "Shanghai",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3125136?u=8650b8a17bd43eb72d78abffe25f2cfc8f4627cd&v=4",
-    "company": "Tencent",
     "createdAt": "12/25/2012",
     "nbFollowers": 9,
     "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 109
-    },
-    "nbRepos": 3,
+    "nbStarredRepos": 124,
+    "nbRepos": 4,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Shanghai",
+    "company": "Tencent"
   },
   "clonardo": {
     "login": "clonardo",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7379800?v=4",
     "createdAt": "4/22/2014",
-    "nbFollowers": 19,
-    "nbFollowings": 155,
-    "nbStarredRepos": {
-      "totalCount": 3357
-    },
-    "nbRepos": 109,
+    "nbFollowers": 22,
+    "nbFollowings": 171,
+    "nbStarredRepos": 3585,
+    "nbRepos": 112,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
@@ -3874,9 +3904,7 @@ const fans = {
     "createdAt": "9/21/2016",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 87
-    },
+    "nbStarredRepos": 89,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -3890,9 +3918,7 @@ const fans = {
     "createdAt": "9/30/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 16
-    },
+    "nbStarredRepos": 16,
     "nbRepos": 16,
     "follower": false,
     "starred": [
@@ -3904,12 +3930,10 @@ const fans = {
     "login": "vulcangz",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7195362?v=4",
     "createdAt": "4/6/2014",
-    "nbFollowers": 83,
-    "nbFollowings": 267,
-    "nbStarredRepos": {
-      "totalCount": 29148
-    },
-    "nbRepos": 21,
+    "nbFollowers": 85,
+    "nbFollowings": 275,
+    "nbStarredRepos": 29636,
+    "nbRepos": 22,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
@@ -3921,41 +3945,37 @@ const fans = {
   },
   "SolutionYogi": {
     "login": "SolutionYogi",
-    "location": "NYC, NY, USA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/127397?v=4",
-    "websiteUrl": "http://solutionyogi.com",
-    "company": "SolutionYogi LLC",
     "createdAt": "9/15/2009",
     "nbFollowers": 6,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 112
-    },
+    "nbStarredRepos": 114,
     "nbRepos": 13,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://solutionyogi.com",
+    "location": "NYC, NY, USA",
+    "company": "SolutionYogi LLC"
   },
   "nklowns": {
     "login": "nklowns",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/17345221?u=95d3b4c3a8ad4641fa662ce0f30e77313f2ff362&v=4",
-    "websiteUrl": "https://kuork.org",
     "createdAt": "2/19/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 27
-    },
+    "nbStarredRepos": 27,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://kuork.org"
   },
   "ichtestemalwieder": {
     "login": "ichtestemalwieder",
@@ -3963,9 +3983,7 @@ const fans = {
     "createdAt": "9/1/2019",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 94
-    },
+    "nbStarredRepos": 94,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -3975,31 +3993,27 @@ const fans = {
   },
   "madibalive": {
     "login": "madibalive",
-    "location": "Accra, Gh",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7702063?u=5842e0fa5ff130114879f0acdcb568a7024261c8&v=4",
-    "company": "mate-aid.blogspot.com",
     "createdAt": "5/26/2014",
     "nbFollowers": 6,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 610
-    },
+    "nbStarredRepos": 611,
     "nbRepos": 37,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Accra, Gh",
+    "company": "mate-aid.blogspot.com"
   },
   "adatoo": {
     "login": "adatoo",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1885244?v=4",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1885244?u=d7b4b96dcbc9cae56efdc5a724b840f3523cd4f1&v=4",
     "createdAt": "6/23/2012",
     "nbFollowers": 6,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 1536
-    },
+    "nbStarredRepos": 1571,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -4012,10 +4026,8 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/38713337?v=4",
     "createdAt": "4/24/2018",
     "nbFollowers": 3,
-    "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 614
-    },
+    "nbFollowings": 10,
+    "nbStarredRepos": 625,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -4028,14 +4040,11 @@ const fans = {
   "sangkyunyoon": {
     "login": "sangkyunyoon",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/8344155?v=4",
-    "websiteUrl": "https://bcuts.tistory.com",
     "createdAt": "8/3/2014",
     "nbFollowers": 17,
     "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 4219
-    },
-    "nbRepos": 3439,
+    "nbStarredRepos": 4228,
+    "nbRepos": 3441,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
@@ -4044,100 +4053,87 @@ const fans = {
     ],
     "forked": [
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ]
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "websiteUrl": "https://bcuts.tistory.com"
   },
   "bigdrum": {
     "login": "bigdrum",
-    "location": "New York, NY",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/45750?v=4",
     "createdAt": "1/11/2009",
     "nbFollowers": 24,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 314
-    },
+    "nbStarredRepos": 315,
     "nbRepos": 37,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "location": "New York, NY"
   },
   "hemantkamalakar": {
     "login": "hemantkamalakar",
-    "bio": "\r\n    Home automation, IoT and data science enthusiast.\r\n",
-    "location": "Pune, India",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1947238?v=4",
-    "websiteUrl": "https://hemantkamalakar.github.io/",
-    "company": "TietoEVRY",
     "createdAt": "7/9/2012",
     "nbFollowers": 8,
     "nbFollowings": 17,
-    "nbStarredRepos": {
-      "totalCount": 34
-    },
+    "nbStarredRepos": 35,
     "nbRepos": 11,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://hemantkamalakar.github.io/",
+    "bio": "\r\n    Home automation, IoT and data science enthusiast.\r\n",
+    "location": "Pune, India",
+    "company": "TietoEVRY"
   },
   "litteZe": {
     "login": "litteZe",
-    "bio": "Frontend web developer",
-    "location": "tianchao",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/19704226?u=8d6a1f32d08c07a4013854ae3b84bd6ed229926e&v=4",
     "createdAt": "6/2/2016",
-    "nbFollowers": 16,
+    "nbFollowers": 17,
     "nbFollowings": 319,
-    "nbStarredRepos": {
-      "totalCount": 4468
-    },
+    "nbStarredRepos": 4468,
     "nbRepos": 162,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Frontend web developer",
+    "location": "tianchao"
   },
   "felipereina": {
     "login": "felipereina",
-    "bio": "Developer at Fruition Partners",
-    "location": "lisbon",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/41518538?u=98376b2866ec58165de141953921eaf165961c3e&v=4",
-    "websiteUrl": "http://felipereina.netlify.com",
-    "company": "Fruition Partners",
     "createdAt": "7/21/2018",
     "nbFollowers": 9,
     "nbFollowings": 22,
-    "nbStarredRepos": {
-      "totalCount": 14
-    },
+    "nbStarredRepos": 14,
     "nbRepos": 18,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://felipereina.netlify.com",
+    "bio": "Developer at Fruition Partners",
+    "location": "lisbon",
+    "company": "Fruition Partners"
   },
   "minasvisual": {
     "login": "minasvisual",
-    "bio": "Ulisses Mantovani\r\nPersonal Contact: mantovaniarts@hotmail.com",
-    "location": "São Paulo / Brazil",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7904806?u=48df989bcf754b1e4c80ed3517fca78bbb8eb23a&v=4",
-    "websiteUrl": "http://mantovaniarts.com",
-    "company": "Minas Visual",
     "createdAt": "6/16/2014",
     "nbFollowers": 3,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 71
-    },
+    "nbStarredRepos": 72,
     "nbRepos": 46,
     "follower": false,
     "starred": [
@@ -4145,7 +4141,11 @@ const fans = {
     ],
     "forked": [
       "evolutility-ui-react"
-    ]
+    ],
+    "websiteUrl": "http://mantovaniarts.com",
+    "bio": "Ulisses Mantovani\r\nPersonal Contact: mantovaniarts@hotmail.com",
+    "location": "São Paulo / Brazil",
+    "company": "Minas Visual"
   },
   "philamander": {
     "login": "philamander",
@@ -4153,10 +4153,8 @@ const fans = {
     "createdAt": "12/18/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 12
-    },
-    "nbRepos": 3,
+    "nbStarredRepos": 13,
+    "nbRepos": 4,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
@@ -4165,33 +4163,26 @@ const fans = {
   },
   "BrunoTuy": {
     "login": "BrunoTuy",
-    "location": "Salvador - BA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/26278903?u=eb1083126571f22dcb551c05cf146cf48ff6b792&v=4",
     "createdAt": "3/8/2017",
     "nbFollowers": 7,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 12
-    },
-    "nbRepos": 10,
+    "nbStarredRepos": 12,
+    "nbRepos": 11,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Salvador - BA"
   },
   "nyimbi": {
     "login": "nyimbi",
-    "bio": "Data Wrangler, Code Spiffer-upper, Generalist",
-    "location": "Nairobi",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2156185?v=4",
-    "company": "Seme Research",
     "createdAt": "8/15/2012",
-    "nbFollowers": 18,
+    "nbFollowers": 19,
     "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 2096
-    },
+    "nbStarredRepos": 2139,
     "nbRepos": 664,
     "follower": false,
     "starred": [
@@ -4199,43 +4190,42 @@ const fans = {
       "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Data Wrangler, Code Spiffer-upper, Generalist",
+    "location": "Nairobi",
+    "company": "Seme Research"
   },
   "platform-kit": {
     "login": "platform-kit",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/54647524?u=1cb7191699fb4c83946d962727cf4a15f498990b&v=4",
-    "websiteUrl": "https://www.platformkit.com",
     "createdAt": "8/28/2019",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 196
-    },
-    "nbRepos": 2,
+    "nbStarredRepos": 219,
+    "nbRepos": 4,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.platformkit.com"
   },
   "vintageplayer": {
     "login": "vintageplayer",
-    "bio": "Jack of all, master of none (yet). I believe \"One can learn anything and one can never learn enough\". Interested in Data Mining and Data Science.",
-    "location": "Bangalore, India",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/17234935?u=26f2397427a41bb0534ae24f7b3eca1ae1c62c91&v=4",
     "createdAt": "2/14/2016",
-    "nbFollowers": 43,
+    "nbFollowers": 44,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 62
-    },
-    "nbRepos": 24,
+    "nbStarredRepos": 84,
+    "nbRepos": 25,
     "follower": false,
     "starred": [
       "evolutility-ui-react",
       "evolutility-server-node"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Jack of all, master of none (yet). I believe \"One can learn anything and one can never learn enough\". Interested in Data Mining and Data Science.",
+    "location": "Bangalore, India"
   },
   "fibarra75": {
     "login": "fibarra75",
@@ -4243,9 +4233,7 @@ const fans = {
     "createdAt": "7/5/2016",
     "nbFollowers": 1,
     "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 33
-    },
+    "nbStarredRepos": 33,
     "nbRepos": 12,
     "follower": false,
     "starred": [
@@ -4256,27 +4244,71 @@ const fans = {
   },
   "animalizm": {
     "login": "animalizm",
-    "location": "Riga, Latvia",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/11823944?v=4",
-    "websiteUrl": "http://www.animalizm.me",
-    "company": "freelance",
     "createdAt": "4/6/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 652
-    },
+    "nbStarredRepos": 707,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.animalizm.me",
+    "location": "Riga, Latvia",
+    "company": "freelance"
+  },
+  "leostarcevic": {
+    "login": "leostarcevic",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/7224001?v=4",
+    "createdAt": "4/8/2014",
+    "nbFollowers": 10,
+    "nbFollowings": 129,
+    "nbStarredRepos": 708,
+    "nbRepos": 23,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "bio": "Software Engineer"
+  },
+  "andriyor": {
+    "login": "andriyor",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/11459840?u=4088c2608ab81d873e45e9952828f43eb0185851&v=4",
+    "createdAt": "3/13/2015",
+    "nbFollowers": 52,
+    "nbFollowings": 328,
+    "nbStarredRepos": 3523,
+    "nbRepos": 194,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.linkedin.com/in/andrey-oriekhov-8b8724103/",
+    "location": "Ukraine, Cherkassy, Cherkasy"
+  },
+  "Pavonian": {
+    "login": "Pavonian",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/62995124?v=4",
+    "createdAt": "4/1/2020",
+    "nbFollowers": 1,
+    "nbFollowings": 1,
+    "nbStarredRepos": 81,
+    "nbRepos": 28,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react",
+      "evolutility-server-node"
     ],
     "forked": []
   },
   "CodeFork": {
     "login": "CodeFork",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/19376886?v=4",
-    "nbRepos": 505,
+    "nbRepos": 512,
     "forked": [
       "evolutility-ui-react"
     ],
@@ -4285,7 +4317,7 @@ const fans = {
   "cuulee": {
     "login": "cuulee",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1776179?v=4",
-    "nbRepos": 5680,
+    "nbRepos": 5736,
     "forked": [
       "evolutility-ui-react",
       "evolutility-server-node"
@@ -4295,11 +4327,11 @@ const fans = {
   "briancartercst": {
     "login": "briancartercst",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7414768?u=5c85acc471f8323a6d1f262838c93412e25f3a06&v=4",
-    "nbRepos": 256,
+    "nbRepos": 257,
     "forked": [
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
@@ -4316,11 +4348,11 @@ const fans = {
   "dodohee": {
     "login": "dodohee",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/4029141?v=4",
-    "nbRepos": 99,
+    "nbRepos": 100,
     "forked": [
       "evolutility-ui-react",
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
@@ -4364,17 +4396,12 @@ const fans = {
   },
   "PieterjanMontens": {
     "login": "PieterjanMontens",
-    "bio": "Full Stack, DevOps, Data Something",
-    "location": "Belgium",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4528178?v=4",
-    "websiteUrl": "http://pieterjan.montens.net",
     "createdAt": "5/25/2013",
     "nbFollowers": 11,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 34
-    },
-    "nbRepos": 53,
+    "nbStarredRepos": 35,
+    "nbRepos": 52,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4382,7 +4409,10 @@ const fans = {
     "forked": [
       "evolutility-ui-react",
       "evolutility-server-node"
-    ]
+    ],
+    "websiteUrl": "http://pieterjan.montens.net",
+    "bio": "Full Stack, DevOps, Data Something",
+    "location": "Belgium"
   },
   "mainjavagmail": {
     "login": "mainjavagmail",
@@ -4407,1104 +4437,27 @@ const fans = {
   "Fakhrudin-MFM": {
     "login": "Fakhrudin-MFM",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/68215427?u=4e0edf457a1b7eef3bde231b9717c937683320f7&v=4",
-    "nbRepos": 128,
+    "nbRepos": 142,
     "forked": [
       "evolutility-ui-react"
     ],
     "starred": []
   },
-  "Stiropor": {
-    "login": "Stiropor",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/365876?u=000808baf77834c0cc95412b545bb17b1aa8c2aa&v=4",
-    "createdAt": "8/16/2010",
-    "nbFollowers": 9,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 1371
-    },
-    "nbRepos": 37,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "reduxionist": {
-    "login": "reduxionist",
-    "location": "Bangkok, Thailand",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/500775?u=79dc14c5dbe3ec9d7f968426383b327bf44e266f&v=4",
-    "company": "@intelligent-bytes",
-    "createdAt": "11/28/2010",
-    "nbFollowers": 196,
-    "nbFollowings": 433,
-    "nbStarredRepos": {
-      "totalCount": 25287
-    },
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "colorpicker",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "psapoznik": {
-    "login": "psapoznik",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/451175?u=c361c2c1520c061989d9300909c3871044b59c85&v=4",
-    "createdAt": "10/23/2010",
-    "nbFollowers": 4,
-    "nbFollowings": 27,
-    "nbStarredRepos": {
-      "totalCount": 115
-    },
-    "nbRepos": 55,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "fabien": {
-    "login": "fabien",
-    "location": "Belgium",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/2749?v=4",
-    "websiteUrl": "http://www.atelierfabien.be/",
-    "createdAt": "3/10/2008",
-    "nbFollowers": 52,
-    "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 4488
-    },
-    "nbRepos": 184,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "swu-illumio": {
-    "login": "swu-illumio",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/6580363?v=4",
-    "createdAt": "2/3/2014",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "cespinar": {
-    "login": "cespinar",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/8921327?v=4",
-    "createdAt": "9/25/2014",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "vkartaviy": {
-    "login": "vkartaviy",
-    "location": "Kiev, Ukraine",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/648039?u=0e9b6c947551ecfa395b4e798ffd8bfc3fc57d18&v=4",
-    "company": "Undefined™",
-    "createdAt": "3/2/2011",
-    "nbFollowers": 56,
-    "nbFollowings": 602,
-    "nbStarredRepos": {
-      "totalCount": 1579
-    },
-    "nbRepos": 8,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "Furqankhanzada": {
-    "login": "Furqankhanzada",
-    "bio": "Dynamic professional with more than nine years of experience in development ranging from Web to Mobile Applications. ",
-    "location": "Karachi, Pakistan",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2400215?u=9a8b1937ae3223ebe8c4710f7b272f743ffaec32&v=4",
-    "websiteUrl": "https://appbakerz.com",
-    "company": "@AppBakerZ ",
-    "createdAt": "9/22/2012",
-    "nbFollowers": 78,
-    "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 76
-    },
-    "nbRepos": 37,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "ncknt": {
-    "login": "ncknt",
-    "location": "San Francisco",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/352411?v=4",
-    "createdAt": "8/2/2010",
-    "nbFollowers": 1,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 111
-    },
-    "nbRepos": 16,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "colorpicker"
-    ],
-    "forked": []
-  },
-  "nhymxu": {
-    "login": "nhymxu",
-    "bio": "Hơi gầy, hơi nhạt, não cá vàng và thích tạp nham",
-    "location": "Hanoi, Vietnam",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/535617?u=6e3f453c1ca6785315d41b532b2bdedb83b76347&v=4",
-    "websiteUrl": "https://dungnt.net",
-    "createdAt": "12/24/2010",
-    "nbFollowers": 15,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 719
-    },
-    "nbRepos": 64,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "spliner": {
-    "login": "spliner",
-    "bio": "Software developer @ ZBRA Solutions",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/4410223?u=e759014060c4966424bd6119da3ac361bd1081c9&v=4",
-    "company": "ZBRA",
-    "createdAt": "5/12/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 32
-    },
-    "nbRepos": 6,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "alercunha": {
-    "login": "alercunha",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/5490771?v=4",
-    "company": "ZBRA",
-    "createdAt": "9/18/2013",
-    "nbFollowers": 5,
-    "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 12
-    },
-    "nbRepos": 19,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "gladson": {
-    "login": "gladson",
-    "location": "Brazil, Rondônia - Porto velho",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1013698?u=90d4250da4a84fa8f7f9faed9f4a3bfa375777e5&v=4",
-    "company": "PnA & Immensa",
-    "createdAt": "8/29/2011",
-    "nbFollowers": 71,
-    "nbFollowings": 156,
-    "nbStarredRepos": {
-      "totalCount": 3980
-    },
-    "nbRepos": 217,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "colorpicker",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "TMAComms": {
-    "login": "TMAComms",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/8142361?v=4",
-    "createdAt": "7/12/2014",
-    "nbFollowers": 1,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 90
-    },
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "mmezzacca": {
-    "login": "mmezzacca",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/601967?u=1759eec63d9200d96253ebd9259a77c92450e8ab&v=4",
-    "websiteUrl": "http://marcmezzacca.com/",
-    "company": "CouponFollow",
-    "createdAt": "2/5/2011",
-    "nbFollowers": 4,
-    "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 214
-    },
-    "nbRepos": 2,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "m3zercat": {
-    "login": "m3zercat",
-    "location": "Derbyshire",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2084045?v=4",
-    "websiteUrl": "http://m3z.net/",
-    "createdAt": "8/2/2012",
-    "nbFollowers": 4,
-    "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 48
-    },
-    "nbRepos": 15,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "gauchedroite": {
-    "login": "gauchedroite",
-    "location": "Gatineau, Québec, Canada",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6200766?v=4",
-    "createdAt": "12/16/2013",
-    "nbFollowers": 3,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 71
-    },
-    "nbRepos": 6,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "yaninelbi": {
-    "login": "yaninelbi",
-    "location": "Tel Aviv, Israel",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/669251?v=4",
-    "websiteUrl": "http://twitter.com/yaninelbi",
-    "createdAt": "3/14/2011",
-    "nbFollowers": 13,
-    "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 1059
-    },
-    "nbRepos": 44,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "gigi81": {
-    "login": "gigi81",
-    "bio": "Manager .Net Software Development and WinOps expert",
-    "location": "London",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/881067?v=4",
-    "createdAt": "6/28/2011",
-    "nbFollowers": 22,
-    "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 181
-    },
-    "nbRepos": 58,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "mtikoian": {
-    "login": "mtikoian",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/199116?u=d94cd0ea82403d46426341558da552c9d5c5eeec&v=4",
-    "company": "IBM",
-    "createdAt": "2/7/2010",
-    "nbFollowers": 13,
-    "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 534
-    },
-    "nbRepos": 231,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "abarriere": {
-    "login": "abarriere",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/3457732?v=4",
-    "createdAt": "2/2/2013",
-    "nbFollowers": 3,
-    "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 77
-    },
-    "nbRepos": 14,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "aquadk": {
-    "login": "aquadk",
-    "location": "Denmark",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/12857849?v=4",
-    "createdAt": "6/12/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 16
-    },
-    "nbRepos": 6,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "fhancquart": {
-    "login": "fhancquart",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/11842401?v=4",
-    "createdAt": "4/7/2015",
-    "nbFollowers": 6,
-    "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 278
-    },
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "goodseller": {
-    "login": "goodseller",
-    "location": "Hong Kong",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1484676?v=4",
-    "websiteUrl": "http://goodseller.github.io",
-    "company": "n/a",
-    "createdAt": "2/29/2012",
-    "nbFollowers": 14,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 3134
-    },
-    "nbRepos": 19,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "jasonjef": {
-    "login": "jasonjef",
-    "location": "Northeast Ohio, USA",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6558023?u=681a8bd22473978c9f30269285d59e22cb1b94d4&v=4",
-    "websiteUrl": "http://www.fuzablesoftware.com",
-    "company": "Fuzable Software",
-    "createdAt": "1/31/2014",
-    "nbFollowers": 4,
-    "nbFollowings": 24,
-    "nbStarredRepos": {
-      "totalCount": 365
-    },
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "nportelli": {
-    "login": "nportelli",
-    "location": "East Lansing, Michigan",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/350919?u=da4cff8c841738d0dca382010578fa6be184f7b6&v=4",
-    "websiteUrl": "http://muddypa.ws/blog",
-    "createdAt": "8/1/2010",
-    "nbFollowers": 6,
-    "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 417
-    },
-    "nbRepos": 14,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "motzel": {
-    "login": "motzel",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1758707?v=4",
-    "createdAt": "5/21/2012",
-    "nbFollowers": 10,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1593
-    },
-    "nbRepos": 8,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "samcome": {
-    "login": "samcome",
-    "bio": "UI Designer, Intégrateur.",
-    "location": "Nantes",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/899141?v=4",
-    "createdAt": "7/6/2011",
-    "nbFollowers": 29,
-    "nbFollowings": 41,
-    "nbStarredRepos": {
-      "totalCount": 1726
-    },
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "JanCoyle": {
-    "login": "JanCoyle",
-    "location": "Odense, Denmark",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/3645565?v=4",
-    "websiteUrl": "http://www.coyle.dk",
-    "company": "Spillehulen",
-    "createdAt": "2/20/2013",
-    "nbFollowers": 0,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 7
-    },
-    "nbRepos": 8,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "laparra": {
-    "login": "laparra",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/859770?v=4",
-    "websiteUrl": "laparra.info",
-    "createdAt": "6/19/2011",
-    "nbFollowers": 2,
-    "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 82
-    },
-    "nbRepos": 5,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "thinklightswitch": {
-    "login": "thinklightswitch",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/12248958?v=4",
-    "createdAt": "5/5/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 3
-    },
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "pixelport": {
-    "login": "pixelport",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/6276761?v=4",
-    "createdAt": "12/28/2013",
-    "nbFollowers": 4,
-    "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 100
-    },
-    "nbRepos": 17,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "myearick": {
-    "login": "myearick",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3708914?v=4",
-    "createdAt": "2/26/2013",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 12
-    },
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "gilronc": {
-    "login": "gilronc",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/13170678?v=4",
-    "createdAt": "7/3/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 8
-    },
-    "nbRepos": 8,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "popandsmart": {
-    "login": "popandsmart",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/2845680?u=639fe42a08d8e8af58548b8931e6ae1967c516c6&v=4",
-    "createdAt": "11/20/2012",
-    "nbFollowers": 10,
-    "nbFollowings": 25,
-    "nbStarredRepos": {
-      "totalCount": 861
-    },
-    "nbRepos": 2,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "dqduc": {
-    "login": "dqduc",
-    "location": "Vietnam",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/186656?u=bb375b644b84b102a1b91cb190e43d5a4731e3b5&v=4",
-    "createdAt": "1/20/2010",
-    "nbFollowers": 19,
-    "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 1296
-    },
-    "nbRepos": 32,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "amitabhaghosh197": {
-    "login": "amitabhaghosh197",
-    "bio": "UI/ UX Designer/ Developer, Wordpress Theme Designer",
-    "location": "Kolkata, India",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/735279?u=1fb19c9467c71be80eb850b143a498c7cb459a4e&v=4",
-    "websiteUrl": "http://tycheweb.in",
-    "company": "TycheWeb",
-    "createdAt": "4/17/2011",
-    "nbFollowers": 13,
-    "nbFollowings": 60,
-    "nbStarredRepos": {
-      "totalCount": 593
-    },
-    "nbRepos": 249,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "boussou": {
-    "login": "boussou",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/2531688?u=6f5be1dac659736f931e1241810cb1bcdf98c09b&v=4",
-    "company": "Inducido",
-    "createdAt": "10/10/2012",
-    "nbFollowers": 4,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 49
-    },
-    "nbRepos": 31,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "stenio123": {
-    "login": "stenio123",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3443868?v=4",
-    "company": "Hashicorp",
-    "createdAt": "1/31/2013",
-    "nbFollowers": 37,
-    "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 103
-    },
-    "nbRepos": 45,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "dsawardekar": {
-    "login": "dsawardekar",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/3541543?v=4",
-    "websiteUrl": "http://pressing-matters.io",
-    "createdAt": "2/12/2013",
-    "nbFollowers": 28,
-    "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 861
-    },
-    "nbRepos": 70,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "ishakkulekci": {
-    "login": "ishakkulekci",
-    "location": "İstanbul",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1771339?v=4",
-    "websiteUrl": "http://ishakkulekci.blogspot.com",
-    "createdAt": "5/23/2012",
-    "nbFollowers": 10,
-    "nbFollowings": 111,
-    "nbStarredRepos": {
-      "totalCount": 786
-    },
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "pdnb": {
-    "login": "pdnb",
-    "location": "Bangkok, Thailand",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/167428?v=4",
-    "websiteUrl": "http://twitter.com/pdnb",
-    "createdAt": "12/14/2009",
-    "nbFollowers": 3,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 158
-    },
-    "nbRepos": 6,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "lddr99": {
-    "login": "lddr99",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/9352148?u=e26c7a15270de71a2ffe18b10dad7c430d795c5a&v=4",
-    "createdAt": "10/22/2014",
-    "nbFollowers": 3,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 378
-    },
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "kclosu": {
-    "login": "kclosu",
-    "location": "Moscow",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/3685451?v=4",
-    "websiteUrl": "kclo.su",
-    "createdAt": "2/24/2013",
-    "nbFollowers": 3,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 143
-    },
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "shishtpal": {
-    "login": "shishtpal",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6944804?u=8328bfbb99aefae53d58baacbdfbdc717eb99f97&v=4",
-    "createdAt": "3/13/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 33,
-    "nbStarredRepos": {
-      "totalCount": 690
-    },
-    "nbRepos": 12,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "arsiesis": {
-    "login": "arsiesis",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/4740228?v=4",
-    "createdAt": "6/19/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 33
-    },
-    "nbRepos": 12,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "joaocc": {
-    "login": "joaocc",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/2837860?v=4",
-    "websiteUrl": "www.kit-ar.com",
-    "company": "KIT-AR Ltd",
-    "createdAt": "11/19/2012",
-    "nbFollowers": 15,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 2448
-    },
-    "nbRepos": 96,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "vphilipnyc": {
-    "login": "vphilipnyc",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/5893811?u=ef361a21815e03541058f638be183f218338c152&v=4",
-    "createdAt": "11/8/2013",
-    "nbFollowers": 7,
-    "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 237
-    },
-    "nbRepos": 31,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "iivel": {
-    "login": "iivel",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/5571781?v=4",
-    "websiteUrl": "http://www.levii.com",
-    "createdAt": "9/29/2013",
-    "nbFollowers": 2,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 135
-    },
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "jcsibon": {
-    "login": "jcsibon",
-    "location": "Paris",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3449854?u=cb1faea044eabab8f5b27993b63786dc7d724bc0&v=4",
-    "createdAt": "2/1/2013",
-    "nbFollowers": 5,
-    "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 56
-    },
-    "nbRepos": 35,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
   "uniconstructor": {
     "login": "uniconstructor",
-    "location": "Russian Federation",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1384545?u=7344c7c83e303c8a332723d75bbf7375a994ae61&v=4",
     "createdAt": "1/27/2012",
-    "nbFollowers": 34,
+    "nbFollowers": 35,
     "nbFollowings": 80,
-    "nbStarredRepos": {
-      "totalCount": 3457
-    },
+    "nbStarredRepos": 3451,
     "nbRepos": 115,
     "follower": false,
     "starred": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "artlantis": {
-    "login": "artlantis",
-    "location": "ISTANBUL",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/188478?v=4",
-    "websiteUrl": "http://www.developer.web.tr",
-    "company": "ARTLantis Web Development & Design Studios",
-    "createdAt": "1/23/2010",
-    "nbFollowers": 27,
-    "nbFollowings": 42,
-    "nbStarredRepos": {
-      "totalCount": 6889
-    },
-    "nbRepos": 265,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "colorpicker"
-    ],
-    "forked": []
-  },
-  "nomed": {
-    "login": "nomed",
-    "location": "Gavi, Italy",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/241485?u=d32cdc10e38276603baeb4e8c328135fec72119b&v=4",
-    "websiteUrl": "www.zeroisp.com",
-    "createdAt": "4/11/2010",
-    "nbFollowers": 4,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 155
-    },
-    "nbRepos": 24,
-    "follower": false,
-    "starred": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": []
-  },
-  "FedericoElles": {
-    "login": "FedericoElles",
-    "location": "Germany",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1033020?v=4",
-    "createdAt": "9/7/2011",
-    "nbFollowers": 7,
-    "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 157
-    },
-    "nbRepos": 77,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "mstfcck": {
-    "login": "mstfcck",
-    "bio": "Back End Developer",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/3237785?u=27ae5be495561c6c008be5ee651f182bce314a1e&v=4",
-    "websiteUrl": "linkedin.com/in/mustafacicek",
-    "createdAt": "1/10/2013",
-    "nbFollowers": 21,
-    "nbFollowings": 75,
-    "nbStarredRepos": {
-      "totalCount": 506
-    },
-    "nbRepos": 31,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "pmartins": {
-    "login": "pmartins",
-    "location": "Feijó",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/209880?u=1207c9c18c978ade83346e0760b1910c2a286b79&v=4",
-    "websiteUrl": "http://www.beyondcode.net",
-    "createdAt": "2/24/2010",
-    "nbFollowers": 2,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 142
-    },
-    "nbRepos": 17,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "pettersamuelsen": {
-    "login": "pettersamuelsen",
-    "bio": "Partner & Head of Development @ Askeladden & Co",
-    "location": "Oslo, Norway",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1244867?u=6e0f8977eab0d6840907a36c4f0f537d75ebe5d5&v=4",
-    "websiteUrl": "https://askeladden.co",
-    "company": "Askeladden & Co",
-    "createdAt": "12/6/2011",
-    "nbFollowers": 13,
-    "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 348
-    },
-    "nbRepos": 29,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "wmjie": {
-    "login": "wmjie",
-    "location": "beijing",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/623368?v=4",
-    "websiteUrl": "http://my.oschina.net/wmjie",
-    "company": "klb",
-    "createdAt": "2/17/2011",
-    "nbFollowers": 7,
-    "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 443
-    },
-    "nbRepos": 24,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "OhMyMndy": {
-    "login": "OhMyMndy",
-    "location": "Retie, Belgium",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/2277717?u=7d3bb39f3fab7b1f20e27815c5a6bdd801feb845&v=4",
-    "websiteUrl": "mndy.be",
-    "createdAt": "9/4/2012",
-    "nbFollowers": 10,
-    "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 1343
-    },
-    "nbRepos": 21,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "hacfi": {
-    "login": "hacfi",
-    "location": "Europe",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/428841?u=d0919fce9e13164ace7e836df2839c14cda8b67b&v=4",
-    "company": "Certified Symfony developer",
-    "createdAt": "10/5/2010",
-    "nbFollowers": 173,
-    "nbFollowings": 1863,
-    "nbStarredRepos": {
-      "totalCount": 4151
-    },
-    "nbRepos": 89,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "pupssman": {
-    "login": "pupssman",
-    "location": "Moscow, Russia",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2619359?v=4",
-    "company": "Yandex",
-    "createdAt": "10/22/2012",
-    "nbFollowers": 17,
-    "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 40
-    },
-    "nbRepos": 18,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "mattstrayer": {
-    "login": "mattstrayer",
-    "location": "NC",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1877440?u=8d2b32cf1087a39d0db3eff19e7d1b0a798094ed&v=4",
-    "websiteUrl": "https://www.lowercase.app",
-    "createdAt": "6/21/2012",
-    "nbFollowers": 3,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 264
-    },
-    "nbRepos": 13,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
+    "forked": [],
+    "location": "Russian Federation"
   },
   "dotsource": {
     "login": "dotsource",
@@ -5512,799 +4465,241 @@ const fans = {
     "createdAt": "2/19/2013",
     "nbFollowers": 14,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 4906
-    },
+    "nbStarredRepos": 4930,
     "nbRepos": 0,
     "follower": false,
     "starred": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "vboyok": {
-    "login": "vboyok",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/7993598?v=4",
-    "createdAt": "6/26/2014",
-    "nbFollowers": 21,
-    "nbFollowings": 120,
-    "nbStarredRepos": {
-      "totalCount": 2957
-    },
-    "nbRepos": 14,
-    "follower": false,
-    "starred": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
     "forked": []
-  },
-  "kurtr": {
-    "login": "kurtr",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1468721?v=4",
-    "createdAt": "2/24/2012",
-    "nbFollowers": 4,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 499
-    },
-    "nbRepos": 18,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "dharapvj": {
-    "login": "dharapvj",
-    "bio": "Principal Architect @Infosys \r\nOpen Source Evangelist, Father of two",
-    "location": "Pune, India",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1920926?v=4",
-    "company": "Infosys Limited",
-    "createdAt": "7/3/2012",
-    "nbFollowers": 84,
-    "nbFollowings": 31,
-    "nbStarredRepos": {
-      "totalCount": 1151
-    },
-    "nbRepos": 47,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "poparotsy": {
-    "login": "poparotsy",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/12815372?u=e095ebe42750d76447d4bed656983dde038232bb&v=4",
-    "createdAt": "6/9/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "fredrb": {
-    "login": "fredrb",
-    "location": "Germany",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/6811076?u=e7c559e1e4e040e6d329364439179e6cd539632f&v=4",
-    "websiteUrl": "blog.fredrb.com",
-    "company": "SAP",
-    "createdAt": "2/27/2014",
-    "nbFollowers": 19,
-    "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 479
-    },
-    "nbRepos": 78,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "nicolasverlhiac": {
-    "login": "nicolasverlhiac",
-    "location": "Capbreton",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/5034521?u=0bc744c798306ba5f1e75838b4bac9b5b4c380d7&v=4",
-    "websiteUrl": "novariom.com",
-    "company": "Novariom",
-    "createdAt": "7/17/2013",
-    "nbFollowers": 11,
-    "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 110
-    },
-    "nbRepos": 30,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "knevalsky": {
-    "login": "knevalsky",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1863545?u=9dcfefe499b0986aad91919a714954dddb0d069d&v=4",
-    "createdAt": "6/18/2012",
-    "nbFollowers": 7,
-    "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
-    "nbRepos": 7,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "philbritton": {
-    "login": "philbritton",
-    "location": "Toronto",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/487081?v=4",
-    "websiteUrl": "www.dacgroup.com",
-    "company": "DAC Group",
-    "createdAt": "11/18/2010",
-    "nbFollowers": 34,
-    "nbFollowings": 62,
-    "nbStarredRepos": {
-      "totalCount": 3882
-    },
-    "nbRepos": 151,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "darizkipratama": {
-    "login": "darizkipratama",
-    "location": "Indonesia",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/8735400?v=4",
-    "company": "bchannel developer community",
-    "createdAt": "9/11/2014",
-    "nbFollowers": 2,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 11
-    },
-    "nbRepos": 5,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "liufajian": {
-    "login": "liufajian",
-    "location": "beijing",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/950808?v=4",
-    "websiteUrl": "http://like100.com",
-    "company": "Thomson",
-    "createdAt": "7/31/2011",
-    "nbFollowers": 8,
-    "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 1786
-    },
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "huangsu2012": {
-    "login": "huangsu2012",
-    "location": "China",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/5387796?v=4",
-    "createdAt": "9/4/2013",
-    "nbFollowers": 2,
-    "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 373
-    },
-    "nbRepos": 24,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "MaxMorais": {
-    "login": "MaxMorais",
-    "location": "São Paulo",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1288676?u=7d0816c160cf7a28dc7b86a14e21c38f79ebc82b&v=4",
-    "websiteUrl": "maxmorais.com",
-    "company": "aptitudetech.net",
-    "createdAt": "12/27/2011",
-    "nbFollowers": 64,
-    "nbFollowings": 43,
-    "nbStarredRepos": {
-      "totalCount": 1095
-    },
-    "nbRepos": 68,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "jan-matthis": {
-    "login": "jan-matthis",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1239529?u=a08111ae31b9469860ccb06ba989598a1907358a&v=4",
-    "websiteUrl": "http://www.jan-matthis.de",
-    "createdAt": "12/4/2011",
-    "nbFollowers": 35,
-    "nbFollowings": 44,
-    "nbStarredRepos": {
-      "totalCount": 805
-    },
-    "nbRepos": 63,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "vanbrayne": {
-    "login": "vanbrayne",
-    "location": "Stockholm, Sweden",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/2899615?v=4",
-    "company": "XLENT Business Integration AB",
-    "createdAt": "11/26/2012",
-    "nbFollowers": 5,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
-    "nbRepos": 10,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "index01d": {
-    "login": "index01d",
-    "location": "Russia, Chelyabinsk",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/236657?u=a2ee644c4d7fe332e98dcbade4c18ab610113d23&v=4",
-    "websiteUrl": "http://index01d.com",
-    "company": "x01d Company",
-    "createdAt": "4/4/2010",
-    "nbFollowers": 25,
-    "nbFollowings": 54,
-    "nbStarredRepos": {
-      "totalCount": 555
-    },
-    "nbRepos": 25,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "artybondar": {
-    "login": "artybondar",
-    "bio": "Its smth new",
-    "location": "Saint Petersburg",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/4539645?u=362e8a6718f0a35db4cad612f6094050da9072ea&v=4",
-    "websiteUrl": "http://cssdeck.com/user/artybondar",
-    "createdAt": "5/27/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 40
-    },
-    "nbRepos": 17,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "johnnyeric": {
-    "login": "johnnyeric",
-    "bio": "@johnnyeric",
-    "location": "Porto, Portugal",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2350930?u=b874d944438b28018aece3752d6052df51b3e5f6&v=4",
-    "websiteUrl": "https://stackoverflow.com/cv/johnnyeric",
-    "company": "@Farfetch",
-    "createdAt": "9/14/2012",
-    "nbFollowers": 31,
-    "nbFollowings": 47,
-    "nbStarredRepos": {
-      "totalCount": 2221
-    },
-    "nbRepos": 193,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "pikerr": {
-    "login": "pikerr",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/38836?v=4",
-    "createdAt": "12/7/2008",
-    "nbFollowers": 10,
-    "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 53
-    },
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "Hutagt": {
-    "login": "Hutagt",
-    "bio": "I am Mongolian.",
-    "location": "Ulaanbaatar, Mongolia",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/9137981?u=d5235f73f3c36986cb5531e94df0d1009735df68&v=4",
-    "company": "At home",
-    "createdAt": "10/10/2014",
-    "nbFollowers": 5,
-    "nbFollowings": 33,
-    "nbStarredRepos": {
-      "totalCount": 187
-    },
-    "nbRepos": 20,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "ctsanders1": {
-    "login": "ctsanders1",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2305783?v=4",
-    "createdAt": "9/8/2012",
-    "nbFollowers": 5,
-    "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 102
-    },
-    "nbRepos": 705,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": [
-      "evolutility-ui-jquery"
-    ]
-  },
-  "rasadeghnasab": {
-    "login": "rasadeghnasab",
-    "location": "Tehran, Iran",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/10284898?u=29e2cf3716131c36ac7e0df519d04b66805836ee&v=4",
-    "createdAt": "12/23/2014",
-    "nbFollowers": 4,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 9
-    },
-    "nbRepos": 18,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "jlVidal": {
-    "login": "jlVidal",
-    "location": "Vancouver, BC",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/6402003?v=4",
-    "company": "CWB",
-    "createdAt": "1/14/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 54,
-    "nbStarredRepos": {
-      "totalCount": 568
-    },
-    "nbRepos": 15,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "jelicanin": {
-    "login": "jelicanin",
-    "bio": "Experienced Solutions Architect • Senior Software Engineer • Certified ScrumMaster • Passionate Scuba Diver • Bald and Bearded • Available for work",
-    "location": "Zagreb, Croatia",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/692844?u=44ae1d48909ce51c47bd53ef104c46813a6ef830&v=4",
-    "websiteUrl": "https://fractas.com",
-    "company": "Fractas",
-    "createdAt": "3/26/2011",
-    "nbFollowers": 47,
-    "nbFollowings": 392,
-    "nbStarredRepos": {
-      "totalCount": 3407
-    },
-    "nbRepos": 57,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "Aleyasen": {
-    "login": "Aleyasen",
-    "bio": "Father. Husband. Programmer. Data Enthusiast. Open Source Enthusiast. PhD Student.",
-    "location": "Champaign, IL",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/5590435?u=cad7a433ea19b66887cb2f62bb223163087fe0bb&v=4",
-    "websiteUrl": "http://aleyase2.web.engr.illinois.edu",
-    "company": "University of Illinois at Urbana-Champaign",
-    "createdAt": "10/1/2013",
-    "nbFollowers": 61,
-    "nbFollowings": 125,
-    "nbStarredRepos": {
-      "totalCount": 2617
-    },
-    "nbRepos": 61,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "laurentkempe": {
-    "login": "laurentkempe",
-    "bio": "Team Leader & Distinguished Solution Architect with a passion for shipping high-quality products by empowering development teams",
-    "location": "Illzach, France",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/272612?u=d5a602c4b87d93c5497e13c2badc0f5d6f895ac4&v=4",
-    "websiteUrl": "https://laurentkempe.com",
-    "company": "@TechHeadBrothers @Innoveo ",
-    "createdAt": "5/10/2010",
-    "nbFollowers": 82,
-    "nbFollowings": 145,
-    "nbStarredRepos": {
-      "totalCount": 1744
-    },
-    "nbRepos": 126,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "postacik": {
-    "login": "postacik",
-    "location": "Istanbul, Turkey",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/3977227?u=3aae07cffa9c1adc3e7a649e04394fa17ed7ca00&v=4",
-    "createdAt": "3/26/2013",
-    "nbFollowers": 17,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 719
-    },
-    "nbRepos": 9,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "llenroc": {
-    "login": "llenroc",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/7454468?u=31bb1e5b8271c90a516f0eda280afd9f1a5f8e84&v=4",
-    "nbRepos": 3564,
-    "forked": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "starred": []
-  },
-  "codexratio": {
-    "login": "codexratio",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/4579720?u=712ce49c3e5c1c2dd64d751e12768fe56f41fbf9&v=4",
-    "nbRepos": 29,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "koo9": {
-    "login": "koo9",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/8421906?u=7abbc64676d701dd8b8b080da91f7d3f69949aef&v=4",
-    "nbRepos": 52,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "mddipen": {
-    "login": "mddipen",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3875990?v=4",
-    "nbRepos": 2,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "alfonsor": {
-    "login": "alfonsor",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/8367573?v=4",
-    "nbRepos": 38,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "ninoblade": {
-    "login": "ninoblade",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/12738141?v=4",
-    "nbRepos": 2,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "WoundCentrics": {
-    "login": "WoundCentrics",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/11578969?v=4",
-    "nbRepos": 14,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "tanapop": {
-    "login": "tanapop",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1018703?u=5244cd576181a736e48f8bc0ce4500f7c92216ae&v=4",
-    "nbRepos": 200,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "DalianDragon": {
-    "login": "DalianDragon",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/7762809?v=4",
-    "nbRepos": 458,
-    "forked": [
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "starred": []
-  },
-  "captainbland": {
-    "login": "captainbland",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1957915?u=2e7903e6ba5159a345e3a32847c801694b7eabab&v=4",
-    "nbRepos": 37,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "sjpAnn": {
-    "login": "sjpAnn",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/15355503?u=2add1f514647e669c08d8c2d783492867924fd0b&v=4",
-    "nbRepos": 20,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "dthornley": {
-    "login": "dthornley",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1854363?v=4",
-    "nbRepos": 50,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "l3dlp-sandbox": {
-    "login": "l3dlp-sandbox",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/19497174?v=4",
-    "nbRepos": 1044,
-    "forked": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "JavaScriptCollection": {
-    "login": "JavaScriptCollection",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/13726119?v=4",
-    "nbRepos": 50,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "automotola": {
-    "login": "automotola",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3161681?u=1cd4503df921694ea7cd026849502ec221b1cb9d&v=4",
-    "nbRepos": 215,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "koodinikula": {
-    "login": "koodinikula",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/12151018?u=9c6d474c1470b50e17f0d8f9183566705612c918&v=4",
-    "nbRepos": 3,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "shanequint": {
-    "login": "shanequint",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/4127808?u=ba0c0364b887a243f0e5e7ca8714559b03dee844&v=4",
-    "nbRepos": 2,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
   },
   "Libertium": {
     "login": "Libertium",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/11459711?u=a24c5b9b147083402213789844565380d18a6c9f&v=4",
-    "websiteUrl": "http://www.libertium.net",
     "createdAt": "3/13/2015",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
+    "nbStarredRepos": 2,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "evolutility-server-node"
     ],
     "forked": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
-    ]
-  },
-  "dataReactive": {
-    "login": "dataReactive",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/16281596?v=4",
-    "nbRepos": 276,
-    "forked": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "starred": []
+    "websiteUrl": "http://www.libertium.net"
   },
-  "rhizalpatrax64bit": {
-    "login": "rhizalpatrax64bit",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/6958755?u=3e947662200dcd83fff9158d7269037bd867e03d&v=4",
+  "Jadaw1n": {
+    "login": "Jadaw1n",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1271552?v=4",
+    "createdAt": "12/18/2011",
+    "nbFollowers": 7,
+    "nbFollowings": 6,
+    "nbStarredRepos": 230,
+    "nbRepos": 31,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "location": "Switzerland"
+  },
+  "basicsharp": {
+    "login": "basicsharp",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/796215?v=4",
+    "createdAt": "5/18/2011",
+    "nbFollowers": 30,
+    "nbFollowings": 8,
+    "nbStarredRepos": 6066,
+    "nbRepos": 73,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "location": "Thailand"
+  },
+  "sign0": {
+    "login": "sign0",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6769414?u=84c32ed048c47a553b0c8201e724841b445b9df0&v=4",
+    "createdAt": "2/24/2014",
+    "nbFollowers": 11,
+    "nbFollowings": 37,
+    "nbStarredRepos": 734,
     "nbRepos": 68,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "streeboga": {
-    "login": "streeboga",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6660983?u=7a962a98aca8330214b868f8c4786585222e85b6&v=4",
-    "nbRepos": 164,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "artpar": {
-    "login": "artpar",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1142886?v=4",
-    "nbRepos": 127,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "cecepthea": {
-    "login": "cecepthea",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/160153?u=ca24c8f71079eb3949dd95dc584883c0879a0791&v=4",
-    "nbRepos": 127,
-    "forked": [
-      "evolutility-ui-jquery",
+    "follower": false,
+    "starred": [
       "evolutility-server-node"
     ],
-    "starred": []
+    "forked": [],
+    "location": "Paris"
   },
-  "tuutoo": {
-    "login": "tuutoo",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/9068314?v=4",
-    "nbRepos": 60,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "boban-dj": {
-    "login": "boban-dj",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/5364226?u=e7ad009373d2110981891b84ea3f0a6016dad89e&v=4",
-    "nbRepos": 309,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "bobquest33": {
-    "login": "bobquest33",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/2017339?u=0fca41028150cffde390c8416d840665258197ab&v=4",
-    "websiteUrl": "http://in.linkedin.com/pub/priyabrata-dash/15/16b/216",
-    "createdAt": "7/21/2012",
-    "nbFollowers": 47,
-    "nbFollowings": 529,
-    "nbStarredRepos": {
-      "totalCount": 1325
-    },
-    "nbRepos": 973,
+  "thinklightswitch": {
+    "login": "thinklightswitch",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12248958?v=4",
+    "createdAt": "5/5/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 3,
+    "nbRepos": 0,
     "follower": false,
     "starred": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": [
-      "evolutility-ui-jquery"
-    ]
+    "forked": []
   },
-  "sparkrisp": {
-    "login": "sparkrisp",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/7264743?v=4",
-    "nbRepos": 19,
-    "forked": [
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "soediro": {
-    "login": "soediro",
-    "bio": "Software Architect",
-    "location": "Jakarta, Indonesia",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2165397?u=a58b9b88b9274af003d26224b4d859dfea1ac1ef&v=4",
-    "websiteUrl": "https://www.linkedin.com/in/sudiro/",
-    "company": "MDE zone",
-    "createdAt": "8/16/2012",
-    "nbFollowers": 32,
-    "nbFollowings": 118,
-    "nbStarredRepos": {
-      "totalCount": 329
-    },
-    "nbRepos": 254,
+  "martinmurciego": {
+    "login": "martinmurciego",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7759127?u=4b3eadbcb022430cd9a25bad42ac08ffd965e6bd&v=4",
+    "createdAt": "6/1/2014",
+    "nbFollowers": 6,
+    "nbFollowings": 9,
+    "nbStarredRepos": 1121,
+    "nbRepos": 102,
     "follower": false,
     "starred": [
-      "evolutility-ui-jquery"
+      "evolutility-server-node",
+      "evolutility-ui-jquery",
+      "structured-filter"
     ],
-    "forked": [
-      "evolutility-ui-jquery"
-    ]
+    "forked": []
   },
-  "Codetropy": {
-    "login": "Codetropy",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/30301794?v=4",
-    "nbRepos": 54,
-    "forked": [
-      "evolutility-ui-jquery"
+  "spedicom": {
+    "login": "spedicom",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2968830?v=4",
+    "createdAt": "12/4/2012",
+    "nbFollowers": 0,
+    "nbFollowings": 12,
+    "nbStarredRepos": 3,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
     ],
-    "starred": []
+    "forked": []
   },
-  "jeantsai": {
-    "login": "jeantsai",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1218358?u=65e3f3e75488fc5c941b440be582105392d66e94&v=4",
-    "nbRepos": 41,
-    "forked": [
+  "hemant4524": {
+    "login": "hemant4524",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/12729083?u=0b6a1b62b8c0c57f4db84ee99668e6aae207abef&v=4",
+    "createdAt": "6/3/2015",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 60,
+    "nbRepos": 35,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "jimf99": {
+    "login": "jimf99",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6600380?v=4",
+    "createdAt": "2/5/2014",
+    "nbFollowers": 7,
+    "nbFollowings": 27,
+    "nbStarredRepos": 1326,
+    "nbRepos": 10,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "starred": []
+    "forked": [],
+    "bio": "[Very Short Bio Here]"
+  },
+  "aronmek": {
+    "login": "aronmek",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/764151?v=4",
+    "createdAt": "5/2/2011",
+    "nbFollowers": 2,
+    "nbFollowings": 0,
+    "nbStarredRepos": 77,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "gauchedroite": {
+    "login": "gauchedroite",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6200766?v=4",
+    "createdAt": "12/16/2013",
+    "nbFollowers": 3,
+    "nbFollowings": 0,
+    "nbStarredRepos": 71,
+    "nbRepos": 6,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Gatineau, Québec, Canada"
+  },
+  "baliles": {
+    "login": "baliles",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/9769893?u=ef498022bd1aac0acda8e751a92011b20e603d0a&v=4",
+    "createdAt": "11/15/2014",
+    "nbFollowers": 7,
+    "nbFollowings": 5,
+    "nbStarredRepos": 12,
+    "nbRepos": 63,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "walker-walks": {
+    "login": "walker-walks",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6481240?u=bf257f2720a852dac72a0240fb490ee845dadfbd&v=4",
+    "createdAt": "1/23/2014",
+    "nbFollowers": 6,
+    "nbFollowings": 11,
+    "nbStarredRepos": 254,
+    "nbRepos": 15,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "http://walker-walks.com",
+    "location": "Brasil"
+  },
+  "eldologuzzo": {
+    "login": "eldologuzzo",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8272348?u=654506be9f867c6ee642bdc47434738a7290893a&v=4",
+    "createdAt": "7/25/2014",
+    "nbFollowers": 6,
+    "nbFollowings": 3,
+    "nbStarredRepos": 1045,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "ik9999": {
+    "login": "ik9999",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6804575?u=9152eb79c1e9a0274df187e7c62c4d7ec40aeff1&v=4",
+    "createdAt": "2/27/2014",
+    "nbFollowers": 8,
+    "nbFollowings": 10,
+    "nbStarredRepos": 588,
+    "nbRepos": 28,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
   },
   "jaslo": {
     "login": "jaslo",
@@ -6312,10 +4707,8 @@ const fans = {
     "createdAt": "6/2/2012",
     "nbFollowers": 3,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 70
-    },
-    "nbRepos": 28,
+    "nbStarredRepos": 73,
+    "nbRepos": 30,
     "follower": false,
     "starred": [
       "evolutility-server-node",
@@ -6325,39 +4718,425 @@ const fans = {
       "evolutility-ui-jquery"
     ]
   },
-  "MySpamKit": {
-    "login": "MySpamKit",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/18358148?v=4",
-    "createdAt": "4/8/2016",
-    "nbFollowers": 1,
-    "nbFollowings": 24,
-    "nbStarredRepos": {
-      "totalCount": 170
-    },
-    "nbRepos": 32,
+  "AnanthaRajuC": {
+    "login": "AnanthaRajuC",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6785435?u=00876d08a079a378cdec084f43b5075c11f784ac&v=4",
+    "createdAt": "2/25/2014",
+    "nbFollowers": 59,
+    "nbFollowings": 74,
+    "nbStarredRepos": 4504,
+    "nbRepos": 670,
     "follower": false,
     "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "http://anantharajuc.github.io/",
+    "bio": "Software Engineer ",
+    "location": "Bangalore, India"
+  },
+  "apvenkat": {
+    "login": "apvenkat",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/32690669?u=5acca71f023de66964ee85d10371a202fc6c806d&v=4",
+    "createdAt": "10/10/2017",
+    "nbFollowers": 3,
+    "nbFollowings": 5,
+    "nbStarredRepos": 24,
+    "nbRepos": 16,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "bio": "An Internet Enthusiast with research passion, skilled in Automation and Web technologies for effective development of WoT/IoT Architectures.",
+    "location": "Singapore"
+  },
+  "valmayaki": {
+    "login": "valmayaki",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8375520?u=274c26c3c08a0197dbe0feea7ad779f7813cb506&v=4",
+    "createdAt": "8/6/2014",
+    "nbFollowers": 27,
+    "nbFollowings": 43,
+    "nbStarredRepos": 1161,
+    "nbRepos": 91,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "location": "Lagos, Nigeria"
+  },
+  "alperdincer": {
+    "login": "alperdincer",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1174240?v=4",
+    "createdAt": "11/5/2011",
+    "nbFollowers": 18,
+    "nbFollowings": 35,
+    "nbStarredRepos": 1054,
+    "nbRepos": 38,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "magic8baller": {
+    "login": "magic8baller",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/39971956?v=4",
+    "createdAt": "6/5/2018",
+    "nbFollowers": 5,
+    "nbFollowings": 8,
+    "nbStarredRepos": 229,
+    "nbRepos": 519,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "location": "NYC"
+  },
+  "almereyda": {
+    "login": "almereyda",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1645308?u=0df526b4b0778ecb4406933b0ad2b7741d5f95ed&v=4",
+    "createdAt": "4/15/2012",
+    "nbFollowers": 132,
+    "nbFollowings": 117,
+    "nbStarredRepos": 8965,
+    "nbRepos": 127,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "https://jonrichter.de",
+    "location": "berlin. laniakea.",
+    "company": "allmende"
+  },
+  "jianan789": {
+    "login": "jianan789",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6212024?v=4",
+    "createdAt": "12/17/2013",
+    "nbFollowers": 2,
+    "nbFollowings": 0,
+    "nbStarredRepos": 265,
+    "nbRepos": 18,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": [
-      "evolutility-ui-jquery"
-    ]
+    "forked": []
   },
-  "forever9980": {
-    "login": "forever9980",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/17608463?v=4",
-    "nbRepos": 20,
+  "mgonzalezmb": {
+    "login": "mgonzalezmb",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/37627399?v=4",
+    "createdAt": "3/21/2018",
+    "nbFollowers": 0,
+    "nbFollowings": 2,
+    "nbStarredRepos": 19,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "TalbotGooday": {
+    "login": "TalbotGooday",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10896476?u=e3a170418388ec553a27ec7094b2a23ea4679f30&v=4",
+    "createdAt": "2/7/2015",
+    "nbFollowers": 3,
+    "nbFollowings": 4,
+    "nbStarredRepos": 154,
+    "nbRepos": 55,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "jbfrrr": {
+    "login": "jbfrrr",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/24854381?v=4",
+    "createdAt": "12/31/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 117,
+    "nbRepos": 5,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "CNTRS": {
+    "login": "CNTRS",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12638486?v=4",
+    "createdAt": "5/27/2015",
+    "nbFollowers": 12,
+    "nbFollowings": 34,
+    "nbStarredRepos": 739,
+    "nbRepos": 18,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "location": "Murcia"
+  },
+  "PabloMotte": {
+    "login": "PabloMotte",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/43091563?u=4ed87fe3f97187b4d996a47403daf3b724a37914&v=4",
+    "createdAt": "9/8/2018",
+    "nbFollowers": 1,
+    "nbFollowings": 1,
+    "nbStarredRepos": 11,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "hpetru": {
+    "login": "hpetru",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1880766?u=eb7b6e3804a87599681030e1a01b2ed5440e9b67&v=4",
+    "createdAt": "6/22/2012",
+    "nbFollowers": 39,
+    "nbFollowings": 190,
+    "nbStarredRepos": 844,
+    "nbRepos": 122,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "structured-filter"
+    ],
+    "forked": [],
+    "bio": "Ruby / Python / Clojure developer",
+    "location": "Chisinau, Moldova",
+    "company": "@GovPredict "
+  },
+  "keepcleargas": {
+    "login": "keepcleargas",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1215177?v=4",
+    "createdAt": "11/23/2011",
+    "nbFollowers": 24,
+    "nbFollowings": 41,
+    "nbStarredRepos": 581,
+    "nbRepos": 430,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "mewchu": {
+    "login": "mewchu",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8409277?u=f1888e2d77abbc6b0ef12d0e92c4152b4eb8a1d8&v=4",
+    "createdAt": "8/10/2014",
+    "nbFollowers": 18,
+    "nbFollowings": 44,
+    "nbStarredRepos": 359,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "alexsorokoletov": {
+    "login": "alexsorokoletov",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1788581?v=4",
+    "createdAt": "5/29/2012",
+    "nbFollowers": 40,
+    "nbFollowings": 44,
+    "nbStarredRepos": 325,
+    "nbRepos": 71,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "https://sorokoletov.com",
+    "bio": "Xamarin and Mobile enthusiast.\r\n\r\ntwitter.com/AlexSorokoletov",
+    "location": "Washington, D.C.",
+    "company": "Founder of @DreamTeamMobile"
+  },
+  "thomasklemm": {
+    "login": "thomasklemm",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1100176?v=4",
+    "createdAt": "10/3/2011",
+    "nbFollowers": 80,
+    "nbFollowings": 302,
+    "nbStarredRepos": 7370,
+    "nbRepos": 106,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "location": "Würzburg, Germany"
+  },
+  "huangwind205": {
+    "login": "huangwind205",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/13348321?v=4",
+    "createdAt": "7/15/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 501,
+    "nbRepos": 42,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "Aziefiqtie92": {
+    "login": "Aziefiqtie92",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/72007965?v=4",
+    "createdAt": "9/28/2020",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 1,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "EdinSkeja": {
+    "login": "EdinSkeja",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2357726?u=b35490bf97bc88ea92ed4ed777ea4ee2e0185928&v=4",
+    "createdAt": "9/16/2012",
+    "nbFollowers": 4,
+    "nbFollowings": 9,
+    "nbStarredRepos": 87,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "https://edinskeja.dev",
+    "bio": "Developer @ SBAB",
+    "location": "Sweden",
+    "company": "SBAB BANK AB"
+  },
+  "liuping-github": {
+    "login": "liuping-github",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20900616?u=0118c7d27c22da5d09a26b31fc43bbdce85eaf26&v=4",
+    "createdAt": "8/8/2016",
+    "nbFollowers": 8,
+    "nbFollowings": 160,
+    "nbStarredRepos": 600,
+    "nbRepos": 48,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "Why-Not-Sky": {
+    "login": "Why-Not-Sky",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/7097435?u=55c7db46c287159c50f38f29659d4b8e52d7ddde&v=4",
+    "nbRepos": 577,
     "forked": [
+      "evolutility-server-node",
+      "structured-filter"
+    ],
+    "starred": []
+  },
+  "l3dlp-sandbox": {
+    "login": "l3dlp-sandbox",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19497174?v=4",
+    "nbRepos": 1047,
+    "forked": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
     "starred": []
   },
-  "claratech": {
-    "login": "claratech",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/29809703?v=4",
-    "nbRepos": 14,
+  "atyigit": {
+    "login": "atyigit",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4151251?v=4",
+    "nbRepos": 16,
     "forked": [
+      "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "cecepthea": {
+    "login": "cecepthea",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/160153?u=ca24c8f71079eb3949dd95dc584883c0879a0791&v=4",
+    "nbRepos": 127,
+    "forked": [
+      "evolutility-server-node",
       "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "andrewk0617": {
+    "login": "andrewk0617",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9891120?u=5c8e1724d1b3dcb86db08ed278385c66a0d3ad57&v=4",
+    "nbRepos": 15,
+    "forked": [
+      "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "wclwksn": {
+    "login": "wclwksn",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1761877?v=4",
+    "nbRepos": 216,
+    "forked": [
+      "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "hungdlv": {
+    "login": "hungdlv",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8409127?v=4",
+    "nbRepos": 62,
+    "forked": [
+      "evolutility-server-node",
+      "structured-filter"
+    ],
+    "starred": []
+  },
+  "andyTsing": {
+    "login": "andyTsing",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3162544?u=c7004cb7e23118729003f402af3d218410f3a320&v=4",
+    "nbRepos": 342,
+    "forked": [
+      "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "Smembe812": {
+    "login": "Smembe812",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/20711940?u=00cfab42a7205a7a1767e6017ea46a814abaffe5&v=4",
+    "nbRepos": 36,
+    "forked": [
+      "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "ravishing": {
+    "login": "ravishing",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/21195561?v=4",
+    "nbRepos": 147,
+    "forked": [
+      "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "cataua": {
+    "login": "cataua",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1001818?u=dff9ba7e89e000759f948178fdf30d644a1f92c8&v=4",
+    "nbRepos": 21,
+    "forked": [
+      "evolutility-server-node"
     ],
     "starred": []
   },
@@ -6366,23 +5145,18 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1138309?v=4",
     "nbRepos": 41,
     "forked": [
-      "evolutility-ui-jquery",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
   "bago": {
     "login": "bago",
-    "location": "Italy",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/173498?u=b6e98530135ffd1c91ca6a29abf99cb3c57c29af&v=4",
-    "websiteUrl": "http://emailmarketingblog.it",
-    "company": "Void Labs / VOXmail",
     "createdAt": "12/29/2009",
     "nbFollowers": 24,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 108
-    },
+    "nbStarredRepos": 108,
     "nbRepos": 21,
     "follower": false,
     "starred": [
@@ -6390,7 +5164,26 @@ const fans = {
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "websiteUrl": "http://emailmarketingblog.it",
+    "location": "Italy",
+    "company": "Void Labs / VOXmail"
+  },
+  "ncknt": {
+    "login": "ncknt",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/352411?v=4",
+    "createdAt": "8/2/2010",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 111,
+    "nbRepos": 16,
+    "follower": false,
+    "starred": [
+      "colorpicker",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "San Francisco"
   },
   "AlexBar": {
     "login": "AlexBar",
@@ -6398,9 +5191,7 @@ const fans = {
     "createdAt": "3/19/2011",
     "nbFollowers": 5,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 355
-    },
+    "nbStarredRepos": 360,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -6414,9 +5205,7 @@ const fans = {
     "createdAt": "6/28/2011",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 111
-    },
+    "nbStarredRepos": 111,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -6426,40 +5215,36 @@ const fans = {
   },
   "leonardoweslei": {
     "login": "leonardoweslei",
-    "location": "Caratinga - MG, Brasil",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/942453?v=4",
-    "websiteUrl": "http://leonardoweslei.com",
-    "company": "Versa Tecnologia",
     "createdAt": "7/27/2011",
     "nbFollowers": 15,
     "nbFollowings": 46,
-    "nbStarredRepos": {
-      "totalCount": 600
-    },
+    "nbStarredRepos": 599,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://leonardoweslei.com",
+    "location": "Caratinga - MG, Brasil",
+    "company": "Versa Tecnologia"
   },
   "gogermany": {
     "login": "gogermany",
-    "location": "Bangkok",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1587061?u=c9694369a5fae59a4139a1368804b6f43f148f46&v=4",
-    "company": "Refinitiv",
     "createdAt": "3/29/2012",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 156
-    },
+    "nbStarredRepos": 157,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Bangkok",
+    "company": "Refinitiv"
   },
   "THAL64": {
     "login": "THAL64",
@@ -6467,9 +5252,7 @@ const fans = {
     "createdAt": "7/20/2012",
     "nbFollowers": 1,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 11
-    },
+    "nbStarredRepos": 11,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -6483,9 +5266,7 @@ const fans = {
     "createdAt": "3/5/2013",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -6495,20 +5276,18 @@ const fans = {
   },
   "teetteet": {
     "login": "teetteet",
-    "location": "Germany",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1299923?v=4",
     "createdAt": "1/2/2012",
-    "nbFollowers": 21,
+    "nbFollowers": 22,
     "nbFollowings": 57,
-    "nbStarredRepos": {
-      "totalCount": 2744
-    },
-    "nbRepos": 13,
+    "nbStarredRepos": 2787,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Germany"
   },
   "zhang93419": {
     "login": "zhang93419",
@@ -6516,9 +5295,7 @@ const fans = {
     "createdAt": "7/6/2011",
     "nbFollowers": 2,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 503
-    },
+    "nbStarredRepos": 503,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -6532,9 +5309,7 @@ const fans = {
     "createdAt": "10/29/2008",
     "nbFollowers": 8,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 69
-    },
+    "nbStarredRepos": 68,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -6548,9 +5323,7 @@ const fans = {
     "createdAt": "2/28/2013",
     "nbFollowers": 12,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 968
-    },
+    "nbStarredRepos": 985,
     "nbRepos": 22,
     "follower": false,
     "starred": [
@@ -6564,9 +5337,7 @@ const fans = {
     "createdAt": "8/6/2011",
     "nbFollowers": 3,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 261
-    },
+    "nbStarredRepos": 261,
     "nbRepos": 37,
     "follower": false,
     "starred": [
@@ -6580,9 +5351,7 @@ const fans = {
     "createdAt": "9/17/2012",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
+    "nbStarredRepos": 4,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -6598,9 +5367,7 @@ const fans = {
     "createdAt": "10/3/2012",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 3
-    },
+    "nbStarredRepos": 3,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -6614,10 +5381,8 @@ const fans = {
     "createdAt": "9/3/2012",
     "nbFollowers": 7,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 441
-    },
-    "nbRepos": 20,
+    "nbStarredRepos": 443,
+    "nbRepos": 21,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6626,115 +5391,139 @@ const fans = {
   },
   "ffflabs": {
     "login": "ffflabs",
-    "bio": "IT Consultant, helping companies embrace digital transformation.\r\nI love open source projects.",
-    "location": "Santiago, Chile",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/238439?u=31a7ed047b1600ddbbadbc010be1b655cb41b7a2&v=4",
-    "websiteUrl": "https://profile.codersrank.io/user/ffflabs",
-    "company": "CTOhm Spa",
     "createdAt": "4/6/2010",
     "nbFollowers": 50,
-    "nbFollowings": 118,
-    "nbStarredRepos": {
-      "totalCount": 329
-    },
-    "nbRepos": 61,
+    "nbFollowings": 120,
+    "nbStarredRepos": 337,
+    "nbRepos": 65,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://profile.codersrank.io/user/ffflabs",
+    "bio": "IT Consultant, helping companies embrace digital transformation.\r\nI love open source projects.",
+    "location": "Santiago, Chile",
+    "company": "CTOhm Spa"
   },
   "AndrewJack": {
     "login": "AndrewJack",
-    "location": "London, UK",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/798942?u=ae40f1f8e8b7b14a599b66051907090f2ea1015a&v=4",
-    "websiteUrl": "https://andrewjack.uk",
-    "company": "DRIVETRIBE",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/798942?u=c21e16d0e332f77b77f5a7a2fe774877c4e9594a&v=4",
     "createdAt": "5/19/2011",
     "nbFollowers": 43,
     "nbFollowings": 42,
-    "nbStarredRepos": {
-      "totalCount": 711
-    },
-    "nbRepos": 17,
+    "nbStarredRepos": 707,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://andrewjack.uk",
+    "location": "London, UK"
+  },
+  "artlantis": {
+    "login": "artlantis",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/188478?v=4",
+    "createdAt": "1/23/2010",
+    "nbFollowers": 28,
+    "nbFollowings": 42,
+    "nbStarredRepos": 6928,
+    "nbRepos": 265,
+    "follower": false,
+    "starred": [
+      "colorpicker",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.developer.web.tr",
+    "location": "ISTANBUL",
+    "company": "ARTLantis Web Development & Design Studios"
   },
   "onigetoc": {
     "login": "onigetoc",
-    "location": "Canada",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/47570?v=4",
-    "websiteUrl": "www.scriptsmashup.com",
-    "company": "Gencoweb",
     "createdAt": "1/18/2009",
     "nbFollowers": 31,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 919
-    },
-    "nbRepos": 53,
+    "nbStarredRepos": 949,
+    "nbRepos": 54,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.scriptsmashup.com",
+    "bio": "Web developer, programer, Wordpress developer",
+    "location": "Canada",
+    "company": "Gencoweb"
   },
   "frankdou": {
     "login": "frankdou",
-    "location": "beijing",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1637162?u=722b4a02c63f6536b96a2d0f63fed48829b69102&v=4",
     "createdAt": "4/12/2012",
     "nbFollowers": 21,
     "nbFollowings": 36,
-    "nbStarredRepos": {
-      "totalCount": 977
-    },
+    "nbStarredRepos": 989,
     "nbRepos": 6,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "beijing"
+  },
+  "reduxionist": {
+    "login": "reduxionist",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/500775?u=79dc14c5dbe3ec9d7f968426383b327bf44e266f&v=4",
+    "createdAt": "11/28/2010",
+    "nbFollowers": 196,
+    "nbFollowings": 433,
+    "nbStarredRepos": 25274,
+    "nbRepos": 12,
+    "follower": false,
+    "starred": [
+      "colorpicker",
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "location": "Bangkok, Thailand",
+    "company": "@intelligent-bytes"
   },
   "witzawitz": {
     "login": "witzawitz",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1055825?v=4",
-    "company": " @u2035",
     "createdAt": "9/16/2011",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 104
-    },
+    "nbStarredRepos": 106,
     "nbRepos": 12,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "company": " @u2035"
   },
   "panjunjie": {
     "login": "panjunjie",
-    "bio": "别致与极致",
-    "location": "ShenZhen",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/796480?u=422b9253e56c30d854076e7bdc6092521a39d9f4&v=4",
-    "websiteUrl": "http://panjunjie.5-wow.com",
-    "company": "Nope",
     "createdAt": "5/18/2011",
-    "nbFollowers": 6,
+    "nbFollowers": 7,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 154
-    },
+    "nbStarredRepos": 154,
     "nbRepos": 21,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://panjunjie.5-wow.com",
+    "bio": "别致与极致",
+    "location": "ShenZhen",
+    "company": "Nope"
   },
   "jerryzhouxx": {
     "login": "jerryzhouxx",
@@ -6742,9 +5531,7 @@ const fans = {
     "createdAt": "4/8/2013",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 74
-    },
+    "nbStarredRepos": 74,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -6755,39 +5542,35 @@ const fans = {
   "awps": {
     "login": "awps",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1436534?u=9f248dd742f176cf90e9bea992b2e1cdf26507d8&v=4",
-    "websiteUrl": "https://zerowp.com",
-    "company": "@ZeroWP ",
     "createdAt": "2/14/2012",
-    "nbFollowers": 38,
+    "nbFollowers": 39,
     "nbFollowings": 17,
-    "nbStarredRepos": {
-      "totalCount": 301
-    },
-    "nbRepos": 54,
+    "nbStarredRepos": 307,
+    "nbRepos": 53,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://zerowp.com",
+    "company": "@ZeroWP "
   },
   "tonytlwu": {
     "login": "tonytlwu",
-    "bio": "Head of Product @ Fliplet",
-    "location": "London, United Kingdom",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/290733?v=4",
-    "company": "@Fliplet ",
     "createdAt": "5/29/2010",
     "nbFollowers": 9,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 237
-    },
+    "nbStarredRepos": 240,
     "nbRepos": 27,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Head of Product @ Fliplet",
+    "location": "London, United Kingdom",
+    "company": "@Fliplet "
   },
   "pcout": {
     "login": "pcout",
@@ -6795,9 +5578,7 @@ const fans = {
     "createdAt": "3/23/2011",
     "nbFollowers": 36,
     "nbFollowings": 34,
-    "nbStarredRepos": {
-      "totalCount": 3616
-    },
+    "nbStarredRepos": 3615,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -6807,82 +5588,93 @@ const fans = {
   },
   "carabina": {
     "login": "carabina",
-    "bio": "Software analyst, web developer",
-    "location": "Montijo - Portugal",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3380677?u=c37aaf165fd8af9fe0d8cd014525727ee8c701e4&v=4",
-    "company": "Personal",
     "createdAt": "1/25/2013",
-    "nbFollowers": 146,
+    "nbFollowers": 151,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 11447
-    },
-    "nbRepos": 11889,
+    "nbStarredRepos": 11485,
+    "nbRepos": 11918,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "bio": "Software analyst, web developer",
+    "location": "Montijo - Portugal",
+    "company": "Personal"
   },
   "jeanCarloMachado": {
     "login": "jeanCarloMachado",
-    "bio": "In love with life, truth, beauty, science!",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/2252355?u=c8e387c3564672c2abc41b2bffc7f778b2591b51&v=4",
-    "websiteUrl": "https://jeancarlomachado.net",
-    "company": "@getyourguide ",
     "createdAt": "8/30/2012",
-    "nbFollowers": 126,
-    "nbFollowings": 62,
-    "nbStarredRepos": {
-      "totalCount": 1016
-    },
+    "nbFollowers": 127,
+    "nbFollowings": 63,
+    "nbStarredRepos": 1024,
     "nbRepos": 62,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://jeancarlomachado.net",
+    "bio": "In love with life, truth, beauty, science!",
+    "location": "Berlin",
+    "company": "@getyourguide "
   },
   "eudennis": {
     "login": "eudennis",
-    "location": "Brazil",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1117340?v=4",
-    "websiteUrl": "www.dennisaltermann.com.br",
-    "company": "Midiatismo",
     "createdAt": "10/10/2011",
     "nbFollowers": 7,
-    "nbFollowings": 17,
-    "nbStarredRepos": {
-      "totalCount": 403
-    },
+    "nbFollowings": 18,
+    "nbStarredRepos": 403,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.dennisaltermann.com.br",
+    "location": "Brazil",
+    "company": "Midiatismo"
   },
   "Godwack": {
     "login": "Godwack",
-    "bio": "Null fuck given.",
-    "location": "Riga, Latvia",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1422864?u=a3a0017a7ed080aeb81750fe24fb6af46752ba3c&v=4",
-    "company": "@mak-it ",
     "createdAt": "2/9/2012",
     "nbFollowers": 114,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 4129
-    },
+    "nbStarredRepos": 4128,
     "nbRepos": 67,
     "follower": false,
     "starred": [
       "colorpicker",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Null fuck given.",
+    "location": "Riga, Latvia",
+    "company": "@mak-it "
+  },
+  "gladson": {
+    "login": "gladson",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1013698?u=90d4250da4a84fa8f7f9faed9f4a3bfa375777e5&v=4",
+    "createdAt": "8/29/2011",
+    "nbFollowers": 75,
+    "nbFollowings": 156,
+    "nbStarredRepos": 3985,
+    "nbRepos": 218,
+    "follower": false,
+    "starred": [
+      "colorpicker",
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "location": "Brazil, Rondônia - Porto velho",
+    "company": "PnA & Immensa"
   },
   "jacknf": {
     "login": "jacknf",
@@ -6890,9 +5682,7 @@ const fans = {
     "createdAt": "9/16/2014",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 276
-    },
+    "nbStarredRepos": 275,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -6902,22 +5692,20 @@ const fans = {
   },
   "baptistedonaux": {
     "login": "baptistedonaux",
-    "location": "Lyon",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3277332?v=4",
-    "websiteUrl": "http://www.baptiste-donaux.fr",
-    "company": "Wanadev",
     "createdAt": "1/15/2013",
     "nbFollowers": 45,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 397
-    },
+    "nbStarredRepos": 398,
     "nbRepos": 29,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.baptiste-donaux.fr",
+    "location": "Lyon",
+    "company": "Wanadev"
   },
   "sprymak": {
     "login": "sprymak",
@@ -6925,10 +5713,8 @@ const fans = {
     "createdAt": "10/12/2010",
     "nbFollowers": 5,
     "nbFollowings": 24,
-    "nbStarredRepos": {
-      "totalCount": 477
-    },
-    "nbRepos": 45,
+    "nbStarredRepos": 482,
+    "nbRepos": 46,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6937,172 +5723,153 @@ const fans = {
   },
   "dzwillia": {
     "login": "dzwillia",
-    "bio": "I serve as a Principal Software Developer on the development team @capitaltg and live in the beautiful foothills of the Blue Ridge Mountains in North Carolina",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1385356?u=909867c89f08980609c80a9f1d802a22e863db78&v=4",
-    "company": "@capitaltg",
     "createdAt": "1/27/2012",
     "nbFollowers": 10,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 571
-    },
+    "nbStarredRepos": 574,
     "nbRepos": 45,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "I serve as a Principal Software Developer on the development team @capitaltg and live in the beautiful foothills of the Blue Ridge Mountains in North Carolina",
+    "company": "@capitaltg"
   },
   "arekpietrzyk": {
     "login": "arekpietrzyk",
-    "location": "Szczecin, Poland (EU)",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1030701?v=4",
-    "websiteUrl": "https://pietrzyk.eu",
     "createdAt": "9/6/2011",
     "nbFollowers": 3,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 36
-    },
+    "nbStarredRepos": 36,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://pietrzyk.eu",
+    "location": "Szczecin, Poland (EU)"
   },
   "dilipjain": {
     "login": "dilipjain",
-    "location": "Mumbai",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2494191?u=4326ed2c5ba2e9d4d5c5a1d77d78d67254c6814b&v=4",
-    "websiteUrl": "https://www.linkedin.com/in/jdilip",
-    "company": "ICLP",
     "createdAt": "10/5/2012",
     "nbFollowers": 6,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 218
-    },
+    "nbStarredRepos": 223,
     "nbRepos": 4,
     "follower": false,
     "starred": [
       "colorpicker",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.linkedin.com/in/jdilip",
+    "location": "Mumbai",
+    "company": "ICLP"
   },
   "dwcdev": {
     "login": "dwcdev",
-    "location": "Indianapolis, IN",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/8548296?u=435b99dd1daea50a569a3faaf439ab196a211bf0&v=4",
-    "websiteUrl": "https://www.cyberdev.co",
-    "company": "CyberDev",
     "createdAt": "8/25/2014",
     "nbFollowers": 2,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 35
-    },
+    "nbStarredRepos": 35,
     "nbRepos": 1,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.cyberdev.co",
+    "location": "Indianapolis, IN",
+    "company": "CyberDev"
   },
   "Monk-Data": {
     "login": "Monk-Data",
-    "location": "EARTH",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3502679?v=4",
-    "websiteUrl": "http://monk.work",
     "createdAt": "2/7/2013",
     "nbFollowers": 7,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 975
-    },
-    "nbRepos": 3,
+    "nbStarredRepos": 980,
+    "nbRepos": 4,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://monk.work",
+    "location": "EARTH"
   },
   "shampine": {
     "login": "shampine",
-    "bio": "senior engineering manager @GoFundMe | building @GoSteady | formerly @CrowdRise @GunnJerkens @StartupAndPlay ",
-    "location": "Los Angeles",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1027737?u=8384d83bf7eaec325d9fae154c86a2827719a3f0&v=4",
-    "websiteUrl": "https://patrickshampine.com",
-    "company": "GoFundMe",
     "createdAt": "9/5/2011",
     "nbFollowers": 49,
     "nbFollowings": 193,
-    "nbStarredRepos": {
-      "totalCount": 885
-    },
+    "nbStarredRepos": 891,
     "nbRepos": 33,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://patrickshampine.com",
+    "bio": "senior engineering manager @GoFundMe | building @GoSteady | formerly @CrowdRise @GunnJerkens @StartupAndPlay ",
+    "location": "Los Angeles",
+    "company": "GoFundMe"
   },
   "lesichkovm": {
     "login": "lesichkovm",
-    "location": "United Kingdom",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7744963?v=4",
-    "websiteUrl": "http://lesichkov.co.uk",
     "createdAt": "5/30/2014",
     "nbFollowers": 22,
-    "nbFollowings": 79,
-    "nbStarredRepos": {
-      "totalCount": 1220
-    },
-    "nbRepos": 128,
+    "nbFollowings": 84,
+    "nbStarredRepos": 1273,
+    "nbRepos": 130,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://lesichkov.co.uk",
+    "location": "United Kingdom"
   },
   "onecentlin": {
     "login": "onecentlin",
-    "bio": "Web Developer, Microsoft MVP 2017-2021",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7122270?u=4906b658a4ec6dd697d399abbbda174dc419b47d&v=4",
-    "websiteUrl": "https://devmanna.blogspot.com",
     "createdAt": "3/31/2014",
-    "nbFollowers": 50,
+    "nbFollowers": 52,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 329
-    },
+    "nbStarredRepos": 328,
     "nbRepos": 42,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://devmanna.blogspot.com",
+    "bio": "Web Developer, Microsoft MVP 2017-2021"
   },
   "Thieum": {
     "login": "Thieum",
-    "bio": "Twitter: @MatthieuPenant",
-    "location": "Warwick, QC, CA",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/944894?v=4",
-    "websiteUrl": "www.seika.ca",
-    "company": "Seika",
     "createdAt": "7/28/2011",
-    "nbFollowers": 21,
-    "nbFollowings": 144,
-    "nbStarredRepos": {
-      "totalCount": 1069
-    },
-    "nbRepos": 42,
+    "nbFollowers": 22,
+    "nbFollowings": 151,
+    "nbStarredRepos": 1095,
+    "nbRepos": 43,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.seika.ca",
+    "location": "Warwick, QC, CA",
+    "company": "Seika"
   },
   "beherca": {
     "login": "beherca",
@@ -7110,9 +5877,7 @@ const fans = {
     "createdAt": "1/17/2011",
     "nbFollowers": 11,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 1124
-    },
+    "nbStarredRepos": 1124,
     "nbRepos": 62,
     "follower": false,
     "starred": [
@@ -7122,113 +5887,101 @@ const fans = {
   },
   "marsavela": {
     "login": "marsavela",
-    "location": "Valencia, ES",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1018658?v=4",
-    "websiteUrl": "marsave.la",
-    "company": "@cisco",
     "createdAt": "8/31/2011",
     "nbFollowers": 22,
     "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 304
-    },
+    "nbStarredRepos": 304,
     "nbRepos": 42,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://marsave.la",
+    "location": "Valencia, ES",
+    "company": "@cisco"
   },
   "garbles": {
     "login": "garbles",
-    "bio": "Make the computer do the thing",
-    "location": "West Kelowna, Canada",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1139884?u=61542da26f4867ee9837ee69daad4eafe7ba1b8f&v=4",
-    "company": "@unbounce",
     "createdAt": "10/19/2011",
     "nbFollowers": 212,
-    "nbFollowings": 87,
-    "nbStarredRepos": {
-      "totalCount": 574
-    },
+    "nbFollowings": 88,
+    "nbStarredRepos": 576,
     "nbRepos": 99,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Make the computer do the thing",
+    "location": "West Kelowna, Canada",
+    "company": "@unbounce"
   },
   "neatlife": {
     "login": "neatlife",
-    "location": "中国",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4076198?u=1ae920abeebd201586bc4d9d65887dfbc18fbb98&v=4",
-    "websiteUrl": "https://neatlifecoco.com/",
     "createdAt": "4/6/2013",
     "nbFollowers": 108,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 2341
-    },
+    "nbStarredRepos": 2338,
     "nbRepos": 145,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://neatlifecoco.com/",
+    "location": "中国"
   },
   "tanghoong": {
     "login": "tanghoong",
-    "location": "Kuala Lumpur ",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4799387?v=4",
-    "websiteUrl": "www.tanghoong.com",
     "createdAt": "6/24/2013",
     "nbFollowers": 24,
     "nbFollowings": 21,
-    "nbStarredRepos": {
-      "totalCount": 395
-    },
+    "nbStarredRepos": 395,
     "nbRepos": 29,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.tanghoong.com",
+    "location": "Kuala Lumpur "
   },
   "yyman001": {
     "login": "yyman001",
-    "bio": "(～￣▽￣)～",
-    "location": "china",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5688485?u=0bf4de115638fdb651521462a30e28b3a5c5cba7&v=4",
     "createdAt": "10/14/2013",
     "nbFollowers": 26,
     "nbFollowings": 33,
-    "nbStarredRepos": {
-      "totalCount": 998
-    },
+    "nbStarredRepos": 1009,
     "nbRepos": 60,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "(～￣▽￣)～",
+    "location": "china"
   },
   "maito": {
     "login": "maito",
-    "location": "tokyo",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1185081?u=4374a6d026d2e785b06158d80927213e041a8ab4&v=4",
     "createdAt": "11/9/2011",
     "nbFollowers": 10,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 958
-    },
-    "nbRepos": 4,
+    "nbStarredRepos": 959,
+    "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "tokyo"
   },
   "Gosivn": {
     "login": "Gosivn",
@@ -7236,9 +5989,7 @@ const fans = {
     "createdAt": "11/22/2014",
     "nbFollowers": 7,
     "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 345
-    },
+    "nbStarredRepos": 345,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -7252,9 +6003,7 @@ const fans = {
     "createdAt": "1/31/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 7
-    },
+    "nbStarredRepos": 7,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -7264,23 +6013,21 @@ const fans = {
   },
   "fulicat": {
     "login": "fulicat",
-    "bio": "Web Front-end Developer\r\n",
-    "location": "Shanghai, China",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/723907?u=c8f1f28076f182f9c05a28d005a549c8002c1206&v=4",
-    "websiteUrl": "http://fulicat.com",
-    "company": "Social Power Information Technology（Shanghai） Co.,Ltd.",
     "createdAt": "4/11/2011",
     "nbFollowers": 11,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 770
-    },
+    "nbStarredRepos": 774,
     "nbRepos": 37,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://fulicat.com",
+    "bio": "Web Front-end Developer\r\n",
+    "location": "Shanghai, China",
+    "company": "Social Power Information Technology（Shanghai） Co.,Ltd."
   },
   "jboada": {
     "login": "jboada",
@@ -7288,13 +6035,12 @@ const fans = {
     "createdAt": "11/4/2012",
     "nbFollowers": 5,
     "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 513
-    },
+    "nbStarredRepos": 514,
     "nbRepos": 0,
     "follower": false,
     "starred": [
-      "colorpicker"
+      "colorpicker",
+      "structured-filter"
     ],
     "forked": []
   },
@@ -7304,9 +6050,7 @@ const fans = {
     "createdAt": "8/8/2013",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 14
-    },
+    "nbStarredRepos": 14,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -7320,9 +6064,7 @@ const fans = {
     "createdAt": "1/23/2014",
     "nbFollowers": 1,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 45
-    },
+    "nbStarredRepos": 45,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -7336,9 +6078,7 @@ const fans = {
     "createdAt": "9/4/2013",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 5
-    },
+    "nbStarredRepos": 5,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -7352,9 +6092,7 @@ const fans = {
     "createdAt": "5/21/2014",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 91
-    },
+    "nbStarredRepos": 92,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -7370,9 +6108,7 @@ const fans = {
     "createdAt": "3/13/2012",
     "nbFollowers": 16,
     "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 1395
-    },
+    "nbStarredRepos": 1395,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -7382,112 +6118,97 @@ const fans = {
   },
   "Tak0002": {
     "login": "Tak0002",
-    "bio": "JavaScript, PHP, Perl, Python, Swift, Ruby,Go\r\n",
-    "location": "Tokyo",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/7286744?u=2bb814f454736e5ba9ea5e00cd06b1772f7ec3f4&v=4",
-    "websiteUrl": "https://wepia.biz",
-    "company": "@DeNA ",
     "createdAt": "4/13/2014",
     "nbFollowers": 35,
     "nbFollowings": 59,
-    "nbStarredRepos": {
-      "totalCount": 143
-    },
+    "nbStarredRepos": 143,
     "nbRepos": 22,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://wepia.biz",
+    "bio": "JavaScript, PHP, Perl, Python, Swift, Ruby,Go\r\n",
+    "location": "Tokyo",
+    "company": "@DeNA "
   },
   "tralles": {
     "login": "tralles",
-    "location": "Berlin, Germany",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/992529?v=4",
-    "websiteUrl": "http://www.qb-it.de",
-    "company": "freelancer - Rails & other web-stuff …",
     "createdAt": "8/20/2011",
     "nbFollowers": 2,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 229
-    },
+    "nbStarredRepos": 230,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.qb-it.de",
+    "location": "Berlin, Germany",
+    "company": "freelancer - Rails & other web-stuff …"
   },
   "AjiMIde": {
     "login": "AjiMIde",
-    "bio": "Vue/Angular/Webpack/Grunt/Node.js",
-    "location": "GZ China ",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/9972650?u=6d3f6434262c15b68b3f2fcccd31f2214c672766&v=4",
-    "websiteUrl": "https://github.com/AjiMIde",
-    "company": "PhoneAssistant",
     "createdAt": "11/26/2014",
-    "nbFollowers": 7,
+    "nbFollowers": 8,
     "nbFollowings": 27,
-    "nbStarredRepos": {
-      "totalCount": 214
-    },
+    "nbStarredRepos": 217,
     "nbRepos": 41,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://github.com/AjiMIde",
+    "bio": "Vue/Angular/Webpack/Grunt/Node.js",
+    "location": "GZ China ",
+    "company": "PhoneAssistant"
   },
   "zhanziyang": {
     "login": "zhanziyang",
-    "bio": "Creativity and sharing is what I love about this community and this job.",
-    "location": "Xiamen, China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10041024?u=720f8f7dd2651a0eb1a9e76e04737b5e59fde136&v=4",
-    "company": "RingCentral",
     "createdAt": "12/1/2014",
     "nbFollowers": 35,
     "nbFollowings": 38,
-    "nbStarredRepos": {
-      "totalCount": 547
-    },
+    "nbStarredRepos": 548,
     "nbRepos": 25,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Creativity and sharing is what I love about this community and this job.",
+    "location": "Xiamen, China",
+    "company": "RingCentral"
   },
   "quilin": {
     "login": "quilin",
-    "bio": "Full-stack .net developer\r\nTDD evangelist",
-    "location": "St.Petersburg, Russia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5960226?u=2c8adbfb33dd4fd1f1754b888e187bf9d897e3e1&v=4",
     "createdAt": "11/17/2013",
-    "nbFollowers": 3,
-    "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 9
-    },
+    "nbFollowers": 5,
+    "nbFollowings": 4,
+    "nbStarredRepos": 11,
     "nbRepos": 21,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Full-stack .net developer\r\nTDD evangelist",
+    "location": "St.Petersburg, Russia"
   },
   "chlab": {
     "login": "chlab",
-    "bio": "Currently working as Frontend Architect @mobiliar",
-    "location": "Switzerland",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1931446?u=66bae87dfbb662d7a4a3754d6b50fc912e079bc5&v=4",
-    "websiteUrl": "http://chlab.ch",
     "createdAt": "7/6/2012",
     "nbFollowers": 23,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 156
-    },
+    "nbStarredRepos": 156,
     "nbRepos": 33,
     "follower": false,
     "starred": [
@@ -7495,64 +6216,61 @@ const fans = {
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "websiteUrl": "http://chlab.ch",
+    "bio": "Currently working as Frontend Architect @mobiliar",
+    "location": "Switzerland"
   },
   "fred1218": {
     "login": "fred1218",
-    "bio": "Node & React",
-    "location": "shanghai,china",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/5877812?u=88884700373a21a2b12b050c760427c8a5b738a0&v=4",
     "createdAt": "11/7/2013",
     "nbFollowers": 30,
     "nbFollowings": 324,
-    "nbStarredRepos": {
-      "totalCount": 2227
-    },
+    "nbStarredRepos": 2227,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Node & React",
+    "location": "shanghai,china"
   },
   "datanotion": {
     "login": "datanotion",
-    "location": "Utah",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/4722782?u=69e0a714dc09502e828dadd83a6171672b0e823d&v=4",
-    "websiteUrl": "http://www.datanotion.com",
-    "company": "DataNotion LLC",
     "createdAt": "6/17/2013",
     "nbFollowers": 16,
     "nbFollowings": 49,
-    "nbStarredRepos": {
-      "totalCount": 2407
-    },
+    "nbStarredRepos": 2403,
     "nbRepos": 36,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.datanotion.com",
+    "location": "Utah",
+    "company": "DataNotion LLC"
   },
   "g12mcgov": {
     "login": "g12mcgov",
-    "bio": "Studied @wakecs. Currently working @GoldmanSachs on the Marquee team. Previously did Erlang things @TimeInc.",
-    "location": "New York, NY",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4671394?u=c54a99027481d82cdd8e4432144c74aad3482b9c&v=4",
-    "websiteUrl": "http://grantmcgovern.com",
-    "company": "@goldmansachs",
     "createdAt": "6/11/2013",
     "nbFollowers": 100,
     "nbFollowings": 137,
-    "nbStarredRepos": {
-      "totalCount": 804
-    },
+    "nbStarredRepos": 806,
     "nbRepos": 78,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://grantmcgovern.com",
+    "bio": "Studied @wakecs. Currently working @GoldmanSachs on the Marquee team. Previously did Erlang things @TimeInc.",
+    "location": "New York, NY",
+    "company": "@goldmansachs"
   },
   "f-t-l": {
     "login": "f-t-l",
@@ -7560,9 +6278,7 @@ const fans = {
     "createdAt": "6/19/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -7574,20 +6290,18 @@ const fans = {
   },
   "c0untd0wn": {
     "login": "c0untd0wn",
-    "location": "Seoul, Korea",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/665320?u=dd1ec0a9e8b14faa3410b9d8d05bc5c0e3abde98&v=4",
     "createdAt": "3/11/2011",
     "nbFollowers": 18,
     "nbFollowings": 22,
-    "nbStarredRepos": {
-      "totalCount": 168
-    },
+    "nbStarredRepos": 168,
     "nbRepos": 27,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Seoul, Korea"
   },
   "carozibert": {
     "login": "carozibert",
@@ -7595,9 +6309,7 @@ const fans = {
     "createdAt": "9/8/2014",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 27
-    },
+    "nbStarredRepos": 27,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -7607,57 +6319,51 @@ const fans = {
   },
   "comdan66": {
     "login": "comdan66",
-    "bio": "先寫別人會寫而不想寫的程式，以後才可以寫別人想寫而寫不出來的程式。",
-    "location": "Taiwan",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6509690?u=6302b7c58be0aa28cd78d78fa2d51fb8d7196a5d&v=4",
-    "websiteUrl": "http://www.ioa.tw",
     "createdAt": "1/26/2014",
-    "nbFollowers": 575,
+    "nbFollowers": 576,
     "nbFollowings": 24,
-    "nbStarredRepos": {
-      "totalCount": 424
-    },
+    "nbStarredRepos": 423,
     "nbRepos": 214,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.ioa.tw",
+    "bio": "先寫別人會寫而不想寫的程式，以後才可以寫別人想寫而寫不出來的程式。",
+    "location": "Taiwan"
   },
   "lynn456": {
     "login": "lynn456",
-    "bio": "PHPer",
-    "location": "Taiwan",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6763085?u=f11e6f85f6ba29008807f118bb687ede8fc344ac&v=4",
     "createdAt": "2/23/2014",
     "nbFollowers": 7,
     "nbFollowings": 27,
-    "nbStarredRepos": {
-      "totalCount": 98
-    },
+    "nbStarredRepos": 97,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "PHPer",
+    "location": "Taiwan"
   },
   "xto3na": {
     "login": "xto3na",
-    "location": "Dnepropetrovsk, Ukraine",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6962916?u=5388c0c42ec6786682d838989f47489421c08844&v=4",
     "createdAt": "3/15/2014",
     "nbFollowers": 8,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 222
-    },
+    "nbStarredRepos": 222,
     "nbRepos": 26,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Dnepropetrovsk, Ukraine"
   },
   "nagasama": {
     "login": "nagasama",
@@ -7665,9 +6371,7 @@ const fans = {
     "createdAt": "4/8/2012",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 346
-    },
+    "nbStarredRepos": 346,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -7677,40 +6381,36 @@ const fans = {
   },
   "fr8tra1n": {
     "login": "fr8tra1n",
-    "location": "Netherlands",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1814414?v=4",
     "createdAt": "6/4/2012",
     "nbFollowers": 10,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 2325
-    },
+    "nbStarredRepos": 2331,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Netherlands"
   },
   "radum": {
     "login": "radum",
-    "bio": "All started when I was 5, playing around with a Cobra PC, then a HC85 cursing every time the tape got stuck after 30 minutes of loading. Now the WWW is my home.",
-    "location": "Orion Arm, Earth",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/46779?v=4",
-    "websiteUrl": "http://radumicu.com/",
-    "company": "KIN+CARTA",
     "createdAt": "1/15/2009",
-    "nbFollowers": 47,
-    "nbFollowings": 151,
-    "nbStarredRepos": {
-      "totalCount": 4995
-    },
+    "nbFollowers": 49,
+    "nbFollowings": 152,
+    "nbStarredRepos": 5065,
     "nbRepos": 160,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://radumicu.com/",
+    "bio": "All started when I was 5, playing around with a Cobra PC, then a HC85 cursing every time the tape got stuck after 30 minutes of loading. Now the WWW is my home.",
+    "location": "Orion Arm, Earth",
+    "company": "KIN+CARTA"
   },
   "notyoyoma": {
     "login": "notyoyoma",
@@ -7718,9 +6418,7 @@ const fans = {
     "createdAt": "1/15/2013",
     "nbFollowers": 5,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 30
-    },
+    "nbStarredRepos": 30,
     "nbRepos": 33,
     "follower": false,
     "starred": [
@@ -7730,59 +6428,53 @@ const fans = {
   },
   "mcaskill": {
     "login": "mcaskill",
-    "bio": "The man with the golden gun.",
-    "location": "Montreal",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/29353?u=d1c94f84d5930f40f25cfd10f5c896660c1ff4ab&v=4",
-    "websiteUrl": "https://mcaskill.ca",
-    "company": "Locomotive",
     "createdAt": "10/16/2008",
-    "nbFollowers": 54,
-    "nbFollowings": 57,
-    "nbStarredRepos": {
-      "totalCount": 2949
-    },
-    "nbRepos": 70,
+    "nbFollowers": 55,
+    "nbFollowings": 65,
+    "nbStarredRepos": 2982,
+    "nbRepos": 73,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://mcaskill.ca",
+    "bio": "The man with the golden gun.",
+    "location": "Montreal",
+    "company": "Locomotive"
   },
   "Milad": {
     "login": "Milad",
-    "bio": "Software developer.\r\nI'm on Gitlab too. https://gitlab.com/MiladK",
-    "location": "Sweden",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/94392?v=4",
     "createdAt": "6/11/2009",
-    "nbFollowers": 11,
+    "nbFollowers": 12,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 1129
-    },
+    "nbStarredRepos": 1149,
     "nbRepos": 25,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Software developer.\r\nI'm on Gitlab too. https://gitlab.com/MiladK",
+    "location": "Sweden"
   },
   "qiter": {
     "login": "qiter",
-    "location": "Peking of China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1510316?u=cc6269705a61133f13dfcf8e6201d2cd159b5fb9&v=4",
-    "websiteUrl": "http://www.qiter.com",
     "createdAt": "3/6/2012",
     "nbFollowers": 1,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 368
-    },
+    "nbStarredRepos": 368,
     "nbRepos": 4,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.qiter.com",
+    "location": "Peking of China"
   },
   "LloydSSS": {
     "login": "LloydSSS",
@@ -7790,9 +6482,7 @@ const fans = {
     "createdAt": "12/7/2014",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 24
-    },
+    "nbStarredRepos": 24,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -7802,118 +6492,106 @@ const fans = {
   },
   "jasonmelgoza": {
     "login": "jasonmelgoza",
-    "bio": "UI Designer at SecureDocs, Inc. // Husband, father, and defender of the universe. ",
-    "location": "Santa Maria, California",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/89980?u=133504a85d3c7adf0b5bcc3d46397e5aa5e157b3&v=4",
-    "websiteUrl": "https://jmelgoza.com",
-    "company": "@securedocs ",
     "createdAt": "5/29/2009",
-    "nbFollowers": 78,
-    "nbFollowings": 530,
-    "nbStarredRepos": {
-      "totalCount": 2914
-    },
-    "nbRepos": 20,
+    "nbFollowers": 77,
+    "nbFollowings": 531,
+    "nbStarredRepos": 2941,
+    "nbRepos": 21,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://jmelgoza.com",
+    "bio": "UI Designer at SecureDocs, Inc. // Husband, father, and defender of the universe. ",
+    "location": "Santa Maria, California",
+    "company": "@securedocs "
   },
   "leonguyen": {
     "login": "leonguyen",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1904578?u=8904e52e8b1dce65b25adc6c5c76515478102ae9&v=4",
-    "company": "Freelance",
     "createdAt": "6/28/2012",
     "nbFollowers": 34,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 5117
-    },
+    "nbStarredRepos": 5108,
     "nbRepos": 4,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "company": "Freelance"
   },
   "jasondavis": {
     "login": "jasondavis",
-    "bio": "Web Developer since 2000 using PHP and JavaScript and related technologies ",
-    "location": "Central FL",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/186818?v=4",
-    "websiteUrl": "https://www.apollowebstudio.com",
-    "company": "https://www.apollowebstudio.com",
     "createdAt": "1/21/2010",
     "nbFollowers": 71,
     "nbFollowings": 203,
-    "nbStarredRepos": {
-      "totalCount": 3206
-    },
+    "nbStarredRepos": 3205,
     "nbRepos": 583,
     "follower": false,
     "starred": [
       "colorpicker",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.apollowebstudio.com",
+    "bio": "Web Developer since 2000 using PHP and JavaScript and related technologies ",
+    "location": "Central FL",
+    "company": "https://www.apollowebstudio.com"
   },
   "apuntovanini": {
     "login": "apuntovanini",
-    "bio": "Founder of @uidu-org",
-    "location": "Milan, Italy",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1159781?u=9550b9d4c618d0abc6a999b46f269ab4e8435b06&v=4",
-    "websiteUrl": "http://uidu.org",
-    "company": "@uidu-org ",
     "createdAt": "10/29/2011",
     "nbFollowers": 11,
-    "nbFollowings": 27,
-    "nbStarredRepos": {
-      "totalCount": 1048
-    },
+    "nbFollowings": 28,
+    "nbStarredRepos": 1058,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://uidu.org",
+    "bio": "Founder of @uidu-org",
+    "location": "Milan, Italy",
+    "company": "@uidu-org "
   },
   "lajpatshah": {
     "login": "lajpatshah",
-    "location": "Mumbai",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6246143?u=98bb802f0177b248fa1a1883fadb114083040a69&v=4",
-    "websiteUrl": "https://curioussolutions.in",
-    "company": "Curious Solutions LLP",
     "createdAt": "12/23/2013",
     "nbFollowers": 14,
     "nbFollowings": 61,
-    "nbStarredRepos": {
-      "totalCount": 824
-    },
-    "nbRepos": 19,
+    "nbStarredRepos": 826,
+    "nbRepos": 20,
     "follower": false,
     "starred": [
       "colorpicker",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://curioussolutions.in",
+    "location": "Mumbai",
+    "company": "Curious Solutions LLP"
   },
   "vinothkumar6692": {
     "login": "vinothkumar6692",
-    "location": "New York",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6985110?u=ba5b75f55f8e3338ebed5915b6d5d5417c8b7b56&v=4",
     "createdAt": "3/18/2014",
     "nbFollowers": 9,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 17
-    },
+    "nbStarredRepos": 17,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "New York"
   },
   "ravenjam": {
     "login": "ravenjam",
@@ -7921,9 +6599,7 @@ const fans = {
     "createdAt": "1/23/2013",
     "nbFollowers": 9,
     "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 392
-    },
+    "nbStarredRepos": 391,
     "nbRepos": 40,
     "follower": false,
     "starred": [
@@ -7934,19 +6610,17 @@ const fans = {
   "freedom-diy": {
     "login": "freedom-diy",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/8792234?u=35bb33041578eebe0e78d0f553a557bd5f0fd88d&v=4",
-    "websiteUrl": "http://freedom-diy.com/",
     "createdAt": "9/16/2014",
     "nbFollowers": 9,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 147
-    },
+    "nbStarredRepos": 147,
     "nbRepos": 26,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://freedom-diy.com/"
   },
   "hokkoo": {
     "login": "hokkoo",
@@ -7954,10 +6628,8 @@ const fans = {
     "createdAt": "6/22/2013",
     "nbFollowers": 19,
     "nbFollowings": 30,
-    "nbStarredRepos": {
-      "totalCount": 2008
-    },
-    "nbRepos": 45,
+    "nbStarredRepos": 2009,
+    "nbRepos": 46,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -7970,9 +6642,7 @@ const fans = {
     "createdAt": "2/7/2011",
     "nbFollowers": 6,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 605
-    },
+    "nbStarredRepos": 607,
     "nbRepos": 76,
     "follower": false,
     "starred": [
@@ -7986,9 +6656,7 @@ const fans = {
     "createdAt": "4/13/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 13
-    },
+    "nbStarredRepos": 13,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -7998,43 +6666,39 @@ const fans = {
   },
   "davemackintosh": {
     "login": "davemackintosh",
-    "bio": "I like to help people. Human first builder.",
-    "location": "Chichester",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1430657?u=47687e4cbf01ce381c01a14ad6959918b4b654a1&v=4",
-    "websiteUrl": "https://dav3.co",
-    "company": "@Multicolour",
     "createdAt": "2/12/2012",
     "nbFollowers": 58,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 671
-    },
-    "nbRepos": 41,
+    "nbStarredRepos": 676,
+    "nbRepos": 42,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://dav3.co",
+    "bio": "I like to help people. Human first builder.",
+    "location": "Chichester",
+    "company": "@Multicolour"
   },
   "manelpz": {
     "login": "manelpz",
-    "bio": "\r\n    \r\n    \r\n    \r\n    \r\nT-Shape developer working with .Net technologies at Citi • Individual Contributor L4.\r\n\r\n\r\n\r\n\r\n",
-    "location": "Mexico City",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2387874?u=ae894b4e947a0eb03346198332600f810f0c1f93&v=4",
-    "websiteUrl": "https://mx.linkedin.com/in/manelpz",
-    "company": "@CitiBanamex",
     "createdAt": "9/20/2012",
-    "nbFollowers": 6,
-    "nbFollowings": 55,
-    "nbStarredRepos": {
-      "totalCount": 39
-    },
-    "nbRepos": 37,
+    "nbFollowers": 5,
+    "nbFollowings": 56,
+    "nbStarredRepos": 41,
+    "nbRepos": 40,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://mx.linkedin.com/in/manelpz",
+    "bio": "\r\n    \r\n    \r\n    \r\n    \r\nT-Shape developer at Citi • Individual Contributor L4.\r\nLead of www.nscodermexico.com community\r\n\r\n\r\n\r\n",
+    "location": "Mexico City",
+    "company": "@CitiBanamex"
   },
   "bartrail": {
     "login": "bartrail",
@@ -8084,7 +6748,7 @@ const fans = {
   "mahfuzphp": {
     "login": "mahfuzphp",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/776311?v=4",
-    "nbRepos": 18,
+    "nbRepos": 20,
     "forked": [
       "colorpicker"
     ],
@@ -8210,7 +6874,7 @@ const fans = {
   "edwardyi": {
     "login": "edwardyi",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5842834?v=4",
-    "nbRepos": 147,
+    "nbRepos": 150,
     "forked": [
       "colorpicker"
     ],
@@ -8228,7 +6892,7 @@ const fans = {
   "goupviet": {
     "login": "goupviet",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/9402126?u=bbd7a3c020efbc77cf5fc64554af83bdac675c42&v=4",
-    "nbRepos": 865,
+    "nbRepos": 881,
     "forked": [
       "colorpicker",
       "structured-filter"
@@ -8238,7 +6902,7 @@ const fans = {
   "2ndkauboy": {
     "login": "2ndkauboy",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1793177?v=4",
-    "nbRepos": 109,
+    "nbRepos": 112,
     "forked": [
       "colorpicker"
     ],
@@ -8292,7 +6956,7 @@ const fans = {
   "tarlepp": {
     "login": "tarlepp",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/595561?u=5283b593d437f23bfe5c93737aad5a58bd3e8607&v=4",
-    "nbRepos": 132,
+    "nbRepos": 133,
     "forked": [
       "colorpicker"
     ],
@@ -8328,7 +6992,7 @@ const fans = {
   "wjboy": {
     "login": "wjboy",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2841930?u=5af6f396f4ad9b9953890de3faf07fa5ea319467&v=4",
-    "nbRepos": 85,
+    "nbRepos": 86,
     "forked": [
       "colorpicker"
     ],
@@ -8375,11 +7039,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4988738?v=4",
     "createdAt": "7/11/2013",
     "nbFollowers": 6,
-    "nbFollowings": 46,
-    "nbStarredRepos": {
-      "totalCount": 964
-    },
-    "nbRepos": 282,
+    "nbFollowings": 48,
+    "nbStarredRepos": 965,
+    "nbRepos": 311,
     "follower": false,
     "starred": [
       "colorpicker",
@@ -8393,7 +7055,7 @@ const fans = {
   "vSaKv": {
     "login": "vSaKv",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/654118?v=4",
-    "nbRepos": 58,
+    "nbRepos": 60,
     "forked": [
       "colorpicker"
     ],
@@ -8402,7 +7064,7 @@ const fans = {
   "AlfiyaZi": {
     "login": "AlfiyaZi",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2064644?u=a667bc23fc9fd780b68624225e1baeb62b050068&v=4",
-    "nbRepos": 935,
+    "nbRepos": 944,
     "forked": [
       "colorpicker"
     ],
@@ -8411,7 +7073,7 @@ const fans = {
   "fatty-": {
     "login": "fatty-",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6974689?v=4",
-    "nbRepos": 227,
+    "nbRepos": 229,
     "forked": [
       "colorpicker"
     ],
@@ -8419,14 +7081,11 @@ const fans = {
   },
   "RobinMao": {
     "login": "RobinMao",
-    "location": "Nanjing, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3796054?u=1c29ebe16ef03238ac4ae688d676da36494fcd73&v=4",
     "createdAt": "3/7/2013",
     "nbFollowers": 15,
     "nbFollowings": 45,
-    "nbStarredRepos": {
-      "totalCount": 720
-    },
+    "nbStarredRepos": 722,
     "nbRepos": 25,
     "follower": false,
     "starred": [
@@ -8434,18 +7093,16 @@ const fans = {
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "location": "Nanjing, China"
   },
   "jorexQ": {
     "login": "jorexQ",
-    "bio": "la la la la",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4176570?u=990131052cf3cc73af09ec0057ddf54d08b80e6a&v=4",
     "createdAt": "4/16/2013",
     "nbFollowers": 2,
     "nbFollowings": 71,
-    "nbStarredRepos": {
-      "totalCount": 424
-    },
+    "nbStarredRepos": 425,
     "nbRepos": 20,
     "follower": false,
     "starred": [
@@ -8453,7 +7110,8 @@ const fans = {
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "bio": "la la la la"
   },
   "ghettoboombox": {
     "login": "ghettoboombox",
@@ -8502,22 +7160,20 @@ const fans = {
   },
   "duanghuang": {
     "login": "duanghuang",
-    "location": "Shanghai,China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/13032511?u=6dfb823c24e16727c50129465cda948eaec4f0ab&v=4",
     "createdAt": "6/24/2015",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 33
-    },
-    "nbRepos": 32,
+    "nbStarredRepos": 34,
+    "nbRepos": 34,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "location": "Shanghai,China"
   },
   "GengZhang1": {
     "login": "GengZhang1",
@@ -8630,7 +7286,7 @@ const fans = {
   "lhauspicious": {
     "login": "lhauspicious",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17818672?v=4",
-    "nbRepos": 364,
+    "nbRepos": 365,
     "forked": [
       "colorpicker"
     ],
@@ -8660,9 +7316,7 @@ const fans = {
     "createdAt": "8/7/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -8755,7 +7409,7 @@ const fans = {
   },
   "yodiz-sohail": {
     "login": "yodiz-sohail",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/16117421?v=4",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16117421?u=fd0fe2a8100e5d65867fe2e34bd1672df839aeeb&v=4",
     "nbRepos": 2,
     "forked": [
       "colorpicker"
@@ -8774,7 +7428,7 @@ const fans = {
   "ngochuydev123": {
     "login": "ngochuydev123",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/29549053?v=4",
-    "nbRepos": 3,
+    "nbRepos": 4,
     "forked": [
       "colorpicker"
     ],
@@ -8801,7 +7455,7 @@ const fans = {
   "marcelomelofreitas": {
     "login": "marcelomelofreitas",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7517306?u=eb4d392ad8dcb4d2badf31069134fbaa659c81aa&v=4",
-    "nbRepos": 357,
+    "nbRepos": 362,
     "forked": [
       "colorpicker"
     ],
@@ -8810,7 +7464,7 @@ const fans = {
   "mocharfian1": {
     "login": "mocharfian1",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/23516814?v=4",
-    "nbRepos": 10,
+    "nbRepos": 8,
     "forked": [
       "colorpicker"
     ],
@@ -8831,9 +7485,7 @@ const fans = {
     "createdAt": "7/17/2014",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 22
-    },
+    "nbStarredRepos": 22,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -8906,618 +7558,1633 @@ const fans = {
     ],
     "starred": []
   },
-  "Jadaw1n": {
-    "login": "Jadaw1n",
-    "location": "Switzerland",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1271552?v=4",
-    "createdAt": "12/18/2011",
-    "nbFollowers": 7,
-    "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 228
-    },
-    "nbRepos": 31,
+  "Stiropor": {
+    "login": "Stiropor",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/365876?u=000808baf77834c0cc95412b545bb17b1aa8c2aa&v=4",
+    "createdAt": "8/16/2010",
+    "nbFollowers": 10,
+    "nbFollowings": 1,
+    "nbStarredRepos": 1393,
+    "nbRepos": 39,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "basicsharp": {
-    "login": "basicsharp",
-    "location": "Thailand",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/796215?v=4",
-    "createdAt": "5/18/2011",
-    "nbFollowers": 28,
-    "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 5976
-    },
-    "nbRepos": 73,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "sign0": {
-    "login": "sign0",
-    "location": "Paris",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/6769414?u=904b98b84547e90158977de18fa21c17b02975f9&v=4",
-    "createdAt": "2/24/2014",
-    "nbFollowers": 11,
-    "nbFollowings": 37,
-    "nbStarredRepos": {
-      "totalCount": 735
-    },
-    "nbRepos": 68,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "martinmurciego": {
-    "login": "martinmurciego",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/7759127?v=4",
-    "createdAt": "6/1/2014",
+  "psapoznik": {
+    "login": "psapoznik",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/451175?u=c361c2c1520c061989d9300909c3871044b59c85&v=4",
+    "createdAt": "10/23/2010",
     "nbFollowers": 6,
-    "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 1113
-    },
-    "nbRepos": 100,
+    "nbFollowings": 28,
+    "nbStarredRepos": 117,
+    "nbRepos": 57,
     "follower": false,
     "starred": [
-      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "fabien": {
+    "login": "fabien",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2749?v=4",
+    "createdAt": "3/10/2008",
+    "nbFollowers": 53,
+    "nbFollowings": 17,
+    "nbStarredRepos": 4644,
+    "nbRepos": 186,
+    "follower": false,
+    "starred": [
       "evolutility-ui-jquery",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.atelierfabien.be/",
+    "location": "Belgium"
   },
-  "spedicom": {
-    "login": "spedicom",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2968830?v=4",
-    "createdAt": "12/4/2012",
+  "swu-illumio": {
+    "login": "swu-illumio",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6580363?v=4",
+    "createdAt": "2/3/2014",
     "nbFollowers": 0,
-    "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 3
-    },
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "hemant4524": {
-    "login": "hemant4524",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/12729083?u=0b6a1b62b8c0c57f4db84ee99668e6aae207abef&v=4",
-    "createdAt": "6/3/2015",
-    "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 60
-    },
-    "nbRepos": 35,
+    "nbStarredRepos": 2,
+    "nbRepos": 0,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "jimf99": {
-    "login": "jimf99",
-    "bio": "[Very Short Bio Here]",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/6600380?v=4",
-    "createdAt": "2/5/2014",
-    "nbFollowers": 7,
-    "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 1323
-    },
-    "nbRepos": 10,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "aronmek": {
-    "login": "aronmek",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/764151?v=4",
-    "createdAt": "5/2/2011",
-    "nbFollowers": 2,
+  "cespinar": {
+    "login": "cespinar",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/8921327?v=4",
+    "createdAt": "9/25/2014",
+    "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 77
-    },
+    "nbStarredRepos": 1,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "vkartaviy": {
+    "login": "vkartaviy",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/648039?u=0e9b6c947551ecfa395b4e798ffd8bfc3fc57d18&v=4",
+    "createdAt": "3/2/2011",
+    "nbFollowers": 55,
+    "nbFollowings": 602,
+    "nbStarredRepos": 1625,
     "nbRepos": 8,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "baliles": {
-    "login": "baliles",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/9769893?u=ef498022bd1aac0acda8e751a92011b20e603d0a&v=4",
-    "createdAt": "11/15/2014",
-    "nbFollowers": 7,
-    "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 12
-    },
-    "nbRepos": 63,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "walker-walks": {
-    "login": "walker-walks",
-    "location": "Brasil",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6481240?u=bf257f2720a852dac72a0240fb490ee845dadfbd&v=4",
-    "websiteUrl": "http://walker-walks.com",
-    "createdAt": "1/23/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 253
-    },
-    "nbRepos": 14,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "eldologuzzo": {
-    "login": "eldologuzzo",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/8272348?u=654506be9f867c6ee642bdc47434738a7290893a&v=4",
-    "createdAt": "7/25/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 1045
-    },
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "ik9999": {
-    "login": "ik9999",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/6804575?u=9152eb79c1e9a0274df187e7c62c4d7ec40aeff1&v=4",
-    "createdAt": "2/27/2014",
-    "nbFollowers": 8,
-    "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 585
-    },
-    "nbRepos": 27,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node",
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Kiev, Ukraine",
+    "company": "Undefined™"
   },
-  "AnanthaRajuC": {
-    "login": "AnanthaRajuC",
-    "bio": "Software Engineer ",
-    "location": "Bangalore, India",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6785435?u=00876d08a079a378cdec084f43b5075c11f784ac&v=4",
-    "websiteUrl": "http://anantharajuc.github.io/",
-    "createdAt": "2/25/2014",
-    "nbFollowers": 58,
-    "nbFollowings": 71,
-    "nbStarredRepos": {
-      "totalCount": 4432
-    },
-    "nbRepos": 662,
+  "Furqankhanzada": {
+    "login": "Furqankhanzada",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2400215?u=9a8b1937ae3223ebe8c4710f7b272f743ffaec32&v=4",
+    "createdAt": "9/22/2012",
+    "nbFollowers": 79,
+    "nbFollowings": 26,
+    "nbStarredRepos": 77,
+    "nbRepos": 37,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://appbakerz.com",
+    "bio": "Dynamic professional with more than nine years of experience in development ranging from Web to Mobile Applications. ",
+    "location": "Karachi, Pakistan",
+    "company": "@AppBakerZ "
   },
-  "apvenkat": {
-    "login": "apvenkat",
-    "bio": "An Internet Enthusiast with research passion, skilled in Automation and Web technologies for effective development of WoT/IoT Architectures.",
-    "location": "Singapore",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/32690669?u=5acca71f023de66964ee85d10371a202fc6c806d&v=4",
-    "createdAt": "10/10/2017",
-    "nbFollowers": 3,
-    "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 24
-    },
-    "nbRepos": 16,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "valmayaki": {
-    "login": "valmayaki",
-    "location": "Lagos, Nigeria",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/8375520?u=274c26c3c08a0197dbe0feea7ad779f7813cb506&v=4",
-    "createdAt": "8/6/2014",
-    "nbFollowers": 28,
-    "nbFollowings": 43,
-    "nbStarredRepos": {
-      "totalCount": 1157
-    },
-    "nbRepos": 93,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "alperdincer": {
-    "login": "alperdincer",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1174240?v=4",
-    "createdAt": "11/5/2011",
-    "nbFollowers": 18,
-    "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 1039
-    },
-    "nbRepos": 38,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "magic8baller": {
-    "login": "magic8baller",
-    "location": "NYC",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/39971956?v=4",
-    "createdAt": "6/5/2018",
-    "nbFollowers": 6,
-    "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 229
-    },
-    "nbRepos": 519,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "almereyda": {
-    "login": "almereyda",
-    "location": "berlin. laniakea.",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1645308?u=0df526b4b0778ecb4406933b0ad2b7741d5f95ed&v=4",
-    "websiteUrl": "https://jonrichter.de",
-    "company": "allmende",
-    "createdAt": "4/15/2012",
-    "nbFollowers": 132,
-    "nbFollowings": 115,
-    "nbStarredRepos": {
-      "totalCount": 8590
-    },
-    "nbRepos": 125,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "jianan789": {
-    "login": "jianan789",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/6212024?v=4",
-    "createdAt": "12/17/2013",
-    "nbFollowers": 4,
+  "nhymxu": {
+    "login": "nhymxu",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/535617?u=6e3f453c1ca6785315d41b532b2bdedb83b76347&v=4",
+    "createdAt": "12/24/2010",
+    "nbFollowers": 16,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 240
-    },
+    "nbStarredRepos": 720,
+    "nbRepos": 53,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "https://dungnt.net",
+    "bio": "Hơi gầy, hơi nhạt, não cá vàng và thích tạp nham",
+    "location": "Hanoi, Vietnam"
+  },
+  "spliner": {
+    "login": "spliner",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4410223?u=e759014060c4966424bd6119da3ac361bd1081c9&v=4",
+    "createdAt": "5/12/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 32,
+    "nbRepos": 6,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "bio": "Software developer @ ZBRA Solutions",
+    "company": "ZBRA"
+  },
+  "alercunha": {
+    "login": "alercunha",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5490771?v=4",
+    "createdAt": "9/18/2013",
+    "nbFollowers": 5,
+    "nbFollowings": 4,
+    "nbStarredRepos": 12,
     "nbRepos": 19,
     "follower": false,
     "starred": [
-      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "company": "ZBRA"
+  },
+  "TMAComms": {
+    "login": "TMAComms",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8142361?v=4",
+    "createdAt": "7/12/2014",
+    "nbFollowers": 1,
+    "nbFollowings": 2,
+    "nbStarredRepos": 90,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
       "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "mgonzalezmb": {
-    "login": "mgonzalezmb",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/37627399?v=4",
-    "createdAt": "3/21/2018",
-    "nbFollowers": 0,
-    "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 19
-    },
-    "nbRepos": 3,
+  "mmezzacca": {
+    "login": "mmezzacca",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/601967?u=1759eec63d9200d96253ebd9259a77c92450e8ab&v=4",
+    "createdAt": "2/5/2011",
+    "nbFollowers": 4,
+    "nbFollowings": 26,
+    "nbStarredRepos": 214,
+    "nbRepos": 2,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://marcmezzacca.com/",
+    "company": "CouponFollow"
   },
-  "TalbotGooday": {
-    "login": "TalbotGooday",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/10896476?u=e3a170418388ec553a27ec7094b2a23ea4679f30&v=4",
-    "createdAt": "2/7/2015",
+  "m3zercat": {
+    "login": "m3zercat",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2084045?v=4",
+    "createdAt": "8/2/2012",
+    "nbFollowers": 4,
+    "nbFollowings": 5,
+    "nbStarredRepos": 49,
+    "nbRepos": 16,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://m3z.net/",
+    "location": "Derbyshire"
+  },
+  "yaninelbi": {
+    "login": "yaninelbi",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/669251?v=4",
+    "createdAt": "3/14/2011",
+    "nbFollowers": 13,
+    "nbFollowings": 19,
+    "nbStarredRepos": 1059,
+    "nbRepos": 44,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://twitter.com/yaninelbi",
+    "location": "Tel Aviv, Israel"
+  },
+  "gigi81": {
+    "login": "gigi81",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/881067?v=4",
+    "createdAt": "6/28/2011",
+    "nbFollowers": 22,
+    "nbFollowings": 10,
+    "nbStarredRepos": 190,
+    "nbRepos": 59,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "bio": "Manager .Net Software Development and WinOps expert",
+    "location": "London"
+  },
+  "mtikoian": {
+    "login": "mtikoian",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/199116?u=d94cd0ea82403d46426341558da552c9d5c5eeec&v=4",
+    "createdAt": "2/7/2010",
+    "nbFollowers": 13,
+    "nbFollowings": 15,
+    "nbStarredRepos": 544,
+    "nbRepos": 236,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "company": "IBM"
+  },
+  "abarriere": {
+    "login": "abarriere",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3457732?v=4",
+    "createdAt": "2/2/2013",
     "nbFollowers": 3,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 134
-    },
-    "nbRepos": 51,
+    "nbStarredRepos": 77,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "jbfrrr": {
-    "login": "jbfrrr",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/24854381?v=4",
-    "createdAt": "12/31/2016",
+  "aquadk": {
+    "login": "aquadk",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/12857849?v=4",
+    "createdAt": "6/12/2015",
     "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 17,
+    "nbRepos": 6,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Denmark"
+  },
+  "fhancquart": {
+    "login": "fhancquart",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11842401?u=9aebfdece18fba5b133d12190922938f6be5af93&v=4",
+    "createdAt": "4/7/2015",
+    "nbFollowers": 6,
+    "nbFollowings": 6,
+    "nbStarredRepos": 280,
+    "nbRepos": 2,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "goodseller": {
+    "login": "goodseller",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1484676?v=4",
+    "createdAt": "2/29/2012",
+    "nbFollowers": 14,
+    "nbFollowings": 7,
+    "nbStarredRepos": 3132,
+    "nbRepos": 19,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://goodseller.github.io",
+    "location": "Hong Kong",
+    "company": "n/a"
+  },
+  "jasonjef": {
+    "login": "jasonjef",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6558023?u=681a8bd22473978c9f30269285d59e22cb1b94d4&v=4",
+    "createdAt": "1/31/2014",
+    "nbFollowers": 4,
+    "nbFollowings": 24,
+    "nbStarredRepos": 366,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.fuzablesoftware.com",
+    "location": "Northeast Ohio, USA",
+    "company": "Fuzable Software"
+  },
+  "nportelli": {
+    "login": "nportelli",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/350919?u=da4cff8c841738d0dca382010578fa6be184f7b6&v=4",
+    "createdAt": "8/1/2010",
+    "nbFollowers": 6,
+    "nbFollowings": 6,
+    "nbStarredRepos": 417,
+    "nbRepos": 14,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://muddypa.ws/blog",
+    "location": "East Lansing, Michigan"
+  },
+  "motzel": {
+    "login": "motzel",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1758707?u=5eaaa5b837d463bbcc30e4cc454acc31af8cb268&v=4",
+    "createdAt": "5/21/2012",
+    "nbFollowers": 11,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 113
-    },
+    "nbStarredRepos": 1602,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "samcome": {
+    "login": "samcome",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/899141?v=4",
+    "createdAt": "7/6/2011",
+    "nbFollowers": 29,
+    "nbFollowings": 41,
+    "nbStarredRepos": 1726,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "bio": "UI Designer, Intégrateur.",
+    "location": "Nantes"
+  },
+  "JanCoyle": {
+    "login": "JanCoyle",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/3645565?v=4",
+    "createdAt": "2/20/2013",
+    "nbFollowers": 0,
+    "nbFollowings": 2,
+    "nbStarredRepos": 7,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.coyle.dk",
+    "location": "Odense, Denmark",
+    "company": "Spillehulen"
+  },
+  "laparra": {
+    "login": "laparra",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/859770?v=4",
+    "createdAt": "6/19/2011",
+    "nbFollowers": 2,
+    "nbFollowings": 5,
+    "nbStarredRepos": 82,
     "nbRepos": 5,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://laparra.info"
+  },
+  "pixelport": {
+    "login": "pixelport",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6276761?v=4",
+    "createdAt": "12/28/2013",
+    "nbFollowers": 4,
+    "nbFollowings": 10,
+    "nbStarredRepos": 100,
+    "nbRepos": 17,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "CNTRS": {
-    "login": "CNTRS",
-    "location": "Murcia",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/12638486?v=4",
-    "createdAt": "5/27/2015",
-    "nbFollowers": 12,
-    "nbFollowings": 34,
-    "nbStarredRepos": {
-      "totalCount": 735
-    },
+  "myearick": {
+    "login": "myearick",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3708914?v=4",
+    "createdAt": "2/26/2013",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 12,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "gilronc": {
+    "login": "gilronc",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/13170678?v=4",
+    "createdAt": "7/3/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 3,
+    "nbStarredRepos": 8,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "popandsmart": {
+    "login": "popandsmart",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2845680?u=639fe42a08d8e8af58548b8931e6ae1967c516c6&v=4",
+    "createdAt": "11/20/2012",
+    "nbFollowers": 10,
+    "nbFollowings": 25,
+    "nbStarredRepos": 867,
+    "nbRepos": 2,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "dqduc": {
+    "login": "dqduc",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/186656?u=bb375b644b84b102a1b91cb190e43d5a4731e3b5&v=4",
+    "createdAt": "1/20/2010",
+    "nbFollowers": 19,
+    "nbFollowings": 15,
+    "nbStarredRepos": 1297,
+    "nbRepos": 32,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Vietnam"
+  },
+  "amitabhaghosh197": {
+    "login": "amitabhaghosh197",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/735279?u=1fb19c9467c71be80eb850b143a498c7cb459a4e&v=4",
+    "createdAt": "4/17/2011",
+    "nbFollowers": 13,
+    "nbFollowings": 60,
+    "nbStarredRepos": 592,
+    "nbRepos": 249,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://tycheweb.in",
+    "bio": "UI/ UX Designer/ Developer, Wordpress Theme Designer",
+    "location": "Kolkata, India",
+    "company": "TycheWeb"
+  },
+  "boussou": {
+    "login": "boussou",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2531688?u=6f5be1dac659736f931e1241810cb1bcdf98c09b&v=4",
+    "createdAt": "10/10/2012",
+    "nbFollowers": 4,
+    "nbFollowings": 2,
+    "nbStarredRepos": 49,
+    "nbRepos": 31,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "company": "Inducido"
+  },
+  "stenio123": {
+    "login": "stenio123",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3443868?v=4",
+    "createdAt": "1/31/2013",
+    "nbFollowers": 39,
+    "nbFollowings": 12,
+    "nbStarredRepos": 104,
+    "nbRepos": 47,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "company": "Hashicorp"
+  },
+  "dsawardekar": {
+    "login": "dsawardekar",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3541543?v=4",
+    "createdAt": "2/12/2013",
+    "nbFollowers": 27,
+    "nbFollowings": 10,
+    "nbStarredRepos": 863,
+    "nbRepos": 70,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://pressing-matters.io"
+  },
+  "ishakkulekci": {
+    "login": "ishakkulekci",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1771339?v=4",
+    "createdAt": "5/23/2012",
+    "nbFollowers": 10,
+    "nbFollowings": 111,
+    "nbStarredRepos": 801,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://ishakkulekci.blogspot.com",
+    "location": "İstanbul"
+  },
+  "pdnb": {
+    "login": "pdnb",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/167428?v=4",
+    "createdAt": "12/14/2009",
+    "nbFollowers": 3,
+    "nbFollowings": 1,
+    "nbStarredRepos": 158,
+    "nbRepos": 6,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://twitter.com/pdnb",
+    "location": "Bangkok, Thailand"
+  },
+  "lddr99": {
+    "login": "lddr99",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/9352148?u=e26c7a15270de71a2ffe18b10dad7c430d795c5a&v=4",
+    "createdAt": "10/22/2014",
+    "nbFollowers": 3,
+    "nbFollowings": 7,
+    "nbStarredRepos": 385,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "kclosu": {
+    "login": "kclosu",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3685451?v=4",
+    "createdAt": "2/24/2013",
+    "nbFollowers": 3,
+    "nbFollowings": 7,
+    "nbStarredRepos": 156,
+    "nbRepos": 14,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://kclo.su",
+    "location": "Moscow"
+  },
+  "shishtpal": {
+    "login": "shishtpal",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6944804?u=8328bfbb99aefae53d58baacbdfbdc717eb99f97&v=4",
+    "createdAt": "3/13/2014",
+    "nbFollowers": 6,
+    "nbFollowings": 33,
+    "nbStarredRepos": 690,
+    "nbRepos": 12,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "arsiesis": {
+    "login": "arsiesis",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4740228?v=4",
+    "createdAt": "6/19/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 1,
+    "nbStarredRepos": 39,
+    "nbRepos": 14,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "joaocc": {
+    "login": "joaocc",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2837860?v=4",
+    "createdAt": "11/19/2012",
+    "nbFollowers": 17,
+    "nbFollowings": 2,
+    "nbStarredRepos": 2457,
+    "nbRepos": 96,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.kit-ar.com",
+    "company": "KIT-AR Ltd"
+  },
+  "vphilipnyc": {
+    "login": "vphilipnyc",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5893811?u=ef361a21815e03541058f638be183f218338c152&v=4",
+    "createdAt": "11/8/2013",
+    "nbFollowers": 8,
+    "nbFollowings": 15,
+    "nbStarredRepos": 240,
+    "nbRepos": 32,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "iivel": {
+    "login": "iivel",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5571781?v=4",
+    "createdAt": "9/29/2013",
+    "nbFollowers": 2,
+    "nbFollowings": 2,
+    "nbStarredRepos": 134,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.levii.com"
+  },
+  "jcsibon": {
+    "login": "jcsibon",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3449854?u=cb1faea044eabab8f5b27993b63786dc7d724bc0&v=4",
+    "createdAt": "2/1/2013",
+    "nbFollowers": 5,
+    "nbFollowings": 6,
+    "nbStarredRepos": 56,
+    "nbRepos": 35,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "https://jeanchristophesibon.fr",
+    "location": "Paris"
+  },
+  "nomed": {
+    "login": "nomed",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/241485?u=d32cdc10e38276603baeb4e8c328135fec72119b&v=4",
+    "createdAt": "4/11/2010",
+    "nbFollowers": 4,
+    "nbFollowings": 1,
+    "nbStarredRepos": 175,
+    "nbRepos": 34,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.zeroisp.com",
+    "location": "Gavi, Italy"
+  },
+  "FedericoElles": {
+    "login": "FedericoElles",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1033020?v=4",
+    "createdAt": "9/7/2011",
+    "nbFollowers": 7,
+    "nbFollowings": 3,
+    "nbStarredRepos": 157,
+    "nbRepos": 77,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Germany"
+  },
+  "mstfcck": {
+    "login": "mstfcck",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3237785?u=eb22c5b2d9c456b8f78ca767ea06ba588d130463&v=4",
+    "createdAt": "1/10/2013",
+    "nbFollowers": 21,
+    "nbFollowings": 76,
+    "nbStarredRepos": 511,
+    "nbRepos": 30,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://linkedin.com/in/mustafacicek",
+    "bio": "Back End Developer"
+  },
+  "pmartins": {
+    "login": "pmartins",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/209880?u=1207c9c18c978ade83346e0760b1910c2a286b79&v=4",
+    "createdAt": "2/24/2010",
+    "nbFollowers": 2,
+    "nbFollowings": 1,
+    "nbStarredRepos": 144,
+    "nbRepos": 17,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.beyondcode.net",
+    "location": "Feijó"
+  },
+  "pettersamuelsen": {
+    "login": "pettersamuelsen",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1244867?u=6e0f8977eab0d6840907a36c4f0f537d75ebe5d5&v=4",
+    "createdAt": "12/6/2011",
+    "nbFollowers": 13,
+    "nbFollowings": 15,
+    "nbStarredRepos": 348,
+    "nbRepos": 29,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "https://askeladden.co",
+    "bio": "Partner & Head of Development @ Askeladden & Co",
+    "location": "Oslo, Norway",
+    "company": "Askeladden & Co"
+  },
+  "wmjie": {
+    "login": "wmjie",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/623368?v=4",
+    "createdAt": "2/17/2011",
+    "nbFollowers": 7,
+    "nbFollowings": 6,
+    "nbStarredRepos": 447,
+    "nbRepos": 24,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://my.oschina.net/wmjie",
+    "location": "beijing",
+    "company": "klb"
+  },
+  "OhMyMndy": {
+    "login": "OhMyMndy",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2277717?u=7d3bb39f3fab7b1f20e27815c5a6bdd801feb845&v=4",
+    "createdAt": "9/4/2012",
+    "nbFollowers": 10,
+    "nbFollowings": 10,
+    "nbStarredRepos": 1376,
+    "nbRepos": 22,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://mndy.be",
+    "location": "Retie, Belgium"
+  },
+  "hacfi": {
+    "login": "hacfi",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/428841?u=d0919fce9e13164ace7e836df2839c14cda8b67b&v=4",
+    "createdAt": "10/5/2010",
+    "nbFollowers": 177,
+    "nbFollowings": 1867,
+    "nbStarredRepos": 4164,
+    "nbRepos": 89,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Europe",
+    "company": "Certified Symfony developer"
+  },
+  "pupssman": {
+    "login": "pupssman",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2619359?v=4",
+    "createdAt": "10/22/2012",
+    "nbFollowers": 16,
+    "nbFollowings": 3,
+    "nbStarredRepos": 40,
     "nbRepos": 18,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Moscow, Russia",
+    "company": "Yandex"
   },
-  "PabloMotte": {
-    "login": "PabloMotte",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/43091563?u=4ed87fe3f97187b4d996a47403daf3b724a37914&v=4",
-    "createdAt": "9/8/2018",
-    "nbFollowers": 1,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 11
-    },
-    "nbRepos": 1,
+  "mattstrayer": {
+    "login": "mattstrayer",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1877440?u=8d2b32cf1087a39d0db3eff19e7d1b0a798094ed&v=4",
+    "createdAt": "6/21/2012",
+    "nbFollowers": 3,
+    "nbFollowings": 7,
+    "nbStarredRepos": 277,
+    "nbRepos": 13,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.lowercase.app",
+    "location": "NC",
+    "company": "@jebbit "
   },
-  "hpetru": {
-    "login": "hpetru",
-    "bio": "Ruby / Python / Clojure developer",
-    "location": "Chisinau, Moldova",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1880766?u=eb7b6e3804a87599681030e1a01b2ed5440e9b67&v=4",
-    "company": "@GovPredict ",
-    "createdAt": "6/22/2012",
-    "nbFollowers": 39,
-    "nbFollowings": 190,
-    "nbStarredRepos": {
-      "totalCount": 843
-    },
-    "nbRepos": 122,
+  "vboyok": {
+    "login": "vboyok",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7993598?v=4",
+    "createdAt": "6/26/2014",
+    "nbFollowers": 21,
+    "nbFollowings": 120,
+    "nbStarredRepos": 2957,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
-      "evolutility-server-node",
-      "structured-filter"
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "keepcleargas": {
-    "login": "keepcleargas",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1215177?v=4",
-    "createdAt": "11/23/2011",
-    "nbFollowers": 24,
-    "nbFollowings": 41,
-    "nbStarredRepos": {
-      "totalCount": 580
-    },
-    "nbRepos": 429,
+  "kurtr": {
+    "login": "kurtr",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1468721?v=4",
+    "createdAt": "2/24/2012",
+    "nbFollowers": 4,
+    "nbFollowings": 0,
+    "nbStarredRepos": 499,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "mewchu": {
-    "login": "mewchu",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/8409277?u=f1888e2d77abbc6b0ef12d0e92c4152b4eb8a1d8&v=4",
-    "createdAt": "8/10/2014",
-    "nbFollowers": 18,
-    "nbFollowings": 44,
-    "nbStarredRepos": {
-      "totalCount": 358
-    },
-    "nbRepos": 1,
+  "dharapvj": {
+    "login": "dharapvj",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1920926?v=4",
+    "createdAt": "7/3/2012",
+    "nbFollowers": 85,
+    "nbFollowings": 31,
+    "nbStarredRepos": 1166,
+    "nbRepos": 47,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Principal Architect @Infosys \r\nOpen Source Evangelist, Father of two",
+    "location": "Pune, India",
+    "company": "Infosys Limited"
   },
-  "alexsorokoletov": {
-    "login": "alexsorokoletov",
-    "bio": "Xamarin and Mobile enthusiast.\r\n\r\ntwitter.com/AlexSorokoletov",
-    "location": "Washington, D.C.",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1788581?v=4",
-    "websiteUrl": "https://sorokoletov.com",
-    "company": "Founder of @DreamTeamMobile",
-    "createdAt": "5/29/2012",
-    "nbFollowers": 40,
-    "nbFollowings": 43,
-    "nbStarredRepos": {
-      "totalCount": 317
-    },
-    "nbRepos": 71,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "thomasklemm": {
-    "login": "thomasklemm",
-    "location": "Würzburg, Germany",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1100176?v=4",
-    "createdAt": "10/3/2011",
-    "nbFollowers": 77,
-    "nbFollowings": 288,
-    "nbStarredRepos": {
-      "totalCount": 6999
-    },
-    "nbRepos": 100,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "huangwind205": {
-    "login": "huangwind205",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/13348321?v=4",
-    "createdAt": "7/15/2015",
+  "poparotsy": {
+    "login": "poparotsy",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12815372?u=e095ebe42750d76447d4bed656983dde038232bb&v=4",
+    "createdAt": "6/9/2015",
     "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 494
-    },
-    "nbRepos": 42,
+    "nbFollowings": 0,
+    "nbStarredRepos": 1,
+    "nbRepos": 11,
     "follower": false,
     "starred": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
-  "Why-Not-Sky": {
-    "login": "Why-Not-Sky",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/7097435?u=55c7db46c287159c50f38f29659d4b8e52d7ddde&v=4",
-    "nbRepos": 565,
-    "forked": [
-      "evolutility-server-node",
+  "fredrb": {
+    "login": "fredrb",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6811076?u=e7c559e1e4e040e6d329364439179e6cd539632f&v=4",
+    "createdAt": "2/27/2014",
+    "nbFollowers": 19,
+    "nbFollowings": 6,
+    "nbStarredRepos": 480,
+    "nbRepos": 78,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://blog.fredrb.com",
+    "location": "Germany",
+    "company": "SAP"
+  },
+  "nicolasverlhiac": {
+    "login": "nicolasverlhiac",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5034521?u=0bc744c798306ba5f1e75838b4bac9b5b4c380d7&v=4",
+    "createdAt": "7/17/2013",
+    "nbFollowers": 11,
+    "nbFollowings": 9,
+    "nbStarredRepos": 109,
+    "nbRepos": 30,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://novariom.com",
+    "location": "Capbreton",
+    "company": "Novariom"
+  },
+  "knevalsky": {
+    "login": "knevalsky",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1863545?u=9dcfefe499b0986aad91919a714954dddb0d069d&v=4",
+    "createdAt": "6/18/2012",
+    "nbFollowers": 7,
+    "nbFollowings": 5,
+    "nbStarredRepos": 4,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "philbritton": {
+    "login": "philbritton",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/487081?v=4",
+    "createdAt": "11/18/2010",
+    "nbFollowers": 34,
+    "nbFollowings": 62,
+    "nbStarredRepos": 3883,
+    "nbRepos": 151,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
       "structured-filter"
     ],
-    "starred": []
+    "forked": [],
+    "websiteUrl": "http://www.dacgroup.com",
+    "location": "Toronto",
+    "company": "DAC Group"
   },
-  "atyigit": {
-    "login": "atyigit",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/4151251?v=4",
-    "nbRepos": 16,
-    "forked": [
-      "evolutility-server-node"
+  "darizkipratama": {
+    "login": "darizkipratama",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8735400?v=4",
+    "createdAt": "9/11/2014",
+    "nbFollowers": 2,
+    "nbFollowings": 2,
+    "nbStarredRepos": 12,
+    "nbRepos": 5,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
     ],
-    "starred": []
+    "forked": [],
+    "location": "Indonesia",
+    "company": "bchannel developer community"
   },
-  "andrewk0617": {
-    "login": "andrewk0617",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/9891120?u=5c8e1724d1b3dcb86db08ed278385c66a0d3ad57&v=4",
+  "liufajian": {
+    "login": "liufajian",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/950808?v=4",
+    "createdAt": "7/31/2011",
+    "nbFollowers": 8,
+    "nbFollowings": 5,
+    "nbStarredRepos": 1795,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://like100.com",
+    "location": "beijing",
+    "company": "Thomson"
+  },
+  "huangsu2012": {
+    "login": "huangsu2012",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5387796?v=4",
+    "createdAt": "9/4/2013",
+    "nbFollowers": 2,
+    "nbFollowings": 13,
+    "nbStarredRepos": 380,
+    "nbRepos": 24,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "China"
+  },
+  "MaxMorais": {
+    "login": "MaxMorais",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1288676?u=7d0816c160cf7a28dc7b86a14e21c38f79ebc82b&v=4",
+    "createdAt": "12/27/2011",
+    "nbFollowers": 65,
+    "nbFollowings": 45,
+    "nbStarredRepos": 1100,
+    "nbRepos": 68,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://maxmorais.com",
+    "location": "São Paulo",
+    "company": "aptitudetech.net"
+  },
+  "jan-matthis": {
+    "login": "jan-matthis",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1239529?u=a08111ae31b9469860ccb06ba989598a1907358a&v=4",
+    "createdAt": "12/4/2011",
+    "nbFollowers": 36,
+    "nbFollowings": 44,
+    "nbStarredRepos": 813,
+    "nbRepos": 63,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.jan-matthis.de"
+  },
+  "vanbrayne": {
+    "login": "vanbrayne",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2899615?v=4",
+    "createdAt": "11/26/2012",
+    "nbFollowers": 6,
+    "nbFollowings": 0,
+    "nbStarredRepos": 4,
+    "nbRepos": 10,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Stockholm, Sweden",
+    "company": "XLENT Business Integration AB"
+  },
+  "index01d": {
+    "login": "index01d",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/236657?u=a2ee644c4d7fe332e98dcbade4c18ab610113d23&v=4",
+    "createdAt": "4/4/2010",
+    "nbFollowers": 26,
+    "nbFollowings": 56,
+    "nbStarredRepos": 565,
+    "nbRepos": 26,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://index01d.com",
+    "location": "Russia, Chelyabinsk",
+    "company": "x01d Company"
+  },
+  "artybondar": {
+    "login": "artybondar",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4539645?u=362e8a6718f0a35db4cad612f6094050da9072ea&v=4",
+    "createdAt": "5/27/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 40,
+    "nbRepos": 17,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://cssdeck.com/user/artybondar",
+    "bio": "Its smth new",
+    "location": "Saint Petersburg"
+  },
+  "johnnyeric": {
+    "login": "johnnyeric",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2350930?u=b874d944438b28018aece3752d6052df51b3e5f6&v=4",
+    "createdAt": "9/14/2012",
+    "nbFollowers": 31,
+    "nbFollowings": 47,
+    "nbStarredRepos": 2221,
+    "nbRepos": 193,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "https://stackoverflow.com/cv/johnnyeric",
+    "bio": "@johnnyeric",
+    "location": "Madrid, Spain",
+    "company": "Amazon"
+  },
+  "pikerr": {
+    "login": "pikerr",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/38836?v=4",
+    "createdAt": "12/7/2008",
+    "nbFollowers": 10,
+    "nbFollowings": 10,
+    "nbStarredRepos": 58,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "Hutagt": {
+    "login": "Hutagt",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9137981?u=d5235f73f3c36986cb5531e94df0d1009735df68&v=4",
+    "createdAt": "10/10/2014",
+    "nbFollowers": 5,
+    "nbFollowings": 33,
+    "nbStarredRepos": 187,
+    "nbRepos": 20,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "bio": "I am Mongolian.",
+    "location": "Ulaanbaatar, Mongolia",
+    "company": "At home"
+  },
+  "ctsanders1": {
+    "login": "ctsanders1",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2305783?v=4",
+    "createdAt": "9/8/2012",
+    "nbFollowers": 5,
+    "nbFollowings": 4,
+    "nbStarredRepos": 102,
+    "nbRepos": 705,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [
+      "evolutility-ui-jquery"
+    ]
+  },
+  "rasadeghnasab": {
+    "login": "rasadeghnasab",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10284898?u=29e2cf3716131c36ac7e0df519d04b66805836ee&v=4",
+    "createdAt": "12/23/2014",
+    "nbFollowers": 4,
+    "nbFollowings": 2,
+    "nbStarredRepos": 9,
+    "nbRepos": 18,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Tehran, Iran"
+  },
+  "jlVidal": {
+    "login": "jlVidal",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6402003?v=4",
+    "createdAt": "1/14/2014",
+    "nbFollowers": 7,
+    "nbFollowings": 54,
+    "nbStarredRepos": 568,
     "nbRepos": 15,
-    "forked": [
-      "evolutility-server-node"
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
     ],
-    "starred": []
+    "forked": [],
+    "location": "Vancouver, BC",
+    "company": "CWB"
   },
-  "wclwksn": {
-    "login": "wclwksn",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1761877?v=4",
-    "nbRepos": 209,
-    "forked": [
-      "evolutility-server-node"
+  "jelicanin": {
+    "login": "jelicanin",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/692844?u=44ae1d48909ce51c47bd53ef104c46813a6ef830&v=4",
+    "createdAt": "3/26/2011",
+    "nbFollowers": 46,
+    "nbFollowings": 392,
+    "nbStarredRepos": 3433,
+    "nbRepos": 57,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
+      "structured-filter"
     ],
-    "starred": []
+    "forked": [],
+    "websiteUrl": "https://fractas.com",
+    "bio": "Experienced Solutions Architect • Senior Software Engineer • Certified ScrumMaster • Passionate Scuba Diver • Bald and Bearded • Available for work",
+    "location": "Zagreb, Croatia",
+    "company": "Fractas"
   },
-  "hungdlv": {
-    "login": "hungdlv",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/8409127?v=4",
-    "nbRepos": 62,
+  "Aleyasen": {
+    "login": "Aleyasen",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5590435?u=cad7a433ea19b66887cb2f62bb223163087fe0bb&v=4",
+    "createdAt": "10/1/2013",
+    "nbFollowers": 62,
+    "nbFollowings": 125,
+    "nbStarredRepos": 2638,
+    "nbRepos": 61,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://aleyase2.web.engr.illinois.edu",
+    "bio": "Father. Husband. Programmer. Data Enthusiast. Open Source Enthusiast. PhD Student.",
+    "location": "Champaign, IL",
+    "company": "University of Illinois at Urbana-Champaign"
+  },
+  "laurentkempe": {
+    "login": "laurentkempe",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/272612?u=d5a602c4b87d93c5497e13c2badc0f5d6f895ac4&v=4",
+    "createdAt": "5/10/2010",
+    "nbFollowers": 83,
+    "nbFollowings": 149,
+    "nbStarredRepos": 1799,
+    "nbRepos": 127,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "https://laurentkempe.com",
+    "bio": "Team Leader & Distinguished Solution Architect with a passion for shipping high-quality products by empowering development teams",
+    "location": "Illzach, France",
+    "company": "@TechHeadBrothers @Innoveo "
+  },
+  "postacik": {
+    "login": "postacik",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3977227?u=3aae07cffa9c1adc3e7a649e04394fa17ed7ca00&v=4",
+    "createdAt": "3/26/2013",
+    "nbFollowers": 19,
+    "nbFollowings": 0,
+    "nbStarredRepos": 747,
+    "nbRepos": 9,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "location": "Istanbul, Turkey"
+  },
+  "llenroc": {
+    "login": "llenroc",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/7454468?u=31bb1e5b8271c90a516f0eda280afd9f1a5f8e84&v=4",
+    "nbRepos": 3587,
     "forked": [
-      "evolutility-server-node",
+      "evolutility-ui-jquery",
       "structured-filter"
     ],
     "starred": []
   },
-  "andyTsing": {
-    "login": "andyTsing",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/3162544?u=c7004cb7e23118729003f402af3d218410f3a320&v=4",
-    "nbRepos": 336,
+  "codexratio": {
+    "login": "codexratio",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/4579720?u=712ce49c3e5c1c2dd64d751e12768fe56f41fbf9&v=4",
+    "nbRepos": 29,
     "forked": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
-  "Smembe812": {
-    "login": "Smembe812",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/20711940?u=00cfab42a7205a7a1767e6017ea46a814abaffe5&v=4",
-    "nbRepos": 36,
+  "koo9": {
+    "login": "koo9",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8421906?u=7abbc64676d701dd8b8b080da91f7d3f69949aef&v=4",
+    "nbRepos": 53,
     "forked": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
-  "ravishing": {
-    "login": "ravishing",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/21195561?v=4",
-    "nbRepos": 147,
+  "mddipen": {
+    "login": "mddipen",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3875990?v=4",
+    "nbRepos": 2,
     "forked": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
-  "cataua": {
-    "login": "cataua",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1001818?u=dff9ba7e89e000759f948178fdf30d644a1f92c8&v=4",
-    "nbRepos": 22,
+  "alfonsor": {
+    "login": "alfonsor",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8367573?v=4",
+    "nbRepos": 38,
     "forked": [
-      "evolutility-server-node"
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "ninoblade": {
+    "login": "ninoblade",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/12738141?v=4",
+    "nbRepos": 2,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "WoundCentrics": {
+    "login": "WoundCentrics",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/11578969?v=4",
+    "nbRepos": 14,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "tanapop": {
+    "login": "tanapop",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1018703?u=5244cd576181a736e48f8bc0ce4500f7c92216ae&v=4",
+    "nbRepos": 201,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "DalianDragon": {
+    "login": "DalianDragon",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7762809?v=4",
+    "nbRepos": 458,
+    "forked": [
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "starred": []
+  },
+  "captainbland": {
+    "login": "captainbland",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1957915?u=2e7903e6ba5159a345e3a32847c801694b7eabab&v=4",
+    "nbRepos": 37,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "sjpAnn": {
+    "login": "sjpAnn",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/15355503?u=2add1f514647e669c08d8c2d783492867924fd0b&v=4",
+    "nbRepos": 20,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "dthornley": {
+    "login": "dthornley",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1854363?v=4",
+    "nbRepos": 55,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "JavaScriptCollection": {
+    "login": "JavaScriptCollection",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/13726119?v=4",
+    "nbRepos": 50,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "thismedium": {
+    "login": "thismedium",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3161681?u=1cd4503df921694ea7cd026849502ec221b1cb9d&v=4",
+    "nbRepos": 216,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "koodinikula": {
+    "login": "koodinikula",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12151018?u=9c6d474c1470b50e17f0d8f9183566705612c918&v=4",
+    "nbRepos": 3,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "shanequint": {
+    "login": "shanequint",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4127808?u=ba0c0364b887a243f0e5e7ca8714559b03dee844&v=4",
+    "nbRepos": 2,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "dataReactive": {
+    "login": "dataReactive",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16281596?v=4",
+    "nbRepos": 278,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "rhizalpatrax64bit": {
+    "login": "rhizalpatrax64bit",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6958755?u=3e947662200dcd83fff9158d7269037bd867e03d&v=4",
+    "nbRepos": 68,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "streeboga": {
+    "login": "streeboga",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6660983?u=7a962a98aca8330214b868f8c4786585222e85b6&v=4",
+    "nbRepos": 164,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "artpar": {
+    "login": "artpar",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1142886?v=4",
+    "nbRepos": 127,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "tuutoo": {
+    "login": "tuutoo",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/9068314?v=4",
+    "nbRepos": 61,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "boban-dj": {
+    "login": "boban-dj",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/5364226?u=e7ad009373d2110981891b84ea3f0a6016dad89e&v=4",
+    "nbRepos": 311,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "bobquest33": {
+    "login": "bobquest33",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2017339?u=0fca41028150cffde390c8416d840665258197ab&v=4",
+    "createdAt": "7/21/2012",
+    "nbFollowers": 47,
+    "nbFollowings": 529,
+    "nbStarredRepos": 1323,
+    "nbRepos": 974,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "websiteUrl": "http://in.linkedin.com/pub/priyabrata-dash/15/16b/216"
+  },
+  "sparkrisp": {
+    "login": "sparkrisp",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/7264743?v=4",
+    "nbRepos": 19,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "soediro": {
+    "login": "soediro",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2165397?u=a58b9b88b9274af003d26224b4d859dfea1ac1ef&v=4",
+    "createdAt": "8/16/2012",
+    "nbFollowers": 33,
+    "nbFollowings": 122,
+    "nbStarredRepos": 374,
+    "nbRepos": 265,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "websiteUrl": "https://www.linkedin.com/in/sudiro/",
+    "bio": "Software Architect",
+    "location": "Jakarta, Indonesia",
+    "company": "MDE zone"
+  },
+  "Codetropy": {
+    "login": "Codetropy",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/30301794?v=4",
+    "nbRepos": 54,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "jeantsai": {
+    "login": "jeantsai",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1218358?u=65e3f3e75488fc5c941b440be582105392d66e94&v=4",
+    "nbRepos": 41,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "MySpamKit": {
+    "login": "MySpamKit",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/18358148?v=4",
+    "createdAt": "4/8/2016",
+    "nbFollowers": 1,
+    "nbFollowings": 24,
+    "nbStarredRepos": 169,
+    "nbRepos": 32,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [
+      "evolutility-ui-jquery"
+    ]
+  },
+  "forever9980": {
+    "login": "forever9980",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/17608463?v=4",
+    "nbRepos": 20,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "claratech": {
+    "login": "claratech",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/29809703?v=4",
+    "nbRepos": 14,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "jgc999": {
+    "login": "jgc999",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/72007107?v=4",
+    "nbRepos": 1,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "ppingpping": {
+    "login": "ppingpping",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/68377358?v=4",
+    "nbRepos": 17,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "rendrapraisindo": {
+    "login": "rendrapraisindo",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/37527416?v=4",
+    "nbRepos": 5,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "richiwarmen": {
+    "login": "richiwarmen",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/9944807?u=a794417571366c0725156af51bba77bce7c21623&v=4",
+    "nbRepos": 30,
+    "forked": [
+      "evolutility-ui-jquery"
     ],
     "starred": []
   },
   "eymengunay": {
     "login": "eymengunay",
-    "location": "Belgrade",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/242627?u=f328b844b9f1a7e711a409311eb7362d89cf2f87&v=4",
-    "websiteUrl": "egunay.com",
-    "company": "Munogu",
     "createdAt": "4/12/2010",
     "nbFollowers": 23,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 451
-    },
+    "nbStarredRepos": 452,
     "nbRepos": 35,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://egunay.com",
+    "location": "Belgrade",
+    "company": "Munogu"
   },
   "robertdean": {
     "login": "robertdean",
@@ -9525,9 +9192,7 @@ const fans = {
     "createdAt": "10/7/2010",
     "nbFollowers": 12,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 2183
-    },
+    "nbStarredRepos": 2188,
     "nbRepos": 47,
     "follower": false,
     "starred": [
@@ -9538,55 +9203,49 @@ const fans = {
   "thomasst": {
     "login": "thomasst",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/68381?v=4",
-    "websiteUrl": "http://thomasst.ch",
     "createdAt": "3/29/2009",
-    "nbFollowers": 67,
+    "nbFollowers": 68,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 36
-    },
-    "nbRepos": 22,
+    "nbStarredRepos": 36,
+    "nbRepos": 24,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://thomasst.ch"
   },
   "tomyun": {
     "login": "tomyun",
-    "location": "Seattle, WA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/906626?v=4",
-    "websiteUrl": "https://twitter.com/tomyun",
     "createdAt": "7/10/2011",
     "nbFollowers": 57,
-    "nbFollowings": 41,
-    "nbStarredRepos": {
-      "totalCount": 527
-    },
-    "nbRepos": 56,
+    "nbFollowings": 42,
+    "nbStarredRepos": 528,
+    "nbRepos": 59,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://twitter.com/tomyun",
+    "location": "Seattle, WA"
   },
   "recca0120": {
     "login": "recca0120",
-    "location": "taiwan",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1390554?u=c4eb46f1f98546e3a993bfe8769d5e814cb93542&v=4",
-    "websiteUrl": "http://recca0120.github.io/",
     "createdAt": "1/29/2012",
-    "nbFollowers": 282,
+    "nbFollowers": 287,
     "nbFollowings": 366,
-    "nbStarredRepos": {
-      "totalCount": 1778
-    },
-    "nbRepos": 123,
+    "nbStarredRepos": 1797,
+    "nbRepos": 124,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://recca0120.github.io/",
+    "location": "taiwan"
   },
   "heyman8909": {
     "login": "heyman8909",
@@ -9594,9 +9253,7 @@ const fans = {
     "createdAt": "9/2/2013",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 34
-    },
+    "nbStarredRepos": 34,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -9606,21 +9263,19 @@ const fans = {
   },
   "Graghav": {
     "login": "Graghav",
-    "location": "Chennai",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5223649?u=2f012fca6120bba849f186c5f2c707b4eacf378c&v=4",
-    "company": "Zuper",
     "createdAt": "8/13/2013",
     "nbFollowers": 31,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 560
-    },
-    "nbRepos": 40,
+    "nbStarredRepos": 560,
+    "nbRepos": 41,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Chennai",
+    "company": "Zuper"
   },
   "PankajsT": {
     "login": "PankajsT",
@@ -9628,9 +9283,7 @@ const fans = {
     "createdAt": "2/1/2012",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -9644,11 +9297,9 @@ const fans = {
     "login": "RoryOSiochain",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/721089?v=4",
     "createdAt": "4/10/2011",
-    "nbFollowers": 5,
+    "nbFollowers": 6,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 679
-    },
+    "nbStarredRepos": 679,
     "nbRepos": 133,
     "follower": false,
     "starred": [
@@ -9658,86 +9309,76 @@ const fans = {
   },
   "dstelow": {
     "login": "dstelow",
-    "bio": "software consultant, former cto (@ghe_inc), long-time software developer, mostly c# and .net, and of course the ubiquitous web stack...bsme/mba/usaf-icbm",
-    "location": "kihei, hi",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/215716?u=f84892531ad9f85a8a1790ead54422934e9e2c52&v=4",
-    "company": "Nordev Software",
     "createdAt": "3/4/2010",
     "nbFollowers": 7,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 608
-    },
+    "nbStarredRepos": 617,
     "nbRepos": 14,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "software consultant, former cto (@ghe_inc), long-time software developer, mostly c# and .net, and of course the ubiquitous web stack...bsme/mba/usaf-icbm",
+    "location": "kihei, hi",
+    "company": "Nordev Software"
   },
   "PerditionC": {
     "login": "PerditionC",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/505281?v=4",
-    "websiteUrl": "fdos.org",
     "createdAt": "12/1/2010",
     "nbFollowers": 47,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 4818
-    },
+    "nbStarredRepos": 4863,
     "nbRepos": 35,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://fdos.org"
   },
   "bivald": {
     "login": "bivald",
-    "location": "Sweden",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/327416?v=4",
-    "websiteUrl": "http://www.bivald.com",
-    "company": "@enplore ",
     "createdAt": "7/9/2010",
     "nbFollowers": 13,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 263
-    },
+    "nbStarredRepos": 264,
     "nbRepos": 38,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.bivald.com",
+    "location": "Sweden",
+    "company": "@enplore "
   },
   "dialedin": {
     "login": "dialedin",
-    "location": "Los Angeles, CA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/41342?v=4",
-    "company": "Dialed In, Inc.",
     "createdAt": "12/18/2008",
     "nbFollowers": 7,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 75
-    },
+    "nbStarredRepos": 75,
     "nbRepos": 1,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Los Angeles, CA",
+    "company": "Dialed In, Inc."
   },
   "graste": {
     "login": "graste",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/203540?v=4",
     "createdAt": "2/14/2010",
     "nbFollowers": 72,
-    "nbFollowings": 473,
-    "nbStarredRepos": {
-      "totalCount": 5762
-    },
+    "nbFollowings": 478,
+    "nbStarredRepos": 5832,
     "nbRepos": 81,
     "follower": false,
     "starred": [
@@ -9751,9 +9392,7 @@ const fans = {
     "createdAt": "2/7/2010",
     "nbFollowers": 9,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 1895
-    },
+    "nbStarredRepos": 1910,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -9763,40 +9402,36 @@ const fans = {
   },
   "xgrommx": {
     "login": "xgrommx",
-    "location": "UA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1499594?u=6e16ace4a6f48e381b3fa7e19ebe1fa3a017b051&v=4",
-    "websiteUrl": "https://twitter.com/xgrommx",
     "createdAt": "3/4/2012",
     "nbFollowers": 487,
     "nbFollowings": 73,
-    "nbStarredRepos": {
-      "totalCount": 3756
-    },
+    "nbStarredRepos": 3755,
     "nbRepos": 763,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://twitter.com/xgrommx",
+    "location": "UA"
   },
   "iushev": {
     "login": "iushev",
-    "location": "Stara Zagora, Bulgaria",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3023174?v=4",
-    "websiteUrl": "http://aris-soft.com",
-    "company": "Aris Soft Ltd.",
     "createdAt": "12/11/2012",
     "nbFollowers": 2,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 43
-    },
+    "nbStarredRepos": 43,
     "nbRepos": 12,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://aris-soft.com",
+    "location": "Stara Zagora, Bulgaria",
+    "company": "Aris Soft Ltd."
   },
   "CinoLin": {
     "login": "CinoLin",
@@ -9804,9 +9439,7 @@ const fans = {
     "createdAt": "2/14/2014",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 64
-    },
+    "nbStarredRepos": 64,
     "nbRepos": 20,
     "follower": false,
     "starred": [
@@ -9816,86 +9449,73 @@ const fans = {
   },
   "adrianojlt": {
     "login": "adrianojlt",
-    "location": "Porto",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/799221?u=2fc86fb1ae9a11c29f5a64e917676109bdeb2e41&v=4",
     "createdAt": "5/19/2011",
     "nbFollowers": 8,
     "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 96
-    },
+    "nbStarredRepos": 98,
     "nbRepos": 25,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Porto"
   },
   "JacquesW": {
     "login": "JacquesW",
-    "location": "Beijing",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1476640?u=9ebc1ef7f6f6c037b185cb84d41e660cf9bf88d8&v=4",
     "createdAt": "2/26/2012",
     "nbFollowers": 11,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 255
-    },
+    "nbStarredRepos": 255,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Beijing"
   },
   "whitesmell": {
     "login": "whitesmell",
-    "location": "Hangzhou, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1411087?v=4",
-    "company": "H3C",
     "createdAt": "2/5/2012",
-    "nbFollowers": 9,
+    "nbFollowers": 10,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 600
-    },
+    "nbStarredRepos": 605,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Hangzhou, China",
+    "company": "H3C"
   },
   "deluxebear": {
     "login": "deluxebear",
-    "location": "china",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/485793?u=83d233c2d20871cf34047ec5e30ae288efdd1ff2&v=4",
-    "websiteUrl": "http://www.jetems.com",
     "createdAt": "11/17/2010",
     "nbFollowers": 4,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 419
-    },
+    "nbStarredRepos": 425,
     "nbRepos": 61,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.jetems.com",
+    "location": "china"
   },
   "mickelfeng": {
     "login": "mickelfeng",
-    "location": "China",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1442266?v=4",
-    "websiteUrl": "http://mickelfeng.php100.com",
-    "company": "mickelfeng",
     "createdAt": "2/15/2012",
-    "nbFollowers": 22,
+    "nbFollowers": 21,
     "nbFollowings": 172,
-    "nbStarredRepos": {
-      "totalCount": 1026
-    },
+    "nbStarredRepos": 1026,
     "nbRepos": 1081,
     "follower": false,
     "starred": [
@@ -9903,43 +9523,42 @@ const fans = {
     ],
     "forked": [
       "structured-filter"
-    ]
+    ],
+    "websiteUrl": "http://mickelfeng.php100.com",
+    "location": "China",
+    "company": "mickelfeng"
   },
   "dragon3": {
     "login": "dragon3",
-    "bio": "Software Engineer / Tech Lead of Microservices Platform CI/CD Team @mercari, loves rock music, guitar, shōchū rock and New York.",
-    "location": "Fukuoka, Japan",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/20374?v=4",
-    "company": "Mercari",
     "createdAt": "8/12/2008",
-    "nbFollowers": 106,
+    "nbFollowers": 109,
     "nbFollowings": 230,
-    "nbStarredRepos": {
-      "totalCount": 2013
-    },
+    "nbStarredRepos": 2016,
     "nbRepos": 89,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Software Engineer / Tech Lead of Microservices Platform CI/CD Team @mercari, loves rock music, guitar, shōchū rock and New York.",
+    "location": "Fukuoka, Japan",
+    "company": "Mercari"
   },
   "eviao": {
     "login": "eviao",
-    "location": "China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2714787?v=4",
     "createdAt": "11/3/2012",
     "nbFollowers": 5,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 935
-    },
+    "nbStarredRepos": 935,
     "nbRepos": 10,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "China"
   },
   "heycms": {
     "login": "heycms",
@@ -9947,9 +9566,7 @@ const fans = {
     "createdAt": "4/4/2012",
     "nbFollowers": 6,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 632
-    },
+    "nbStarredRepos": 633,
     "nbRepos": 123,
     "follower": false,
     "starred": [
@@ -9963,9 +9580,7 @@ const fans = {
     "createdAt": "1/2/2013",
     "nbFollowers": 8,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 465
-    },
+    "nbStarredRepos": 465,
     "nbRepos": 25,
     "follower": false,
     "starred": [
@@ -9979,10 +9594,8 @@ const fans = {
     "createdAt": "1/7/2011",
     "nbFollowers": 11,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 1725
-    },
-    "nbRepos": 24,
+    "nbStarredRepos": 1785,
+    "nbRepos": 28,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9991,150 +9604,134 @@ const fans = {
   },
   "raphaelcarlosr": {
     "login": "raphaelcarlosr",
-    "location": "São Paulo, Brasil",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/483708?u=c5769365d06b962e632bb4abc892044c227c4ad2&v=4",
-    "websiteUrl": "http://raphaelcarlosr.com",
     "createdAt": "11/16/2010",
-    "nbFollowers": 4,
+    "nbFollowers": 5,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 914
-    },
+    "nbStarredRepos": 918,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://raphaelcarlosr.com",
+    "location": "São Paulo, Brasil"
   },
   "emetik": {
     "login": "emetik",
-    "location": "Belgium",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1504311?u=cd39cd570f9f58e074b45aa7414b931bdfe11b11&v=4",
     "createdAt": "3/5/2012",
     "nbFollowers": 1,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 87
-    },
+    "nbStarredRepos": 87,
     "nbRepos": 52,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Belgium"
   },
   "AndyStobirski": {
     "login": "AndyStobirski",
-    "location": "UK",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6266549?u=6bb92ed2c42e9ff6b5ed81f3de9ebda8c996f0b8&v=4",
-    "websiteUrl": "www.evilscience.co.uk",
     "createdAt": "12/26/2013",
     "nbFollowers": 6,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 23
-    },
+    "nbStarredRepos": 23,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.evilscience.co.uk",
+    "location": "UK"
   },
   "Vaviloff": {
     "login": "Vaviloff",
-    "location": "Krasnoyarsk, Russia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/458893?u=f04e6f9aeb4f418efb836fa67ce959343a4ae193&v=4",
-    "websiteUrl": "https://stackoverflow.com/users/2715393/vaviloff",
-    "company": "@automatio-co ",
     "createdAt": "10/28/2010",
-    "nbFollowers": 8,
+    "nbFollowers": 9,
     "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 1418
-    },
+    "nbStarredRepos": 1427,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://stackoverflow.com/users/2715393/vaviloff",
+    "location": "Krasnoyarsk, Russia",
+    "company": "@automatio-co "
   },
   "kro12": {
     "login": "kro12",
-    "bio": "twitter: @croninakakro",
-    "location": "Ireland",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1465154?u=800c1302c5c5573b96ca2b69cf8269324f7cc903&v=4",
-    "websiteUrl": "http://www.stitcherads.com",
-    "company": "@StitcherAds ",
     "createdAt": "2/23/2012",
     "nbFollowers": 4,
     "nbFollowings": 21,
-    "nbStarredRepos": {
-      "totalCount": 52
-    },
+    "nbStarredRepos": 52,
     "nbRepos": 6,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.stitcherads.com",
+    "bio": "twitter: @croninakakro",
+    "location": "Ireland",
+    "company": "@StitcherAds "
   },
   "zenith6": {
     "login": "zenith6",
-    "location": "Shimane",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/386508?u=6a388162dab0e696ee44f04499f98b52e1a5174c&v=4",
-    "websiteUrl": "http://zenith6.github.io/",
-    "company": "Japan",
     "createdAt": "9/3/2010",
     "nbFollowers": 12,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 269
-    },
+    "nbStarredRepos": 270,
     "nbRepos": 15,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://zenith6.github.io/",
+    "location": "Shimane",
+    "company": "Japan"
   },
   "ktryndchrs": {
     "login": "ktryndchrs",
-    "location": "Montreal",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/416462?u=50721d2c44e29156468c4d361e2e72d62775c4bf&v=4",
-    "company": "POTLOC",
     "createdAt": "9/26/2010",
-    "nbFollowers": 8,
+    "nbFollowers": 9,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 253
-    },
-    "nbRepos": 10,
+    "nbStarredRepos": 253,
+    "nbRepos": 11,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Montreal",
+    "company": "POTLOC"
   },
   "egfx": {
     "login": "egfx",
-    "location": "Santa Monica",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/428992?v=4",
-    "websiteUrl": "gif.com.ai",
     "createdAt": "10/5/2010",
     "nbFollowers": 18,
     "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 2521
-    },
+    "nbStarredRepos": 2532,
     "nbRepos": 37,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://gif.com.ai",
+    "location": "Santa Monica"
   },
   "iloris": {
     "login": "iloris",
@@ -10142,9 +9739,7 @@ const fans = {
     "createdAt": "4/12/2012",
     "nbFollowers": 8,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 195
-    },
+    "nbStarredRepos": 195,
     "nbRepos": 40,
     "follower": false,
     "starred": [
@@ -10156,12 +9751,10 @@ const fans = {
     "login": "PetrSnobelt",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1737335?v=4",
     "createdAt": "5/14/2012",
-    "nbFollowers": 9,
+    "nbFollowers": 10,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 419
-    },
-    "nbRepos": 43,
+    "nbStarredRepos": 422,
+    "nbRepos": 42,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10174,9 +9767,7 @@ const fans = {
     "createdAt": "1/11/2010",
     "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 87
-    },
+    "nbStarredRepos": 89,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -10190,9 +9781,7 @@ const fans = {
     "createdAt": "10/22/2013",
     "nbFollowers": 7,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 282
-    },
+    "nbStarredRepos": 285,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -10202,93 +9791,83 @@ const fans = {
   },
   "harslannet": {
     "login": "harslannet",
-    "location": "istanbul",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/374136?u=b3feff8553060163217cec528d30e98fd729f8c6&v=4",
-    "websiteUrl": "https://hakanarslan.net",
     "createdAt": "8/23/2010",
     "nbFollowers": 11,
     "nbFollowings": 95,
-    "nbStarredRepos": {
-      "totalCount": 238
-    },
+    "nbStarredRepos": 239,
     "nbRepos": 1,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://hakanarslan.net",
+    "location": "istanbul"
   },
   "aindlq": {
     "login": "aindlq",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2255044?u=9de88e7f32a4aa7bebe37a062200cac2968fe2f9&v=4",
-    "company": "@researchspace",
     "createdAt": "8/31/2012",
     "nbFollowers": 15,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 306
-    },
-    "nbRepos": 5,
+    "nbStarredRepos": 309,
+    "nbRepos": 6,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "company": "@researchspace"
   },
   "Talanor": {
     "login": "Talanor",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2121473?u=c0a334ae11f6d53bc6417bee33b1f95158c15188&v=4",
-    "company": "OPUS Solutions",
     "createdAt": "8/8/2012",
-    "nbFollowers": 40,
+    "nbFollowers": 42,
     "nbFollowings": 40,
-    "nbStarredRepos": {
-      "totalCount": 751
-    },
+    "nbStarredRepos": 758,
     "nbRepos": 34,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "company": "OPUS Solutions"
   },
   "mobjohnson": {
     "login": "mobjohnson",
-    "bio": "Web Dev. \r\n\r\nFormer Apprentice to a Master Draftsman",
-    "location": "United States",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7301882?u=9386e35121af3185374842c7e31c3d576bb9e8c9&v=4",
-    "websiteUrl": "http://mobjohnson.com",
-    "company": "CALIBRE",
     "createdAt": "4/15/2014",
     "nbFollowers": 6,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
+    "nbStarredRepos": 4,
     "nbRepos": 30,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://mobjohnson.com",
+    "bio": "Web Dev. \r\n\r\nFormer Apprentice to a Master Draftsman",
+    "location": "United States",
+    "company": "CALIBRE"
   },
   "leongkui": {
     "login": "leongkui",
-    "location": "Little Red Dot",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1661748?v=4",
-    "websiteUrl": "http://selectnull.leongkui.me",
     "createdAt": "4/19/2012",
-    "nbFollowers": 16,
+    "nbFollowers": 17,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 3100
-    },
+    "nbStarredRepos": 3123,
     "nbRepos": 11,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://selectnull.leongkui.me",
+    "location": "Little Red Dot"
   },
   "metinweb": {
     "login": "metinweb",
@@ -10296,9 +9875,7 @@ const fans = {
     "createdAt": "6/25/2010",
     "nbFollowers": 5,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 127
-    },
+    "nbStarredRepos": 126,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -10312,10 +9889,8 @@ const fans = {
     "createdAt": "3/17/2010",
     "nbFollowers": 10,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 1296
-    },
-    "nbRepos": 155,
+    "nbStarredRepos": 1297,
+    "nbRepos": 157,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10324,52 +9899,46 @@ const fans = {
   },
   "conglin": {
     "login": "conglin",
-    "location": "Beijing, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/393294?v=4",
-    "websiteUrl": "http://ihere.appspot.com",
-    "company": "iHere ",
     "createdAt": "9/9/2010",
-    "nbFollowers": 14,
+    "nbFollowers": 13,
     "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 695
-    },
+    "nbStarredRepos": 695,
     "nbRepos": 33,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://ihere.appspot.com",
+    "location": "Beijing, China",
+    "company": "iHere "
   },
   "tylerlong": {
     "login": "tylerlong",
-    "bio": "硅谷老刘，美国硅谷上班的80后码农",
-    "location": "Belmont, CA, United States",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/733544?u=9f0c72d22ac493fd57c9c97c58522e713d7261ec&v=4",
-    "websiteUrl": "https://medium.com/@tylerlong",
-    "company": "RingCentral",
     "createdAt": "4/16/2011",
-    "nbFollowers": 302,
+    "nbFollowers": 307,
     "nbFollowings": 126,
-    "nbStarredRepos": {
-      "totalCount": 812
-    },
-    "nbRepos": 381,
+    "nbStarredRepos": 817,
+    "nbRepos": 384,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://medium.com/@tylerlong",
+    "bio": "硅谷老刘，美国硅谷上班的80后码农",
+    "location": "Belmont, CA, United States",
+    "company": "RingCentral"
   },
   "IanTeng": {
     "login": "IanTeng",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7042367?v=4",
     "createdAt": "3/23/2014",
-    "nbFollowers": 3,
+    "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 644
-    },
+    "nbStarredRepos": 647,
     "nbRepos": 28,
     "follower": false,
     "starred": [
@@ -10383,9 +9952,7 @@ const fans = {
     "createdAt": "11/1/2013",
     "nbFollowers": 7,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 63
-    },
+    "nbStarredRepos": 63,
     "nbRepos": 30,
     "follower": false,
     "starred": [
@@ -10399,9 +9966,7 @@ const fans = {
     "createdAt": "2/11/2014",
     "nbFollowers": 2,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 337
-    },
+    "nbStarredRepos": 338,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -10411,20 +9976,18 @@ const fans = {
   },
   "send2cloud": {
     "login": "send2cloud",
-    "bio": "Livin in the Cloud. (except when it rains)",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2567775?u=19b15f8c9c493a609ce27ef582a88f8321c38cc8&v=4",
     "createdAt": "10/15/2012",
     "nbFollowers": 7,
     "nbFollowings": 17,
-    "nbStarredRepos": {
-      "totalCount": 438
-    },
-    "nbRepos": 235,
+    "nbStarredRepos": 445,
+    "nbRepos": 237,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Livin in the Cloud. (except when it rains)"
   },
   "bigfatsea": {
     "login": "bigfatsea",
@@ -10432,9 +9995,7 @@ const fans = {
     "createdAt": "7/3/2010",
     "nbFollowers": 15,
     "nbFollowings": 20,
-    "nbStarredRepos": {
-      "totalCount": 357
-    },
+    "nbStarredRepos": 359,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -10444,109 +10005,98 @@ const fans = {
   },
   "ZnakZorro": {
     "login": "ZnakZorro",
-    "location": "Poland, Szczecin",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/125705?v=4",
     "createdAt": "9/11/2009",
     "nbFollowers": 6,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 606
-    },
+    "nbStarredRepos": 610,
     "nbRepos": 101,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Poland, Szczecin"
   },
   "vamsiikrishna": {
     "login": "vamsiikrishna",
-    "location": "Bengaluru - India",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/554887?u=25a328212865684917dbfeeff0723f2e035ad38d&v=4",
-    "websiteUrl": "https://vamsii.com/",
     "createdAt": "1/9/2011",
-    "nbFollowers": 41,
-    "nbFollowings": 187,
-    "nbStarredRepos": {
-      "totalCount": 3449
-    },
+    "nbFollowers": 42,
+    "nbFollowings": 188,
+    "nbStarredRepos": 3461,
     "nbRepos": 41,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://vamsii.com/",
+    "location": "Bengaluru - India"
   },
   "vladiibine": {
     "login": "vladiibine",
-    "bio": "I'm a scientific soul trapped in a programmer's body.",
-    "location": "Cluj, Romania",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6544669?u=73f7db0467079842d78deb34efcfd5df26e2dee9&v=4",
     "createdAt": "1/30/2014",
     "nbFollowers": 34,
     "nbFollowings": 63,
-    "nbStarredRepos": {
-      "totalCount": 394
-    },
-    "nbRepos": 63,
+    "nbStarredRepos": 402,
+    "nbRepos": 65,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "I'm a scientific soul trapped in a programmer's body.",
+    "location": "Cluj, Romania"
   },
   "bentremblay": {
     "login": "bentremblay",
-    "location": "QC, Canada",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2693987?v=4",
-    "websiteUrl": "https://timelapsehc.com",
-    "company": "Timelapse",
     "createdAt": "10/31/2012",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 132
-    },
-    "nbRepos": 8,
+    "nbStarredRepos": 132,
+    "nbRepos": 9,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://timelapsehc.com",
+    "location": "QC, Canada",
+    "company": "Timelapse"
   },
   "ehagen": {
     "login": "ehagen",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1881184?u=560c75b1535732255c7c5853bdaa8c00d30fd86b&v=4",
-    "company": "Tedon Technology BV",
     "createdAt": "6/22/2012",
     "nbFollowers": 2,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 599
-    },
-    "nbRepos": 1,
+    "nbStarredRepos": 599,
+    "nbRepos": 0,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "company": "Tedon Technology BV"
   },
   "semencov": {
     "login": "semencov",
-    "location": "Riga, Latvia",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/200180?u=84be624c6fdf361cd88b4223b7291d162e1c4545&v=4",
     "createdAt": "2/9/2010",
     "nbFollowers": 9,
     "nbFollowings": 28,
-    "nbStarredRepos": {
-      "totalCount": 821
-    },
+    "nbStarredRepos": 836,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Riga, Latvia",
+    "company": "@intexsys"
   },
   "mehkar": {
     "login": "mehkar",
@@ -10554,9 +10104,7 @@ const fans = {
     "createdAt": "4/19/2014",
     "nbFollowers": 7,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 311
-    },
+    "nbStarredRepos": 317,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -10566,149 +10114,133 @@ const fans = {
   },
   "VladoMS": {
     "login": "VladoMS",
-    "location": "Veliko Tarnovo, Bulgaria",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1260166?v=4",
-    "websiteUrl": "http://vladislavstoyanov.com",
     "createdAt": "12/13/2011",
     "nbFollowers": 9,
     "nbFollowings": 49,
-    "nbStarredRepos": {
-      "totalCount": 656
-    },
+    "nbStarredRepos": 654,
     "nbRepos": 1,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://vladislavstoyanov.com",
+    "location": "Veliko Tarnovo, Bulgaria"
   },
   "kkopachev": {
     "login": "kkopachev",
-    "location": "SF",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2279051?v=4",
-    "company": "@PopSugar ",
     "createdAt": "9/4/2012",
     "nbFollowers": 19,
     "nbFollowings": 40,
-    "nbStarredRepos": {
-      "totalCount": 257
-    },
+    "nbStarredRepos": 257,
     "nbRepos": 38,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "SF",
+    "company": "@PopSugar "
   },
   "moshloop": {
     "login": "moshloop",
-    "location": "Johannesburg, South Africa",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1489660?u=40db18b932862f8077956d82f95297529ff5eab7&v=4",
-    "websiteUrl": "www.moshloop.com",
     "createdAt": "3/1/2012",
     "nbFollowers": 26,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 1177
-    },
-    "nbRepos": 106,
+    "nbStarredRepos": 1190,
+    "nbRepos": 107,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.moshloop.com",
+    "location": "Johannesburg, South Africa"
   },
   "Naoto-Ida": {
     "login": "Naoto-Ida",
-    "bio": "Foodie, Gamer, Musician, Beer Connoisseur. Batman of Tokyo.",
-    "location": "Berlin",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7748110?u=e2e4015ac89754273481208ae2716d77f53afbf2&v=4",
-    "company": "@researchgate",
     "createdAt": "5/30/2014",
     "nbFollowers": 28,
     "nbFollowings": 92,
-    "nbStarredRepos": {
-      "totalCount": 748
-    },
+    "nbStarredRepos": 747,
     "nbRepos": 77,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Foodie, Gamer, Musician, Beer Connoisseur. Batman of Tokyo.",
+    "location": "Berlin",
+    "company": "@researchgate"
   },
   "GeorgeL9": {
     "login": "GeorgeL9",
-    "bio": "Senior Mobile Engineer @Panera\r\nFounder @cloudbuilds-io",
-    "location": "Fort Collins, CO",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4140282?v=4",
-    "websiteUrl": "lejnine.com",
     "createdAt": "4/12/2013",
     "nbFollowers": 9,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 390
-    },
-    "nbRepos": 8,
-    "follower": false,
-    "starred": [
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "kpavlovsky": {
-    "login": "kpavlovsky",
-    "bio": "Django/Python dev for > decade.\r\nE-commerce, Email and Deployment automation",
-    "location": "Europe",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2241335?u=19036d67d9c6b7c08e74420ac03d8059d3b67ee9&v=4",
-    "createdAt": "8/29/2012",
-    "nbFollowers": 13,
-    "nbFollowings": 31,
-    "nbStarredRepos": {
-      "totalCount": 586
-    },
-    "nbRepos": 26,
-    "follower": false,
-    "starred": [
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "MattKetmo": {
-    "login": "MattKetmo",
-    "location": "Paris",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/334996?u=8f9106701751ef744c809150b995230e73ac7023&v=4",
-    "websiteUrl": "https://moquet.net",
-    "company": "BlaBlaCar",
-    "createdAt": "7/17/2010",
-    "nbFollowers": 161,
-    "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 2279
-    },
-    "nbRepos": 95,
-    "follower": false,
-    "starred": [
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "fidelfly": {
-    "login": "fidelfly",
-    "location": "ShenZhen, China",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/8488453?u=4cec699de776e17e726a533cd26937016b715055&v=4",
-    "createdAt": "8/19/2014",
-    "nbFollowers": 3,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 285
-    },
+    "nbStarredRepos": 393,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://lejnine.com",
+    "bio": "Senior Mobile Engineer @Panera\r\nFounder @cloudbuilds-io",
+    "location": "Fort Collins, CO"
+  },
+  "kpavlovsky": {
+    "login": "kpavlovsky",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2241335?u=19036d67d9c6b7c08e74420ac03d8059d3b67ee9&v=4",
+    "createdAt": "8/29/2012",
+    "nbFollowers": 13,
+    "nbFollowings": 31,
+    "nbStarredRepos": 595,
+    "nbRepos": 27,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "bio": "Django/Python dev for > decade.\r\nE-commerce, Email and Deployment automation",
+    "location": "Europe"
+  },
+  "MattKetmo": {
+    "login": "MattKetmo",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/334996?u=8f9106701751ef744c809150b995230e73ac7023&v=4",
+    "createdAt": "7/17/2010",
+    "nbFollowers": 162,
+    "nbFollowings": 26,
+    "nbStarredRepos": 2282,
+    "nbRepos": 95,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "https://moquet.net",
+    "location": "Paris",
+    "company": "BlaBlaCar"
+  },
+  "fidelfly": {
+    "login": "fidelfly",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8488453?u=4cec699de776e17e726a533cd26937016b715055&v=4",
+    "createdAt": "8/19/2014",
+    "nbFollowers": 3,
+    "nbFollowings": 0,
+    "nbStarredRepos": 290,
+    "nbRepos": 9,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "location": "ShenZhen, China"
   },
   "xerroux": {
     "login": "xerroux",
@@ -10716,9 +10248,7 @@ const fans = {
     "createdAt": "3/13/2013",
     "nbFollowers": 0,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 8
-    },
+    "nbStarredRepos": 8,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -10728,62 +10258,38 @@ const fans = {
   },
   "adg29": {
     "login": "adg29",
-    "location": "New York, New York",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/273865?u=22387378f3a8e1750d24451e487dafe37bb324ec&v=4",
-    "websiteUrl": "http://twitter.com/alangnative",
-    "company": "Galan Et Al",
     "createdAt": "5/11/2010",
     "nbFollowers": 38,
-    "nbFollowings": 148,
-    "nbStarredRepos": {
-      "totalCount": 1316
-    },
-    "nbRepos": 118,
+    "nbFollowings": 150,
+    "nbStarredRepos": 1325,
+    "nbRepos": 117,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
-  },
-  "ocarreterom": {
-    "login": "ocarreterom",
-    "bio": "JS 💛",
-    "location": "Valencia, Spain",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/11599942?u=8da6ccef8c7f4c6a300480f3c895458284ee9705&v=4",
-    "websiteUrl": "ocarreterom.github.io",
-    "company": "@Timp-pro",
-    "createdAt": "3/22/2015",
-    "nbFollowers": 11,
-    "nbFollowings": 23,
-    "nbStarredRepos": {
-      "totalCount": 220
-    },
-    "nbRepos": 9,
-    "follower": false,
-    "starred": [
-      "structured-filter"
-    ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://twitter.com/alangnative",
+    "location": "New York, New York",
+    "company": "Galan Et Al"
   },
   "jeffwu85182": {
     "login": "jeffwu85182",
-    "bio": "Front-end, always keen on learning and exploring new things.",
-    "location": "Xiamen, China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6157333?u=f5890e402d22e3abd26cd01c92cd2db35b2bfba8&v=4",
-    "websiteUrl": "https://blog.crazyalu.com",
-    "company": "@RingCentral",
     "createdAt": "12/10/2013",
     "nbFollowers": 37,
     "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 427
-    },
+    "nbStarredRepos": 427,
     "nbRepos": 44,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://blog.crazyalu.com",
+    "bio": "Front-end, always keen on learning and exploring new things.",
+    "location": "Xiamen, China",
+    "company": "@RingCentral"
   },
   "apenasisso": {
     "login": "apenasisso",
@@ -10791,9 +10297,7 @@ const fans = {
     "createdAt": "3/18/2009",
     "nbFollowers": 6,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 503
-    },
+    "nbStarredRepos": 504,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -10804,93 +10308,98 @@ const fans = {
   "bitsapien": {
     "login": "bitsapien",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3462960?u=5c8ec26841414e6ae225ff4f37cd9a297e5b4ec5&v=4",
-    "websiteUrl": "https://blog.bitsapien.dev",
-    "company": "@thoughtworks",
     "createdAt": "2/3/2013",
-    "nbFollowers": 16,
+    "nbFollowers": 15,
     "nbFollowings": 17,
-    "nbStarredRepos": {
-      "totalCount": 44
-    },
-    "nbRepos": 86,
+    "nbStarredRepos": 46,
+    "nbRepos": 87,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://blog.bitsapien.dev",
+    "company": "@thoughtworks"
   },
   "jameswyse": {
     "login": "jameswyse",
-    "location": "Brisbane, Australia",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1144357?u=03a416515c4f2594d9288fee260c9ba3f25784e4&v=4",
-    "company": "@airteamaus",
     "createdAt": "10/21/2011",
-    "nbFollowers": 50,
+    "nbFollowers": 51,
     "nbFollowings": 185,
-    "nbStarredRepos": {
-      "totalCount": 3450
-    },
+    "nbStarredRepos": 3449,
     "nbRepos": 43,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Brisbane, Australia",
+    "company": "@airteamaus"
   },
   "carlbrugger": {
     "login": "carlbrugger",
-    "bio": "Christian. Husband. Father. Firefighter. Outdoorsman. Ham Radio Operator. Woodworker.",
-    "location": "Nebraska",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4754531?u=b1eea91a33a322e36d9cc458ebd711988232a9d8&v=4",
-    "company": "@SimpleUpdates",
     "createdAt": "6/20/2013",
     "nbFollowers": 7,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 70
-    },
+    "nbStarredRepos": 70,
     "nbRepos": 3,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Christian. Husband. Father. Firefighter. Outdoorsman.",
+    "location": "Nebraska",
+    "company": "@SimpleUpdates"
   },
   "granda": {
     "login": "granda",
-    "bio": "Backend guy",
-    "location": "Tampa",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3467219?u=2d715f98c589eff619ba8dfcb492ca4b5855c26b&v=4",
     "createdAt": "2/3/2013",
     "nbFollowers": 11,
     "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 423
-    },
+    "nbStarredRepos": 422,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Backend guy",
+    "location": "Tampa"
   },
   "tasso94": {
     "login": "tasso94",
-    "location": "Berlin",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3015690?u=376e95bade66aef0ef7453e4fa09de174bece344&v=4",
-    "websiteUrl": "http://twitter.com/tasstastic",
     "createdAt": "12/11/2012",
-    "nbFollowers": 9,
+    "nbFollowers": 10,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 63
-    },
+    "nbStarredRepos": 64,
     "nbRepos": 19,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://twitter.com/tasstastic",
+    "location": "Berlin"
+  },
+  "manojSelvam": {
+    "login": "manojSelvam",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4885821?v=4",
+    "createdAt": "6/29/2013",
+    "nbFollowers": 15,
+    "nbFollowings": 17,
+    "nbStarredRepos": 1075,
+    "nbRepos": 18,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "location": "Leicester "
   },
   "milankuzmanovic": {
     "login": "milankuzmanovic",
@@ -10913,7 +10422,7 @@ const fans = {
   "swarzesherz": {
     "login": "swarzesherz",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/197827?u=17050c01b5581a29971428816f1b823036a4767d&v=4",
-    "nbRepos": 75,
+    "nbRepos": 76,
     "forked": [
       "structured-filter"
     ],
@@ -10928,8 +10437,8 @@ const fans = {
     ],
     "starred": []
   },
-  "yashiel": {
-    "login": "yashiel",
+  "yashilanka": {
+    "login": "yashilanka",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/866524?u=5acc45363a0cf77b5ebf1c07d8e02a6694ec5bdc&v=4",
     "nbRepos": 1742,
     "forked": [
@@ -10940,7 +10449,7 @@ const fans = {
   "jkso": {
     "login": "jkso",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1902849?v=4",
-    "nbRepos": 329,
+    "nbRepos": 336,
     "forked": [
       "structured-filter"
     ],
@@ -11003,7 +10512,7 @@ const fans = {
   "kk9599": {
     "login": "kk9599",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4256810?u=204c64139495a831b8d9fb9acf03b3de9045fa20&v=4",
-    "nbRepos": 446,
+    "nbRepos": 445,
     "forked": [
       "structured-filter"
     ],
@@ -11012,7 +10521,7 @@ const fans = {
   "modulexcite": {
     "login": "modulexcite",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/12729391?u=cfea496d75552e2a100485f84de63e9f4bd98b0a&v=4",
-    "nbRepos": 14574,
+    "nbRepos": 14592,
     "forked": [
       "structured-filter"
     ],
@@ -11021,7 +10530,7 @@ const fans = {
   "antx42": {
     "login": "antx42",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3909670?v=4",
-    "nbRepos": 13,
+    "nbRepos": 16,
     "forked": [
       "structured-filter"
     ],
@@ -11039,7 +10548,7 @@ const fans = {
   "mfazekas": {
     "login": "mfazekas",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/52435?v=4",
-    "nbRepos": 93,
+    "nbRepos": 95,
     "forked": [
       "structured-filter"
     ],
@@ -11123,9 +10632,7 @@ const fans = {
     "createdAt": "4/19/2016",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 177
-    },
+    "nbStarredRepos": 183,
     "nbRepos": 13,
     "follower": false,
     "starred": [
@@ -11146,15 +10653,11 @@ const fans = {
   },
   "fanhaipeng0403": {
     "login": "fanhaipeng0403",
-    "bio": "Things always get worse before they get better\r\n",
-    "location": "北京",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/19604944?u=485f3b26a108ab8c682e678c1d227b10ca72ad14&v=4",
     "createdAt": "5/27/2016",
-    "nbFollowers": 25,
+    "nbFollowers": 26,
     "nbFollowings": 193,
-    "nbStarredRepos": {
-      "totalCount": 233
-    },
+    "nbStarredRepos": 233,
     "nbRepos": 309,
     "follower": false,
     "starred": [
@@ -11162,12 +10665,14 @@ const fans = {
     ],
     "forked": [
       "structured-filter"
-    ]
+    ],
+    "bio": "Things always get worse before they get better\r\n",
+    "location": "北京"
   },
   "mrash14": {
     "login": "mrash14",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6044543?v=4",
-    "nbRepos": 17,
+    "nbRepos": 18,
     "forked": [
       "structured-filter"
     ],
@@ -11176,7 +10681,7 @@ const fans = {
   "cornershop": {
     "login": "cornershop",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/12075096?v=4",
-    "nbRepos": 31,
+    "nbRepos": 32,
     "forked": [
       "structured-filter"
     ],
@@ -11202,65 +10707,59 @@ const fans = {
   },
   "asadalidev": {
     "login": "asadalidev",
-    "bio": "A passionate coder, fantastic troubleshooter, and enthusiastic full stack developer.",
-    "location": "Karachi, Pakistan",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10147174?u=47665b90354cb7296a20c312a4b41c3be4c9f411&v=4",
-    "websiteUrl": "https://asadali.dev",
     "createdAt": "12/10/2014",
     "nbFollowers": 1,
-    "nbFollowings": 28,
-    "nbStarredRepos": {
-      "totalCount": 42
-    },
-    "nbRepos": 23,
+    "nbFollowings": 29,
+    "nbStarredRepos": 46,
+    "nbRepos": 24,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [
       "structured-filter"
-    ]
+    ],
+    "websiteUrl": "https://asadali.dev",
+    "bio": "A passionate coder, fantastic troubleshooter, and enthusiastic full stack developer.",
+    "location": "Karachi, Pakistan"
   },
   "Akshay-Hegde": {
     "login": "Akshay-Hegde",
-    "location": "Dona Paula, Goa , India ",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7464492?v=4",
-    "websiteUrl": "https://stackoverflow.com/users/3161993/?tab=profile",
-    "company": "CSIR-NIO",
     "createdAt": "5/1/2014",
     "nbFollowers": 6,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 38
-    },
-    "nbRepos": 384,
+    "nbStarredRepos": 38,
+    "nbRepos": 385,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [
       "structured-filter"
-    ]
+    ],
+    "websiteUrl": "https://stackoverflow.com/users/3161993/?tab=profile",
+    "location": "Dona Paula, Goa , India ",
+    "company": "CSIR-NIO"
   },
   "yusufkaratoprak": {
     "login": "yusufkaratoprak",
-    "bio": "I'm an IT engineer who loves software development and agile programming techniques. I am experienced enough in programming of various client/server",
-    "location": "istanbul,Turkey",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6344108?u=fd264a986cde6d50ccd2c0ab29e9b64d27451884&v=4",
     "createdAt": "1/7/2014",
-    "nbFollowers": 7,
+    "nbFollowers": 6,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 55
-    },
-    "nbRepos": 44,
+    "nbStarredRepos": 56,
+    "nbRepos": 53,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [
       "structured-filter"
-    ]
+    ],
+    "bio": "I'm an IT engineer who loves software development and agile programming techniques. I am experienced enough in programming of various client/server",
+    "location": "istanbul,Turkey"
   },
   "LborV": {
     "login": "LborV",
@@ -11292,7 +10791,7 @@ const fans = {
   "daikuei": {
     "login": "daikuei",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/22676583?u=e41a7dccc100ae1f7a4c79d5f4ed984dd9ff5870&v=4",
-    "nbRepos": 46,
+    "nbRepos": 47,
     "forked": [
       "structured-filter"
     ],
@@ -11309,58 +10808,52 @@ const fans = {
   },
   "beevelop": {
     "login": "beevelop",
-    "bio": "CTO at @neohelden. Admiring Node.js, Docker, Go, React, Flutter and hamburgers. 🐝 ",
-    "location": "Karlsruhe, Germany",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6891349?u=dff0ebf6066246b02b8785df7c6d3a2037e5a562&v=4",
-    "websiteUrl": "https://about.me/beevelop",
-    "company": "@Neohelden ",
     "createdAt": "3/8/2014",
-    "nbFollowers": 141,
-    "nbFollowings": 67,
-    "nbStarredRepos": {
-      "totalCount": 904
-    },
+    "nbFollowers": 144,
+    "nbFollowings": 71,
+    "nbStarredRepos": 915,
     "nbRepos": 142,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://about.me/beevelop",
+    "bio": "CTO at @neohelden. Barista at @Flutter-Coffee. Admiring Flutter, Docker, Typescript, React and hamburgers. 🐝 ",
+    "location": "Karlsruhe, Germany",
+    "company": "@Neohelden "
   },
   "avinashkoyyana": {
     "login": "avinashkoyyana",
-    "location": "hyderabad",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1942620?v=4",
     "createdAt": "7/9/2012",
     "nbFollowers": 46,
     "nbFollowings": 50,
-    "nbStarredRepos": {
-      "totalCount": 7658
-    },
-    "nbRepos": 9,
+    "nbStarredRepos": 7671,
+    "nbRepos": 11,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "hyderabad"
   },
   "heinnge": {
     "login": "heinnge",
-    "location": "Myanmar",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/14687?v=4",
     "createdAt": "6/23/2008",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 226
-    },
+    "nbStarredRepos": 227,
     "nbRepos": 66,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery",
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Myanmar"
   },
   "sberdyug": {
     "login": "sberdyug",
@@ -11368,9 +10861,7 @@ const fans = {
     "createdAt": "9/21/2014",
     "nbFollowers": 8,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 103
-    },
+    "nbStarredRepos": 103,
     "nbRepos": 65,
     "follower": false,
     "starred": [
@@ -11380,58 +10871,52 @@ const fans = {
   },
   "skprasadu": {
     "login": "skprasadu",
-    "bio": "Full Stack Engineer",
-    "location": "Seattle, WA",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1975088?u=fb5cfc08433fc2a5d3f651946b896ac80456dc16&v=4",
-    "websiteUrl": "https://skprasadu.github.io/",
-    "company": "HCL America Inc.",
     "createdAt": "7/14/2012",
     "nbFollowers": 85,
     "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 67
-    },
-    "nbRepos": 28,
+    "nbStarredRepos": 66,
+    "nbRepos": 29,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://skprasadu.github.io/",
+    "bio": "Full Stack Engineer",
+    "location": "Seattle, WA",
+    "company": "HCL America Inc."
   },
   "wangxiaolong100": {
     "login": "wangxiaolong100",
-    "location": "China",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3763994?u=5adf2f9d134543b31497ef44bfcbd224ce14809f&v=4",
-    "websiteUrl": "blog.wxl.fun",
     "createdAt": "3/4/2013",
     "nbFollowers": 6,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 615
-    },
+    "nbStarredRepos": 617,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://blog.wxl.fun",
+    "location": "China"
   },
   "roslawomir": {
     "login": "roslawomir",
-    "location": "Poland, Kociewie",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10368814?u=af88e53ff399ae28375def4facd0170e5a62c259&v=4",
     "createdAt": "1/1/2015",
     "nbFollowers": 1,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 129
-    },
+    "nbStarredRepos": 129,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Poland, Kociewie"
   },
   "rophy": {
     "login": "rophy",
@@ -11439,9 +10924,7 @@ const fans = {
     "createdAt": "1/30/2011",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 193
-    },
+    "nbStarredRepos": 193,
     "nbRepos": 43,
     "follower": false,
     "starred": [
@@ -11455,9 +10938,7 @@ const fans = {
     "createdAt": "10/17/2011",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 26
-    },
+    "nbStarredRepos": 26,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -11467,22 +10948,20 @@ const fans = {
   },
   "nikmauro": {
     "login": "nikmauro",
-    "location": "Athens, Greece",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1499193?v=4",
-    "websiteUrl": "http://www.cdl.gr",
-    "company": "CDL",
     "createdAt": "3/4/2012",
     "nbFollowers": 6,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 483
-    },
+    "nbStarredRepos": 483,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.cdl.gr",
+    "location": "Athens, Greece",
+    "company": "CDL"
   },
   "SibLiant": {
     "login": "SibLiant",
@@ -11490,9 +10969,7 @@ const fans = {
     "createdAt": "12/24/2010",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 126
-    },
+    "nbStarredRepos": 133,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -11506,9 +10983,7 @@ const fans = {
     "createdAt": "6/3/2013",
     "nbFollowers": 11,
     "nbFollowings": 49,
-    "nbStarredRepos": {
-      "totalCount": 693
-    },
+    "nbStarredRepos": 694,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -11519,20 +10994,18 @@ const fans = {
   },
   "HelioGuilherme66": {
     "login": "HelioGuilherme66",
-    "location": "Portugal",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2866630?u=0826de1bda7201e43ae9888c12e4d85023a17467&v=4",
     "createdAt": "11/22/2012",
-    "nbFollowers": 87,
-    "nbFollowings": 23,
-    "nbStarredRepos": {
-      "totalCount": 450
-    },
+    "nbFollowers": 89,
+    "nbFollowings": 25,
+    "nbStarredRepos": 455,
     "nbRepos": 43,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Portugal"
   },
   "NandoScout": {
     "login": "NandoScout",
@@ -11540,9 +11013,7 @@ const fans = {
     "createdAt": "3/25/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 5
-    },
+    "nbStarredRepos": 5,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -11556,9 +11027,7 @@ const fans = {
     "createdAt": "8/12/2018",
     "nbFollowers": 1,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 192
-    },
+    "nbStarredRepos": 192,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -11572,9 +11041,7 @@ const fans = {
     "createdAt": "11/26/2014",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 15
-    },
+    "nbStarredRepos": 15,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -11587,11 +11054,9 @@ const fans = {
     "login": "ybz216",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/17864683?v=4",
     "createdAt": "3/15/2016",
-    "nbFollowers": 14,
+    "nbFollowers": 15,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 4824
-    },
+    "nbStarredRepos": 4872,
     "nbRepos": 83,
     "follower": false,
     "starred": [
@@ -11601,92 +11066,82 @@ const fans = {
   },
   "alimakki": {
     "login": "alimakki",
-    "location": "Montreal, QC",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/920624?u=3a03a1244c834af6e042286f8112695f760d881d&v=4",
     "createdAt": "7/16/2011",
-    "nbFollowers": 19,
+    "nbFollowers": 20,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 109
-    },
+    "nbStarredRepos": 109,
     "nbRepos": 25,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Montreal, QC"
   },
   "marcot": {
     "login": "marcot",
-    "bio": "Salesforce Certified Application Architect and Solution Architect ",
-    "location": "Vicenza, Italy",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/375442?u=24877a6a3b3dc6d194c9b701758f9812318ff524&v=4",
     "createdAt": "8/25/2010",
     "nbFollowers": 9,
-    "nbFollowings": 106,
-    "nbStarredRepos": {
-      "totalCount": 1069
-    },
+    "nbFollowings": 110,
+    "nbStarredRepos": 1087,
     "nbRepos": 11,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Salesforce Certified Application Architect and Solution Architect ",
+    "location": "Vicenza, Italy"
   },
   "kamalseisy": {
     "login": "kamalseisy",
-    "location": "Egypt",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/10973700?u=0a75d2a37d5e0d7943f7a4dce4dc4c75fc2bbe7b&v=4",
     "createdAt": "2/12/2015",
     "nbFollowers": 4,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 149
-    },
+    "nbStarredRepos": 152,
     "nbRepos": 6,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Egypt"
   },
   "filipi": {
     "login": "filipi",
-    "location": "Porto Alegre",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/133966?u=cddf7aa9cc1ed7d009a9fd9a74a8c053352111ae&v=4",
-    "websiteUrl": "filipivianna.blogspot.com",
-    "company": "PUCRS",
     "createdAt": "10/1/2009",
     "nbFollowers": 18,
     "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 70
-    },
+    "nbStarredRepos": 71,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://filipivianna.blogspot.com",
+    "location": "Porto Alegre",
+    "company": "PUCRS"
   },
   "wupeng1988": {
     "login": "wupeng1988",
-    "location": "Beijing",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10973707?u=2633eb1cb55a2d28a5e712327fd6cdd2c8f54102&v=4",
-    "websiteUrl": "singledog.org",
     "createdAt": "2/12/2015",
-    "nbFollowers": 8,
-    "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 218
-    },
+    "nbFollowers": 9,
+    "nbFollowings": 10,
+    "nbStarredRepos": 226,
     "nbRepos": 60,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://singledog.org",
+    "location": "Beijing"
   },
   "jinhui36": {
     "login": "jinhui36",
@@ -11694,9 +11149,7 @@ const fans = {
     "createdAt": "2/8/2017",
     "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 664
-    },
+    "nbStarredRepos": 684,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -11706,40 +11159,36 @@ const fans = {
   },
   "davideuler": {
     "login": "davideuler",
-    "location": "Shanghai, China",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/377983?v=4",
-    "company": "dianping.com",
     "createdAt": "8/27/2010",
-    "nbFollowers": 1458,
-    "nbFollowings": 90,
-    "nbStarredRepos": {
-      "totalCount": 1900
-    },
+    "nbFollowers": 1466,
+    "nbFollowings": 92,
+    "nbStarredRepos": 1991,
     "nbRepos": 142,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Shanghai, China",
+    "company": "dianping.com"
   },
   "flashfoxter": {
     "login": "flashfoxter",
-    "bio": "Mobile applications development iOS, Android",
-    "location": "Saint-Petersburg",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2852886?u=3d36d6067e512a6531c09c830799893a3882ed4a&v=4",
-    "websiteUrl": "amazin.app",
     "createdAt": "11/21/2012",
     "nbFollowers": 54,
-    "nbFollowings": 101,
-    "nbStarredRepos": {
-      "totalCount": 474
-    },
-    "nbRepos": 733,
+    "nbFollowings": 103,
+    "nbStarredRepos": 499,
+    "nbRepos": 763,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://amazin.app",
+    "bio": "Mobile applications development iOS, Android",
+    "location": "Saint-Petersburg"
   },
   "baskin": {
     "login": "baskin",
@@ -11747,9 +11196,7 @@ const fans = {
     "createdAt": "7/25/2010",
     "nbFollowers": 4,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 1162
-    },
+    "nbStarredRepos": 1164,
     "nbRepos": 32,
     "follower": false,
     "starred": [
@@ -11763,9 +11210,7 @@ const fans = {
     "createdAt": "12/8/2017",
     "nbFollowers": 0,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 37
-    },
+    "nbStarredRepos": 37,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -11775,21 +11220,19 @@ const fans = {
   },
   "swapnilshrikhande": {
     "login": "swapnilshrikhande",
-    "location": "Pune",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/7020969?u=4bc85297c4d0b688ec825db229febf97081dd11a&v=4",
-    "websiteUrl": "http://swapnilshrikhande.in/",
     "createdAt": "3/21/2014",
     "nbFollowers": 13,
     "nbFollowings": 43,
-    "nbStarredRepos": {
-      "totalCount": 235
-    },
+    "nbStarredRepos": 238,
     "nbRepos": 98,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://swapnilshrikhande.in/",
+    "location": "Pune"
   },
   "fsgu": {
     "login": "fsgu",
@@ -11797,10 +11240,36 @@ const fans = {
     "createdAt": "8/3/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
+    "nbStarredRepos": 2,
     "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "Marcushawley": {
+    "login": "Marcushawley",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/33175297?v=4",
+    "createdAt": "10/28/2017",
+    "nbFollowers": 6,
+    "nbFollowings": 116,
+    "nbStarredRepos": 1518,
+    "nbRepos": 205,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "zinkh": {
+    "login": "zinkh",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1330905?v=4",
+    "createdAt": "1/14/2012",
+    "nbFollowers": 7,
+    "nbFollowings": 31,
+    "nbStarredRepos": 259,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11809,20 +11278,18 @@ const fans = {
   },
   "mihai-varga": {
     "login": "mihai-varga",
-    "location": "Zurich, Switzerland",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3279158?v=4",
     "createdAt": "1/15/2013",
-    "nbFollowers": 26,
+    "nbFollowers": 27,
     "nbFollowings": 20,
-    "nbStarredRepos": {
-      "totalCount": 132
-    },
+    "nbStarredRepos": 132,
     "nbRepos": 14,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Zurich, Switzerland"
   },
   "QingLeiLi": {
     "login": "QingLeiLi",
@@ -11830,9 +11297,7 @@ const fans = {
     "createdAt": "9/28/2015",
     "nbFollowers": 10,
     "nbFollowings": 21,
-    "nbStarredRepos": {
-      "totalCount": 540
-    },
+    "nbStarredRepos": 543,
     "nbRepos": 45,
     "follower": false,
     "starred": [
@@ -11846,9 +11311,7 @@ const fans = {
     "createdAt": "12/10/2013",
     "nbFollowers": 113,
     "nbFollowings": 166,
-    "nbStarredRepos": {
-      "totalCount": 34
-    },
+    "nbStarredRepos": 34,
     "nbRepos": 44,
     "follower": false,
     "starred": [
@@ -11862,9 +11325,7 @@ const fans = {
     "createdAt": "2/11/2014",
     "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 192
-    },
+    "nbStarredRepos": 192,
     "nbRepos": 22,
     "follower": false,
     "starred": [
@@ -11874,151 +11335,135 @@ const fans = {
   },
   "gilcierweb": {
     "login": "gilcierweb",
-    "bio": "\r\n    Fullstack Developer and Freelancer.\r\nPHP, Ruby, Elixir, Python, Ruby on Rails, Mobile, angular, vuejs, react, ionic, flutter, reactnative\r\n",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1915433?v=4",
-    "websiteUrl": "http://gilcierweb.com.br",
     "createdAt": "7/2/2012",
-    "nbFollowers": 13,
+    "nbFollowers": 14,
     "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 184
-    },
-    "nbRepos": 44,
+    "nbStarredRepos": 188,
+    "nbRepos": 46,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://gilcierweb.com.br",
+    "bio": "Fullstack Developer and Freelancer.\r\nRuby, Ruby on Rails, PHP, Elixir, Python,  Mobile, angular, vuejs, react, ionic, flutter, reactnative\r\n"
   },
   "pingjiang": {
     "login": "pingjiang",
-    "bio": "站在巨人的肩膀上开发卓越软件",
-    "location": "ShenZhen, China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/961856?u=331bbbc1c575db30f41eb389f715d3bd358ab056&v=4",
-    "websiteUrl": "blog.xdevtools.com",
-    "company": "xdevtools",
     "createdAt": "8/5/2011",
-    "nbFollowers": 51,
+    "nbFollowers": 53,
     "nbFollowings": 138,
-    "nbStarredRepos": {
-      "totalCount": 6971
-    },
-    "nbRepos": 382,
+    "nbStarredRepos": 7048,
+    "nbRepos": 383,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://blog.xdevtools.com",
+    "bio": "站在巨人的肩膀上开发卓越软件",
+    "location": "ShenZhen, China",
+    "company": "xdevtools"
   },
   "Beekeeper": {
     "login": "Beekeeper",
-    "location": "Amsterdam, The Netherlands",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1112764?v=4",
     "createdAt": "10/8/2011",
     "nbFollowers": 2,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 195
-    },
+    "nbStarredRepos": 195,
     "nbRepos": 0,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Amsterdam, The Netherlands"
   },
   "akulubala": {
     "login": "akulubala",
-    "bio": "I write PHP, Golang, Python, Nodejs...",
-    "location": "Shanghai",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1884768?u=62f328213735a25759e7af2ff49d23a7c638de5c&v=4",
-    "websiteUrl": "http://akulubala.github.io",
     "createdAt": "6/23/2012",
     "nbFollowers": 26,
     "nbFollowings": 33,
-    "nbStarredRepos": {
-      "totalCount": 604
-    },
+    "nbStarredRepos": 609,
     "nbRepos": 24,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://akulubala.github.io",
+    "bio": "I write PHP, Golang, Python, Nodejs...",
+    "location": "Shanghai"
   },
   "jonwilkinson": {
     "login": "jonwilkinson",
-    "location": "Asheville, NC",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/197818?u=8e00579bb2ff23d568f37b51d2944dd5ee6b57cc&v=4",
-    "company": "DigitalChalk",
     "createdAt": "2/5/2010",
     "nbFollowers": 4,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 361
-    },
+    "nbStarredRepos": 362,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Asheville, NC",
+    "company": "DigitalChalk"
   },
   "rothanachoun": {
     "login": "rothanachoun",
-    "bio": "Ruby on Rails, Python, Flask, React JS, React Native, VueJS",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5331630?u=9cd29eec08310a0e176b48f336325eef486a4fb8&v=4",
-    "websiteUrl": "rothana.info",
     "createdAt": "8/28/2013",
-    "nbFollowers": 39,
+    "nbFollowers": 40,
     "nbFollowings": 241,
-    "nbStarredRepos": {
-      "totalCount": 4198
-    },
+    "nbStarredRepos": 4234,
     "nbRepos": 87,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://rothana.info",
+    "bio": "Ruby on Rails, Python, Flask, React JS, React Native, VueJS"
   },
   "skywingfs": {
     "login": "skywingfs",
-    "location": "武汉",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/12905834?u=79f79d83ece78fa9a4e1365fb5d9196cf9f73809&v=4",
-    "websiteUrl": "https://skywingfs.github.io/",
     "createdAt": "6/15/2015",
     "nbFollowers": 2,
-    "nbFollowings": 48,
-    "nbStarredRepos": {
-      "totalCount": 357
-    },
-    "nbRepos": 22,
+    "nbFollowings": 49,
+    "nbStarredRepos": 358,
+    "nbRepos": 23,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://skywingfs.github.io/",
+    "location": "武汉"
   },
   "chamnap": {
     "login": "chamnap",
-    "bio": "I'm such a generalist, who can quickly become proficient in whatever area of software development is required to get the job done.",
-    "location": "Phnom Penh, Cambodia",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/407708?v=4",
-    "websiteUrl": "http://chamnap.github.io/resume/",
-    "company": "Freelancing",
     "createdAt": "9/19/2010",
     "nbFollowers": 71,
     "nbFollowings": 106,
-    "nbStarredRepos": {
-      "totalCount": 2877
-    },
+    "nbStarredRepos": 2880,
     "nbRepos": 57,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://chamnap.github.io/resume/",
+    "bio": "I'm such a generalist, who can quickly become proficient in whatever area of software development is required to get the job done.",
+    "location": "Phnom Penh, Cambodia",
+    "company": "Freelancing"
   },
   "wyssurvivor": {
     "login": "wyssurvivor",
@@ -12026,9 +11471,7 @@ const fans = {
     "createdAt": "1/1/2014",
     "nbFollowers": 5,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 251
-    },
+    "nbStarredRepos": 252,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -12038,33 +11481,29 @@ const fans = {
   },
   "liyunzhi1993": {
     "login": "liyunzhi1993",
-    "bio": ".net / java devops",
-    "location": "上海 中国",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6257587?u=47ea1270c91b79999c2a5683d3d47ddf3c2e7c57&v=4",
-    "websiteUrl": "cnblogs.com/liyunzhi",
-    "company": "易果",
     "createdAt": "12/24/2013",
     "nbFollowers": 5,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 320
-    },
-    "nbRepos": 12,
+    "nbStarredRepos": 324,
+    "nbRepos": 13,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://cnblogs.com/liyunzhi",
+    "bio": ".net / java devops",
+    "location": "上海 中国",
+    "company": "易果"
   },
   "eescueta": {
     "login": "eescueta",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/5836190?u=d0bd213d9f6b5e9fad938ae766b197547361fc85&v=4",
     "createdAt": "11/1/2013",
-    "nbFollowers": 10,
+    "nbFollowers": 9,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 9
-    },
+    "nbStarredRepos": 9,
     "nbRepos": 19,
     "follower": false,
     "starred": [
@@ -12074,21 +11513,19 @@ const fans = {
   },
   "jssl915": {
     "login": "jssl915",
-    "location": "China wuhan",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7900607?u=67ccae9b2e0f4e2be6367ef222b95002928043fd&v=4",
-    "websiteUrl": "http://weiyilee.com",
     "createdAt": "6/16/2014",
     "nbFollowers": 16,
     "nbFollowings": 55,
-    "nbStarredRepos": {
-      "totalCount": 61
-    },
+    "nbStarredRepos": 61,
     "nbRepos": 15,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://weiyilee.com",
+    "location": "China wuhan"
   },
   "giuliaries": {
     "login": "giuliaries",
@@ -12096,9 +11533,7 @@ const fans = {
     "createdAt": "9/24/2013",
     "nbFollowers": 3,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 460
-    },
+    "nbStarredRepos": 462,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -12112,9 +11547,7 @@ const fans = {
     "createdAt": "11/7/2013",
     "nbFollowers": 2,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 34
-    },
+    "nbStarredRepos": 34,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -12124,36 +11557,35 @@ const fans = {
   },
   "mrentropy": {
     "login": "mrentropy",
-    "location": "California",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/940688?u=4e7b7378b943ca28aa982fe017b7341adef20c98&v=4",
     "createdAt": "7/26/2011",
-    "nbFollowers": 8,
+    "nbFollowers": 7,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 813
-    },
+    "nbStarredRepos": 828,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "California"
   },
   "usayamadx": {
     "login": "usayamadx",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17489619?u=3d815c160dcab67ff39bf3cdba608e1a3819c1c8&v=4",
     "createdAt": "2/25/2016",
     "nbFollowers": 20,
-    "nbFollowings": 93,
-    "nbStarredRepos": {
-      "totalCount": 1291
-    },
-    "nbRepos": 109,
+    "nbFollowings": 94,
+    "nbStarredRepos": 1320,
+    "nbRepos": 107,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://usayama.com",
+    "location": "Tokyo, Japan",
+    "company": "Usayama, Inc."
   },
   "abin2011": {
     "login": "abin2011",
@@ -12161,9 +11593,7 @@ const fans = {
     "createdAt": "11/28/2011",
     "nbFollowers": 1,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 196
-    },
+    "nbStarredRepos": 201,
     "nbRepos": 18,
     "follower": false,
     "starred": [
@@ -12177,9 +11607,7 @@ const fans = {
     "createdAt": "4/20/2013",
     "nbFollowers": 6,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 1405
-    },
+    "nbStarredRepos": 1404,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -12189,22 +11617,20 @@ const fans = {
   },
   "aviggngyv": {
     "login": "aviggngyv",
-    "bio": "www.hunterphp.com",
-    "location": "Leshan  China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7891096?u=73a246ff82c10cb6a4acabdae3834369c4c4e100&v=4",
-    "websiteUrl": "http://www.hunterphp.com",
     "createdAt": "6/14/2014",
     "nbFollowers": 5,
     "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 334
-    },
+    "nbStarredRepos": 334,
     "nbRepos": 10,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.hunterphp.com",
+    "bio": "www.hunterphp.com",
+    "location": "Leshan  China"
   },
   "Cloud-Fly": {
     "login": "Cloud-Fly",
@@ -12212,9 +11638,7 @@ const fans = {
     "createdAt": "7/7/2015",
     "nbFollowers": 2,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 99
-    },
+    "nbStarredRepos": 102,
     "nbRepos": 55,
     "follower": false,
     "starred": [
@@ -12224,55 +11648,49 @@ const fans = {
   },
   "EvanYaoPeng": {
     "login": "EvanYaoPeng",
-    "location": "shanghai",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3303227?v=4",
     "createdAt": "1/17/2013",
     "nbFollowers": 18,
     "nbFollowings": 109,
-    "nbStarredRepos": {
-      "totalCount": 1152
-    },
+    "nbStarredRepos": 1153,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "shanghai"
   },
   "JTGMAGIC": {
     "login": "JTGMAGIC",
-    "location": "Portugal",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5827892?u=7bc7c835f9ab6302f340a2df4254c74420e68366&v=4",
-    "websiteUrl": "https://joaofigueiras.pt",
     "createdAt": "10/31/2013",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 432
-    },
+    "nbStarredRepos": 435,
     "nbRepos": 10,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://joaofigueiras.pt",
+    "location": "Portugal"
   },
   "flemmens": {
     "login": "flemmens",
-    "location": "Brussels",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1489018?u=52bf67d7b3ef8c158043c1f9a94bc185bd1ee1a8&v=4",
     "createdAt": "3/1/2012",
     "nbFollowers": 4,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 319
-    },
-    "nbRepos": 14,
+    "nbStarredRepos": 326,
+    "nbRepos": 15,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Brussels"
   },
   "dimabe": {
     "login": "dimabe",
@@ -12280,9 +11698,7 @@ const fans = {
     "createdAt": "6/10/2011",
     "nbFollowers": 3,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 6
-    },
+    "nbStarredRepos": 6,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -12296,9 +11712,7 @@ const fans = {
     "createdAt": "4/4/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -12308,56 +11722,50 @@ const fans = {
   },
   "smallsong": {
     "login": "smallsong",
-    "location": "China HangZhou",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1301565?u=ffc9ab27c97227fe04fd0a11384f19b269d1a385&v=4",
-    "websiteUrl": "http://www.5htm.com",
     "createdAt": "1/3/2012",
     "nbFollowers": 18,
     "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 2247
-    },
-    "nbRepos": 138,
+    "nbStarredRepos": 2275,
+    "nbRepos": 139,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.5htm.com",
+    "location": "China HangZhou"
   },
   "fxding": {
     "login": "fxding",
-    "bio": "Freelancer",
-    "location": "Kunming City, Yunnan Province, China",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1272353?v=4",
     "createdAt": "12/19/2011",
     "nbFollowers": 19,
     "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 1112
-    },
+    "nbStarredRepos": 1112,
     "nbRepos": 64,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Freelancer",
+    "location": "Kunming City, Yunnan Province, China"
   },
   "punk2x": {
     "login": "punk2x",
-    "location": "Brazil",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/11475259?u=a712774a9a1e8498a51d5f94d607d4641a6e3f1a&v=4",
     "createdAt": "3/14/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 0,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Brazil"
   },
   "dedoyle": {
     "login": "dedoyle",
@@ -12365,9 +11773,7 @@ const fans = {
     "createdAt": "4/20/2015",
     "nbFollowers": 5,
     "nbFollowings": 23,
-    "nbStarredRepos": {
-      "totalCount": 263
-    },
+    "nbStarredRepos": 265,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -12377,23 +11783,21 @@ const fans = {
   },
   "coffeepostal": {
     "login": "coffeepostal",
-    "bio": "Brewer, web developer, and iOS developer from the Pacific Northwest.",
-    "location": "Anacortes, WA",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/24851?u=f1d4ce1ae093169a8eb8037157370838d9284e40&v=4",
-    "websiteUrl": "http://farns.co",
-    "company": "@farnsco ",
     "createdAt": "9/16/2008",
     "nbFollowers": 6,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 740
-    },
+    "nbStarredRepos": 745,
     "nbRepos": 28,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://farns.co",
+    "bio": "Brewer, web developer, and iOS developer from the Pacific Northwest.",
+    "location": "Anacortes, WA",
+    "company": "@farnsco "
   },
   "odixon": {
     "login": "odixon",
@@ -12401,10 +11805,8 @@ const fans = {
     "createdAt": "5/15/2009",
     "nbFollowers": 20,
     "nbFollowings": 22,
-    "nbStarredRepos": {
-      "totalCount": 894
-    },
-    "nbRepos": 72,
+    "nbStarredRepos": 896,
+    "nbRepos": 75,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12413,96 +11815,85 @@ const fans = {
   },
   "fsworld009": {
     "login": "fsworld009",
-    "bio": "Software developer, Master of Science in Computer Science, Taiwanese",
-    "location": "Taiwan",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7109839?u=53564a0991d22ff448eaccdf241818ac56fc9cc9&v=4",
-    "websiteUrl": "https://fsworld009.github.io",
-    "company": "@kloudless",
     "createdAt": "3/30/2014",
     "nbFollowers": 7,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 397
-    },
+    "nbStarredRepos": 402,
     "nbRepos": 45,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://fsworld009.github.io",
+    "bio": "Software developer, Master of Science in Computer Science, Taiwanese",
+    "location": "Taiwan",
+    "company": "@kloudless"
   },
   "dy": {
     "login": "dy",
-    "location": "Montréal / Saint-Petersburg",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/300067?u=78fdbf0c095f8c558952433bd95b3badbd4978b6&v=4",
-    "websiteUrl": "https://twitter.com/dimayv",
-    "company": "@mobeewave",
     "createdAt": "6/8/2010",
-    "nbFollowers": 320,
-    "nbFollowings": 297,
-    "nbStarredRepos": {
-      "totalCount": 3906
-    },
-    "nbRepos": 243,
+    "nbFollowers": 330,
+    "nbFollowings": 299,
+    "nbStarredRepos": 3939,
+    "nbRepos": 241,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://twitter.com/dimayv",
+    "location": "Montréal / Saint-Petersburg"
   },
   "allenleeok": {
     "login": "allenleeok",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/7546933?u=06ae70296526f2010f9edaf9aaad62ad1e3ee7d1&v=4",
-    "company": "meituan",
     "createdAt": "5/10/2014",
     "nbFollowers": 7,
     "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 327
-    },
+    "nbStarredRepos": 327,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "company": "meituan"
   },
   "viocassel": {
     "login": "viocassel",
-    "bio": "Web Designer / Developer",
-    "location": "Russia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3341562?v=4",
-    "websiteUrl": "viocassel.dev",
     "createdAt": "1/22/2013",
     "nbFollowers": 45,
     "nbFollowings": 34,
-    "nbStarredRepos": {
-      "totalCount": 2017
-    },
+    "nbStarredRepos": 2034,
     "nbRepos": 26,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://viocassel.dev",
+    "bio": "Web Designer / Developer",
+    "location": "Russia"
   },
   "Kovaloff": {
     "login": "Kovaloff",
-    "location": "Ukraine",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3064842?v=4",
-    "websiteUrl": "https://ua.linkedin.com/in/kovalovartem",
     "createdAt": "12/17/2012",
     "nbFollowers": 2,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 74
-    },
+    "nbStarredRepos": 74,
     "nbRepos": 24,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://ua.linkedin.com/in/kovalovartem",
+    "location": "Ukraine"
   },
   "leadsofts": {
     "login": "leadsofts",
@@ -12510,9 +11901,7 @@ const fans = {
     "createdAt": "6/17/2014",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 44
-    },
+    "nbStarredRepos": 44,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -12523,19 +11912,17 @@ const fans = {
   "Jeswang": {
     "login": "Jeswang",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/553783?v=4",
-    "websiteUrl": "https://wangyi.ai",
     "createdAt": "1/8/2011",
     "nbFollowers": 54,
     "nbFollowings": 116,
-    "nbStarredRepos": {
-      "totalCount": 1284
-    },
+    "nbStarredRepos": 1283,
     "nbRepos": 47,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://wangyi.ai"
   },
   "daycats": {
     "login": "daycats",
@@ -12543,9 +11930,7 @@ const fans = {
     "createdAt": "3/27/2013",
     "nbFollowers": 25,
     "nbFollowings": 28,
-    "nbStarredRepos": {
-      "totalCount": 1655
-    },
+    "nbStarredRepos": 1655,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -12555,20 +11940,18 @@ const fans = {
   },
   "dzlixu": {
     "login": "dzlixu",
-    "location": "Shaanxi, Xi'an, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/13729891?u=26c72a46639907e8b480ccd0a895a0c53b70ff12&v=4",
     "createdAt": "8/10/2015",
     "nbFollowers": 5,
     "nbFollowings": 31,
-    "nbStarredRepos": {
-      "totalCount": 267
-    },
+    "nbStarredRepos": 267,
     "nbRepos": 21,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Shaanxi, Xi'an, China"
   },
   "seanfly": {
     "login": "seanfly",
@@ -12576,9 +11959,7 @@ const fans = {
     "createdAt": "7/12/2015",
     "nbFollowers": 5,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 228
-    },
+    "nbStarredRepos": 228,
     "nbRepos": 21,
     "follower": false,
     "starred": [
@@ -12592,10 +11973,8 @@ const fans = {
     "createdAt": "3/18/2015",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 88
-    },
-    "nbRepos": 3,
+    "nbStarredRepos": 88,
+    "nbRepos": 1,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12604,78 +11983,70 @@ const fans = {
   },
   "reddyagile": {
     "login": "reddyagile",
-    "location": "Hyderabad, India",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/8969058?u=8564720e4f7a25f125509be98a35dcc404644528&v=4",
-    "company": "Agile CRM",
     "createdAt": "9/30/2014",
     "nbFollowers": 4,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1079
-    },
+    "nbStarredRepos": 1079,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Hyderabad, India",
+    "company": "Agile CRM"
   },
   "ademoutlaw": {
     "login": "ademoutlaw",
-    "location": "tunisia ",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/11621277?u=8d440000a0860ccf684838acf39eeb03697233b4&v=4",
     "createdAt": "3/23/2015",
     "nbFollowers": 3,
     "nbFollowings": 20,
-    "nbStarredRepos": {
-      "totalCount": 68
-    },
+    "nbStarredRepos": 68,
     "nbRepos": 36,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "tunisia "
   },
   "akashvarlani": {
     "login": "akashvarlani",
-    "bio": "I am a professional web developer having experience in Laravel, Codeigniter, php, Socket Programming, Bootstrap, Jquery, Ajax, HTML5, Javascript, CSS3 and MySql",
-    "location": "Rajkot, Gujarat, India",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/8286694?u=a817f3f5b8d4348749517a2597170f0122d31388&v=4",
-    "websiteUrl": "http://emergingcoders.com",
-    "company": "Emerging Coders",
     "createdAt": "7/27/2014",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 28
-    },
+    "nbStarredRepos": 28,
     "nbRepos": 1,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://emergingcoders.com",
+    "bio": "I am a professional web developer having experience in Laravel, Codeigniter, php, Socket Programming, Bootstrap, Jquery, Ajax, HTML5, Javascript, CSS3 and MySql",
+    "location": "Rajkot, Gujarat, India",
+    "company": "Emerging Coders"
   },
   "rousnay": {
     "login": "rousnay",
-    "bio": "Freelance Front-end specialist and Web Apps Developer, Electrical & Electronics Engineer.",
-    "location": "° ☾ ☆ ¸. ¸　★ :.　 . • ○ ° ★",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/456973?u=360031dc76ddf79884e6c2c270adaf2b5ed2110f&v=4",
-    "websiteUrl": "https://rousnay.com",
-    "company": "@WittyPlex ",
     "createdAt": "10/27/2010",
-    "nbFollowers": 18,
+    "nbFollowers": 17,
     "nbFollowings": 78,
-    "nbStarredRepos": {
-      "totalCount": 708
-    },
-    "nbRepos": 37,
+    "nbStarredRepos": 709,
+    "nbRepos": 38,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://rousnay.com",
+    "bio": "Freelance Front-end specialist and Web Apps Developer, Electrical & Electronics Engineer.",
+    "location": "° ☾ ☆ ¸. ¸　★ :.　 . • ○ ° ★",
+    "company": "@WittyPlex "
   },
   "tangtes": {
     "login": "tangtes",
@@ -12683,9 +12054,7 @@ const fans = {
     "createdAt": "12/24/2012",
     "nbFollowers": 11,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 1211
-    },
+    "nbStarredRepos": 1219,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -12695,37 +12064,33 @@ const fans = {
   },
   "HLFH": {
     "login": "HLFH",
-    "location": "London",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2359059?u=0a8a33a8272c5aac74621b9211f472a645c68a9e&v=4",
     "createdAt": "9/16/2012",
     "nbFollowers": 45,
-    "nbFollowings": 82,
-    "nbStarredRepos": {
-      "totalCount": 3170
-    },
+    "nbFollowings": 85,
+    "nbStarredRepos": 3190,
     "nbRepos": 70,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "London"
   },
   "arg3ni5": {
     "login": "arg3ni5",
-    "location": "San José, Costa Rica",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/12776890?v=4",
     "createdAt": "6/6/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 37
-    },
+    "nbStarredRepos": 37,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "San José, Costa Rica"
   },
   "graemedownes": {
     "login": "graemedownes",
@@ -12733,9 +12098,7 @@ const fans = {
     "createdAt": "5/18/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 4
-    },
+    "nbStarredRepos": 4,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -12745,67 +12108,58 @@ const fans = {
   },
   "juliozuppa": {
     "login": "juliozuppa",
-    "location": "Curitiba, PR, Brasil",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4112087?u=f865fac73fda77f45bcf5e773051b06a057172f0&v=4",
     "createdAt": "4/9/2013",
-    "nbFollowers": 74,
+    "nbFollowers": 73,
     "nbFollowings": 691,
-    "nbStarredRepos": {
-      "totalCount": 1600
-    },
-    "nbRepos": 34,
+    "nbStarredRepos": 1610,
+    "nbRepos": 36,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Curitiba, PR, Brasil"
   },
   "vai": {
     "login": "vai",
-    "location": "Cape Town, South Africa",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/523886?u=2128e5786da572f981e6bf8faf6046ad7b65db13&v=4",
     "createdAt": "12/14/2010",
-    "nbFollowers": 28,
+    "nbFollowers": 26,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 4692
-    },
+    "nbStarredRepos": 4753,
     "nbRepos": 35,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Cape Town, South Africa"
   },
   "godky": {
     "login": "godky",
-    "bio": "To be a lifelong learner",
-    "location": "China zhengzhou",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/19380474?u=27c207c3c58e805dedf515740f428d0abc18df17&v=4",
     "createdAt": "5/15/2016",
     "nbFollowers": 5,
     "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 219
-    },
+    "nbStarredRepos": 218,
     "nbRepos": 11,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "To be a lifelong learner",
+    "location": "China zhengzhou"
   },
   "tsohr": {
     "login": "tsohr",
-    "bio": "Civic duty for the internet freedom",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2174103?v=4",
     "createdAt": "8/18/2012",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 94
-    },
-    "nbRepos": 7,
+    "nbStarredRepos": 93,
+    "nbRepos": 6,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12814,41 +12168,37 @@ const fans = {
   },
   "sizeoftank": {
     "login": "sizeoftank",
-    "location": "Guangzhou, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6196006?u=dff0c6b498ae581ed7bf32299597e46c83956078&v=4",
-    "company": "BAIOO",
     "createdAt": "12/16/2013",
     "nbFollowers": 9,
-    "nbFollowings": 10,
-    "nbStarredRepos": {
-      "totalCount": 170
-    },
-    "nbRepos": 23,
+    "nbFollowings": 12,
+    "nbStarredRepos": 173,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Guangzhou, China",
+    "company": "BAIOO"
   },
   "mheiduk": {
     "login": "mheiduk",
-    "bio": "Web Developer",
-    "location": "Vienna",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/291541?u=e757e82012e626ce2f97b952a42c604bad8fe2c7&v=4",
-    "websiteUrl": "https://heid.uk",
-    "company": "@heipomedia ",
     "createdAt": "5/30/2010",
     "nbFollowers": 9,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 595
-    },
+    "nbStarredRepos": 596,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://heid.uk",
+    "bio": "Web Developer",
+    "location": "Vienna",
+    "company": "@heipomedia "
   },
   "toneywu": {
     "login": "toneywu",
@@ -12856,9 +12206,7 @@ const fans = {
     "createdAt": "3/1/2016",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 46
-    },
+    "nbStarredRepos": 46,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -12872,9 +12220,7 @@ const fans = {
     "createdAt": "9/2/2013",
     "nbFollowers": 5,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 113
-    },
+    "nbStarredRepos": 114,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -12884,74 +12230,66 @@ const fans = {
   },
   "indiboy": {
     "login": "indiboy",
-    "bio": "英特纳雄奈尔就一定会实现！",
-    "location": "中国 河南 郑州",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/5752024?u=36a2411b668ca6c02a7875a1c1367b264c760e60&v=4",
     "createdAt": "10/22/2013",
-    "nbFollowers": 4,
+    "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 425
-    },
+    "nbStarredRepos": 424,
     "nbRepos": 33,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "英特纳雄奈尔就一定会实现！",
+    "location": "中国 河南 郑州"
   },
   "fetaoily": {
     "login": "fetaoily",
-    "bio": "Developer",
-    "location": "BeiJing",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/501984?u=3bd3d9651fea75144406fdde0c65a6ed22c1ccef&v=4",
     "createdAt": "11/29/2010",
     "nbFollowers": 6,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 1028
-    },
+    "nbStarredRepos": 1030,
     "nbRepos": 14,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Developer",
+    "location": "BeiJing"
   },
   "uestla": {
     "login": "uestla",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/373888?u=a2dba673740886d317a9fafd80b63052e9547a4a&v=4",
-    "websiteUrl": "https://kesspess.cz",
     "createdAt": "8/23/2010",
     "nbFollowers": 27,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 164
-    },
-    "nbRepos": 70,
+    "nbStarredRepos": 164,
+    "nbRepos": 71,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://kesspess.cz"
   },
   "vercha": {
     "login": "vercha",
-    "location": "shanghai",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/13897098?u=167805cc636c9f9ab9adabc57745f5b1b230ba41&v=4",
-    "company": "sap",
     "createdAt": "8/20/2015",
     "nbFollowers": 5,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 72
-    },
+    "nbStarredRepos": 72,
     "nbRepos": 19,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "shanghai",
+    "company": "sap"
   },
   "rong4620": {
     "login": "rong4620",
@@ -12959,9 +12297,7 @@ const fans = {
     "createdAt": "6/13/2017",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 33
-    },
+    "nbStarredRepos": 33,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -12971,77 +12307,69 @@ const fans = {
   },
   "Slinjez": {
     "login": "Slinjez",
-    "bio": "Chilling...",
-    "location": "Nairobi-Kenya",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/8165854?u=5b2cad471351118bf76ed86e0f6712883e41a954&v=4",
-    "websiteUrl": "https://mwangithigaresume.000webhostapp.com/",
-    "company": "@ICEA LION GROUP",
     "createdAt": "7/14/2014",
-    "nbFollowers": 16,
-    "nbFollowings": 56,
-    "nbStarredRepos": {
-      "totalCount": 363
-    },
-    "nbRepos": 156,
+    "nbFollowers": 15,
+    "nbFollowings": 59,
+    "nbStarredRepos": 367,
+    "nbRepos": 159,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://mwangithigaresume.000webhostapp.com/",
+    "bio": "Chilling...",
+    "location": "Nairobi-Kenya",
+    "company": "@ICEA LION GROUP"
   },
   "IsaacHo": {
     "login": "IsaacHo",
-    "location": "China. GuangZhou",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4445765?u=108655aeb3b73d5a3be121846992071b83810a65&v=4",
     "createdAt": "5/16/2013",
-    "nbFollowers": 13,
+    "nbFollowers": 12,
     "nbFollowings": 32,
-    "nbStarredRepos": {
-      "totalCount": 1064
-    },
+    "nbStarredRepos": 1065,
     "nbRepos": 81,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "China. GuangZhou"
   },
   "joemacaco": {
     "login": "joemacaco",
-    "location": "Taichung City",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/19699940?v=4",
-    "websiteUrl": "http://blog.joemacaco.idv.tw/",
-    "company": "NUTC",
     "createdAt": "6/1/2016",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 89
-    },
+    "nbStarredRepos": 89,
     "nbRepos": 6,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://blog.joemacaco.idv.tw/",
+    "location": "Taichung City",
+    "company": "NUTC"
   },
   "seigelions": {
     "login": "seigelions",
-    "bio": "Becoming a Good Programer!",
-    "location": "Beijing,China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4529527?u=4b35218f175e79523bed92b1c86959ae8517fc46&v=4",
     "createdAt": "5/25/2013",
     "nbFollowers": 7,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 355
-    },
+    "nbStarredRepos": 354,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Becoming a Good Programer!",
+    "location": "Beijing,China"
   },
   "siddarthpushparaj": {
     "login": "siddarthpushparaj",
@@ -13049,9 +12377,7 @@ const fans = {
     "createdAt": "10/14/2013",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 271
-    },
+    "nbStarredRepos": 271,
     "nbRepos": 158,
     "follower": false,
     "starred": [
@@ -13061,59 +12387,53 @@ const fans = {
   },
   "jianglove7": {
     "login": "jianglove7",
-    "bio": "web前端工程师",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/26075751?u=a2f6a4bdaca7b777eb18708f36b5096920dfff51&v=4",
-    "websiteUrl": "http://www.xineasy.com",
     "createdAt": "2/27/2017",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 18
-    },
+    "nbStarredRepos": 18,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.xineasy.com",
+    "bio": "web前端工程师"
   },
   "pvictor": {
     "login": "pvictor",
-    "bio": "R / Shiny developper at @dreamRs with @mfanny",
-    "location": "Paris, France",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4415580?u=20521e4b00f77d0e22b042bff019ed86abd03913&v=4",
-    "websiteUrl": "https://twitter.com/_pvictorr",
-    "company": "@dreamRs ",
     "createdAt": "5/13/2013",
-    "nbFollowers": 197,
+    "nbFollowers": 204,
     "nbFollowings": 124,
-    "nbStarredRepos": {
-      "totalCount": 820
-    },
-    "nbRepos": 63,
+    "nbStarredRepos": 843,
+    "nbRepos": 64,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://twitter.com/_pvictorr",
+    "bio": "R / Shiny developper at @dreamRs with @mfanny",
+    "location": "Paris, France",
+    "company": "@dreamRs "
   },
   "qingo": {
     "login": "qingo",
-    "location": "hang-zhou,China",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1926054?u=9db08a515c906b68e16294befc69b3c608b6c49a&v=4",
-    "websiteUrl": "http://www.qingo.me",
     "createdAt": "7/5/2012",
     "nbFollowers": 43,
     "nbFollowings": 54,
-    "nbStarredRepos": {
-      "totalCount": 2421
-    },
+    "nbStarredRepos": 2427,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.qingo.me",
+    "location": "hang-zhou,China"
   },
   "1Cr18Ni9": {
     "login": "1Cr18Ni9",
@@ -13121,9 +12441,7 @@ const fans = {
     "createdAt": "2/17/2016",
     "nbFollowers": 3,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 220
-    },
+    "nbStarredRepos": 225,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -13137,9 +12455,7 @@ const fans = {
     "createdAt": "5/13/2015",
     "nbFollowers": 1,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 122
-    },
+    "nbStarredRepos": 121,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -13149,81 +12465,73 @@ const fans = {
   },
   "ghostgzt": {
     "login": "ghostgzt",
-    "bio": "Just Coding For Fun!",
-    "location": "GuangZhou",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4105507?v=4",
-    "websiteUrl": "https://plus.google.com/100299352627766095018",
-    "company": "Personal",
     "createdAt": "4/9/2013",
     "nbFollowers": 35,
-    "nbFollowings": 32,
-    "nbStarredRepos": {
-      "totalCount": 776
-    },
+    "nbFollowings": 33,
+    "nbStarredRepos": 781,
     "nbRepos": 33,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://plus.google.com/100299352627766095018",
+    "bio": "Just Coding For Fun!",
+    "location": "GuangZhou",
+    "company": "Personal"
   },
   "TymonYang": {
     "login": "TymonYang",
-    "location": "Xi'An China",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4279674?u=6a4d7e6d0679cf41a8c58d5f99d6a3dd4fb3068f&v=4",
-    "websiteUrl": "http://TymonYang.chinamyths.com",
-    "company": "7Triones",
     "createdAt": "4/28/2013",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 31
-    },
+    "nbStarredRepos": 31,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://TymonYang.chinamyths.com",
+    "location": "Xi'An China",
+    "company": "7Triones"
   },
   "ds-soft": {
     "login": "ds-soft",
-    "location": "Дербент",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/12998560?u=6978cafa8e4b2b662ac7795518ff8e6ad8b89fd7&v=4",
-    "websiteUrl": "https://ds-soft.ru",
-    "company": "DS Soft",
     "createdAt": "6/22/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 60
-    },
+    "nbStarredRepos": 60,
     "nbRepos": 4,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://ds-soft.ru",
+    "location": "Дербент",
+    "company": "DS Soft"
   },
   "Piou-piou": {
     "login": "Piou-piou",
-    "bio": "I am a full-stack developer at http://www.quarks-solutions.com/ and I develop open source in my organization @Ribs-organization",
-    "location": "Besancon 25000 FRANCE",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3818011?u=40574109c3e9e7628740994e87fe5b75fd82c0c4&v=4",
-    "websiteUrl": "https://anthony-pilloud.fr",
-    "company": "@Ribs-organization",
     "createdAt": "3/9/2013",
     "nbFollowers": 52,
     "nbFollowings": 25,
-    "nbStarredRepos": {
-      "totalCount": 492
-    },
+    "nbStarredRepos": 494,
     "nbRepos": 44,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://anthony-pilloud.fr",
+    "bio": "I am a full-stack developer at http://www.quarks-solutions.com/ and I develop open source in my organization @Ribs-organization",
+    "location": "Besancon 25000 FRANCE",
+    "company": "@Ribs-organization"
   },
   "gabi85ro": {
     "login": "gabi85ro",
@@ -13231,9 +12539,7 @@ const fans = {
     "createdAt": "7/14/2015",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 30
-    },
+    "nbStarredRepos": 30,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -13243,147 +12549,131 @@ const fans = {
   },
   "tengge1": {
     "login": "tengge1",
-    "bio": "Cross-platform 3D scene editor based on three.js, golang and mongodb for desktop and web.",
-    "location": "Shandong, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10705556?u=9601c5c79959a925b55835feff7ca5cdb995e39c&v=4",
-    "websiteUrl": "gitee.com/tengge1",
     "createdAt": "1/26/2015",
-    "nbFollowers": 421,
-    "nbFollowings": 2099,
-    "nbStarredRepos": {
-      "totalCount": 2289
-    },
+    "nbFollowers": 426,
+    "nbFollowings": 2101,
+    "nbStarredRepos": 2341,
     "nbRepos": 69,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://gitee.com/tengge1",
+    "bio": "Cross-platform 3D scene editor based on three.js, golang and mongodb for desktop and web.",
+    "location": "Shandong, China"
   },
   "DriftKingTW": {
     "login": "DriftKingTW",
-    "bio": "(*´▽`*)",
-    "location": "Taiwan",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/12791264?u=27fdf25f5302dbd9031d66a9d2cfe08e08be99bc&v=4",
-    "websiteUrl": "pixiv.me/driftkingtw",
     "createdAt": "6/7/2015",
     "nbFollowers": 7,
     "nbFollowings": 23,
-    "nbStarredRepos": {
-      "totalCount": 215
-    },
+    "nbStarredRepos": 217,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://pixiv.me/driftkingtw",
+    "bio": "(*´▽`*)",
+    "location": "Taiwan"
   },
   "ramboram": {
     "login": "ramboram",
-    "location": "México",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2716685?u=f3d705aa93796cdda7d546c57246ffb6297d2e76&v=4",
     "createdAt": "11/3/2012",
     "nbFollowers": 2,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 36
-    },
+    "nbStarredRepos": 37,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "México"
   },
   "zeopean": {
     "login": "zeopean",
-    "location": "中国广州",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/12742992?u=d4d2a862c371f3a5987b61ac7098fff70f33f008&v=4",
-    "websiteUrl": "www.zeopean.com",
     "createdAt": "6/3/2015",
     "nbFollowers": 4,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 323
-    },
+    "nbStarredRepos": 323,
     "nbRepos": 19,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.zeopean.com",
+    "location": "中国广州"
   },
   "lglong519": {
     "login": "lglong519",
-    "bio": "喜，悲",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/20274028?u=c21faa5a02c9c950d0ba460281d805d8ac0854b5&v=4",
     "createdAt": "7/3/2016",
     "nbFollowers": 1,
     "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 183
-    },
+    "nbStarredRepos": 183,
     "nbRepos": 21,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "喜，悲"
   },
   "aleksey-t": {
     "login": "aleksey-t",
-    "bio": "web programming enthusiast",
-    "location": "Russia",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/31311433?u=b589c122d677d1e2276fa0ec5cde7b1e6928cba6&v=4",
     "createdAt": "8/24/2017",
     "nbFollowers": 9,
     "nbFollowings": 75,
-    "nbStarredRepos": {
-      "totalCount": 1318
-    },
+    "nbStarredRepos": 1317,
     "nbRepos": 348,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "web programming enthusiast",
+    "location": "Russia"
   },
   "sweerwen": {
     "login": "sweerwen",
-    "location": "China",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/9984095?u=c62a344d926ebdca9133da1304650a7832dddb7a&v=4",
     "createdAt": "11/27/2014",
     "nbFollowers": 3,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 423
-    },
+    "nbFollowings": 2,
+    "nbStarredRepos": 458,
     "nbRepos": 6,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "China"
   },
   "jaffreyjoy": {
     "login": "jaffreyjoy",
-    "bio": "Tech Enthusiast. Geek. Thinker. \r\n\"Curiosity is a necessity.\"\r\n",
-    "location": "Mumbai, India",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/20588777?v=4",
-    "company": "home",
     "createdAt": "7/21/2016",
     "nbFollowers": 24,
-    "nbFollowings": 161,
-    "nbStarredRepos": {
-      "totalCount": 2641
-    },
+    "nbFollowings": 182,
+    "nbStarredRepos": 2739,
     "nbRepos": 34,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "‎Geek. Thinker.\r\n\"Curiosity is a necessity.\"",
+    "location": "Mumbai, India",
+    "company": "home"
   },
   "elsa1234": {
     "login": "elsa1234",
@@ -13391,9 +12681,7 @@ const fans = {
     "createdAt": "12/18/2017",
     "nbFollowers": 1,
     "nbFollowings": 15,
-    "nbStarredRepos": {
-      "totalCount": 83
-    },
+    "nbStarredRepos": 83,
     "nbRepos": 25,
     "follower": false,
     "starred": [
@@ -13403,46 +12691,42 @@ const fans = {
   },
   "chrdek": {
     "login": "chrdek",
-    "bio": "Software developer, IoT technology enthusiast.",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10632099?v=4",
     "createdAt": "1/21/2015",
-    "nbFollowers": 83,
-    "nbFollowings": 143,
-    "nbStarredRepos": {
-      "totalCount": 102
-    },
-    "nbRepos": 3,
+    "nbFollowers": 87,
+    "nbFollowings": 151,
+    "nbStarredRepos": 110,
+    "nbRepos": 4,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Software developer, IoT technology enthusiast."
   },
   "prabhjotSL": {
     "login": "prabhjotSL",
-    "location": "Hyderabad",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1394414?v=4",
-    "websiteUrl": "http://godlabs.com",
-    "company": "GodLabs",
     "createdAt": "1/31/2012",
     "nbFollowers": 21,
-    "nbFollowings": 35,
-    "nbStarredRepos": {
-      "totalCount": 605
-    },
-    "nbRepos": 839,
+    "nbFollowings": 36,
+    "nbStarredRepos": 619,
+    "nbRepos": 849,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
     "forked": [
       "colorpicker"
-    ]
+    ],
+    "websiteUrl": "http://godlabs.com",
+    "location": "Hyderabad",
+    "company": "GodLabs"
   },
   "sskram": {
     "login": "sskram",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2053631?v=4",
-    "nbRepos": 66,
+    "nbRepos": 67,
     "forked": [
       "colorpicker"
     ],
@@ -13460,7 +12744,7 @@ const fans = {
   "zxh2013": {
     "login": "zxh2013",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3658022?v=4",
-    "nbRepos": 35,
+    "nbRepos": 37,
     "forked": [
       "colorpicker"
     ],
@@ -13487,7 +12771,7 @@ const fans = {
   "Reasat-0": {
     "login": "Reasat-0",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/51231109?u=7cf491da5278bdcb912997dece269f0dad59b2da&v=4",
-    "nbRepos": 10,
+    "nbRepos": 11,
     "forked": [
       "colorpicker"
     ],
@@ -13496,7 +12780,7 @@ const fans = {
   "hugocvx": {
     "login": "hugocvx",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/25638376?v=4",
-    "nbRepos": 28,
+    "nbRepos": 30,
     "forked": [
       "colorpicker"
     ],
@@ -13506,15 +12790,6 @@ const fans = {
     "login": "nam162",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/24108799?v=4",
     "nbRepos": 51,
-    "forked": [
-      "colorpicker"
-    ],
-    "starred": []
-  },
-  "vikioki": {
-    "login": "vikioki",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/52278056?v=4",
-    "nbRepos": 14,
     "forked": [
       "colorpicker"
     ],
@@ -13541,7 +12816,7 @@ const fans = {
   "fgcp020": {
     "login": "fgcp020",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/12007517?v=4",
-    "nbRepos": 164,
+    "nbRepos": 168,
     "forked": [
       "colorpicker"
     ],
@@ -13577,48 +12852,45 @@ const fans = {
   "saquibshaikh14": {
     "login": "saquibshaikh14",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/57316559?v=4",
-    "nbRepos": 3,
+    "nbRepos": 5,
     "forked": [
       "colorpicker"
     ],
     "starred": []
   },
-  "manojSelvam": {
-    "login": "manojSelvam",
-    "location": "Leicester ",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/4885821?v=4",
-    "createdAt": "6/29/2013",
-    "nbFollowers": 14,
-    "nbFollowings": 16,
-    "nbStarredRepos": {
-      "totalCount": 1042
-    },
-    "nbRepos": 16,
+  "neo725": {
+    "login": "neo725",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6042415?v=4",
+    "createdAt": "11/26/2013",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 186,
+    "nbRepos": 70,
     "follower": false,
     "starred": [
-      "structured-filter"
+      "colorpicker"
     ],
-    "forked": []
+    "forked": [
+      "colorpicker"
+    ]
   },
   "tiberiuichim": {
     "login": "tiberiuichim",
-    "bio": "Plone/Zope (@eea), Pyramid, Python, Volto, React, Vuejs",
-    "location": "Romania",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/141568?v=4",
-    "websiteUrl": "http://play.pixelblaster.ro",
-    "company": "@eea @eaudeweb @Kotti ",
     "createdAt": "10/19/2009",
-    "nbFollowers": 71,
-    "nbFollowings": 932,
-    "nbStarredRepos": {
-      "totalCount": 4576
-    },
-    "nbRepos": 157,
+    "nbFollowers": 74,
+    "nbFollowings": 983,
+    "nbStarredRepos": 4885,
+    "nbRepos": 164,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://play.pixelblaster.ro",
+    "bio": "Plone/Zope (@eea), Pyramid, Python, Volto, React, Vuejs",
+    "location": "Romania",
+    "company": "@eea @eaudeweb @Kotti "
   },
   "jiscdev01": {
     "login": "jiscdev01",
@@ -13626,9 +12898,7 @@ const fans = {
     "createdAt": "9/30/2016",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 24
-    },
+    "nbStarredRepos": 24,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -13638,39 +12908,35 @@ const fans = {
   },
   "sssaaa123": {
     "login": "sssaaa123",
-    "bio": "developer",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3761867?u=c3f880af96646d0a4b253ced4a5a0468d08e181c&v=4",
     "createdAt": "3/3/2013",
     "nbFollowers": 12,
     "nbFollowings": 49,
-    "nbStarredRepos": {
-      "totalCount": 2157
-    },
+    "nbStarredRepos": 2185,
     "nbRepos": 49,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "developer"
   },
   "beerbohmdo": {
     "login": "beerbohmdo",
-    "location": "Bückeburg, Germany",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/905241?v=4",
-    "websiteUrl": "http://www.ims.de/",
-    "company": "Internet Marketing Services GmbH",
     "createdAt": "7/9/2011",
     "nbFollowers": 5,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 15
-    },
+    "nbStarredRepos": 14,
     "nbRepos": 18,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.ims.de/",
+    "location": "Bückeburg, Germany",
+    "company": "Internet Marketing Services GmbH"
   },
   "fstfwd": {
     "login": "fstfwd",
@@ -13678,10 +12944,8 @@ const fans = {
     "createdAt": "6/20/2011",
     "nbFollowers": 17,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 4623
-    },
-    "nbRepos": 573,
+    "nbStarredRepos": 4701,
+    "nbRepos": 577,
     "follower": false,
     "starred": [
       "structured-filter",
@@ -13691,129 +12955,115 @@ const fans = {
   },
   "rasoulian": {
     "login": "rasoulian",
-    "bio": "Software Developer",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/848991?v=4",
-    "websiteUrl": "https://blog.rasoulian.net",
-    "company": "rasoulian",
     "createdAt": "6/14/2011",
     "nbFollowers": 9,
     "nbFollowings": 30,
-    "nbStarredRepos": {
-      "totalCount": 840
-    },
+    "nbStarredRepos": 879,
     "nbRepos": 57,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://blog.rasoulian.net",
+    "bio": "Software Developer",
+    "company": "rasoulian"
   },
   "ruden": {
     "login": "ruden",
-    "location": "Ukraine",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/447125?u=be5e32987c801d8714f4dff076e3f326dc6ae1bb&v=4",
-    "websiteUrl": "https://osclab.com/",
-    "company": "OSCLab",
     "createdAt": "10/20/2010",
     "nbFollowers": 9,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 300
-    },
+    "nbStarredRepos": 300,
     "nbRepos": 7,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://osclab.com/",
+    "location": "Ukraine",
+    "company": "OSCLab"
   },
   "hdpero": {
     "login": "hdpero",
-    "bio": "SilverStripe (PHP) back-end developer,\r\nFront-end developer & Certified ScrumMaster\r\n\r\nNow working in Adobe AEM (Java) platform. \r\nInterested in AI and ML. ",
-    "location": "Sweden",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/13778690?u=3453dd5a87d7eeeadc610f74e705d21e1d67a84e&v=4",
     "createdAt": "8/13/2015",
     "nbFollowers": 23,
-    "nbFollowings": 210,
-    "nbStarredRepos": {
-      "totalCount": 896
-    },
+    "nbFollowings": 211,
+    "nbStarredRepos": 900,
     "nbRepos": 44,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "SilverStripe (PHP) back-end developer,\r\nFront-end developer & Certified ScrumMaster\r\n\r\nNow working in Adobe AEM (Java) platform. \r\nInterested in AI and ML. ",
+    "location": "Sweden"
   },
   "dvornikov": {
     "login": "dvornikov",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/388601?u=3f3e3764fb7951b2b61226c697c4275c1cf12c11&v=4",
-    "websiteUrl": "http://dvornikov.ru",
     "createdAt": "9/5/2010",
     "nbFollowers": 5,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 881
-    },
+    "nbStarredRepos": 907,
     "nbRepos": 26,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://dvornikov.ru"
   },
   "creadone": {
     "login": "creadone",
-    "location": "Moscow",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/990803?u=fcb48ba59f2f937c7257c7d0b065ad1b310e35a3&v=4",
     "createdAt": "8/19/2011",
-    "nbFollowers": 68,
-    "nbFollowings": 804,
-    "nbStarredRepos": {
-      "totalCount": 3504
-    },
-    "nbRepos": 50,
+    "nbFollowers": 69,
+    "nbFollowings": 805,
+    "nbStarredRepos": 3620,
+    "nbRepos": 52,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Moscow"
   },
   "pretzelhammer": {
     "login": "pretzelhammer",
-    "bio": "js dev by day, rustacean by night.",
-    "location": "earth",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7769424?u=5ee2444b73eedbc1165c8cd8b68f92cbd59170cc&v=4",
-    "websiteUrl": "twitter.com/pretzelhammer",
     "createdAt": "6/2/2014",
-    "nbFollowers": 53,
-    "nbFollowings": 95,
-    "nbStarredRepos": {
-      "totalCount": 999
-    },
-    "nbRepos": 7,
+    "nbFollowers": 54,
+    "nbFollowings": 97,
+    "nbStarredRepos": 1029,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://twitter.com/pretzelhammer",
+    "bio": "js dev by day, rustacean by night",
+    "location": "earth"
   },
   "fabiodr": {
     "login": "fabiodr",
-    "bio": "Systems architect, passionated with tech and software development",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/2953025?u=a9562d527e0113fef70574ae9ae7df25c61c5b17&v=4",
     "createdAt": "12/3/2012",
-    "nbFollowers": 105,
+    "nbFollowers": 108,
     "nbFollowings": 541,
-    "nbStarredRepos": {
-      "totalCount": 16475
-    },
+    "nbStarredRepos": 16521,
     "nbRepos": 47,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Systems architect, passionated with tech and software development"
   },
   "lafar6502": {
     "login": "lafar6502",
@@ -13821,10 +13071,8 @@ const fans = {
     "createdAt": "5/4/2012",
     "nbFollowers": 5,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 55
-    },
-    "nbRepos": 60,
+    "nbStarredRepos": 56,
+    "nbRepos": 61,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13833,21 +13081,19 @@ const fans = {
   },
   "chrift": {
     "login": "chrift",
-    "location": "Bournemouth",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2837753?v=4",
-    "company": "Chrift Ltd",
     "createdAt": "11/19/2012",
     "nbFollowers": 5,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 163
-    },
+    "nbStarredRepos": 164,
     "nbRepos": 25,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Bournemouth",
+    "company": "Chrift Ltd"
   },
   "Agentis": {
     "login": "Agentis",
@@ -13855,9 +13101,7 @@ const fans = {
     "createdAt": "8/11/2015",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -13871,9 +13115,7 @@ const fans = {
     "createdAt": "1/9/2013",
     "nbFollowers": 13,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 550
-    },
+    "nbStarredRepos": 549,
     "nbRepos": 281,
     "follower": false,
     "starred": [
@@ -13883,21 +13125,19 @@ const fans = {
   },
   "zach-sim": {
     "login": "zach-sim",
-    "location": "Wellington, New Zealand",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/10053610?v=4",
-    "websiteUrl": "https://zach.sim.kiwi/",
     "createdAt": "12/2/2014",
-    "nbFollowers": 6,
+    "nbFollowers": 8,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2176
-    },
+    "nbStarredRepos": 2189,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://zach.sim.kiwi/",
+    "location": "Wellington, New Zealand"
   },
   "hamzouzou": {
     "login": "hamzouzou",
@@ -13905,9 +13145,7 @@ const fans = {
     "createdAt": "7/23/2012",
     "nbFollowers": 2,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 30
-    },
+    "nbStarredRepos": 30,
     "nbRepos": 32,
     "follower": false,
     "starred": [
@@ -13921,10 +13159,8 @@ const fans = {
     "createdAt": "6/11/2015",
     "nbFollowers": 4,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 157
-    },
-    "nbRepos": 34,
+    "nbStarredRepos": 167,
+    "nbRepos": 37,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13933,23 +13169,21 @@ const fans = {
   },
   "royarzun": {
     "login": "royarzun",
-    "bio": "Programmer, big fan of Basketball, photography and Tech",
-    "location": "Santiago, Chile",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/213289?u=745f0c442553968ab0607768b05a4b9f5cb74de2&v=4",
-    "websiteUrl": "https://cl.linkedin.com/in/ricardo-oyarzuni",
-    "company": "@cornershop ",
     "createdAt": "3/1/2010",
     "nbFollowers": 23,
     "nbFollowings": 52,
-    "nbStarredRepos": {
-      "totalCount": 112
-    },
+    "nbStarredRepos": 112,
     "nbRepos": 33,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://cl.linkedin.com/in/ricardo-oyarzuni",
+    "bio": "Programmer, big fan of Basketball, photography and Tech",
+    "location": "Santiago, Chile",
+    "company": "@cornershop "
   },
   "mkkim417": {
     "login": "mkkim417",
@@ -13957,9 +13191,7 @@ const fans = {
     "createdAt": "2/24/2014",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 78
-    },
+    "nbStarredRepos": 78,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -13969,42 +13201,38 @@ const fans = {
   },
   "aurora": {
     "login": "aurora",
-    "bio": "coder and computer enthusiast • electronic musician • vintage computing geek • addicted to UNIX",
-    "location": "Munich, Germany",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/304837?u=598901f80177a42f31f2cf663c333fd33bf070e1&v=4",
-    "websiteUrl": "https://aurora.github.io/",
-    "company": "ClipDealer GmbH",
     "createdAt": "6/14/2010",
     "nbFollowers": 79,
-    "nbFollowings": 319,
-    "nbStarredRepos": {
-      "totalCount": 5272
-    },
+    "nbFollowings": 331,
+    "nbStarredRepos": 5320,
     "nbRepos": 76,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://aurora.github.io/",
+    "bio": "coder and computer enthusiast • electronic musician • vintage computing geek • addicted to UNIX",
+    "location": "Munich, Germany",
+    "company": "ClipDealer GmbH"
   },
   "dspangenberg": {
     "login": "dspangenberg",
-    "location": "Bonn, NRW, Germany",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/166466?v=4",
-    "websiteUrl": "http://twiceware.de",
-    "company": "twiceware solutions e.K.",
     "createdAt": "12/11/2009",
     "nbFollowers": 8,
-    "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 904
-    },
-    "nbRepos": 42,
+    "nbFollowings": 13,
+    "nbStarredRepos": 908,
+    "nbRepos": 43,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://twiceware.de",
+    "location": "Bonn, NRW, Germany",
+    "company": "twiceware solutions e.K."
   },
   "marslovefree": {
     "login": "marslovefree",
@@ -14012,10 +13240,8 @@ const fans = {
     "createdAt": "8/5/2012",
     "nbFollowers": 4,
     "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 1106
-    },
-    "nbRepos": 13,
+    "nbStarredRepos": 1116,
+    "nbRepos": 15,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -14028,10 +13254,8 @@ const fans = {
     "createdAt": "5/15/2012",
     "nbFollowers": 5,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 97
-    },
-    "nbRepos": 57,
+    "nbStarredRepos": 100,
+    "nbRepos": 58,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -14044,9 +13268,7 @@ const fans = {
     "createdAt": "11/17/2015",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 141
-    },
+    "nbStarredRepos": 141,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14059,10 +13281,8 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3845814?u=ce72bac18b0a20f46ba45202d509fdbff909458a&v=4",
     "createdAt": "3/12/2013",
     "nbFollowers": 31,
-    "nbFollowings": 106,
-    "nbStarredRepos": {
-      "totalCount": 1995
-    },
+    "nbFollowings": 107,
+    "nbStarredRepos": 2072,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -14072,23 +13292,21 @@ const fans = {
   },
   "mlanin": {
     "login": "mlanin",
-    "bio": "Laravel and Vue.js evangelist",
-    "location": "Moscow",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/467159?u=d921504d076ea68d256210a78b694ffa484e3d4a&v=4",
-    "websiteUrl": "https://blog.lanin.me",
-    "company": "Avito",
     "createdAt": "11/4/2010",
     "nbFollowers": 15,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 226
-    },
-    "nbRepos": 23,
+    "nbStarredRepos": 228,
+    "nbRepos": 22,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://blog.lanin.me",
+    "bio": "Laravel and Vue.js evangelist",
+    "location": "Moscow",
+    "company": "Avito"
   },
   "stefan2410": {
     "login": "stefan2410",
@@ -14096,9 +13314,7 @@ const fans = {
     "createdAt": "12/12/2011",
     "nbFollowers": 5,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 357
-    },
+    "nbStarredRepos": 357,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -14108,81 +13324,74 @@ const fans = {
   },
   "f-mer": {
     "login": "f-mer",
-    "location": "Emsdetten, Germany",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/17234623?u=dea17b5b13f52c4d7005a85913da79e8e744e61b&v=4",
-    "websiteUrl": "https://mersch.co",
-    "company": "@deltacity - Digital Strategy & Solutions",
     "createdAt": "2/14/2016",
-    "nbFollowers": 12,
+    "nbFollowers": 13,
     "nbFollowings": 198,
-    "nbStarredRepos": {
-      "totalCount": 1774
-    },
-    "nbRepos": 47,
+    "nbStarredRepos": 1797,
+    "nbRepos": 48,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://mersch.co",
+    "bio": "Software engineer. Interested in low and high-level programming.",
+    "location": "Emsdetten, Germany",
+    "company": "@deltacity - Digital Strategy & Solutions"
   },
   "jcsuscriptor": {
     "login": "jcsuscriptor",
-    "bio": "Desarrollador, Arquitecto Software.   Informática esta mas cerca al arte, que a la ciencia. ",
-    "location": "Ecuador, Loja",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/222181?v=4",
-    "websiteUrl": "www.espiraldigital.com.ec",
-    "company": "Espiral Digital",
     "createdAt": "3/13/2010",
-    "nbFollowers": 16,
-    "nbFollowings": 42,
-    "nbStarredRepos": {
-      "totalCount": 1412
-    },
+    "nbFollowers": 17,
+    "nbFollowings": 43,
+    "nbStarredRepos": 1414,
     "nbRepos": 35,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.espiraldigital.com.ec",
+    "bio": "Desarrollador, Arquitecto Software.   Informática esta mas cerca al arte, que a la ciencia. ",
+    "location": "Ecuador, Loja",
+    "company": "Espiral Digital"
   },
   "mahmoudimus": {
     "login": "mahmoudimus",
-    "bio": "Cryptography, Data Security, Fintech, and Privacy",
-    "location": "USA",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/40820?v=4",
-    "websiteUrl": "https://mahmoudimus.com",
-    "company": "Very Good Security",
     "createdAt": "12/16/2008",
-    "nbFollowers": 198,
-    "nbFollowings": 432,
-    "nbStarredRepos": {
-      "totalCount": 8976
-    },
-    "nbRepos": 182,
+    "nbFollowers": 200,
+    "nbFollowings": 440,
+    "nbStarredRepos": 9255,
+    "nbRepos": 201,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://mahmoudimus.com",
+    "bio": "Cryptography, Data Security, Fintech, and Privacy",
+    "location": "USA",
+    "company": "Very Good Security"
   },
   "luciandinu": {
     "login": "luciandinu",
-    "bio": "I’m a Romanian-born Designer (UX/UI/Visual Designer) from Brasov living in Bucharest, Romania.",
-    "location": "Bucharest, Romania",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/12045200?v=4",
-    "websiteUrl": "http://luciandinu.com",
     "createdAt": "4/20/2015",
     "nbFollowers": 5,
     "nbFollowings": 30,
-    "nbStarredRepos": {
-      "totalCount": 393
-    },
-    "nbRepos": 19,
+    "nbStarredRepos": 395,
+    "nbRepos": 20,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://luciandinu.com",
+    "bio": "I’m a Romanian-born Designer (UX/UI/Visual Designer) from Brasov living in Bucharest, Romania.",
+    "location": "Bucharest, Romania"
   },
   "joshbartley": {
     "login": "joshbartley",
@@ -14190,9 +13399,7 @@ const fans = {
     "createdAt": "10/21/2013",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 340
-    },
+    "nbStarredRepos": 347,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -14202,132 +13409,118 @@ const fans = {
   },
   "vbarbarosh": {
     "login": "vbarbarosh",
-    "location": "Moldova",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/352973?u=936283b0c4874ce4c58ccb41d80333fc1b8a5d26&v=4",
-    "websiteUrl": "https://vbarbarosh.com",
     "createdAt": "8/3/2010",
     "nbFollowers": 17,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 759
-    },
+    "nbStarredRepos": 760,
     "nbRepos": 20,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://vbarbarosh.com",
+    "location": "Moldova"
   },
   "leandrosimoes": {
     "login": "leandrosimoes",
-    "bio": "Software Engineer @simplificaci, a code lover! See more at https://lesimoes.dev \r\n\r\n👨‍💻🖖👨‍🍳🎨🥁🍕🕹",
-    "location": "São José do Rio Preto, São Paulo, Brasil",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5066378?u=98d81da11220a6d0f7f51532e2c3e949b50a445b&v=4",
-    "websiteUrl": "https://lesimoes.dev",
-    "company": "Software Engineer @simplificaci (https://simplificaci.com.br)",
     "createdAt": "7/22/2013",
-    "nbFollowers": 57,
-    "nbFollowings": 118,
-    "nbStarredRepos": {
-      "totalCount": 516
-    },
-    "nbRepos": 73,
+    "nbFollowers": 59,
+    "nbFollowings": 130,
+    "nbStarredRepos": 516,
+    "nbRepos": 74,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://lesimoes.dev",
+    "bio": "Software Engineer @simplificaci, a code lover! See more at https://lesimoes.dev \r\n\r\n👨‍💻🖖👨‍🍳🎨🥁🍕🕹",
+    "location": "São José do Rio Preto, São Paulo, Brasil",
+    "company": "Software Engineer @simplificaci (https://simplificaci.com.br)"
   },
   "fredsadaghiani": {
     "login": "fredsadaghiani",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1207338?u=8691c4d147b2d6ad9d741f6f91ea84237b2cf93e&v=4",
-    "websiteUrl": "https://fredsadaghiani.github.io/",
-    "company": "@SiftScience ",
     "createdAt": "11/19/2011",
     "nbFollowers": 5,
     "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 64
-    },
+    "nbStarredRepos": 66,
     "nbRepos": 20,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://fredsadaghiani.github.io/",
+    "company": "@SiftScience "
   },
   "NikoRoberts": {
     "login": "NikoRoberts",
-    "location": "Lisbon & Tasmania",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/697418?u=fc9022ed1711befac582d56853ddb2893ae881f7&v=4",
-    "websiteUrl": "https://www.nikoroberts.com",
-    "company": "Eventfuel.io",
     "createdAt": "3/29/2011",
     "nbFollowers": 40,
     "nbFollowings": 171,
-    "nbStarredRepos": {
-      "totalCount": 202
-    },
-    "nbRepos": 62,
+    "nbStarredRepos": 202,
+    "nbRepos": 63,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.nikoroberts.com",
+    "location": "Lisbon & Tasmania",
+    "company": "Eventfuel.io"
   },
   "arda": {
     "login": "arda",
-    "location": "istanbul",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/115481?v=4",
     "createdAt": "8/14/2009",
     "nbFollowers": 8,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 445
-    },
+    "nbStarredRepos": 445,
     "nbRepos": 3,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "istanbul"
   },
   "hoverlover": {
     "login": "hoverlover",
-    "location": "Nixa, MO",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/169285?u=9768e4b8dfaf50f63c58f17e28efbea2d76ac6e5&v=4",
-    "websiteUrl": "txt2give.co",
-    "company": "Txt2Give",
     "createdAt": "12/17/2009",
     "nbFollowers": 15,
     "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 370
-    },
+    "nbStarredRepos": 370,
     "nbRepos": 33,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://txt2give.co",
+    "location": "Nixa, MO",
+    "company": "Txt2Give"
   },
   "Pobux": {
     "login": "Pobux",
-    "bio": "Montreal, UQAM, logiciel libre / open-source.",
-    "location": "Montréal",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5279756?u=1324706a9210785872c875635a7825ab36a1652d&v=4",
     "createdAt": "8/21/2013",
     "nbFollowers": 9,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 7
-    },
+    "nbStarredRepos": 7,
     "nbRepos": 20,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Montreal, UQAM, logiciel libre / open-source.",
+    "location": "Montréal"
   },
   "hnviradiya": {
     "login": "hnviradiya",
@@ -14335,9 +13528,7 @@ const fans = {
     "createdAt": "5/31/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 31
-    },
+    "nbStarredRepos": 31,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -14347,78 +13538,70 @@ const fans = {
   },
   "kn8sk": {
     "login": "kn8sk",
-    "location": "Bratislava, Slovakia",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/8077793?v=4",
     "createdAt": "7/5/2014",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 145
-    },
+    "nbStarredRepos": 144,
     "nbRepos": 4,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Bratislava, Slovakia"
   },
   "mbuenoferrer": {
     "login": "mbuenoferrer",
-    "bio": "Software Developer",
-    "location": "Madrid, Spain",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2506499?u=34f533d57dc08b0653c979410edfe96d058f2890&v=4",
-    "company": "@kireistudio ",
     "createdAt": "10/7/2012",
     "nbFollowers": 15,
     "nbFollowings": 55,
-    "nbStarredRepos": {
-      "totalCount": 1247
-    },
+    "nbStarredRepos": 1288,
     "nbRepos": 25,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Software Developer",
+    "location": "Madrid, Spain",
+    "company": "@kireistudio "
   },
   "nabeelalisajid": {
     "login": "nabeelalisajid",
-    "bio": "Trying to learn new things everyday.",
-    "location": "Islamabad",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/8381787?u=10acc28ec16cded908658669375b0a87936689c7&v=4",
-    "websiteUrl": "https://nabeelalisajid.me",
-    "company": "Teamo",
     "createdAt": "8/6/2014",
     "nbFollowers": 21,
     "nbFollowings": 27,
-    "nbStarredRepos": {
-      "totalCount": 405
-    },
+    "nbStarredRepos": 408,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://nabeelalisajid.me",
+    "bio": "Trying to learn new things everyday.",
+    "location": "Islamabad",
+    "company": "Teamo"
   },
   "gubi": {
     "login": "gubi",
-    "location": "Italia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/746559?u=1d1609facde31d0a3896600caa521a67f70a5a64&v=4",
-    "websiteUrl": "http://iod.io",
-    "company": "iod.io (me)",
     "createdAt": "4/22/2011",
     "nbFollowers": 29,
     "nbFollowings": 20,
-    "nbStarredRepos": {
-      "totalCount": 247
-    },
-    "nbRepos": 44,
+    "nbStarredRepos": 247,
+    "nbRepos": 45,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://iod.io",
+    "location": "Italia",
+    "company": "iod.io (me)"
   },
   "juahan": {
     "login": "juahan",
@@ -14426,9 +13609,7 @@ const fans = {
     "createdAt": "10/5/2013",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 38
-    },
+    "nbStarredRepos": 38,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -14442,9 +13623,7 @@ const fans = {
     "createdAt": "4/4/2017",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 87
-    },
+    "nbStarredRepos": 90,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -14454,70 +13633,62 @@ const fans = {
   },
   "SourcingDenis": {
     "login": "SourcingDenis",
-    "bio": "Talent  Sleuth \r\n\r\nt.me/sourcingnuances\r\n",
-    "location": "Ukraine, Kiev",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/24542687?u=73f985f409246996c2720fb94a6348a17b284036&v=4",
-    "websiteUrl": "sourcingdenis.com",
     "createdAt": "12/13/2016",
-    "nbFollowers": 161,
-    "nbFollowings": 1961,
-    "nbStarredRepos": {
-      "totalCount": 563
-    },
-    "nbRepos": 126,
+    "nbFollowers": 163,
+    "nbFollowings": 1963,
+    "nbStarredRepos": 572,
+    "nbRepos": 129,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://sourcingdenis.com",
+    "bio": "Talent  Sleuth \r\n\r\nt.me/sourcingnuances\r\n",
+    "location": "Ukraine, Kiev"
   },
   "jasonwedepohl": {
     "login": "jasonwedepohl",
-    "location": "Cape Town, South Africa",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/14253989?u=56a88c46d14853e5d1ba0e8e477ede2057a20d33&v=4",
-    "websiteUrl": "https://za.linkedin.com/in/jasonwedepohl",
-    "company": "http://www.digiata.com/",
     "createdAt": "9/12/2015",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 11
-    },
+    "nbStarredRepos": 11,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://za.linkedin.com/in/jasonwedepohl",
+    "location": "Cape Town, South Africa",
+    "company": "http://www.digiata.com/"
   },
   "bigforcegun": {
     "login": "bigforcegun",
-    "bio": "Teamlead, Backend Developer, Devops. ",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/264697?u=b1cfe9572e7b0d92a2be12274248d98148ae40ff&v=4",
-    "websiteUrl": "https://bigforcegun.com",
     "createdAt": "5/4/2010",
-    "nbFollowers": 18,
-    "nbFollowings": 29,
-    "nbStarredRepos": {
-      "totalCount": 277
-    },
-    "nbRepos": 20,
+    "nbFollowers": 19,
+    "nbFollowings": 30,
+    "nbStarredRepos": 282,
+    "nbRepos": 21,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://bigforcegun.com",
+    "bio": "Teamlead, Backend Developer, Devops. "
   },
   "wukuan405": {
     "login": "wukuan405",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/16629605?v=4",
     "createdAt": "1/9/2016",
-    "nbFollowers": 17,
-    "nbFollowings": 69,
-    "nbStarredRepos": {
-      "totalCount": 2683
-    },
-    "nbRepos": 356,
+    "nbFollowers": 18,
+    "nbFollowings": 82,
+    "nbStarredRepos": 2915,
+    "nbRepos": 403,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -14526,77 +13697,69 @@ const fans = {
   },
   "arraworld": {
     "login": "arraworld",
-    "location": "United States",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/5768905?v=4",
-    "websiteUrl": "stephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.com",
     "createdAt": "10/24/2013",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 208
-    },
+    "nbStarredRepos": 211,
     "nbRepos": 15,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://stephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.comstephenarra.com",
+    "location": "United States"
   },
   "waldenn": {
     "login": "waldenn",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1248919?u=5f9af92a98a8b72871dba509e66fcc93eb79d7e2&v=4",
-    "websiteUrl": "https://conze.pt",
-    "company": "conzept",
     "createdAt": "12/7/2011",
     "nbFollowers": 17,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 2839
-    },
-    "nbRepos": 265,
+    "nbStarredRepos": 2945,
+    "nbRepos": 291,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://conze.pt",
+    "company": "conzept"
   },
   "buildlove": {
     "login": "buildlove",
-    "bio": "someone like you",
-    "location": "wuhan",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/14903648?u=cea88dcc50846f96f71f0ad5a36961d3e2b92c2b&v=4",
-    "websiteUrl": "https://buildlove.github.io",
     "createdAt": "9/30/2015",
     "nbFollowers": 6,
-    "nbFollowings": 12,
-    "nbStarredRepos": {
-      "totalCount": 326
-    },
-    "nbRepos": 21,
+    "nbFollowings": 13,
+    "nbStarredRepos": 334,
+    "nbRepos": 22,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://buildlove.github.io",
+    "bio": "someone like you",
+    "location": "wuhan"
   },
   "xmarcos": {
     "login": "xmarcos",
-    "bio": "Builder.\r\nSocio de @luculpable.\r\nPadre de Pedro y Olivia.\r\nVP de Ingeniería en @Olapic.\r\nFluent in english, spanish & emoji 😎",
-    "location": "Argentina",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/58319?v=4",
-    "company": "@Olapic",
     "createdAt": "2/26/2009",
-    "nbFollowers": 97,
+    "nbFollowers": 95,
     "nbFollowings": 737,
-    "nbStarredRepos": {
-      "totalCount": 8045
-    },
+    "nbStarredRepos": 8055,
     "nbRepos": 16,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Builder.\r\nSocio de @luculpable.\r\nPadre de Pedro y Olivia.\r\nVP de Ingeniería en @Olapic.\r\nFluent in english, spanish & emoji 😎",
+    "location": "Argentina",
+    "company": "@Olapic"
   },
   "prvcy": {
     "login": "prvcy",
@@ -14604,9 +13767,7 @@ const fans = {
     "createdAt": "4/8/2010",
     "nbFollowers": 11,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 257
-    },
+    "nbStarredRepos": 258,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -14616,78 +13777,70 @@ const fans = {
   },
   "yuhaiyang": {
     "login": "yuhaiyang",
-    "bio": "Nothing",
-    "location": "Suchow",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2493994?v=4",
-    "websiteUrl": "http://www.hillstonenet.com",
-    "company": "Hillstone Networks",
     "createdAt": "10/5/2012",
     "nbFollowers": 5,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 243
-    },
+    "nbStarredRepos": 244,
     "nbRepos": 28,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.hillstonenet.com",
+    "bio": "Nothing",
+    "location": "Suchow",
+    "company": "Hillstone Networks"
   },
   "jacksparoow": {
     "login": "jacksparoow",
-    "bio": "I am Angular Developer. I have 3 yrs experience in Web Designing and Development. Create LMS for real estate broker firm and Tour and Travels",
-    "location": "Nodia",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/45750343?u=6601b3e8ffe51b4d57e44bd0672dce4d846e603b&v=4",
-    "company": "touricted.com",
     "createdAt": "12/9/2018",
     "nbFollowers": 2,
     "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 8
-    },
+    "nbStarredRepos": 8,
     "nbRepos": 4,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "I am Angular Developer. I have 3 yrs experience in Web Designing and Development. Create LMS for real estate broker firm and Tour and Travels",
+    "location": "Nodia",
+    "company": "touricted.com"
   },
   "trickycoders": {
     "login": "trickycoders",
-    "bio": "@Narvar",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/345594?u=4d9b37ccfd0035627781d2605ceb17e762cd208d&v=4",
     "createdAt": "7/27/2010",
     "nbFollowers": 3,
-    "nbFollowings": 14,
-    "nbStarredRepos": {
-      "totalCount": 478
-    },
+    "nbFollowings": 15,
+    "nbStarredRepos": 486,
     "nbRepos": 24,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "@Narvar"
   },
   "alex-bacart": {
     "login": "alex-bacart",
-    "location": "Moscow, Russia",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/13940752?u=0f1b183c512f11c7a1afeb3dadf9c8bd605a0f09&v=4",
-    "websiteUrl": "https://www.bacart.net",
-    "company": "@bacart ",
     "createdAt": "8/24/2015",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 245
-    },
+    "nbStarredRepos": 248,
     "nbRepos": 3,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.bacart.net",
+    "location": "Moscow, Russia",
+    "company": "@bacart "
   },
   "iokala": {
     "login": "iokala",
@@ -14695,9 +13848,7 @@ const fans = {
     "createdAt": "2/23/2013",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 136
-    },
+    "nbStarredRepos": 178,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -14711,9 +13862,7 @@ const fans = {
     "createdAt": "10/26/2018",
     "nbFollowers": 1,
     "nbFollowings": 5,
-    "nbStarredRepos": {
-      "totalCount": 190
-    },
+    "nbStarredRepos": 197,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -14727,9 +13876,7 @@ const fans = {
     "createdAt": "3/2/2020",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 7
-    },
+    "nbStarredRepos": 8,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -14743,10 +13890,8 @@ const fans = {
     "createdAt": "3/22/2016",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 31
-    },
-    "nbRepos": 12,
+    "nbStarredRepos": 32,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -14755,43 +13900,39 @@ const fans = {
   },
   "DataGreed": {
     "login": "DataGreed",
-    "bio": "CTO @ Listenable.io  / \r\n\r\nIndie Game Developer  /                  \r\n\r\ncofounder at pure.app              ",
-    "location": "Lisbon, Portugal",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2033163?u=c274889e031c7d41e31c83a665e57e67c1ea91a8&v=4",
-    "websiteUrl": "https://datagreed.pro",
-    "company": "indie",
     "createdAt": "7/24/2012",
     "nbFollowers": 5,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 308
-    },
-    "nbRepos": 38,
+    "nbStarredRepos": 321,
+    "nbRepos": 42,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://datagreed.pro",
+    "bio": "CTO @ Listenable.io  / \r\n\r\nIndie Game Developer  /                  \r\n\r\ncofounder at pure.app              \r\n\r\nOld repos at https://bitbucket.org/datagreed/",
+    "location": "Lisbon, Portugal",
+    "company": "indie"
   },
   "KennedyTedesco": {
     "login": "KennedyTedesco",
-    "bio": "Developer",
-    "location": "Belo Horizonte, Brazil",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/999232?u=15e7240955e60c93d5f37a0d5e0a97e414ab5707&v=4",
-    "websiteUrl": "https://kennedytedesco.dev",
-    "company": "TreinaWeb",
     "createdAt": "8/23/2011",
-    "nbFollowers": 171,
-    "nbFollowings": 362,
-    "nbStarredRepos": {
-      "totalCount": 1743
-    },
-    "nbRepos": 47,
+    "nbFollowers": 174,
+    "nbFollowings": 363,
+    "nbStarredRepos": 1814,
+    "nbRepos": 50,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://kennedytedesco.dev",
+    "bio": "Developer",
+    "location": "Belo Horizonte, Brazil",
+    "company": "TreinaWeb"
   },
   "phillipwilhelm": {
     "login": "phillipwilhelm",
@@ -14799,9 +13940,7 @@ const fans = {
     "createdAt": "8/9/2013",
     "nbFollowers": 8,
     "nbFollowings": 19,
-    "nbStarredRepos": {
-      "totalCount": 1127
-    },
+    "nbStarredRepos": 1160,
     "nbRepos": 123,
     "follower": false,
     "starred": [
@@ -14814,11 +13953,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2421972?u=8d49ecaa56ff107c98f88cd9d73258dabfa7e47a&v=4",
     "createdAt": "9/25/2012",
     "nbFollowers": 16,
-    "nbFollowings": 40,
-    "nbStarredRepos": {
-      "totalCount": 291
-    },
-    "nbRepos": 47,
+    "nbFollowings": 41,
+    "nbStarredRepos": 315,
+    "nbRepos": 49,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -14831,9 +13968,7 @@ const fans = {
     "createdAt": "3/8/2011",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
+    "nbStarredRepos": 2,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14841,22 +13976,127 @@ const fans = {
     ],
     "forked": []
   },
+  "Sicos1977": {
+    "login": "Sicos1977",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6692947?u=8123dbea8b613791a831d6d1c687b613da8933f2&v=4",
+    "createdAt": "2/15/2014",
+    "nbFollowers": 58,
+    "nbFollowings": 0,
+    "nbStarredRepos": 91,
+    "nbRepos": 22,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "bio": "Programming since I was a kid. Started on the C64 with BASIC. Since then I used programming languages like Turbo Pascal, Delphi, C++, VB6 and of course C#",
+    "location": "Netherlands"
+  },
+  "hakkisagdic": {
+    "login": "hakkisagdic",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11720433?u=00c4dff1b2aad19ce3f3d1e312c8619e476da20e&v=4",
+    "createdAt": "3/30/2015",
+    "nbFollowers": 45,
+    "nbFollowings": 22,
+    "nbStarredRepos": 1237,
+    "nbRepos": 183,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "ricardok1": {
+    "login": "ricardok1",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/550792?v=4",
+    "createdAt": "1/6/2011",
+    "nbFollowers": 5,
+    "nbFollowings": 12,
+    "nbStarredRepos": 321,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "dotnetpowered": {
+    "login": "dotnetpowered",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1025328?v=4",
+    "createdAt": "9/4/2011",
+    "nbFollowers": 10,
+    "nbFollowings": 0,
+    "nbStarredRepos": 226,
+    "nbRepos": 5,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://dotnetpowered.com",
+    "bio": "CTO for XeoHealth \r\n| technology | architecture | operations | open source",
+    "location": "Jacksonville, FL"
+  },
   "buyixiaohan": {
     "login": "buyixiaohan",
-    "bio": "Net",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7834735?u=9775426bd9a39926e899765d904fc709d31afdc7&v=4",
     "createdAt": "6/8/2014",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 339
-    },
+    "nbStarredRepos": 343,
     "nbRepos": 13,
     "follower": false,
     "starred": [
+      "structured-filter",
       "colorpicker"
     ],
+    "forked": [],
+    "bio": "Net"
+  },
+  "apchenjun": {
+    "login": "apchenjun",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4964551?u=c0b225eddae8ed483acbb8f48ff3eaa3ac469bff&v=4",
+    "createdAt": "7/8/2013",
+    "nbFollowers": 28,
+    "nbFollowings": 2481,
+    "nbStarredRepos": 2465,
+    "nbRepos": 2,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "bio": "160178102@qq.com",
+    "location": "GuangZhou"
+  },
+  "tecte": {
+    "login": "tecte",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1809317?u=4d5436f60aeefd9125bf42e911cf255d4c034da7&v=4",
+    "createdAt": "6/2/2012",
+    "nbFollowers": 5,
+    "nbFollowings": 0,
+    "nbStarredRepos": 1088,
+    "nbRepos": 188,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
     "forked": []
+  },
+  "sdrdis": {
+    "login": "sdrdis",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1104414?v=4",
+    "createdAt": "10/5/2011",
+    "nbFollowers": 62,
+    "nbFollowings": 30,
+    "nbStarredRepos": 403,
+    "nbRepos": 95,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://sebastien.drouyer.com"
   },
   "b-squared": {
     "login": "b-squared",
@@ -14864,9 +14104,7 @@ const fans = {
     "createdAt": "11/17/2010",
     "nbFollowers": 1,
     "nbFollowings": 4,
-    "nbStarredRepos": {
-      "totalCount": 102
-    },
+    "nbStarredRepos": 110,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14876,30 +14114,26 @@ const fans = {
   },
   "gailufeng": {
     "login": "gailufeng",
-    "location": "beijing",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2101568?v=4",
     "createdAt": "8/5/2012",
     "nbFollowers": 13,
     "nbFollowings": 6,
-    "nbStarredRepos": {
-      "totalCount": 2100
-    },
+    "nbStarredRepos": 2117,
     "nbRepos": 20,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "beijing"
   },
   "liushihyen": {
     "login": "liushihyen",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/844972?v=4",
     "createdAt": "6/12/2011",
     "nbFollowers": 25,
-    "nbFollowings": 46,
-    "nbStarredRepos": {
-      "totalCount": 1178
-    },
+    "nbFollowings": 47,
+    "nbStarredRepos": 1180,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -14913,9 +14147,7 @@ const fans = {
     "createdAt": "12/2/2016",
     "nbFollowers": 3,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 105
-    },
+    "nbStarredRepos": 105,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -14929,9 +14161,7 @@ const fans = {
     "createdAt": "9/3/2013",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 242
-    },
+    "nbStarredRepos": 242,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -14941,22 +14171,20 @@ const fans = {
   },
   "eee27": {
     "login": "eee27",
-    "location": "China Shenyang",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/8985140?u=7b3603e16fdf9e27063c68239a6069ec72c72d8a&v=4",
-    "websiteUrl": "http://eee27go.com",
-    "company": "Stemsoft",
     "createdAt": "10/1/2014",
     "nbFollowers": 9,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 355
-    },
+    "nbStarredRepos": 357,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://eee27go.com",
+    "location": "China Shenyang",
+    "company": "Stemsoft"
   },
   "taxue9988": {
     "login": "taxue9988",
@@ -14964,9 +14192,7 @@ const fans = {
     "createdAt": "7/18/2015",
     "nbFollowers": 9,
     "nbFollowings": 30,
-    "nbStarredRepos": {
-      "totalCount": 1212
-    },
+    "nbStarredRepos": 1218,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -14980,9 +14206,7 @@ const fans = {
     "createdAt": "5/1/2014",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 12
-    },
+    "nbStarredRepos": 12,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -14992,56 +14216,50 @@ const fans = {
   },
   "dxxzst": {
     "login": "dxxzst",
-    "bio": "🎁What's past is prologue.",
-    "location": "魔都",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10137621?u=05152cab0a156ccc2711460c8065aa751d8ce4d0&v=4",
     "createdAt": "12/9/2014",
-    "nbFollowers": 363,
+    "nbFollowers": 372,
     "nbFollowings": 11,
-    "nbStarredRepos": {
-      "totalCount": 218
-    },
-    "nbRepos": 44,
+    "nbStarredRepos": 235,
+    "nbRepos": 46,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "🎁What's past is prologue.",
+    "location": "魔都"
   },
   "hl-stone": {
     "login": "hl-stone",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/26757108?u=9d1c3977c380372a0eaef78bd8dc671bff9e40e5&v=4",
-    "company": "ciecc",
     "createdAt": "3/28/2017",
     "nbFollowers": 4,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 665
-    },
+    "nbStarredRepos": 680,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "company": "ciecc"
   },
   "lyw90": {
     "login": "lyw90",
-    "bio": "\r\n    \r\n",
-    "location": "shenzhen",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7474817?u=7759762e8d551e22d94dea303a4a1c07a085c836&v=4",
     "createdAt": "5/3/2014",
     "nbFollowers": 6,
     "nbFollowings": 50,
-    "nbStarredRepos": {
-      "totalCount": 358
-    },
+    "nbStarredRepos": 358,
     "nbRepos": 57,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "\r\n    \r\n",
+    "location": "shenzhen"
   },
   "linfenpan": {
     "login": "linfenpan",
@@ -15049,10 +14267,8 @@ const fans = {
     "createdAt": "3/17/2015",
     "nbFollowers": 6,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 162
-    },
-    "nbRepos": 54,
+    "nbStarredRepos": 163,
+    "nbRepos": 55,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -15065,9 +14281,7 @@ const fans = {
     "createdAt": "11/19/2011",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 55
-    },
+    "nbStarredRepos": 60,
     "nbRepos": 12,
     "follower": false,
     "starred": [
@@ -15077,20 +14291,18 @@ const fans = {
   },
   "wongminbin": {
     "login": "wongminbin",
-    "bio": "\r\n    \r\n",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/9878451?u=8215c18c96f3bb4e48960b28da912084e1b589f5&v=4",
     "createdAt": "11/20/2014",
     "nbFollowers": 5,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 515
-    },
+    "nbStarredRepos": 515,
     "nbRepos": 131,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "\r\n    \r\n"
   },
   "venpoo": {
     "login": "venpoo",
@@ -15098,9 +14310,7 @@ const fans = {
     "createdAt": "4/8/2013",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 66
-    },
+    "nbStarredRepos": 68,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -15110,76 +14320,68 @@ const fans = {
   },
   "ghermans": {
     "login": "ghermans",
-    "location": "Belgium",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1594411?u=093ce33cc4dbfe3c04aca5239ad6d4323b24cd2c&v=4",
-    "company": "Digibytes / Bagisto Europe",
     "createdAt": "3/31/2012",
-    "nbFollowers": 51,
-    "nbFollowings": 96,
-    "nbStarredRepos": {
-      "totalCount": 1741
-    },
-    "nbRepos": 198,
+    "nbFollowers": 54,
+    "nbFollowings": 98,
+    "nbStarredRepos": 1799,
+    "nbRepos": 200,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Belgium",
+    "company": "Digibytes / Bagisto Europe"
   },
   "withzhaoyu": {
     "login": "withzhaoyu",
-    "bio": "front-end engineer, hope to be full-stack one day。 my avatar is not me XD",
-    "location": "beijing,china",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/30406289?u=727bb1b9c1f1f3959ac859e0084b04e6315cdb2a&v=4",
     "createdAt": "7/24/2017",
-    "nbFollowers": 6,
+    "nbFollowers": 5,
     "nbFollowings": 39,
-    "nbStarredRepos": {
-      "totalCount": 196
-    },
-    "nbRepos": 21,
+    "nbStarredRepos": 209,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "front-end engineer, hope to be full-stack one day。 my avatar is not me XD",
+    "location": "beijing,china"
   },
   "joubertredrat": {
     "login": "joubertredrat",
-    "bio": "Software Engineer, DevOps, Cosplayer, Speaker, Open source evangelist\r\n",
-    "location": "Belo Horizonte, MG, Brazil",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1520407?u=9929ac017ff0e656fa987e5650028b6578869499&v=4",
-    "websiteUrl": "https://joubertredrat.github.io",
-    "company": "@PicPay",
     "createdAt": "3/9/2012",
     "nbFollowers": 132,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2662
-    },
-    "nbRepos": 46,
+    "nbStarredRepos": 2663,
+    "nbRepos": 47,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://joubertredrat.github.io",
+    "bio": "Software Engineer, DevOps, Cosplayer, Speaker, Open source evangelist\r\n",
+    "location": "Belo Horizonte, MG, Brazil",
+    "company": "@PicPay"
   },
   "denji": {
     "login": "denji",
-    "location": "Kyiv, UA",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3759759?u=ba13cf42f86e102ea0d26285493f49a0aa2e1941&v=4",
     "createdAt": "3/3/2013",
-    "nbFollowers": 326,
+    "nbFollowers": 330,
     "nbFollowings": 475,
-    "nbStarredRepos": {
-      "totalCount": 39796
-    },
-    "nbRepos": 84,
+    "nbStarredRepos": 40198,
+    "nbRepos": 97,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Kyiv, UA"
   },
   "diskrooms": {
     "login": "diskrooms",
@@ -15187,10 +14389,8 @@ const fans = {
     "createdAt": "6/5/2017",
     "nbFollowers": 3,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 65
-    },
-    "nbRepos": 16,
+    "nbStarredRepos": 65,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -15203,10 +14403,8 @@ const fans = {
     "createdAt": "4/21/2017",
     "nbFollowers": 6,
     "nbFollowings": 76,
-    "nbStarredRepos": {
-      "totalCount": 271
-    },
-    "nbRepos": 15,
+    "nbStarredRepos": 272,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -15216,39 +14414,35 @@ const fans = {
   "colorswall": {
     "login": "colorswall",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/39338100?u=17c4cef7dbb90d947f4b4c0444aad2e3eac65dcf&v=4",
-    "websiteUrl": "http://colorswall.com",
     "createdAt": "5/16/2018",
     "nbFollowers": 5,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 86
-    },
+    "nbStarredRepos": 86,
     "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://colorswall.com"
   },
   "dc7303": {
     "login": "dc7303",
-    "bio": "Programming is my hobby and work🚀",
-    "location": "South Korea",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/40932237?u=29e8b0ef6be864379c5545b2cce24f42f4092e5e&v=4",
-    "websiteUrl": "dc7303.github.io",
-    "company": "CODEF",
     "createdAt": "7/8/2018",
-    "nbFollowers": 21,
-    "nbFollowings": 39,
-    "nbStarredRepos": {
-      "totalCount": 150
-    },
-    "nbRepos": 74,
+    "nbFollowers": 22,
+    "nbFollowings": 44,
+    "nbStarredRepos": 155,
+    "nbRepos": 75,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://dc7303.github.io",
+    "bio": "“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”\r\n- Martin Golding",
+    "location": "South Korea",
+    "company": "@codef-io"
   },
   "he19920226he": {
     "login": "he19920226he",
@@ -15256,9 +14450,7 @@ const fans = {
     "createdAt": "8/7/2015",
     "nbFollowers": 5,
     "nbFollowings": 26,
-    "nbStarredRepos": {
-      "totalCount": 259
-    },
+    "nbStarredRepos": 263,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -15272,9 +14464,7 @@ const fans = {
     "createdAt": "2/28/2013",
     "nbFollowers": 4,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 223
-    },
+    "nbStarredRepos": 223,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -15288,9 +14478,7 @@ const fans = {
     "createdAt": "11/17/2017",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 91
-    },
+    "nbStarredRepos": 92,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -15300,129 +14488,115 @@ const fans = {
   },
   "luomouren": {
     "login": "luomouren",
-    "bio": "a happying coder.hahaha",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/20256024?u=acb2eef42466cc2cd85f3b646e19ced4142aa390&v=4",
-    "company": "北京广元科技有限公司",
     "createdAt": "7/2/2016",
     "nbFollowers": 7,
     "nbFollowings": 9,
-    "nbStarredRepos": {
-      "totalCount": 126
-    },
+    "nbStarredRepos": 126,
     "nbRepos": 20,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "a happying coder.hahaha",
+    "company": "北京广元科技有限公司"
   },
   "polygonplanet": {
     "login": "polygonplanet",
-    "location": "Gunma, Japan",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/519107?u=6643549589372cb98ce5544246ca9a0e867fafd8&v=4",
-    "websiteUrl": "https://polygonpla.net/",
-    "company": "Freelance",
     "createdAt": "12/11/2010",
-    "nbFollowers": 86,
+    "nbFollowers": 85,
     "nbFollowings": 13,
-    "nbStarredRepos": {
-      "totalCount": 1636
-    },
+    "nbStarredRepos": 1640,
     "nbRepos": 34,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://polygonpla.net/",
+    "location": "Gunma, Japan",
+    "company": "Freelance"
   },
   "ArchivedPixLed": {
     "login": "ArchivedPixLed",
-    "bio": "PixLed is a project that aims to integrate various Led Strip base connected devices, from hardware to user interfaces.",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/47151343?u=db891ffd898195d6af2de1043bf9a57e8cd41223&v=4",
     "createdAt": "1/29/2019",
     "nbFollowers": 3,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 11
-    },
+    "nbStarredRepos": 11,
     "nbRepos": 6,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "PixLed is a project that aims to integrate various Led Strip base connected devices, from hardware to user interfaces."
   },
   "badrylin": {
     "login": "badrylin",
-    "bio": "code lover",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/22359479?u=300ed8d362224f5a113a1fde600cff62a7f879ec&v=4",
     "createdAt": "9/21/2016",
     "nbFollowers": 0,
     "nbFollowings": 7,
-    "nbStarredRepos": {
-      "totalCount": 23
-    },
+    "nbStarredRepos": 23,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "code lover"
   },
   "boppy": {
     "login": "boppy",
-    "location": "Wanne-Eickel",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/749141?u=fb582ad02c0d869c75d4b34c86d758d04b70e27d&v=4",
     "createdAt": "4/24/2011",
-    "nbFollowers": 3,
+    "nbFollowers": 5,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 344
-    },
+    "nbStarredRepos": 361,
     "nbRepos": 18,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Wanne-Eickel"
   },
   "joelthorner": {
     "login": "joelthorner",
-    "bio": "Web programmer ✏️ in TLGcommerce 🛒 ",
-    "location": "Igualada",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/16495000?u=4a31054cdc61c634d8e158f81703711de545b19c&v=4",
-    "company": "Catalonia",
     "createdAt": "12/30/2015",
     "nbFollowers": 4,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 136
-    },
+    "nbStarredRepos": 136,
     "nbRepos": 18,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "Web programmer ✏️ in TLGcommerce 🛒 ",
+    "location": "Igualada",
+    "company": "Catalonia"
   },
   "sotastudi": {
     "login": "sotastudi",
-    "location": "Spain",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1150212?v=4",
-    "websiteUrl": "https://www.sotastudi.com",
-    "company": "Sotastudi",
     "createdAt": "10/25/2011",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 3
-    },
+    "nbStarredRepos": 3,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.sotastudi.com",
+    "location": "Spain",
+    "company": "Sotastudi"
   },
   "CoderZheLee": {
     "login": "CoderZheLee",
@@ -15430,9 +14604,7 @@ const fans = {
     "createdAt": "3/21/2016",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 242
-    },
+    "nbStarredRepos": 242,
     "nbRepos": 38,
     "follower": false,
     "starred": [
@@ -15442,40 +14614,36 @@ const fans = {
   },
   "lilirg": {
     "login": "lilirg",
-    "location": "Dalian,China RP",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17039887?u=1e82cf402674a94ec56f98088aa5288fa90e6f41&v=4",
     "createdAt": "2/2/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 56
-    },
+    "nbStarredRepos": 56,
     "nbRepos": 0,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Dalian,China RP"
   },
   "DavidSuescunPelegay": {
     "login": "DavidSuescunPelegay",
-    "bio": "Full Stack Developer",
-    "location": "Spain",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/9980174?u=b58b0fc0a24628bce0b459243d6e0cad34f3db17&v=4",
-    "websiteUrl": "https://www.linkedin.com/in/DavidSuescunPelegay/",
-    "company": "SocialOnce Marketing&Internet",
     "createdAt": "11/27/2014",
     "nbFollowers": 6,
-    "nbFollowings": 20,
-    "nbStarredRepos": {
-      "totalCount": 116
-    },
+    "nbFollowings": 22,
+    "nbStarredRepos": 116,
     "nbRepos": 24,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.linkedin.com/in/DavidSuescunPelegay/",
+    "bio": "Full Stack Developer",
+    "location": "Spain",
+    "company": "SocialOnce Marketing&Internet"
   },
   "PelloZhang": {
     "login": "PelloZhang",
@@ -15483,9 +14651,7 @@ const fans = {
     "createdAt": "3/15/2015",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 61
-    },
+    "nbStarredRepos": 61,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -15495,61 +14661,55 @@ const fans = {
   },
   "StarZ3r0": {
     "login": "StarZ3r0",
-    "bio": "I'm a hungarian full-stack web developer. I use PHP, HTML5 and JavaScript mainly. I love linux systems and chess.",
-    "location": "Magyarország",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1798791?v=4",
-    "websiteUrl": "http://starweb.hu",
-    "company": "StarWeb",
     "createdAt": "5/31/2012",
-    "nbFollowers": 24,
+    "nbFollowers": 25,
     "nbFollowings": 3,
-    "nbStarredRepos": {
-      "totalCount": 3541
-    },
+    "nbStarredRepos": 3576,
     "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://starweb.hu",
+    "bio": "I'm a hungarian full-stack web developer. I use PHP, HTML5 and JavaScript mainly. I love linux systems and chess.",
+    "location": "Magyarország",
+    "company": "StarWeb"
   },
   "csm19910701": {
     "login": "csm19910701",
-    "bio": "心情不好，来一包威龙，开开胃",
-    "location": "EC",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/30518559?u=7be5e022cb03b6dd5ac570e027bc75ef802f9fe2&v=4",
-    "websiteUrl": "915734467@qq.com",
-    "company": "家里蹲创业责任有限公司",
     "createdAt": "7/27/2017",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 18
-    },
+    "nbStarredRepos": 18,
     "nbRepos": 29,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://915734467@qq.com",
+    "bio": "心情不好，来一包威龙，开开胃",
+    "location": "EC",
+    "company": "家里蹲创业责任有限公司"
   },
   "dangpengsong": {
     "login": "dangpengsong",
-    "location": "西安",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10460635?v=4",
-    "company": "西安华凡科技有限公司",
     "createdAt": "1/8/2015",
     "nbFollowers": 2,
-    "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 316
-    },
+    "nbFollowings": 2,
+    "nbStarredRepos": 319,
     "nbRepos": 1,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "西安",
+    "company": "西安华凡科技有限公司"
   },
   "ehsaan-xiq": {
     "login": "ehsaan-xiq",
@@ -15557,9 +14717,7 @@ const fans = {
     "createdAt": "5/3/2018",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 1
-    },
+    "nbStarredRepos": 1,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -15569,41 +14727,37 @@ const fans = {
   },
   "chuyenim": {
     "login": "chuyenim",
-    "location": "Hanoi",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/12079343?u=442e8744cafb63bc88a1104901bc5f8b57207dc6&v=4",
-    "websiteUrl": "go.app1pro.com",
-    "company": "app1pro",
     "createdAt": "4/22/2015",
     "nbFollowers": 4,
     "nbFollowings": 8,
-    "nbStarredRepos": {
-      "totalCount": 66
-    },
-    "nbRepos": 35,
+    "nbStarredRepos": 66,
+    "nbRepos": 36,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://go.app1pro.com",
+    "location": "Hanoi",
+    "company": "app1pro"
   },
   "zxhycxq": {
     "login": "zxhycxq",
-    "bio": "undefined",
-    "location": "China",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/11674203?v=4",
-    "company": "菜鸟/noob",
     "createdAt": "3/26/2015",
-    "nbFollowers": 48,
-    "nbFollowings": 299,
-    "nbStarredRepos": {
-      "totalCount": 2436
-    },
-    "nbRepos": 303,
+    "nbFollowers": 46,
+    "nbFollowings": 303,
+    "nbStarredRepos": 2441,
+    "nbRepos": 310,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "undefined",
+    "location": "China",
+    "company": "菜鸟/noob"
   },
   "weirdoneutrino": {
     "login": "weirdoneutrino",
@@ -15611,9 +14765,7 @@ const fans = {
     "createdAt": "10/6/2018",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 78
-    },
+    "nbStarredRepos": 78,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -15623,112 +14775,103 @@ const fans = {
   },
   "nikyxxx": {
     "login": "nikyxxx",
-    "bio": "i love C#\r\nand now i'm learning swift!",
-    "location": "china",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1585883?u=9c9c0209916682fb7d49a206ba7b84c1fa4c8b18&v=4",
-    "websiteUrl": "nikyxxx",
-    "company": "unicre",
     "createdAt": "3/28/2012",
     "nbFollowers": 4,
     "nbFollowings": 44,
-    "nbStarredRepos": {
-      "totalCount": 439
-    },
-    "nbRepos": 37,
+    "nbStarredRepos": 450,
+    "nbRepos": 38,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://nikyxxx",
+    "bio": "i love C#\r\nand now i'm learning swift!",
+    "location": "china",
+    "company": "unicre"
   },
   "ryzalyusoff": {
     "login": "ryzalyusoff",
-    "location": "Manchester, UK",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/735775?u=d35052876f5cf6ad30a8eca9a31f6c9d4e3c06a4&v=4",
-    "websiteUrl": "https://readermode.io",
-    "company": "Reader Mode",
     "createdAt": "4/17/2011",
     "nbFollowers": 42,
     "nbFollowings": 88,
-    "nbStarredRepos": {
-      "totalCount": 479
-    },
-    "nbRepos": 28,
+    "nbStarredRepos": 492,
+    "nbRepos": 29,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://readermode.io",
+    "location": "Manchester, UK",
+    "company": "Reader Mode"
   },
   "brandnpatterson": {
     "login": "brandnpatterson",
-    "location": "Houston, TX",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/19142698?u=e56f98fb683b0b7903bac63a74a6f372d8c7fc60&v=4",
-    "websiteUrl": "http://www.brandnpatterson.com",
-    "company": "@muckrack",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/19142698?u=dad1d0b519500eee2306e8c1560e88a7ad603eb5&v=4",
     "createdAt": "5/1/2016",
-    "nbFollowers": 44,
+    "nbFollowers": 43,
     "nbFollowings": 56,
-    "nbStarredRepos": {
-      "totalCount": 452
-    },
-    "nbRepos": 84,
+    "nbStarredRepos": 453,
+    "nbRepos": 85,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://www.brandnpatterson.com",
+    "location": "Houston, TX",
+    "company": "@muckrack"
   },
   "neilzh": {
     "login": "neilzh",
-    "location": "Hangzhou, China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2967144?v=4",
-    "company": "Alipay Co.",
     "createdAt": "12/4/2012",
-    "nbFollowers": 38,
+    "nbFollowers": 39,
     "nbFollowings": 25,
-    "nbStarredRepos": {
-      "totalCount": 1330
-    },
+    "nbStarredRepos": 1360,
     "nbRepos": 3,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "Hangzhou, China",
+    "company": "Alipay Co."
   },
   "m-ahmadi": {
     "login": "m-ahmadi",
-    "bio": "\"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.\"",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/16363767?u=a9d8d8b1fe50e05b378bf0061f8601c53637d57e&v=4",
     "createdAt": "12/19/2015",
-    "nbFollowers": 13,
+    "nbFollowers": 14,
     "nbFollowings": 22,
-    "nbStarredRepos": {
-      "totalCount": 378
-    },
-    "nbRepos": 55,
+    "nbStarredRepos": 393,
+    "nbRepos": 56,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "bio": "\"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.\""
   },
   "lgquevedov": {
     "login": "lgquevedov",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/40405621?v=4",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/40405621?u=0e0d67c2383f059bbc2a5acb6bbc82ff525987ac&v=4",
     "createdAt": "6/19/2018",
     "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 2
-    },
+    "nbFollowings": 1,
+    "nbStarredRepos": 3,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://sintetice.com",
+    "location": "Cajicá, Cundinamarca, Colombia",
+    "company": "Sintetice"
   },
   "sucaiso": {
     "login": "sucaiso",
@@ -15736,10 +14879,8 @@ const fans = {
     "createdAt": "3/18/2018",
     "nbFollowers": 1,
     "nbFollowings": 2,
-    "nbStarredRepos": {
-      "totalCount": 348
-    },
-    "nbRepos": 4,
+    "nbStarredRepos": 352,
+    "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -15748,21 +14889,19 @@ const fans = {
   },
   "charlielee": {
     "login": "charlielee",
-    "location": "United Kingdom",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/8095888?u=781855cf1d8db49597c203a373510ddc3a6d8b38&v=4",
-    "websiteUrl": "http://charlielee.uk",
     "createdAt": "7/7/2014",
     "nbFollowers": 14,
-    "nbFollowings": 18,
-    "nbStarredRepos": {
-      "totalCount": 206
-    },
+    "nbFollowings": 19,
+    "nbStarredRepos": 211,
     "nbRepos": 12,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://www.charlielee.uk",
+    "location": "United Kingdom"
   },
   "gokhankesmen": {
     "login": "gokhankesmen",
@@ -15770,9 +14909,7 @@ const fans = {
     "createdAt": "5/20/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": {
-      "totalCount": 274
-    },
+    "nbStarredRepos": 298,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -15782,97 +14919,132 @@ const fans = {
   },
   "xieguigang": {
     "login": "xieguigang",
-    "bio": "Working on Engineered bacteria CAD design on its genome from scratch. Writing scientific computing software for Tianhe & Sunway TaihuLight supercomputer.",
-    "location": "Guilin, China (中國 桂林)",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/9410171?u=5b76d49b29b192abd2c752ec9299f15f0e32ded6&v=4",
-    "websiteUrl": "https://gcmodeller.org",
-    "company": "@SMRUCC genomics Institute",
     "createdAt": "10/26/2014",
-    "nbFollowers": 179,
-    "nbFollowings": 186,
-    "nbStarredRepos": {
-      "totalCount": 185
-    },
-    "nbRepos": 55,
+    "nbFollowers": 181,
+    "nbFollowings": 187,
+    "nbStarredRepos": 190,
+    "nbRepos": 57,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://gcmodeller.org",
+    "bio": "Working on Engineered bacteria CAD design on its genome from scratch. Writing scientific computing software for Tianhe & Sunway TaihuLight supercomputer.",
+    "location": "Guilin, China (中國 桂林)",
+    "company": "@SMRUCC genomics Institute"
   },
   "benben-miao": {
     "login": "benben-miao",
-    "bio": "Omics",
-    "location": "China",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/19424626?u=2dee7e685a39fac8f165a92312fe85885789984f&v=4",
-    "websiteUrl": "https://omics.netlify.app",
-    "company": "Omics",
     "createdAt": "5/18/2016",
-    "nbFollowers": 22,
-    "nbFollowings": 98,
-    "nbStarredRepos": {
-      "totalCount": 1674
-    },
-    "nbRepos": 28,
+    "nbFollowers": 26,
+    "nbFollowings": 100,
+    "nbStarredRepos": 1759,
+    "nbRepos": 32,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://omics.netlify.app",
+    "bio": "Omics",
+    "location": "China",
+    "company": "Omics"
   },
   "yanxin9210": {
     "login": "yanxin9210",
-    "location": "北京",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/11520925?v=4",
     "createdAt": "3/17/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 66
-    },
+    "nbStarredRepos": 66,
     "nbRepos": 2,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "location": "北京"
   },
   "aelassas": {
     "login": "aelassas",
-    "bio": "Software engineer, software developer and architect.",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1339626?u=8dee52b8e9109d329447c7dcd900c882ba6264a3&v=4",
-    "websiteUrl": "https://aelassas.github.io",
     "createdAt": "1/17/2012",
-    "nbFollowers": 132,
+    "nbFollowers": 138,
     "nbFollowings": 0,
-    "nbStarredRepos": {
-      "totalCount": 801
-    },
+    "nbStarredRepos": 803,
     "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "https://aelassas.github.io",
+    "bio": "Software engineer, software developer and architect."
   },
   "gigamaster": {
     "login": "gigamaster",
-    "bio": "Earth is my homeland, humanity is my family!\r\n— Front end developer, UIX designer, project manager, adult educator with over 20 years of Open Source experience",
-    "location": "Switzerland",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1905497?u=d5f45719429cf29293d833687833706cb395e00d&v=4",
-    "websiteUrl": "http://nunoluciano.info",
-    "company": "Nuno Luciano",
     "createdAt": "6/29/2012",
     "nbFollowers": 16,
-    "nbFollowings": 30,
-    "nbStarredRepos": {
-      "totalCount": 389
-    },
+    "nbFollowings": 31,
+    "nbStarredRepos": 389,
     "nbRepos": 83,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
+    "forked": [],
+    "websiteUrl": "http://nunoluciano.info",
+    "bio": "Earth is my homeland, humanity is my family!\r\n— Front end developer, UIX designer, project manager, adult educator with over 20 years of Open Source experience",
+    "location": "Switzerland",
+    "company": "Nuno Luciano"
+  },
+  "rui1u0": {
+    "login": "rui1u0",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/26505839?u=e5a7d859c64fed79873392a8907d943518b49027&v=4",
+    "createdAt": "3/18/2017",
+    "nbFollowers": 3,
+    "nbFollowings": 3,
+    "nbStarredRepos": 143,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "colorpicker"
+    ],
     "forked": []
+  },
+  "Querela": {
+    "login": "Querela",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1648294?v=4",
+    "createdAt": "4/16/2012",
+    "nbFollowers": 8,
+    "nbFollowings": 25,
+    "nbStarredRepos": 750,
+    "nbRepos": 46,
+    "follower": false,
+    "starred": [
+      "colorpicker"
+    ],
+    "forked": []
+  },
+  "hyperjiang": {
+    "login": "hyperjiang",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12892368?u=8d0c46faae92696a33ac3345240861a78562ebf7&v=4",
+    "createdAt": "6/15/2015",
+    "nbFollowers": 18,
+    "nbFollowings": 19,
+    "nbStarredRepos": 633,
+    "nbRepos": 27,
+    "follower": false,
+    "starred": [
+      "colorpicker"
+    ],
+    "forked": [],
+    "bio": "Life is like floating duckweed",
+    "location": "HongKong/ShenZhen",
+    "company": "@lalamove"
   }
 };
