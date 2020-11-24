@@ -5,7 +5,6 @@ body {
   font-family: "Overpass", arial;
   background-color: #0288d1;
   color: white;
-  background-image: none !important;
 }
 svg.home {
     position: relative;
@@ -122,11 +121,9 @@ input{
   left: 6px;
   display: inline-block;
   height: 20px;
-  width: 20px;;
-	background-image: url(checkbox-multiple-blank-outline.svg);
-}
-footer{
-    margin-top: 50px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url(checkbox-multiple-blank-outline.svg);
 }
 .github{
     position: absolute;
@@ -136,4 +133,7 @@ footer{
 }
 .github:hover{
     fill: orange;
+}
+footer{
+    margin-top: 50px;
 }
