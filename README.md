@@ -7,7 +7,7 @@ Network graph of repositories, followers, stargazers, and forks to meet your Git
 
 ## Getting the data
 
-[Get your data](https://evoluteur.github.io/meet-the-fans/index-data.html) (user info, repositories, followers, stars, and forks) using [GitHub GraphQL API](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
+[Get your data](https://evoluteur.github.io/meet-the-fans/index-data.html) (user info, repositories, followers, stars, and forks) using [GitHub GraphQL API](https://docs.github.com/en/free-pro-team@latest/graphql).
 
 [![Get your Data](screenshots/mtf-data-fetch.gif)](https://evoluteur.github.io/meet-the-fans/index-data.html)
 
@@ -27,7 +27,7 @@ Clicking a project on the graph shows its details and highlights it with its sta
 
 [![Evoluteur's graph](screenshots/mtf-data-viz-2.gif)](https://evoluteur.github.io/meet-the-fans/)
 
-The graph can be configured in [config.js](https://github.com/evoluteur/meet-the-fans/blob/master/config.js). You may also want to modify the [CSS](https://github.com/evoluteur/meet-the-fans/blob/master/css/meet-the-fans.css).
+The graph can be configured in the [config.js](https://github.com/evoluteur/meet-the-fans/blob/master/config.js) file. You may also want to modify the [CSS](https://github.com/evoluteur/meet-the-fans/blob/master/css/meet-the-fans.css).
 
 ```javascript
 const config = {
@@ -47,7 +47,7 @@ const config = {
 }
 ```
 
-To rebuild run:
+To rebuild the project (minimizing the JS and CSS), run the following commands:
 
 ```javascript
 npm install
