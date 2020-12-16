@@ -1,6 +1,6 @@
 
 /*
-  evoluteur on 11/10/2020 3:25:12 PM
+  evoluteur on 12/16/2020 10:31:38 AM
   meet-the-fans: https://github.com/evoluteur/meet-the-fans
 */
 
@@ -15,7 +15,7 @@ const gitUser = {
   "follower": false,
   "websiteUrl": "https://evoluteur.github.io",
   "bio": "Creative UI engineer with an eye for UX and a passion for model-driven UIs.",
-  "location": "San Mateo, CA",
+  "location": "San Francisco, CA",
   "repos": [
     {
       "name": "bouncing-ball",
@@ -54,10 +54,10 @@ const gitUser = {
     {
       "name": "braille-tools",
       "description": "CSS and Javascript to display Braille in web pages (for sighted people).",
-      "nbStars": 3,
+      "nbStars": 4,
       "nbForks": 2,
       "createdAt": "11/29/2016",
-      "updatedAt": "10/8/2020",
+      "updatedAt": "11/15/2020",
       "homepageUrl": "http://evoluteur.github.io/braille-tools/index.html",
       "licenseInfo": {
         "key": "mit",
@@ -96,10 +96,10 @@ const gitUser = {
     {
       "name": "colorpicker",
       "description": "jQuery UI widget for color picking (similar to the one in Microsoft Office 2010).",
-      "nbStars": 266,
-      "nbForks": 119,
+      "nbStars": 267,
+      "nbForks": 120,
       "createdAt": "6/3/2012",
-      "updatedAt": "11/6/2020",
+      "updatedAt": "12/9/2020",
       "homepageUrl": "https://evoluteur.github.io/colorpicker/",
       "licenseInfo": {
         "key": "mit",
@@ -300,8 +300,8 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "7/12/2020",
-      "updatedAt": "10/13/2020",
-      "homepageUrl": "https://github.com/evoluteur",
+      "updatedAt": "12/8/2020",
+      "homepageUrl": "https://evoluteur.github.io/",
       "licenseInfo": null,
       "languages": [],
       "nbReleases": 0,
@@ -314,7 +314,7 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 2,
       "createdAt": "12/7/2016",
-      "updatedAt": "11/7/2020",
+      "updatedAt": "12/15/2020",
       "homepageUrl": "https://evoluteur.github.io",
       "licenseInfo": {
         "key": "agpl-3.0",
@@ -350,10 +350,10 @@ const gitUser = {
     {
       "name": "evolutility-asp.net",
       "description": "Lightweight CRUD framework for heavy lifting using ASP.net and MS-SQL Server.",
-      "nbStars": 21,
-      "nbForks": 7,
+      "nbStars": 23,
+      "nbForks": 8,
       "createdAt": "6/8/2018",
-      "updatedAt": "11/5/2020",
+      "updatedAt": "12/14/2020",
       "homepageUrl": "http://evolutility.org",
       "licenseInfo": {
         "key": "agpl-3.0",
@@ -416,7 +416,7 @@ const gitUser = {
       "nbStars": 6,
       "nbForks": 2,
       "createdAt": "12/9/2018",
-      "updatedAt": "11/9/2020",
+      "updatedAt": "11/29/2020",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -449,10 +449,10 @@ const gitUser = {
     {
       "name": "evolutility-server-node",
       "description": "Model-driven REST or GraphQL backend for CRUD and more, written in Javascript, using Node.js, Express, and PostgreSQL.",
-      "nbStars": 77,
-      "nbForks": 28,
+      "nbStars": 81,
+      "nbForks": 27,
       "createdAt": "7/12/2015",
-      "updatedAt": "11/9/2020",
+      "updatedAt": "12/11/2020",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -493,10 +493,10 @@ const gitUser = {
     {
       "name": "evolutility-ui-jquery",
       "description": "Model-driven Web UI for CRUD using REST or localStorage.",
-      "nbStars": 160,
-      "nbForks": 53,
+      "nbStars": 161,
+      "nbForks": 54,
       "createdAt": "12/12/2012",
-      "updatedAt": "11/7/2020",
+      "updatedAt": "11/25/2020",
       "homepageUrl": "https://evoluteur.github.io/evolutility-ui-jquery/",
       "licenseInfo": {
         "key": "mit",
@@ -545,10 +545,10 @@ const gitUser = {
     {
       "name": "evolutility-ui-react",
       "description": "Model-driven Web UI for CRUD using REST.",
-      "nbStars": 68,
+      "nbStars": 71,
       "nbForks": 20,
       "createdAt": "6/16/2016",
-      "updatedAt": "11/1/2020",
+      "updatedAt": "12/16/2020",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -569,8 +569,8 @@ const gitUser = {
           "color": "#c6538c"
         }
       ],
-      "nbReleases": 20,
-      "version": "0.3.4",
+      "nbReleases": 21,
+      "version": "0.4.0",
       "topics": [
         "react",
         "views",
@@ -592,10 +592,10 @@ const gitUser = {
     {
       "name": "isomorphic-table-cards",
       "description": "Table and Cards views with animated transitions. No dependencies, just Vanilla Javascript, CSS, and HTML.",
-      "nbStars": 0,
+      "nbStars": 1,
       "nbForks": 0,
       "createdAt": "10/2/2020",
-      "updatedAt": "11/6/2020",
+      "updatedAt": "12/9/2020",
       "homepageUrl": "https://evoluteur.github.io/isomorphic-table-cards/",
       "licenseInfo": {
         "key": "mit",
@@ -767,7 +767,7 @@ const gitUser = {
       "nbStars": 0,
       "nbForks": 0,
       "createdAt": "9/27/2020",
-      "updatedAt": "11/9/2020",
+      "updatedAt": "11/24/2020",
       "homepageUrl": "https://evoluteur.github.io/meet-the-fans/",
       "licenseInfo": {
         "key": "mit",
@@ -788,8 +788,8 @@ const gitUser = {
           "color": "#e34c26"
         }
       ],
-      "nbReleases": 0,
-      "version": "",
+      "nbReleases": 1,
+      "version": "1.0.0",
       "topics": [
         "visualization",
         "network",
@@ -813,10 +813,10 @@ const gitUser = {
     {
       "name": "motivational-numerology",
       "description": "Simple web page to calculate and interpret the numerology numbers derived from your name and birth date (in English or French).",
-      "nbStars": 8,
-      "nbForks": 4,
+      "nbStars": 11,
+      "nbForks": 5,
       "createdAt": "9/5/2018",
-      "updatedAt": "10/3/2020",
+      "updatedAt": "12/10/2020",
       "homepageUrl": "https://evoluteur.github.io/motivational-numerology/",
       "licenseInfo": null,
       "languages": [
@@ -853,10 +853,10 @@ const gitUser = {
     {
       "name": "react-crud-icons",
       "description": "48 SVG icons for CRUD applications, packaged as a React component for Web UI.",
-      "nbStars": 0,
-      "nbForks": 0,
+      "nbStars": 9,
+      "nbForks": 1,
       "createdAt": "8/31/2019",
-      "updatedAt": "10/21/2020",
+      "updatedAt": "12/13/2020",
       "homepageUrl": "https://evoluteur.github.io/react-crud-icons/",
       "licenseInfo": {
         "key": "mit",
@@ -873,8 +873,8 @@ const gitUser = {
           "color": "#c6538c"
         }
       ],
-      "nbReleases": 7,
-      "version": "0.1.3",
+      "nbReleases": 9,
+      "version": "1.0.1",
       "topics": [
         "icons",
         "svg-icons",
@@ -885,23 +885,24 @@ const gitUser = {
         "ui-components",
         "svg",
         "icon-pack",
-        "crud-applications",
         "react-component",
         "react-components",
         "material-design",
         "material-ui",
         "svg-sprites",
         "inline-svg",
-        "button-animation"
+        "button-animation",
+        "crud-application",
+        "icon-set"
       ]
     },
     {
       "name": "structured-filter",
       "description": "jQuery UI widget for structured queries like \"Contacts where Firstname starts with A and Birthday before 1/1/2000 and State in (CA, NY, FL)\"...",
-      "nbStars": 200,
+      "nbStars": 207,
       "nbForks": 56,
       "createdAt": "9/2/2012",
-      "updatedAt": "11/6/2020",
+      "updatedAt": "12/11/2020",
       "homepageUrl": "https://evoluteur.github.io/structured-filter/",
       "licenseInfo": {
         "key": "mit",
@@ -955,7 +956,7 @@ const gitUser = {
       "name": "structured-filter-react",
       "description": "React component for structured queries like \"Contacts where Firstname starts with 'A' and Birthday before 1/1/2000 and State in (CA, NY, FL)\"...",
       "nbStars": 4,
-      "nbForks": 1,
+      "nbForks": 2,
       "createdAt": "10/9/2018",
       "updatedAt": "11/7/2020",
       "homepageUrl": "",
@@ -1009,8 +1010,8 @@ const gitUser = {
       ]
     }
   ],
-  "nbStars": 833,
-  "nbForks": 298
+  "nbStars": 865,
+  "nbForks": 303
 };
 
 const fans = {
@@ -1062,7 +1063,7 @@ const fans = {
     "nbFollowers": 0,
     "nbFollowings": 10,
     "nbStarredRepos": 9,
-    "nbRepos": 27,
+    "nbRepos": 28,
     "follower": true,
     "starred": [
       "*"
@@ -1089,9 +1090,9 @@ const fans = {
     "login": "mranilkish",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/29652635?v=4",
     "createdAt": "6/23/2017",
-    "nbFollowers": 0,
-    "nbFollowings": 33,
-    "nbStarredRepos": 25,
+    "nbFollowers": 1,
+    "nbFollowings": 40,
+    "nbStarredRepos": 41,
     "nbRepos": 12,
     "follower": true,
     "starred": [
@@ -1122,10 +1123,10 @@ const fans = {
     "login": "birarodrigues",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17939812?u=79d59e7d3ced11862bb6ca57fc6cfe992594f1ca&v=4",
     "createdAt": "3/18/2016",
-    "nbFollowers": 4,
-    "nbFollowings": 18,
+    "nbFollowers": 5,
+    "nbFollowings": 21,
     "nbStarredRepos": 6,
-    "nbRepos": 12,
+    "nbRepos": 13,
     "follower": true,
     "starred": [
       "*"
@@ -1139,7 +1140,7 @@ const fans = {
     "login": "IAmNithi",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/27952340?u=5762ebdb35150954ddc77e340a8b3e76b96611fc&v=4",
     "createdAt": "4/24/2017",
-    "nbFollowers": 569,
+    "nbFollowers": 585,
     "nbFollowings": 12484,
     "nbStarredRepos": 34,
     "nbRepos": 35,
@@ -1158,9 +1159,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4195468?u=83a561209cba1d8c1fd86cb2891ecb1be331b893&v=4",
     "createdAt": "4/18/2013",
     "nbFollowers": 80,
-    "nbFollowings": 6301,
-    "nbStarredRepos": 346,
-    "nbRepos": 1634,
+    "nbFollowings": 6376,
+    "nbStarredRepos": 385,
+    "nbRepos": 1669,
     "follower": true,
     "starred": [
       "*"
@@ -1173,25 +1174,28 @@ const fans = {
   },
   "saskw2010": {
     "login": "saskw2010",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/3606587?v=4",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3606587?u=3ef976a137892e13a2bea6f174e4d3a5a67e79b1&v=4",
     "createdAt": "2/15/2013",
     "nbFollowers": 1,
-    "nbFollowings": 79,
+    "nbFollowings": 85,
     "nbStarredRepos": 22,
-    "nbRepos": 3,
+    "nbRepos": 2,
     "follower": true,
     "starred": [
       "*"
     ],
-    "forked": []
+    "forked": [],
+    "websiteUrl": "http://wytsky.com",
+    "bio": "we don't know impossible \r\nwe are here for help others that they really need help\r\n@wytskyAi",
+    "company": "Wytsky"
   },
   "hcasado": {
     "login": "hcasado",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3035776?u=28e6483fbc9b4085628575a7c8c9976444a799a4&v=4",
     "createdAt": "12/13/2012",
-    "nbFollowers": 2,
+    "nbFollowers": 3,
     "nbFollowings": 20,
-    "nbStarredRepos": 65,
+    "nbStarredRepos": 64,
     "nbRepos": 18,
     "follower": true,
     "starred": [
@@ -1207,8 +1211,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/15525599?u=dabacc58a11c747a081ef432dcf03fca0459a65e&v=4",
     "createdAt": "10/31/2015",
     "nbFollowers": 18,
-    "nbFollowings": 26,
-    "nbStarredRepos": 202,
+    "nbFollowings": 28,
+    "nbStarredRepos": 207,
     "nbRepos": 30,
     "follower": true,
     "starred": [
@@ -1259,13 +1263,13 @@ const fans = {
     "createdAt": "8/14/2018",
     "nbFollowers": 0,
     "nbFollowings": 8,
-    "nbStarredRepos": 16,
+    "nbStarredRepos": 21,
     "nbRepos": 3,
     "follower": true,
     "starred": [
       "*",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": []
@@ -1275,7 +1279,7 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/32244568?u=489414c36700a30b8b0319145334c83270f54d84&v=4",
     "createdAt": "9/24/2017",
     "nbFollowers": 0,
-    "nbFollowings": 1,
+    "nbFollowings": 2,
     "nbStarredRepos": 0,
     "nbRepos": 0,
     "follower": true,
@@ -1311,8 +1315,8 @@ const fans = {
     "follower": true,
     "starred": [
       "*",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": [],
@@ -1343,7 +1347,7 @@ const fans = {
     "createdAt": "7/24/2013",
     "nbFollowers": 0,
     "nbFollowings": 3,
-    "nbStarredRepos": 140,
+    "nbStarredRepos": 141,
     "nbRepos": 3,
     "follower": true,
     "starred": [
@@ -1372,7 +1376,7 @@ const fans = {
     "createdAt": "2/24/2014",
     "nbFollowers": 13,
     "nbFollowings": 5,
-    "nbStarredRepos": 15,
+    "nbStarredRepos": 16,
     "nbRepos": 67,
     "follower": true,
     "starred": [
@@ -1387,8 +1391,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/512805?u=0f0c9733442177c7bf3727e0c98678b4fa2eaaba&v=4",
     "createdAt": "12/7/2010",
     "nbFollowers": 12,
-    "nbFollowings": 462,
-    "nbStarredRepos": 1216,
+    "nbFollowings": 461,
+    "nbStarredRepos": 1225,
     "nbRepos": 47,
     "follower": true,
     "starred": [
@@ -1418,7 +1422,7 @@ const fans = {
     "createdAt": "11/17/2008",
     "nbFollowers": 6,
     "nbFollowings": 68,
-    "nbStarredRepos": 411,
+    "nbStarredRepos": 418,
     "nbRepos": 46,
     "follower": true,
     "starred": [
@@ -1434,9 +1438,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1407409?v=4",
     "createdAt": "2/3/2012",
     "nbFollowers": 14,
-    "nbFollowings": 148,
-    "nbStarredRepos": 1464,
-    "nbRepos": 513,
+    "nbFollowings": 153,
+    "nbStarredRepos": 1491,
+    "nbRepos": 522,
     "follower": true,
     "starred": [
       "*",
@@ -1448,15 +1452,15 @@ const fans = {
     "login": "progkix",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/719946?u=d53278493759ae84206a63aa610520de05d27ea2&v=4",
     "createdAt": "4/9/2011",
-    "nbFollowers": 30,
-    "nbFollowings": 1161,
-    "nbStarredRepos": 3576,
+    "nbFollowers": 31,
+    "nbFollowings": 1189,
+    "nbStarredRepos": 3626,
     "nbRepos": 14,
     "follower": true,
     "starred": [
       "*",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": [],
@@ -1483,9 +1487,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/24395937?v=4",
     "createdAt": "12/5/2016",
     "nbFollowers": 23,
-    "nbFollowings": 1115,
+    "nbFollowings": 1121,
     "nbStarredRepos": 8,
-    "nbRepos": 4398,
+    "nbRepos": 4408,
     "follower": true,
     "starred": [
       "*"
@@ -1501,7 +1505,7 @@ const fans = {
     "createdAt": "6/5/2015",
     "nbFollowers": 4,
     "nbFollowings": 3,
-    "nbStarredRepos": 10,
+    "nbStarredRepos": 11,
     "nbRepos": 17,
     "follower": true,
     "starred": [
@@ -1509,8 +1513,8 @@ const fans = {
       "evolutility-server-node"
     ],
     "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-react"
     ],
     "websiteUrl": "http://pfxcorp.com",
     "bio": "Veteran developer, C/C++, C# and many others.\r\nFounder, owner, investor.",
@@ -1538,9 +1542,9 @@ const fans = {
     "login": "scratcher28",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/778716?v=4",
     "createdAt": "5/10/2011",
-    "nbFollowers": 149,
-    "nbFollowings": 255,
-    "nbStarredRepos": 11821,
+    "nbFollowers": 152,
+    "nbFollowings": 256,
+    "nbStarredRepos": 11813,
     "nbRepos": 34,
     "follower": true,
     "starred": [
@@ -1574,10 +1578,10 @@ const fans = {
     "login": "mohamedebrahim96",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/16405013?u=49f59bdcccbefbd9790172c1016f4d9c74502818&v=4",
     "createdAt": "12/22/2015",
-    "nbFollowers": 358,
-    "nbFollowings": 1925,
-    "nbStarredRepos": 1567,
-    "nbRepos": 113,
+    "nbFollowers": 361,
+    "nbFollowings": 1937,
+    "nbStarredRepos": 1572,
+    "nbRepos": 119,
     "follower": true,
     "starred": [
       "*",
@@ -1593,8 +1597,8 @@ const fans = {
     "login": "ProgramCodes",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/40146766?u=adb1644ab39fc334c9903a7faeb849767d5ff5ea&v=4",
     "createdAt": "6/10/2018",
-    "nbFollowers": 699,
-    "nbFollowings": 8421,
+    "nbFollowers": 701,
+    "nbFollowings": 8422,
     "nbStarredRepos": 18,
     "nbRepos": 20,
     "follower": true,
@@ -1609,9 +1613,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2325299?u=861a00298df0fb68620ba4c3789fa3fbc16d1395&v=4",
     "createdAt": "9/11/2012",
     "nbFollowers": 28,
-    "nbFollowings": 150,
-    "nbStarredRepos": 659,
-    "nbRepos": 184,
+    "nbFollowings": 153,
+    "nbStarredRepos": 671,
+    "nbRepos": 189,
     "follower": true,
     "starred": [
       "*",
@@ -1644,10 +1648,10 @@ const fans = {
     "login": "rememberlenny",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1332366?u=a0f76ff789eb9e8b570a7fa3026370fd3fcdba7f&v=4",
     "createdAt": "1/15/2012",
-    "nbFollowers": 180,
-    "nbFollowings": 1053,
-    "nbStarredRepos": 3020,
-    "nbRepos": 409,
+    "nbFollowers": 186,
+    "nbFollowings": 1089,
+    "nbStarredRepos": 3075,
+    "nbRepos": 419,
     "follower": true,
     "starred": [
       "*",
@@ -1657,7 +1661,7 @@ const fans = {
     "websiteUrl": "https://www.rememberlenny.com",
     "bio": "I am large, I contain multitudes.",
     "location": "New York",
-    "company": "Milk Video"
+    "company": "www.milk.video"
   },
   "pranjalnigam": {
     "login": "pranjalnigam",
@@ -1709,8 +1713,8 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/721561?u=6d750a266742454739116840704cb730e40ea90a&v=4",
     "createdAt": "4/10/2011",
     "nbFollowers": 86,
-    "nbFollowings": 848,
-    "nbStarredRepos": 5020,
+    "nbFollowings": 870,
+    "nbStarredRepos": 5168,
     "nbRepos": 1,
     "follower": true,
     "starred": [
@@ -1760,9 +1764,9 @@ const fans = {
     "login": "Fxztam",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5808032?u=1bd40ed196d67163eed70e2deca6446bdc8ec243&v=4",
     "createdAt": "10/29/2013",
-    "nbFollowers": 17,
-    "nbFollowings": 144,
-    "nbStarredRepos": 1555,
+    "nbFollowers": 18,
+    "nbFollowings": 149,
+    "nbStarredRepos": 1592,
     "nbRepos": 29,
     "follower": true,
     "starred": [
@@ -1778,10 +1782,10 @@ const fans = {
     "login": "jorgeponto",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10554023?u=00fee568549bf48f464a51c886c8c431c503a7fd&v=4",
     "createdAt": "1/15/2015",
-    "nbFollowers": 1,
+    "nbFollowers": 2,
     "nbFollowings": 3,
     "nbStarredRepos": 1,
-    "nbRepos": 51,
+    "nbRepos": 52,
     "follower": true,
     "starred": [
       "*"
@@ -1815,9 +1819,9 @@ const fans = {
     "login": "Puneethkumarck",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/11880606?u=b7a44736d1452e7c7101be71614c00c9e13e496a&v=4",
     "createdAt": "4/9/2015",
-    "nbFollowers": 12,
+    "nbFollowers": 11,
     "nbFollowings": 74,
-    "nbStarredRepos": 302,
+    "nbStarredRepos": 304,
     "nbRepos": 45,
     "follower": true,
     "starred": [
@@ -1847,8 +1851,8 @@ const fans = {
     "createdAt": "10/9/2015",
     "nbFollowers": 17,
     "nbFollowings": 40,
-    "nbStarredRepos": 115,
-    "nbRepos": 43,
+    "nbStarredRepos": 128,
+    "nbRepos": 44,
     "follower": true,
     "starred": [
       "*"
@@ -1890,9 +1894,9 @@ const fans = {
     "login": "bcavileer",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/96518?v=4",
     "createdAt": "6/17/2009",
-    "nbFollowers": 39,
-    "nbFollowings": 464,
-    "nbStarredRepos": 320,
+    "nbFollowers": 40,
+    "nbFollowings": 465,
+    "nbStarredRepos": 325,
     "nbRepos": 113,
     "follower": true,
     "starred": [
@@ -1923,9 +1927,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/161835?u=078e7a4811185ac3168844407e8282e3958dedac&v=4",
     "createdAt": "12/4/2009",
     "nbFollowers": 53,
-    "nbFollowings": 388,
-    "nbStarredRepos": 5271,
-    "nbRepos": 1314,
+    "nbFollowings": 389,
+    "nbStarredRepos": 5273,
+    "nbRepos": 1315,
     "follower": true,
     "starred": [
       "*",
@@ -1942,7 +1946,7 @@ const fans = {
     "createdAt": "10/1/2014",
     "nbFollowers": 19,
     "nbFollowings": 180,
-    "nbStarredRepos": 1502,
+    "nbStarredRepos": 1531,
     "nbRepos": 3,
     "follower": true,
     "starred": [
@@ -1956,7 +1960,7 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/13574992?u=3e38e08d72da5b872844b32025bd90b7b1ca841a&v=4",
     "createdAt": "7/30/2015",
     "nbFollowers": 2,
-    "nbFollowings": 126,
+    "nbFollowings": 127,
     "nbStarredRepos": 1,
     "nbRepos": 1,
     "follower": true,
@@ -1990,7 +1994,7 @@ const fans = {
     "createdAt": "9/15/2016",
     "nbFollowers": 5,
     "nbFollowings": 80,
-    "nbStarredRepos": 1184,
+    "nbStarredRepos": 1195,
     "nbRepos": 11,
     "follower": true,
     "starred": [
@@ -2019,9 +2023,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/16579942?v=4",
     "createdAt": "1/6/2016",
     "nbFollowers": 0,
-    "nbFollowings": 37,
+    "nbFollowings": 39,
     "nbStarredRepos": 0,
-    "nbRepos": 254,
+    "nbRepos": 260,
     "follower": true,
     "starred": [
       "*"
@@ -2062,14 +2066,14 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1640514?u=1f17c392d80871bec26b5b5f49a361edf79b6cf7&v=4",
     "createdAt": "4/13/2012",
     "nbFollowers": 53,
-    "nbFollowings": 693,
-    "nbStarredRepos": 5166,
-    "nbRepos": 23,
+    "nbFollowings": 702,
+    "nbStarredRepos": 5221,
+    "nbRepos": 24,
     "follower": true,
     "starred": [
       "*",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": [],
@@ -2097,9 +2101,9 @@ const fans = {
     "login": "JT5D",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/391299?v=4",
     "createdAt": "9/7/2010",
-    "nbFollowers": 337,
-    "nbFollowings": 6979,
-    "nbStarredRepos": 31428,
+    "nbFollowers": 341,
+    "nbFollowings": 6999,
+    "nbStarredRepos": 31513,
     "nbRepos": 214,
     "follower": true,
     "starred": [
@@ -2191,9 +2195,9 @@ const fans = {
     "login": "angusshire",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5877145?v=4",
     "createdAt": "11/6/2013",
-    "nbFollowers": 11827,
-    "nbFollowings": 229378,
-    "nbStarredRepos": 49654,
+    "nbFollowers": 11852,
+    "nbFollowings": 229329,
+    "nbStarredRepos": 49624,
     "nbRepos": 19,
     "follower": true,
     "starred": [
@@ -2223,8 +2227,8 @@ const fans = {
     "login": "samdubey",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4013722?v=4",
     "createdAt": "3/30/2013",
-    "nbFollowers": 20,
-    "nbFollowings": 64,
+    "nbFollowers": 21,
+    "nbFollowings": 68,
     "nbStarredRepos": 45,
     "nbRepos": 137,
     "follower": true,
@@ -2241,10 +2245,10 @@ const fans = {
     "login": "cusspvz",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3604053?u=d1fe198629ce2efb587438237749f22ee93bbafe&v=4",
     "createdAt": "2/15/2013",
-    "nbFollowers": 7348,
-    "nbFollowings": 128769,
-    "nbStarredRepos": 1463,
-    "nbRepos": 141,
+    "nbFollowers": 7375,
+    "nbFollowings": 128752,
+    "nbStarredRepos": 1467,
+    "nbRepos": 143,
     "follower": true,
     "starred": [
       "*"
@@ -2259,9 +2263,9 @@ const fans = {
     "login": "l3dlp",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/60765?u=fe7025d624d1ce846be6bb51868fe41c9a43987b&v=4",
     "createdAt": "3/6/2009",
-    "nbFollowers": 92,
+    "nbFollowers": 93,
     "nbFollowings": 1070,
-    "nbStarredRepos": 857,
+    "nbStarredRepos": 858,
     "nbRepos": 84,
     "follower": true,
     "starred": [
@@ -2294,19 +2298,19 @@ const fans = {
     "createdAt": "7/23/2010",
     "nbFollowers": 9,
     "nbFollowings": 25,
-    "nbStarredRepos": 2598,
-    "nbRepos": 68,
+    "nbStarredRepos": 2681,
+    "nbRepos": 70,
     "follower": true,
     "starred": [
       "*",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery",
       "structured-filter"
     ],
     "forked": [
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ]
   },
@@ -2344,19 +2348,19 @@ const fans = {
     "createdAt": "5/28/2015",
     "nbFollowers": 2,
     "nbFollowings": 1,
-    "nbStarredRepos": 18,
-    "nbRepos": 455,
+    "nbStarredRepos": 19,
+    "nbRepos": 457,
     "follower": true,
     "starred": [
       "*",
       "evolutility-models",
-      "evolutility-ui-react",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-react"
     ],
     "forked": [
       "evolutility-models",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery",
       "structured-filter"
     ],
@@ -2367,9 +2371,9 @@ const fans = {
     "login": "ganeshan",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/115037?v=4",
     "createdAt": "8/13/2009",
-    "nbFollowers": 29,
+    "nbFollowers": 30,
     "nbFollowings": 209,
-    "nbStarredRepos": 6610,
+    "nbStarredRepos": 6709,
     "nbRepos": 47,
     "follower": true,
     "starred": [
@@ -2377,8 +2381,8 @@ const fans = {
       "evolutility-models",
       "d3-table-cards",
       "structured-filter-react",
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery",
       "structured-filter",
       "colorpicker"
@@ -2390,7 +2394,7 @@ const fans = {
     "login": "jkells",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/149110?v=4",
     "createdAt": "11/4/2009",
-    "nbFollowers": 26,
+    "nbFollowers": 27,
     "nbFollowings": 19,
     "nbStarredRepos": 56,
     "nbRepos": 82,
@@ -2406,10 +2410,10 @@ const fans = {
     "login": "damienbod",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3442158?v=4",
     "createdAt": "1/31/2013",
-    "nbFollowers": 993,
+    "nbFollowers": 1011,
     "nbFollowings": 151,
-    "nbStarredRepos": 434,
-    "nbRepos": 202,
+    "nbStarredRepos": 439,
+    "nbRepos": 203,
     "follower": true,
     "starred": [
       "*",
@@ -2424,10 +2428,10 @@ const fans = {
     "login": "srsgores",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1750837?v=4",
     "createdAt": "5/17/2012",
-    "nbFollowers": 116,
-    "nbFollowings": 966,
-    "nbStarredRepos": 7114,
-    "nbRepos": 142,
+    "nbFollowers": 119,
+    "nbFollowings": 969,
+    "nbStarredRepos": 7137,
+    "nbRepos": 144,
     "follower": true,
     "starred": [
       "*",
@@ -2458,9 +2462,9 @@ const fans = {
     "login": "Rajesh00175",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3303074?u=134ea9496a9f15a136fb257856173a56f0891b43&v=4",
     "createdAt": "1/17/2013",
-    "nbFollowers": 0,
-    "nbFollowings": 10,
-    "nbStarredRepos": 9,
+    "nbFollowers": 1,
+    "nbFollowings": 11,
+    "nbStarredRepos": 11,
     "nbRepos": 22,
     "follower": true,
     "starred": [
@@ -2470,7 +2474,7 @@ const fans = {
   },
   "madhukard": {
     "login": "madhukard",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/920330?u=3901ecbbd5b516b3147c828966e59e7c9dbf7c35&v=4",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/920330?u=98a16ea8b146acbbec9890ec36cf95336172607a&v=4",
     "createdAt": "7/16/2011",
     "nbFollowers": 26,
     "nbFollowings": 13,
@@ -2495,65 +2499,6 @@ const fans = {
     "nbRepos": 5,
     "forked": [
       "evoluteur.github.io"
-    ],
-    "starred": []
-  },
-  "cicaglisa80": {
-    "login": "cicaglisa80",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/9598806?v=4",
-    "createdAt": "11/6/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 5,
-    "nbStarredRepos": 1589,
-    "nbRepos": 10,
-    "follower": false,
-    "starred": [
-      "braille-tools"
-    ],
-    "forked": []
-  },
-  "duplaja": {
-    "login": "duplaja",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/20245408?v=4",
-    "createdAt": "7/1/2016",
-    "nbFollowers": 31,
-    "nbFollowings": 12,
-    "nbStarredRepos": 88,
-    "nbRepos": 42,
-    "follower": false,
-    "starred": [
-      "braille-tools"
-    ],
-    "forked": [],
-    "websiteUrl": "https://dandulaney.com",
-    "bio": "capital_P_dangit",
-    "location": "Central US",
-    "company": "Convex Code"
-  },
-  "johnpierson": {
-    "login": "johnpierson",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/15744724?u=ef037b8882c464b3f9e65435acba5cb4ac2b64d3&v=4",
-    "createdAt": "11/9/2015",
-    "nbFollowers": 124,
-    "nbFollowings": 73,
-    "nbStarredRepos": 339,
-    "nbRepos": 43,
-    "follower": false,
-    "starred": [
-      "braille-tools"
-    ],
-    "forked": [],
-    "websiteUrl": "http://www.sixtysecondrevit.com",
-    "bio": "\r\n    dabbling in this code stuff and trying my best\r\n",
-    "location": "+34° 59' 20.00, -106° 36' 52",
-    "company": "Prestige Worldwide"
-  },
-  "anzeljg": {
-    "login": "anzeljg",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1914175?v=4",
-    "nbRepos": 73,
-    "forked": [
-      "braille-tools"
     ],
     "starred": []
   },
@@ -2612,7 +2557,7 @@ const fans = {
     "nbFollowers": 11,
     "nbFollowings": 15,
     "nbStarredRepos": 38,
-    "nbRepos": 17,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
       "d3-dual-range-slider"
@@ -2626,7 +2571,7 @@ const fans = {
     "createdAt": "7/30/2013",
     "nbFollowers": 20,
     "nbFollowings": 43,
-    "nbStarredRepos": 676,
+    "nbStarredRepos": 680,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -2637,7 +2582,7 @@ const fans = {
   "njriordan": {
     "login": "njriordan",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/11200170?u=8a97dc45ff6539a7807d5e9c6832d60c656fb8f7&v=4",
-    "nbRepos": 15,
+    "nbRepos": 14,
     "forked": [
       "d3-dual-range-slider"
     ],
@@ -2652,17 +2597,92 @@ const fans = {
     ],
     "starred": []
   },
-  "tzw5099": {
-    "login": "tzw5099",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/6289023?u=3197972ba389672927487bfbd9350fc8ba958a5d&v=4",
-    "createdAt": "12/30/2013",
-    "nbFollowers": 8,
-    "nbFollowings": 7,
-    "nbStarredRepos": 2020,
-    "nbRepos": 34,
+  "cicaglisa80": {
+    "login": "cicaglisa80",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9598806?v=4",
+    "createdAt": "11/6/2014",
+    "nbFollowers": 6,
+    "nbFollowings": 5,
+    "nbStarredRepos": 1593,
+    "nbRepos": 10,
     "follower": false,
     "starred": [
-      "kaggle-look-alike"
+      "braille-tools"
+    ],
+    "forked": []
+  },
+  "duplaja": {
+    "login": "duplaja",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20245408?v=4",
+    "createdAt": "7/1/2016",
+    "nbFollowers": 31,
+    "nbFollowings": 12,
+    "nbStarredRepos": 89,
+    "nbRepos": 43,
+    "follower": false,
+    "starred": [
+      "braille-tools"
+    ],
+    "forked": [],
+    "websiteUrl": "https://dandulaney.com",
+    "bio": "capital_P_dangit",
+    "location": "Central US",
+    "company": "Convex Code"
+  },
+  "johnpierson": {
+    "login": "johnpierson",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/15744724?u=ef037b8882c464b3f9e65435acba5cb4ac2b64d3&v=4",
+    "createdAt": "11/9/2015",
+    "nbFollowers": 127,
+    "nbFollowings": 73,
+    "nbStarredRepos": 356,
+    "nbRepos": 44,
+    "follower": false,
+    "starred": [
+      "braille-tools"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.sixtysecondrevit.com",
+    "bio": "\r\n    dabbling in this code stuff and trying my best\r\n",
+    "location": "+34° 59' 20.00, -106° 36' 52",
+    "company": "Prestige Worldwide"
+  },
+  "futuresocks": {
+    "login": "futuresocks",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/27961834?u=f841bb16734d31a903a6a22a87608f95eb15de64&v=4",
+    "createdAt": "4/24/2017",
+    "nbFollowers": 31,
+    "nbFollowings": 37,
+    "nbStarredRepos": 24,
+    "nbRepos": 43,
+    "follower": false,
+    "starred": [
+      "braille-tools"
+    ],
+    "forked": [],
+    "bio": "Former @codeclan instructor, now does other stuff",
+    "location": "Glasgow"
+  },
+  "anzeljg": {
+    "login": "anzeljg",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1914175?v=4",
+    "nbRepos": 73,
+    "forked": [
+      "braille-tools"
+    ],
+    "starred": []
+  },
+  "Triskell2k1": {
+    "login": "Triskell2k1",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/45130542?v=4",
+    "createdAt": "11/17/2018",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 31,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "isomorphic-table-cards"
     ],
     "forked": []
   },
@@ -2670,23 +2690,23 @@ const fans = {
     "login": "jmptrader",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/580082?u=abe81343558c9f93cbd43e98e53ab0c986954f79&v=4",
     "createdAt": "1/23/2011",
-    "nbFollowers": 13,
+    "nbFollowers": 14,
     "nbFollowings": 4,
-    "nbStarredRepos": 610,
-    "nbRepos": 2608,
+    "nbStarredRepos": 614,
+    "nbRepos": 2609,
     "follower": false,
     "starred": [
       "evolutility-models",
-      "motivational-numerology",
       "evolutility-asp.net",
+      "motivational-numerology",
       "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": [
-      "motivational-numerology",
       "evolutility-asp.net",
-      "evolutility-ui-react",
+      "motivational-numerology",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "colorpicker",
       "evolutility-ui-jquery",
       "structured-filter"
@@ -2701,7 +2721,7 @@ const fans = {
     "createdAt": "10/8/2013",
     "nbFollowers": 3,
     "nbFollowings": 13,
-    "nbStarredRepos": 435,
+    "nbStarredRepos": 433,
     "nbRepos": 44,
     "follower": false,
     "starred": [
@@ -2720,8 +2740,8 @@ const fans = {
     "follower": false,
     "starred": [
       "evolutility-models",
-      "evolutility-ui-react",
-      "evolutility-server-node"
+      "evolutility-server-node",
+      "evolutility-ui-react"
     ],
     "forked": [],
     "websiteUrl": "https://www.akqa.com/",
@@ -2734,7 +2754,7 @@ const fans = {
     "createdAt": "4/22/2012",
     "nbFollowers": 8,
     "nbFollowings": 52,
-    "nbStarredRepos": 652,
+    "nbStarredRepos": 655,
     "nbRepos": 9,
     "follower": false,
     "starred": [
@@ -2756,10 +2776,10 @@ const fans = {
     "login": "mgamarra",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1192733?v=4",
     "createdAt": "11/13/2011",
-    "nbFollowers": 15,
+    "nbFollowers": 16,
     "nbFollowings": 7,
-    "nbStarredRepos": 2490,
-    "nbRepos": 41,
+    "nbStarredRepos": 2494,
+    "nbRepos": 43,
     "follower": false,
     "starred": [
       "d3-table-cards",
@@ -2774,8 +2794,8 @@ const fans = {
     "createdAt": "10/16/2012",
     "nbFollowers": 11,
     "nbFollowings": 7,
-    "nbStarredRepos": 353,
-    "nbRepos": 30,
+    "nbStarredRepos": 359,
+    "nbRepos": 31,
     "follower": false,
     "starred": [
       "d3-table-cards"
@@ -2804,8 +2824,8 @@ const fans = {
     "createdAt": "5/29/2015",
     "nbFollowers": 13,
     "nbFollowings": 6,
-    "nbStarredRepos": 123,
-    "nbRepos": 81,
+    "nbStarredRepos": 126,
+    "nbRepos": 83,
     "follower": false,
     "starred": [
       "d3-table-cards"
@@ -2822,7 +2842,7 @@ const fans = {
     "createdAt": "10/26/2016",
     "nbFollowers": 5,
     "nbFollowings": 14,
-    "nbStarredRepos": 320,
+    "nbStarredRepos": 322,
     "nbRepos": 97,
     "follower": false,
     "starred": [
@@ -2838,7 +2858,7 @@ const fans = {
     "createdAt": "10/24/2011",
     "nbFollowers": 61,
     "nbFollowings": 184,
-    "nbStarredRepos": 5362,
+    "nbStarredRepos": 5380,
     "nbRepos": 246,
     "follower": false,
     "starred": [
@@ -2853,9 +2873,9 @@ const fans = {
     "login": "ix4",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/38112035?u=6386dc5772b562e2503ee296e2ba5d05013e066e&v=4",
     "createdAt": "4/5/2018",
-    "nbFollowers": 31,
+    "nbFollowers": 33,
     "nbFollowings": 91,
-    "nbStarredRepos": 5148,
+    "nbStarredRepos": 5162,
     "nbRepos": 799,
     "follower": false,
     "starred": [
@@ -2867,9 +2887,9 @@ const fans = {
     "login": "hery84",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/340397?u=8259c8325fcf87aad02e4deb276e288f929333ae&v=4",
     "createdAt": "7/21/2010",
-    "nbFollowers": 24,
-    "nbFollowings": 88,
-    "nbStarredRepos": 3975,
+    "nbFollowers": 25,
+    "nbFollowings": 90,
+    "nbStarredRepos": 4024,
     "nbRepos": 27,
     "follower": false,
     "starred": [
@@ -2912,7 +2932,7 @@ const fans = {
     "createdAt": "10/22/2016",
     "nbFollowers": 2,
     "nbFollowings": 10,
-    "nbStarredRepos": 145,
+    "nbStarredRepos": 150,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -2930,13 +2950,560 @@ const fans = {
     ],
     "starred": []
   },
+  "tzw5099": {
+    "login": "tzw5099",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6289023?u=3197972ba389672927487bfbd9350fc8ba958a5d&v=4",
+    "createdAt": "12/30/2013",
+    "nbFollowers": 9,
+    "nbFollowings": 7,
+    "nbStarredRepos": 2192,
+    "nbRepos": 34,
+    "follower": false,
+    "starred": [
+      "kaggle-look-alike"
+    ],
+    "forked": []
+  },
+  "srock82": {
+    "login": "srock82",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/40375829?v=4",
+    "createdAt": "6/18/2018",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 77,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "EitanBlumin": {
+    "login": "EitanBlumin",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/30114607?u=a9587d0c015f51920d173ac4c64d0311185173fa&v=4",
+    "createdAt": "7/12/2017",
+    "nbFollowers": 25,
+    "nbFollowings": 8,
+    "nbStarredRepos": 57,
+    "nbRepos": 27,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.eitanblumin.com/",
+    "bio": "Microsoft Data Platform MVP, Solutions Architect.\r\n\r\nSubscribe to my feed to be notified about new gists before anyone: https://gist.github.com/EitanBlumin.atom",
+    "location": "Israel",
+    "company": "Madeira Data Solutions"
+  },
+  "yadavrg": {
+    "login": "yadavrg",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5319186?v=4",
+    "createdAt": "8/27/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 7,
+    "nbStarredRepos": 214,
+    "nbRepos": 8,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "dlowther": {
+    "login": "dlowther",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6010537?u=0867005acc4aebfcfb01d54d3749f2576a1ba7d3&v=4",
+    "createdAt": "11/22/2013",
+    "nbFollowers": 0,
+    "nbFollowings": 2,
+    "nbStarredRepos": 15,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": []
+  },
+  "javis86": {
+    "login": "javis86",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5216084?u=4508025ba23f33096be577b8d80b158a5b9e8bf8&v=4",
+    "createdAt": "8/12/2013",
+    "nbFollowers": 5,
+    "nbFollowings": 39,
+    "nbStarredRepos": 99,
+    "nbRepos": 17,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "location": "Buenos Aires, Argentina",
+    "company": "Asap Consulting"
+  },
+  "send2vinnie": {
+    "login": "send2vinnie",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/261418?v=4",
+    "createdAt": "5/1/2010",
+    "nbFollowers": 54,
+    "nbFollowings": 7,
+    "nbStarredRepos": 4836,
+    "nbRepos": 46,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "rkapl123": {
+    "login": "rkapl123",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/7430763?u=f27243fe825548041c8d3db3912b208c9a2df632&v=4",
+    "createdAt": "4/28/2014",
+    "nbFollowers": 5,
+    "nbFollowings": 4,
+    "nbStarredRepos": 10,
+    "nbRepos": 15,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.kapl.org",
+    "bio": "opensource and automation enthusiast, for financial applications I like using @quantlib and @OpenSourceRisk, for Excel Addins @ExcelDNA",
+    "location": "Austria"
+  },
+  "amzar96": {
+    "login": "amzar96",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19677928?u=cdb0103bc7a8819b618fe164c364a1f0c286900e&v=4",
+    "createdAt": "5/31/2016",
+    "nbFollowers": 9,
+    "nbFollowings": 13,
+    "nbStarredRepos": 182,
+    "nbRepos": 19,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "websiteUrl": "http://mohdamzar.com",
+    "bio": "Python Developer",
+    "location": "Malaysia",
+    "company": "DHL eCommerce"
+  },
+  "PeteSral": {
+    "login": "PeteSral",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/36866437?u=2f8d4fccd767135e5eb108d9adbfb2a0e42292b4&v=4",
+    "createdAt": "2/26/2018",
+    "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 77,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "websiteUrl": "https://nettrax.net",
+    "bio": "Developing software solutions since 1996 I have and still continue to work with great people and clients side-by-side.  Continuing the education journey.",
+    "location": "Elmhurst, IL",
+    "company": "Bradford Systems Corporation"
+  },
+  "cmalpass": {
+    "login": "cmalpass",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12421043?v=4",
+    "createdAt": "5/12/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 4,
+    "nbStarredRepos": 544,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "bio": "Software developer, data geek, photographer, gadget aficionado.",
+    "location": "Virginia, USA"
+  },
+  "bikaqiou2000": {
+    "login": "bikaqiou2000",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/5955197?u=083a74edc7f17a5800a8e608db0db511e65f58d6&v=4",
+    "createdAt": "11/16/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 242,
+    "nbRepos": 87,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "bio": "Hello World !",
+    "location": "China",
+    "company": "SunRise"
+  },
+  "tuga1975": {
+    "login": "tuga1975",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/19747224?v=4",
+    "createdAt": "6/4/2016",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 525,
+    "nbRepos": 186,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": []
+  },
+  "dchumpitaz": {
+    "login": "dchumpitaz",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/12180613?u=b2b0f84a34ac34c7a2d48b2c57076f0f73fe8cba&v=4",
+    "createdAt": "4/29/2015",
+    "nbFollowers": 2,
+    "nbFollowings": 0,
+    "nbStarredRepos": 4,
+    "nbRepos": 2,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "websiteUrl": "http://people-inmotion.com",
+    "bio": "Founder of People in Motion. Software development agency focused in banks, ports & e-commerce.",
+    "location": "Panamá",
+    "company": "People in Motion"
+  },
+  "pwmckee": {
+    "login": "pwmckee",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/20345873?v=4",
+    "createdAt": "7/7/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 14,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": []
+  },
+  "brunneis": {
+    "login": "brunneis",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9011434?u=77c806353bbcd5e58c67b43ced07f6a68d1e79fa&v=4",
+    "createdAt": "10/3/2014",
+    "nbFollowers": 59,
+    "nbFollowings": 21,
+    "nbStarredRepos": 356,
+    "nbRepos": 107,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [],
+    "bio": "Blockchain @Councilbox & @blockchain-gal • Big Data & Artificial Intelligence @citiususc",
+    "location": "Compostela",
+    "company": "@Labteral"
+  },
+  "landall": {
+    "login": "landall",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7061302?u=c981ad95e7e2b4a1218c24bfac0e655124a3acba&v=4",
+    "createdAt": "3/25/2014",
+    "nbFollowers": 1,
+    "nbFollowings": 2,
+    "nbStarredRepos": 195,
+    "nbRepos": 24,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": [
+      "evolutility-asp.net"
+    ],
+    "bio": "a former delphi/php/c coder.\r\n",
+    "location": "Beijing"
+  },
+  "ajamaeen": {
+    "login": "ajamaeen",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11008302?u=3caa19263a0eeb738feb64285c091a744c2626c5&v=4",
+    "createdAt": "2/14/2015",
+    "nbFollowers": 3,
+    "nbFollowings": 9,
+    "nbStarredRepos": 100,
+    "nbRepos": 13,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://ajamaeen.blogspot.com",
+    "bio": "I am a solution designer with a wide range of experience in application areas and types. I am serious about creating designs that meet requirements.",
+    "location": "Jordan",
+    "company": "http://www.stopmenu.com"
+  },
+  "fishonline": {
+    "login": "fishonline",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1931909?u=46d23708c6c11580fd3949ae7914e3990316a48f&v=4",
+    "createdAt": "7/6/2012",
+    "nbFollowers": 16,
+    "nbFollowings": 15,
+    "nbStarredRepos": 2791,
+    "nbRepos": 125,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net",
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Shanghai, China"
+  },
+  "Dpoudel": {
+    "login": "Dpoudel",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16630853?v=4",
+    "createdAt": "1/9/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 2,
+    "nbStarredRepos": 20,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": []
+  },
+  "jarafelipe": {
+    "login": "jarafelipe",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/73614108?v=4",
+    "createdAt": "10/28/2020",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 1,
+    "nbRepos": 2,
+    "follower": false,
+    "starred": [
+      "evolutility-asp.net"
+    ],
+    "forked": []
+  },
+  "dillishrestha": {
+    "login": "dillishrestha",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/10883545?v=4",
+    "nbRepos": 385,
+    "forked": [
+      "evolutility-asp.net"
+    ],
+    "starred": []
+  },
+  "lmm713281": {
+    "login": "lmm713281",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/16602901?v=4",
+    "nbRepos": 82,
+    "forked": [
+      "evolutility-asp.net",
+      "structured-filter"
+    ],
+    "starred": []
+  },
+  "nirupambunty": {
+    "login": "nirupambunty",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/52458964?v=4",
+    "nbRepos": 31,
+    "forked": [
+      "evolutility-asp.net"
+    ],
+    "starred": []
+  },
+  "eksotama": {
+    "login": "eksotama",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/42229128?v=4",
+    "nbRepos": 563,
+    "forked": [
+      "evolutility-asp.net"
+    ],
+    "starred": []
+  },
+  "buzgra-pro": {
+    "login": "buzgra-pro",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/57344578?v=4",
+    "nbRepos": 22,
+    "forked": [
+      "evolutility-asp.net",
+      "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "iamravikumar": {
+    "login": "iamravikumar",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/25150666?u=8d36b75fe481bf2c1b5b5e6334db748fedde5e67&v=4",
+    "nbRepos": 186,
+    "forked": [
+      "evolutility-asp.net"
+    ],
+    "starred": []
+  },
+  "xteknix": {
+    "login": "xteknix",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/47232734?u=79f991f9f50e6c59c49fc9aa432fad2e4eccebcb&v=4",
+    "createdAt": "1/31/2019",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 44,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "location": "HERE"
+  },
+  "Major-Mike": {
+    "login": "Major-Mike",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/55165479?u=252c6b51d7973abdda9c3d414ab7e97f631adc22&v=4",
+    "createdAt": "9/10/2019",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 17,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "bio": "I'm an open book, want to know something, just ask."
+  },
+  "tcoolspy": {
+    "login": "tcoolspy",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1538329?v=4",
+    "createdAt": "3/14/2012",
+    "nbFollowers": 0,
+    "nbFollowings": 2,
+    "nbStarredRepos": 340,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "location": "Birmingham, AL"
+  },
+  "hakkisagdic": {
+    "login": "hakkisagdic",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11720433?u=00c4dff1b2aad19ce3f3d1e312c8619e476da20e&v=4",
+    "createdAt": "3/30/2015",
+    "nbFollowers": 52,
+    "nbFollowings": 25,
+    "nbStarredRepos": 1591,
+    "nbRepos": 229,
+    "follower": false,
+    "starred": [
+      "react-crud-icons",
+      "structured-filter"
+    ],
+    "forked": [
+      "react-crud-icons"
+    ]
+  },
+  "Sammuel-Miranda": {
+    "login": "Sammuel-Miranda",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/32678615?u=ec6ce6a2b3a34e55073e41375ecb3a9733c3c3e1&v=4",
+    "createdAt": "10/10/2017",
+    "nbFollowers": 5,
+    "nbFollowings": 14,
+    "nbStarredRepos": 274,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "websiteUrl": "http://studssw@gmail.com",
+    "bio": "Visual Studio (C#/VB) and SqlServer",
+    "location": "Brazil"
+  },
+  "MiguelRAvila": {
+    "login": "MiguelRAvila",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/35583825?u=74d04bff33c79dc8d3032df0337020cccfbfd218&v=4",
+    "createdAt": "1/18/2018",
+    "nbFollowers": 79,
+    "nbFollowings": 76,
+    "nbStarredRepos": 527,
+    "nbRepos": 54,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "websiteUrl": "http://miguelravila.me/",
+    "bio": "I'm a student of Software Engineering and a  design lover. I consider myself a motivated person in always learn new technologies and skills.",
+    "location": "Mérida, Yucatán",
+    "company": "@WorkshopTechnology @Lintori"
+  },
+  "vossiman": {
+    "login": "vossiman",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/949168?u=0b62f76946c2888336d0ecd4a80d8ccb63d38567&v=4",
+    "createdAt": "7/30/2011",
+    "nbFollowers": 0,
+    "nbFollowings": 2,
+    "nbStarredRepos": 1,
+    "nbRepos": 5,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "websiteUrl": "http://vossi.at",
+    "bio": "hacking things together in my freetime",
+    "location": "Wien, Austria"
+  },
+  "thrabchak": {
+    "login": "thrabchak",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/4117711?v=4",
+    "createdAt": "4/10/2013",
+    "nbFollowers": 11,
+    "nbFollowings": 18,
+    "nbStarredRepos": 115,
+    "nbRepos": 17,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "websiteUrl": "http://tomhrabchak.com",
+    "location": "Boston, MA"
+  },
+  "tcelestino": {
+    "login": "tcelestino",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/190265?u=b5c92992eae9796f79aa1fd2280d6a3e438c7938&v=4",
+    "createdAt": "1/26/2010",
+    "nbFollowers": 79,
+    "nbFollowings": 162,
+    "nbStarredRepos": 977,
+    "nbRepos": 65,
+    "follower": false,
+    "starred": [
+      "react-crud-icons"
+    ],
+    "forked": [],
+    "websiteUrl": "http://twitter.com/tcelestino",
+    "bio": "web developer at world",
+    "location": "São Paulo, SP, Brazil",
+    "company": "@catho"
+  },
   "kelvin-dev": {
     "login": "kelvin-dev",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/19224355?u=68766ea4818e964e036a5a1b15928612b22e9f22&v=4",
     "createdAt": "5/6/2016",
     "nbFollowers": 244,
     "nbFollowings": 12239,
-    "nbStarredRepos": 2148,
+    "nbStarredRepos": 2150,
     "nbRepos": 36,
     "follower": false,
     "starred": [
@@ -2992,18 +3559,69 @@ const fans = {
   },
   "InnoScorpio": {
     "login": "InnoScorpio",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/70449772?u=b9ca4bae986806b7ca493ce5be8ed87a5c4fa068&v=4",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/70449772?u=ceeb5191105e828726b7f0b9ef4e4ec328611726&v=4",
     "createdAt": "8/29/2020",
-    "nbFollowers": 23,
-    "nbFollowings": 303,
-    "nbStarredRepos": 3250,
-    "nbRepos": 3,
+    "nbFollowers": 28,
+    "nbFollowings": 0,
+    "nbStarredRepos": 3396,
+    "nbRepos": 66,
     "follower": false,
     "starred": [
       "motivational-numerology"
     ],
     "forked": [],
     "location": "USA"
+  },
+  "tygrysco": {
+    "login": "tygrysco",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/53409354?u=60121a1fe056d699a3769037e5dbd2840be15b70&v=4",
+    "createdAt": "7/28/2019",
+    "nbFollowers": 265,
+    "nbFollowings": 304,
+    "nbStarredRepos": 18,
+    "nbRepos": 11,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [
+      "motivational-numerology"
+    ],
+    "bio": "dev in progress..",
+    "location": "Diyarbakır"
+  },
+  "BenNeighbour": {
+    "login": "BenNeighbour",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/45554944?u=59ac8d18d7295841cf9bd62cb2dba9ebf5540ccf&v=4",
+    "createdAt": "12/2/2018",
+    "nbFollowers": 26,
+    "nbFollowings": 117,
+    "nbStarredRepos": 155,
+    "nbRepos": 32,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [],
+    "bio": "\r\n    I'm a Full-Stack Software Engineer!\r\n",
+    "location": "London, UK",
+    "company": "Myself"
+  },
+  "5l1v3r1": {
+    "login": "5l1v3r1",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/34143537?u=46197be540aa3921685f5f4baafca1da9511325c&v=4",
+    "createdAt": "11/30/2017",
+    "nbFollowers": 264,
+    "nbFollowings": 2339,
+    "nbStarredRepos": 36491,
+    "nbRepos": 43799,
+    "follower": false,
+    "starred": [
+      "motivational-numerology"
+    ],
+    "forked": [
+      "motivational-numerology"
+    ]
   },
   "goda02": {
     "login": "goda02",
@@ -3023,368 +3641,13 @@ const fans = {
     ],
     "starred": []
   },
-  "tygrysco": {
-    "login": "tygrysco",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/53409354?u=60121a1fe056d699a3769037e5dbd2840be15b70&v=4",
-    "nbRepos": 10,
-    "forked": [
-      "motivational-numerology"
-    ],
-    "starred": []
-  },
-  "srock82": {
-    "login": "srock82",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/40375829?v=4",
-    "createdAt": "6/18/2018",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 76,
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "EitanBlumin": {
-    "login": "EitanBlumin",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/30114607?u=a9587d0c015f51920d173ac4c64d0311185173fa&v=4",
-    "createdAt": "7/12/2017",
-    "nbFollowers": 24,
-    "nbFollowings": 8,
-    "nbStarredRepos": 57,
-    "nbRepos": 27,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": [],
-    "websiteUrl": "https://www.eitanblumin.com/",
-    "bio": "Microsoft Data Platform MVP, Solutions Architect.\r\n\r\nSubscribe to my feed to be notified about new gists before anyone: https://gist.github.com/EitanBlumin.atom",
-    "location": "Israel",
-    "company": "Madeira Data Solutions"
-  },
-  "yadavrg": {
-    "login": "yadavrg",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/5319186?v=4",
-    "createdAt": "8/27/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 7,
-    "nbStarredRepos": 214,
-    "nbRepos": 8,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "dlowther": {
-    "login": "dlowther",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/6010537?u=0867005acc4aebfcfb01d54d3749f2576a1ba7d3&v=4",
-    "createdAt": "11/22/2013",
-    "nbFollowers": 0,
-    "nbFollowings": 2,
-    "nbStarredRepos": 15,
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": []
-  },
-  "javis86": {
-    "login": "javis86",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/5216084?u=4508025ba23f33096be577b8d80b158a5b9e8bf8&v=4",
-    "createdAt": "8/12/2013",
-    "nbFollowers": 5,
-    "nbFollowings": 32,
-    "nbStarredRepos": 86,
-    "nbRepos": 12,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "location": "Buenos Aires, Argentina"
-  },
-  "send2vinnie": {
-    "login": "send2vinnie",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/261418?v=4",
-    "createdAt": "5/1/2010",
-    "nbFollowers": 52,
-    "nbFollowings": 7,
-    "nbStarredRepos": 4808,
-    "nbRepos": 45,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "rkapl123": {
-    "login": "rkapl123",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/7430763?u=f27243fe825548041c8d3db3912b208c9a2df632&v=4",
-    "createdAt": "4/28/2014",
-    "nbFollowers": 5,
-    "nbFollowings": 4,
-    "nbStarredRepos": 9,
-    "nbRepos": 15,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "websiteUrl": "http://www.kapl.org",
-    "bio": "opensource and automation enthusiast, for financial applications I like using @quantlib and @OpenSourceRisk, for Excel Addins @ExcelDNA",
-    "location": "Austria"
-  },
-  "amzar96": {
-    "login": "amzar96",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/19677928?u=cdb0103bc7a8819b618fe164c364a1f0c286900e&v=4",
-    "createdAt": "5/31/2016",
-    "nbFollowers": 9,
-    "nbFollowings": 13,
-    "nbStarredRepos": 178,
-    "nbRepos": 18,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "websiteUrl": "http://mohdamzar.com",
-    "bio": "Python Developer",
-    "location": "Malaysia",
-    "company": "DHL eCommerce"
-  },
-  "PeteSral": {
-    "login": "PeteSral",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/36866437?u=2f8d4fccd767135e5eb108d9adbfb2a0e42292b4&v=4",
-    "createdAt": "2/26/2018",
-    "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": 73,
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "websiteUrl": "https://nettrax.net",
-    "bio": "Developing software solutions since 1996 I have and still continue to work with great people and clients side-by-side.  Continuing the education journey.",
-    "location": "Elmhurst, IL",
-    "company": "Bradford Systems Corporation"
-  },
-  "cmalpass": {
-    "login": "cmalpass",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/12421043?v=4",
-    "createdAt": "5/12/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 4,
-    "nbStarredRepos": 539,
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "bio": "Software developer, data geek, photographer, gadget aficionado.",
-    "location": "Virginia, USA"
-  },
-  "bikaqiou2000": {
-    "login": "bikaqiou2000",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/5955197?u=083a74edc7f17a5800a8e608db0db511e65f58d6&v=4",
-    "createdAt": "11/16/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 0,
-    "nbStarredRepos": 217,
-    "nbRepos": 84,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-ui-jquery"
-    ],
-    "forked": [],
-    "bio": "Hello World !",
-    "location": "China",
-    "company": "SunRise"
-  },
-  "tuga1975": {
-    "login": "tuga1975",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/19747224?v=4",
-    "createdAt": "6/4/2016",
-    "nbFollowers": 1,
-    "nbFollowings": 0,
-    "nbStarredRepos": 526,
-    "nbRepos": 186,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": []
-  },
-  "dchumpitaz": {
-    "login": "dchumpitaz",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/12180613?u=b2b0f84a34ac34c7a2d48b2c57076f0f73fe8cba&v=4",
-    "createdAt": "4/29/2015",
-    "nbFollowers": 2,
-    "nbFollowings": 0,
-    "nbStarredRepos": 4,
-    "nbRepos": 2,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "websiteUrl": "http://people-inmotion.com",
-    "bio": "Founder of People in Motion. Software development agency focused in banks, ports & e-commerce.",
-    "location": "Panamá",
-    "company": "People in Motion"
-  },
-  "pwmckee": {
-    "login": "pwmckee",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/20345873?v=4",
-    "createdAt": "7/7/2016",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 14,
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": []
-  },
-  "brunneis": {
-    "login": "brunneis",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/9011434?u=77c806353bbcd5e58c67b43ced07f6a68d1e79fa&v=4",
-    "createdAt": "10/3/2014",
-    "nbFollowers": 57,
-    "nbFollowings": 21,
-    "nbStarredRepos": 355,
-    "nbRepos": 105,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [],
-    "bio": "Blockchain @Councilbox & @blockchain-gal • Big Data & Artificial Intelligence @citiususc",
-    "location": "Compostela",
-    "company": "@Labteral"
-  },
-  "landall": {
-    "login": "landall",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/7061302?u=c981ad95e7e2b4a1218c24bfac0e655124a3acba&v=4",
-    "createdAt": "3/25/2014",
-    "nbFollowers": 1,
-    "nbFollowings": 2,
-    "nbStarredRepos": 193,
-    "nbRepos": 24,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net"
-    ],
-    "forked": [
-      "evolutility-asp.net"
-    ],
-    "bio": "a former delphi/php/c coder.\r\n",
-    "location": "Beijing"
-  },
-  "ajamaeen": {
-    "login": "ajamaeen",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/11008302?u=3caa19263a0eeb738feb64285c091a744c2626c5&v=4",
-    "createdAt": "2/14/2015",
-    "nbFollowers": 3,
-    "nbFollowings": 8,
-    "nbStarredRepos": 96,
-    "nbRepos": 13,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "http://ajamaeen.blogspot.com",
-    "bio": "I am a solution designer with a wide range of experience in application areas and types. I am serious about creating designs that meet requirements.",
-    "location": "Jordan",
-    "company": "http://www.stopmenu.com"
-  },
-  "fishonline": {
-    "login": "fishonline",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1931909?u=46d23708c6c11580fd3949ae7914e3990316a48f&v=4",
-    "createdAt": "7/6/2012",
-    "nbFollowers": 15,
-    "nbFollowings": 15,
-    "nbStarredRepos": 2676,
-    "nbRepos": 122,
-    "follower": false,
-    "starred": [
-      "evolutility-asp.net",
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "location": "Shanghai, China"
-  },
-  "dillishrestha": {
-    "login": "dillishrestha",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/10883545?v=4",
-    "nbRepos": 385,
-    "forked": [
-      "evolutility-asp.net"
-    ],
-    "starred": []
-  },
-  "lmm713281": {
-    "login": "lmm713281",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/16602901?v=4",
-    "nbRepos": 82,
-    "forked": [
-      "evolutility-asp.net",
-      "structured-filter"
-    ],
-    "starred": []
-  },
-  "nirupambunty": {
-    "login": "nirupambunty",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/52458964?v=4",
-    "nbRepos": 31,
-    "forked": [
-      "evolutility-asp.net"
-    ],
-    "starred": []
-  },
-  "eksotama": {
-    "login": "eksotama",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/42229128?v=4",
-    "nbRepos": 563,
-    "forked": [
-      "evolutility-asp.net"
-    ],
-    "starred": []
-  },
-  "buzgra-pro": {
-    "login": "buzgra-pro",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/57344578?v=4",
-    "nbRepos": 22,
-    "forked": [
-      "evolutility-asp.net",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
   "narigondelsiglo": {
     "login": "narigondelsiglo",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5419598?v=4",
     "createdAt": "9/9/2013",
-    "nbFollowers": 4,
+    "nbFollowers": 5,
     "nbFollowings": 6,
-    "nbStarredRepos": 412,
+    "nbStarredRepos": 413,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -3398,9 +3661,9 @@ const fans = {
     "login": "yardfarmer",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1446828?v=4",
     "createdAt": "2/17/2012",
-    "nbFollowers": 23,
+    "nbFollowers": 24,
     "nbFollowings": 92,
-    "nbStarredRepos": 579,
+    "nbStarredRepos": 584,
     "nbRepos": 56,
     "follower": false,
     "starred": [
@@ -3430,58 +3693,14 @@ const fans = {
     "location": "Dubai",
     "company": "@Emirates"
   },
-  "stevenkath": {
-    "login": "stevenkath",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/5440278?u=467b4ae4db151fb4124d05ba23f7259b0c8e8c42&v=4",
-    "createdAt": "9/11/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 0,
-    "nbStarredRepos": 3,
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
+  "ryankscott": {
+    "login": "ryankscott",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2660760?u=fc40beeabcd6e77ae13800778061c57fc33dd571&v=4",
+    "nbRepos": 29,
+    "forked": [
+      "structured-filter-react"
     ],
-    "forked": []
-  },
-  "wwfalcon": {
-    "login": "wwfalcon",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/72378?u=92ad5bd25bc34e46467bb87a47afb20b7e6cc4c5&v=4",
-    "createdAt": "4/9/2009",
-    "nbFollowers": 42,
-    "nbFollowings": 277,
-    "nbStarredRepos": 2948,
-    "nbRepos": 69,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "structured-filter"
-    ],
-    "forked": [],
-    "websiteUrl": "http://about.me/wwfalcon",
-    "bio": "Make IT Easy",
-    "location": "Dalian,China",
-    "company": "Neusoft"
-  },
-  "skariel": {
-    "login": "skariel",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2347816?u=8952f318e56853a216eed63834207722d8c88745&v=4",
-    "createdAt": "9/14/2012",
-    "nbFollowers": 41,
-    "nbFollowings": 35,
-    "nbStarredRepos": 2011,
-    "nbRepos": 44,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "bio": "Physics PhD,\r\nHigh performance computing,\r\nMachine learning,\r\nStatistics,\r\netc.\r\n",
-    "location": "Haifa, Israel",
-    "company": "Huawei / Senior Software Architect"
+    "starred": []
   },
   "andrenventer": {
     "login": "andrenventer",
@@ -3493,963 +3712,21 @@ const fans = {
     "nbRepos": 48,
     "follower": false,
     "starred": [
-      "evolutility-ui-react",
       "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": [],
     "websiteUrl": "http://andrenventer.github.io/",
     "location": "Hermanus"
   },
-  "hpinio": {
-    "login": "hpinio",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1176708?v=4",
-    "createdAt": "11/6/2011",
-    "nbFollowers": 10,
-    "nbFollowings": 10,
-    "nbStarredRepos": 295,
-    "nbRepos": 20,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "SamXP2004": {
-    "login": "SamXP2004",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1940915?u=170348787c9e2db377ba70b200cd1497b934cb2a&v=4",
-    "createdAt": "7/8/2012",
-    "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": 59,
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "bio": "Never Ever Give Up."
-  },
-  "thepearson": {
-    "login": "thepearson",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1651296?v=4",
-    "createdAt": "4/17/2012",
-    "nbFollowers": 15,
-    "nbFollowings": 34,
-    "nbStarredRepos": 309,
-    "nbRepos": 59,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [
-      "evolutility-ui-react"
-    ],
-    "websiteUrl": "http://www.pixelite.co.nz",
-    "location": "Wellington NZ",
-    "company": "@haunt-digital "
-  },
-  "kulakowka": {
-    "login": "kulakowka",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/557190?u=7f2445e125a2258715ebb74d22362a93ce218ef8&v=4",
-    "createdAt": "1/11/2011",
-    "nbFollowers": 129,
-    "nbFollowings": 288,
-    "nbStarredRepos": 4838,
-    "nbRepos": 101,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "https://sportrecs.com",
-    "bio": "Fullstack JavaScript Developer",
-    "location": "Russian, Moscow"
-  },
-  "Vishal-Isharani": {
-    "login": "Vishal-Isharani",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/10386581?u=ad330ae234ee5a2287806c06b9bf4b98722bea56&v=4",
-    "createdAt": "1/3/2015",
-    "nbFollowers": 21,
-    "nbFollowings": 131,
-    "nbStarredRepos": 5353,
-    "nbRepos": 18,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "asakura89": {
-    "login": "asakura89",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/614434?u=0bb3d7cbff40fb755649b715d4743b81abb83278&v=4",
-    "createdAt": "2/12/2011",
-    "nbFollowers": 17,
-    "nbFollowings": 191,
-    "nbStarredRepos": 1501,
-    "nbRepos": 50,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": [],
-    "location": "Bandung"
-  },
-  "edson": {
-    "login": "edson",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/62490?v=4",
-    "createdAt": "3/11/2009",
-    "nbFollowers": 9,
-    "nbFollowings": 7,
-    "nbStarredRepos": 94,
-    "nbRepos": 22,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "josx": {
-    "login": "josx",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/791137?u=3387bcd15ffe314a399d54ff667617aec8080e22&v=4",
-    "createdAt": "5/16/2011",
-    "nbFollowers": 28,
-    "nbFollowings": 9,
-    "nbStarredRepos": 667,
-    "nbRepos": 51,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "http://www.camba.coop",
-    "location": "Buenos Aires, Argentina",
-    "company": "Cambá"
-  },
-  "gingerhot": {
-    "login": "gingerhot",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1658618?u=715c816dcacd998ee7a387a5554f877f2c678406&v=4",
-    "createdAt": "4/19/2012",
-    "nbFollowers": 42,
-    "nbFollowings": 35,
-    "nbStarredRepos": 1953,
-    "nbRepos": 220,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "location": "Beijing"
-  },
-  "HalidCisse": {
-    "login": "HalidCisse",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/6313791?u=a01bd0b035e3412bc5b67ea1b19b7115b327525e&v=4",
-    "createdAt": "1/3/2014",
-    "nbFollowers": 110,
-    "nbFollowings": 353,
-    "nbStarredRepos": 2797,
-    "nbRepos": 35,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "http://halidcisse.me",
-    "bio": "I do lots of things. some of them well.\r\nTalk less, Think more.\r\n　　　　　　　　　　🚀　　　　 　　　　　　　　★○•　　　　　 　　　　　¸. ¸☆　☆　　　　　　 　　　　°　○ °　★　　　　　　　 　　　☾　",
-    "location": "Nigeria",
-    "company": "@Microsoft"
-  },
-  "kiskovacs": {
-    "login": "kiskovacs",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/2733311?u=fb69916c5695ec4fce22b9e3104a35f3bb5bf276&v=4",
-    "createdAt": "11/6/2012",
-    "nbFollowers": 1,
-    "nbFollowings": 2,
-    "nbStarredRepos": 365,
-    "nbRepos": 64,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "company": "SMILEUPPS-080433C6C5"
-  },
-  "ovidiusabou": {
-    "login": "ovidiusabou",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/991166?u=8178ab89c5710a9549cc4dd989d5357f95efd022&v=4",
-    "createdAt": "8/19/2011",
-    "nbFollowers": 10,
-    "nbFollowings": 18,
-    "nbStarredRepos": 223,
-    "nbRepos": 7,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "location": "Cluj-Napoca",
-    "company": "@SectorLabs "
-  },
-  "dkimot": {
-    "login": "dkimot",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/20249639?u=26acbf195866cec0ca11e72abba6204a1765d4c5&v=4",
-    "createdAt": "7/1/2016",
-    "nbFollowers": 4,
-    "nbFollowings": 11,
-    "nbStarredRepos": 125,
-    "nbRepos": 42,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "http://insidertrading.deals",
-    "bio": "I'm a Rails and JavaScript developer from SLC Utah.",
-    "location": "SLC, UT",
-    "company": "@solium"
-  },
-  "julio347": {
-    "login": "julio347",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/6179232?u=173640a84707db47447001230f11193284926105&v=4",
-    "createdAt": "12/13/2013",
-    "nbFollowers": 1,
-    "nbFollowings": 1,
-    "nbStarredRepos": 127,
-    "nbRepos": 14,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "location": "McAllen, TX"
-  },
-  "Bulletninja": {
-    "login": "Bulletninja",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/71659?v=4",
-    "createdAt": "4/7/2009",
-    "nbFollowers": 13,
-    "nbFollowings": 103,
-    "nbStarredRepos": 653,
-    "nbRepos": 93,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "klugem": {
-    "login": "klugem",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/4368200?u=8dbe23fc4a93305ffcce5f43182ac445fcc1e75a&v=4",
-    "createdAt": "5/7/2013",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 21,
-    "nbRepos": 19,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "huyibin": {
-    "login": "huyibin",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/4716166?u=3ba313049f8647c52bfc21eb13c911fa4b17a895&v=4",
-    "createdAt": "6/17/2013",
-    "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": 70,
-    "nbRepos": 14,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "structured-filter"
-    ],
-    "forked": [
-      "evolutility-ui-jquery"
-    ]
-  },
-  "chucktrukk": {
-    "login": "chucktrukk",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/65679?u=f3d6705b4bcf89e4e8989b116d7c675dc3843a99&v=4",
-    "createdAt": "3/21/2009",
-    "nbFollowers": 31,
-    "nbFollowings": 61,
-    "nbStarredRepos": 1051,
-    "nbRepos": 73,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "company": "ProWebscape"
-  },
-  "joaovieirabr": {
-    "login": "joaovieirabr",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/2774195?u=ec34753e6a5e306a508e719f2febfb961f94dd85&v=4",
-    "createdAt": "11/11/2012",
-    "nbFollowers": 1,
-    "nbFollowings": 2,
-    "nbStarredRepos": 177,
-    "nbRepos": 1,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "chezianr": {
-    "login": "chezianr",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/14961290?v=4",
-    "createdAt": "10/3/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 9,
-    "nbStarredRepos": 74,
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": [],
-    "location": "SFO",
-    "company": "NGINX"
-  },
-  "championo": {
-    "login": "championo",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/37641372?v=4",
-    "createdAt": "3/21/2018",
-    "nbFollowers": 0,
-    "nbFollowings": 4,
-    "nbStarredRepos": 77,
-    "nbRepos": 5,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "chriz001": {
-    "login": "chriz001",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1817728?v=4",
-    "createdAt": "6/4/2012",
-    "nbFollowers": 24,
-    "nbFollowings": 7,
-    "nbStarredRepos": 1346,
-    "nbRepos": 45,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "jamesfowler": {
-    "login": "jamesfowler",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1284971?u=523de2ec6b18cacc140d1faf8f2aa2861c028284&v=4",
-    "createdAt": "12/25/2011",
-    "nbFollowers": 12,
-    "nbFollowings": 24,
-    "nbStarredRepos": 272,
-    "nbRepos": 3,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "company": "Shieldpay"
-  },
-  "ilp2020": {
-    "login": "ilp2020",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/3125136?u=8650b8a17bd43eb72d78abffe25f2cfc8f4627cd&v=4",
-    "createdAt": "12/25/2012",
-    "nbFollowers": 9,
-    "nbFollowings": 12,
-    "nbStarredRepos": 124,
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": [],
-    "location": "Shanghai",
-    "company": "Tencent"
-  },
-  "clonardo": {
-    "login": "clonardo",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/7379800?v=4",
-    "createdAt": "4/22/2014",
-    "nbFollowers": 22,
-    "nbFollowings": 171,
-    "nbStarredRepos": 3585,
-    "nbRepos": 112,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "sleepsterz": {
-    "login": "sleepsterz",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/22344026?v=4",
-    "createdAt": "9/21/2016",
-    "nbFollowers": 0,
-    "nbFollowings": 1,
-    "nbStarredRepos": 89,
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "JulianWei": {
-    "login": "JulianWei",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/22549647?v=4",
-    "createdAt": "9/30/2016",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 16,
-    "nbRepos": 16,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "vulcangz": {
-    "login": "vulcangz",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/7195362?v=4",
-    "createdAt": "4/6/2014",
-    "nbFollowers": 85,
-    "nbFollowings": 275,
-    "nbStarredRepos": 29636,
-    "nbRepos": 22,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery",
-      "structured-filter"
-    ],
-    "forked": []
-  },
-  "SolutionYogi": {
-    "login": "SolutionYogi",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/127397?v=4",
-    "createdAt": "9/15/2009",
-    "nbFollowers": 6,
-    "nbFollowings": 10,
-    "nbStarredRepos": 114,
-    "nbRepos": 13,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-ui-jquery"
-    ],
-    "forked": [],
-    "websiteUrl": "http://solutionyogi.com",
-    "location": "NYC, NY, USA",
-    "company": "SolutionYogi LLC"
-  },
-  "nklowns": {
-    "login": "nklowns",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/17345221?u=95d3b4c3a8ad4641fa662ce0f30e77313f2ff362&v=4",
-    "createdAt": "2/19/2016",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 27,
-    "nbRepos": 7,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": [],
-    "websiteUrl": "https://kuork.org"
-  },
-  "ichtestemalwieder": {
-    "login": "ichtestemalwieder",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/54768881?v=4",
-    "createdAt": "9/1/2019",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 94,
-    "nbRepos": 7,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "madibalive": {
-    "login": "madibalive",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/7702063?u=5842e0fa5ff130114879f0acdcb568a7024261c8&v=4",
-    "createdAt": "5/26/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 10,
-    "nbStarredRepos": 611,
-    "nbRepos": 37,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "location": "Accra, Gh",
-    "company": "mate-aid.blogspot.com"
-  },
-  "adatoo": {
-    "login": "adatoo",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/1885244?u=d7b4b96dcbc9cae56efdc5a724b840f3523cd4f1&v=4",
-    "createdAt": "6/23/2012",
-    "nbFollowers": 6,
-    "nbFollowings": 2,
-    "nbStarredRepos": 1571,
-    "nbRepos": 5,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "alisraza": {
-    "login": "alisraza",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/38713337?v=4",
-    "createdAt": "4/24/2018",
-    "nbFollowers": 3,
-    "nbFollowings": 10,
-    "nbStarredRepos": 625,
-    "nbRepos": 0,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": []
-  },
-  "sangkyunyoon": {
-    "login": "sangkyunyoon",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/8344155?v=4",
-    "createdAt": "8/3/2014",
-    "nbFollowers": 17,
-    "nbFollowings": 35,
-    "nbStarredRepos": 4228,
-    "nbRepos": 3441,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "websiteUrl": "https://bcuts.tistory.com"
-  },
-  "bigdrum": {
-    "login": "bigdrum",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/45750?v=4",
-    "createdAt": "1/11/2009",
-    "nbFollowers": 24,
-    "nbFollowings": 4,
-    "nbStarredRepos": 315,
-    "nbRepos": 37,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": [],
-    "location": "New York, NY"
-  },
-  "hemantkamalakar": {
-    "login": "hemantkamalakar",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1947238?v=4",
-    "createdAt": "7/9/2012",
-    "nbFollowers": 8,
-    "nbFollowings": 17,
-    "nbStarredRepos": 35,
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": [],
-    "websiteUrl": "https://hemantkamalakar.github.io/",
-    "bio": "\r\n    Home automation, IoT and data science enthusiast.\r\n",
-    "location": "Pune, India",
-    "company": "TietoEVRY"
-  },
-  "litteZe": {
-    "login": "litteZe",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/19704226?u=8d6a1f32d08c07a4013854ae3b84bd6ed229926e&v=4",
-    "createdAt": "6/2/2016",
-    "nbFollowers": 17,
-    "nbFollowings": 319,
-    "nbStarredRepos": 4468,
-    "nbRepos": 162,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "bio": "Frontend web developer",
-    "location": "tianchao"
-  },
-  "felipereina": {
-    "login": "felipereina",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/41518538?u=98376b2866ec58165de141953921eaf165961c3e&v=4",
-    "createdAt": "7/21/2018",
-    "nbFollowers": 9,
-    "nbFollowings": 22,
-    "nbStarredRepos": 14,
-    "nbRepos": 18,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "http://felipereina.netlify.com",
-    "bio": "Developer at Fruition Partners",
-    "location": "lisbon",
-    "company": "Fruition Partners"
-  },
-  "minasvisual": {
-    "login": "minasvisual",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/7904806?u=48df989bcf754b1e4c80ed3517fca78bbb8eb23a&v=4",
-    "createdAt": "6/16/2014",
-    "nbFollowers": 3,
-    "nbFollowings": 6,
-    "nbStarredRepos": 72,
-    "nbRepos": 46,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [
-      "evolutility-ui-react"
-    ],
-    "websiteUrl": "http://mantovaniarts.com",
-    "bio": "Ulisses Mantovani\r\nPersonal Contact: mantovaniarts@hotmail.com",
-    "location": "São Paulo / Brazil",
-    "company": "Minas Visual"
-  },
-  "philamander": {
-    "login": "philamander",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/16353044?v=4",
-    "createdAt": "12/18/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 13,
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": []
-  },
-  "BrunoTuy": {
-    "login": "BrunoTuy",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/26278903?u=eb1083126571f22dcb551c05cf146cf48ff6b792&v=4",
-    "createdAt": "3/8/2017",
-    "nbFollowers": 7,
-    "nbFollowings": 4,
-    "nbStarredRepos": 12,
-    "nbRepos": 11,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "location": "Salvador - BA"
-  },
-  "nyimbi": {
-    "login": "nyimbi",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/2156185?v=4",
-    "createdAt": "8/15/2012",
-    "nbFollowers": 19,
-    "nbFollowings": 18,
-    "nbStarredRepos": 2139,
-    "nbRepos": 664,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "forked": [],
-    "bio": "Data Wrangler, Code Spiffer-upper, Generalist",
-    "location": "Nairobi",
-    "company": "Seme Research"
-  },
-  "platform-kit": {
-    "login": "platform-kit",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/54647524?u=1cb7191699fb4c83946d962727cf4a15f498990b&v=4",
-    "createdAt": "8/28/2019",
-    "nbFollowers": 2,
-    "nbFollowings": 2,
-    "nbStarredRepos": 219,
-    "nbRepos": 4,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "https://www.platformkit.com"
-  },
-  "vintageplayer": {
-    "login": "vintageplayer",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/17234935?u=26f2397427a41bb0534ae24f7b3eca1ae1c62c91&v=4",
-    "createdAt": "2/14/2016",
-    "nbFollowers": 44,
-    "nbFollowings": 3,
-    "nbStarredRepos": 84,
-    "nbRepos": 25,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": [],
-    "bio": "Jack of all, master of none (yet). I believe \"One can learn anything and one can never learn enough\". Interested in Data Mining and Data Science.",
-    "location": "Bangalore, India"
-  },
-  "fibarra75": {
-    "login": "fibarra75",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/20311199?u=a4c04cb56209ac1fda6ec6d2f92da716a919ec31&v=4",
-    "createdAt": "7/5/2016",
-    "nbFollowers": 1,
-    "nbFollowings": 15,
-    "nbStarredRepos": 33,
-    "nbRepos": 12,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "animalizm": {
-    "login": "animalizm",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/11823944?v=4",
-    "createdAt": "4/6/2015",
-    "nbFollowers": 0,
-    "nbFollowings": 0,
-    "nbStarredRepos": 707,
-    "nbRepos": 5,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "http://www.animalizm.me",
-    "location": "Riga, Latvia",
-    "company": "freelance"
-  },
-  "leostarcevic": {
-    "login": "leostarcevic",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/7224001?v=4",
-    "createdAt": "4/8/2014",
-    "nbFollowers": 10,
-    "nbFollowings": 129,
-    "nbStarredRepos": 708,
-    "nbRepos": 23,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "bio": "Software Engineer"
-  },
-  "andriyor": {
-    "login": "andriyor",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/11459840?u=4088c2608ab81d873e45e9952828f43eb0185851&v=4",
-    "createdAt": "3/13/2015",
-    "nbFollowers": 52,
-    "nbFollowings": 328,
-    "nbStarredRepos": 3523,
-    "nbRepos": 194,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react"
-    ],
-    "forked": [],
-    "websiteUrl": "https://www.linkedin.com/in/andrey-oriekhov-8b8724103/",
-    "location": "Ukraine, Cherkassy, Cherkasy"
-  },
-  "Pavonian": {
-    "login": "Pavonian",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/62995124?v=4",
-    "createdAt": "4/1/2020",
-    "nbFollowers": 1,
-    "nbFollowings": 1,
-    "nbStarredRepos": 81,
-    "nbRepos": 28,
-    "follower": false,
-    "starred": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "forked": []
-  },
-  "CodeFork": {
-    "login": "CodeFork",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/19376886?v=4",
-    "nbRepos": 512,
-    "forked": [
-      "evolutility-ui-react"
-    ],
-    "starred": []
-  },
-  "cuulee": {
-    "login": "cuulee",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/1776179?v=4",
-    "nbRepos": 5736,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "briancartercst": {
-    "login": "briancartercst",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/7414768?u=5c85acc471f8323a6d1f262838c93412e25f3a06&v=4",
-    "nbRepos": 257,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "rishabhchandel": {
-    "login": "rishabhchandel",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/17413018?u=2afe2a8e9f0d6010487c2efe1082249ae5841d85&v=4",
-    "nbRepos": 23,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "dodohee": {
-    "login": "dodohee",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/4029141?v=4",
-    "nbRepos": 100,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node",
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "ignaciovazqueza": {
-    "login": "ignaciovazqueza",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/13736519?v=4",
-    "nbRepos": 10,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "matiasjlopez": {
-    "login": "matiasjlopez",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/13739922?v=4",
-    "nbRepos": 14,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "nejoshi": {
-    "login": "nejoshi",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/2087875?v=4",
-    "nbRepos": 26,
-    "forked": [
-      "evolutility-ui-react"
-    ],
-    "starred": []
-  },
-  "eTarget1": {
-    "login": "eTarget1",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/25442481?v=4",
-    "nbRepos": 387,
-    "forked": [
-      "evolutility-ui-react"
-    ],
-    "starred": []
-  },
-  "PieterjanMontens": {
-    "login": "PieterjanMontens",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/4528178?v=4",
-    "createdAt": "5/25/2013",
-    "nbFollowers": 11,
-    "nbFollowings": 4,
-    "nbStarredRepos": 35,
-    "nbRepos": 52,
-    "follower": false,
-    "starred": [
-      "evolutility-server-node"
-    ],
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "websiteUrl": "http://pieterjan.montens.net",
-    "bio": "Full Stack, DevOps, Data Something",
-    "location": "Belgium"
-  },
-  "mainjavagmail": {
-    "login": "mainjavagmail",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/23260128?u=f36a41f08e4b88af9729280c6c3db746d8572367&v=4",
-    "nbRepos": 108,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
-  "JonesWilly": {
-    "login": "JonesWilly",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/47700929?v=4",
-    "nbRepos": 11,
-    "forked": [
-      "evolutility-ui-react",
-      "evolutility-ui-jquery"
-    ],
-    "starred": []
-  },
-  "Fakhrudin-MFM": {
-    "login": "Fakhrudin-MFM",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/68215427?u=4e0edf457a1b7eef3bde231b9717c937683320f7&v=4",
-    "nbRepos": 142,
-    "forked": [
-      "evolutility-ui-react"
-    ],
-    "starred": []
-  },
   "uniconstructor": {
     "login": "uniconstructor",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1384545?u=7344c7c83e303c8a332723d75bbf7375a994ae61&v=4",
     "createdAt": "1/27/2012",
-    "nbFollowers": 35,
+    "nbFollowers": 37,
     "nbFollowings": 80,
-    "nbStarredRepos": 3451,
+    "nbStarredRepos": 3448,
     "nbRepos": 115,
     "follower": false,
     "starred": [
@@ -4465,7 +3742,7 @@ const fans = {
     "createdAt": "2/19/2013",
     "nbFollowers": 14,
     "nbFollowings": 0,
-    "nbStarredRepos": 4930,
+    "nbStarredRepos": 4935,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -4498,7 +3775,7 @@ const fans = {
     "createdAt": "12/18/2011",
     "nbFollowers": 7,
     "nbFollowings": 6,
-    "nbStarredRepos": 230,
+    "nbStarredRepos": 232,
     "nbRepos": 31,
     "follower": false,
     "starred": [
@@ -4513,7 +3790,7 @@ const fans = {
     "createdAt": "5/18/2011",
     "nbFollowers": 30,
     "nbFollowings": 8,
-    "nbStarredRepos": 6066,
+    "nbStarredRepos": 6161,
     "nbRepos": 73,
     "follower": false,
     "starred": [
@@ -4522,13 +3799,49 @@ const fans = {
     "forked": [],
     "location": "Thailand"
   },
+  "stevenkath": {
+    "login": "stevenkath",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5440278?u=467b4ae4db151fb4124d05ba23f7259b0c8e8c42&v=4",
+    "createdAt": "9/11/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 3,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "wwfalcon": {
+    "login": "wwfalcon",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/72378?u=92ad5bd25bc34e46467bb87a47afb20b7e6cc4c5&v=4",
+    "createdAt": "4/9/2009",
+    "nbFollowers": 42,
+    "nbFollowings": 278,
+    "nbStarredRepos": 2984,
+    "nbRepos": 69,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://about.me/wwfalcon",
+    "bio": "Make IT Easy",
+    "location": "Dalian,China",
+    "company": "Neusoft"
+  },
   "sign0": {
     "login": "sign0",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6769414?u=84c32ed048c47a553b0c8201e724841b445b9df0&v=4",
     "createdAt": "2/24/2014",
-    "nbFollowers": 11,
+    "nbFollowers": 12,
     "nbFollowings": 37,
-    "nbStarredRepos": 734,
+    "nbStarredRepos": 736,
     "nbRepos": 68,
     "follower": false,
     "starred": [
@@ -4536,6 +3849,22 @@ const fans = {
     ],
     "forked": [],
     "location": "Paris"
+  },
+  "hpinio": {
+    "login": "hpinio",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1176708?v=4",
+    "createdAt": "11/6/2011",
+    "nbFollowers": 10,
+    "nbFollowings": 10,
+    "nbStarredRepos": 295,
+    "nbRepos": 20,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
   },
   "thinklightswitch": {
     "login": "thinklightswitch",
@@ -4558,8 +3887,8 @@ const fans = {
     "createdAt": "6/1/2014",
     "nbFollowers": 6,
     "nbFollowings": 9,
-    "nbStarredRepos": 1121,
-    "nbRepos": 102,
+    "nbStarredRepos": 1126,
+    "nbRepos": 103,
     "follower": false,
     "starred": [
       "evolutility-server-node",
@@ -4596,14 +3925,46 @@ const fans = {
     ],
     "forked": []
   },
+  "asakura89": {
+    "login": "asakura89",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/614434?u=0bb3d7cbff40fb755649b715d4743b81abb83278&v=4",
+    "createdAt": "2/12/2011",
+    "nbFollowers": 17,
+    "nbFollowings": 191,
+    "nbStarredRepos": 1500,
+    "nbRepos": 50,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "location": "Bandung"
+  },
+  "edson": {
+    "login": "edson",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/62490?v=4",
+    "createdAt": "3/11/2009",
+    "nbFollowers": 9,
+    "nbFollowings": 7,
+    "nbStarredRepos": 94,
+    "nbRepos": 22,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
   "jimf99": {
     "login": "jimf99",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6600380?v=4",
     "createdAt": "2/5/2014",
     "nbFollowers": 7,
-    "nbFollowings": 27,
-    "nbStarredRepos": 1326,
-    "nbRepos": 10,
+    "nbFollowings": 28,
+    "nbStarredRepos": 1331,
+    "nbRepos": 11,
     "follower": false,
     "starred": [
       "evolutility-server-node",
@@ -4646,7 +4007,7 @@ const fans = {
     "login": "baliles",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/9769893?u=ef498022bd1aac0acda8e751a92011b20e603d0a&v=4",
     "createdAt": "11/15/2014",
-    "nbFollowers": 7,
+    "nbFollowers": 8,
     "nbFollowings": 5,
     "nbStarredRepos": 12,
     "nbRepos": 63,
@@ -4662,8 +4023,8 @@ const fans = {
     "createdAt": "1/23/2014",
     "nbFollowers": 6,
     "nbFollowings": 11,
-    "nbStarredRepos": 254,
-    "nbRepos": 15,
+    "nbStarredRepos": 258,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4692,7 +4053,7 @@ const fans = {
     "createdAt": "2/27/2014",
     "nbFollowers": 8,
     "nbFollowings": 10,
-    "nbStarredRepos": 588,
+    "nbStarredRepos": 593,
     "nbRepos": 28,
     "follower": false,
     "starred": [
@@ -4701,14 +4062,29 @@ const fans = {
     ],
     "forked": []
   },
+  "chriz001": {
+    "login": "chriz001",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1817728?v=4",
+    "createdAt": "6/4/2012",
+    "nbFollowers": 23,
+    "nbFollowings": 7,
+    "nbStarredRepos": 1350,
+    "nbRepos": 45,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
   "jaslo": {
     "login": "jaslo",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1811564?u=4d70e469d4422046860fe286576ac4bb8c41d1f2&v=4",
     "createdAt": "6/2/2012",
-    "nbFollowers": 3,
+    "nbFollowers": 4,
     "nbFollowings": 9,
     "nbStarredRepos": 73,
-    "nbRepos": 30,
+    "nbRepos": 31,
     "follower": false,
     "starred": [
       "evolutility-server-node",
@@ -4718,13 +4094,31 @@ const fans = {
       "evolutility-ui-jquery"
     ]
   },
+  "huyibin": {
+    "login": "huyibin",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4716166?u=3ba313049f8647c52bfc21eb13c911fa4b17a895&v=4",
+    "createdAt": "6/17/2013",
+    "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 71,
+    "nbRepos": 14,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "structured-filter"
+    ],
+    "forked": [
+      "evolutility-ui-jquery"
+    ]
+  },
   "AnanthaRajuC": {
     "login": "AnanthaRajuC",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6785435?u=00876d08a079a378cdec084f43b5075c11f784ac&v=4",
     "createdAt": "2/25/2014",
-    "nbFollowers": 59,
-    "nbFollowings": 74,
-    "nbStarredRepos": 4504,
+    "nbFollowers": 61,
+    "nbFollowings": 75,
+    "nbStarredRepos": 4525,
     "nbRepos": 670,
     "follower": false,
     "starred": [
@@ -4742,7 +4136,7 @@ const fans = {
     "nbFollowers": 3,
     "nbFollowings": 5,
     "nbStarredRepos": 24,
-    "nbRepos": 16,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4751,13 +4145,30 @@ const fans = {
     "bio": "An Internet Enthusiast with research passion, skilled in Automation and Web technologies for effective development of WoT/IoT Architectures.",
     "location": "Singapore"
   },
+  "chezianr": {
+    "login": "chezianr",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/14961290?v=4",
+    "createdAt": "10/3/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 9,
+    "nbStarredRepos": 74,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "SFO",
+    "company": "NGINX"
+  },
   "valmayaki": {
     "login": "valmayaki",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/8375520?u=274c26c3c08a0197dbe0feea7ad779f7813cb506&v=4",
     "createdAt": "8/6/2014",
-    "nbFollowers": 27,
+    "nbFollowers": 29,
     "nbFollowings": 43,
-    "nbStarredRepos": 1161,
+    "nbStarredRepos": 1164,
     "nbRepos": 91,
     "follower": false,
     "starred": [
@@ -4770,13 +4181,46 @@ const fans = {
     "login": "alperdincer",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1174240?v=4",
     "createdAt": "11/5/2011",
-    "nbFollowers": 18,
+    "nbFollowers": 17,
     "nbFollowings": 35,
-    "nbStarredRepos": 1054,
+    "nbStarredRepos": 1072,
     "nbRepos": 38,
     "follower": false,
     "starred": [
       "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "ilp2020": {
+    "login": "ilp2020",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/3125136?u=8650b8a17bd43eb72d78abffe25f2cfc8f4627cd&v=4",
+    "createdAt": "12/25/2012",
+    "nbFollowers": 9,
+    "nbFollowings": 14,
+    "nbStarredRepos": 160,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Shanghai",
+    "company": "Nvidia"
+  },
+  "joaovieirabr": {
+    "login": "joaovieirabr",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2774195?u=ec34753e6a5e306a508e719f2febfb961f94dd85&v=4",
+    "createdAt": "11/11/2012",
+    "nbFollowers": 1,
+    "nbFollowings": 2,
+    "nbStarredRepos": 140,
+    "nbRepos": 1,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
     ],
     "forked": []
   },
@@ -4799,10 +4243,10 @@ const fans = {
     "login": "almereyda",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1645308?u=0df526b4b0778ecb4406933b0ad2b7741d5f95ed&v=4",
     "createdAt": "4/15/2012",
-    "nbFollowers": 132,
+    "nbFollowers": 134,
     "nbFollowings": 117,
-    "nbStarredRepos": 8965,
-    "nbRepos": 127,
+    "nbStarredRepos": 9483,
+    "nbRepos": 135,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4812,17 +4256,86 @@ const fans = {
     "location": "berlin. laniakea.",
     "company": "allmende"
   },
+  "vulcangz": {
+    "login": "vulcangz",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/7195362?v=4",
+    "createdAt": "4/6/2014",
+    "nbFollowers": 88,
+    "nbFollowings": 284,
+    "nbStarredRepos": 30113,
+    "nbRepos": 23,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery",
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "PieterjanMontens": {
+    "login": "PieterjanMontens",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4528178?v=4",
+    "createdAt": "5/25/2013",
+    "nbFollowers": 11,
+    "nbFollowings": 4,
+    "nbStarredRepos": 37,
+    "nbRepos": 54,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "websiteUrl": "http://pieterjan.montens.net",
+    "bio": "Full Stack, DevOps, Data Something",
+    "location": "Belgium"
+  },
+  "nklowns": {
+    "login": "nklowns",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17345221?u=95d3b4c3a8ad4641fa662ce0f30e77313f2ff362&v=4",
+    "createdAt": "2/19/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 27,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://kuork.org"
+  },
   "jianan789": {
     "login": "jianan789",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6212024?v=4",
     "createdAt": "12/17/2013",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": 265,
+    "nbStarredRepos": 275,
     "nbRepos": 18,
     "follower": false,
     "starred": [
       "evolutility-server-node",
+      "evolutility-ui-jquery"
+    ],
+    "forked": []
+  },
+  "alisraza": {
+    "login": "alisraza",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/38713337?v=4",
+    "createdAt": "4/24/2018",
+    "nbFollowers": 4,
+    "nbFollowings": 12,
+    "nbStarredRepos": 665,
+    "nbRepos": 0,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
       "evolutility-ui-jquery"
     ],
     "forked": []
@@ -4845,10 +4358,10 @@ const fans = {
     "login": "TalbotGooday",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10896476?u=e3a170418388ec553a27ec7094b2a23ea4679f30&v=4",
     "createdAt": "2/7/2015",
-    "nbFollowers": 3,
-    "nbFollowings": 4,
-    "nbStarredRepos": 154,
-    "nbRepos": 55,
+    "nbFollowers": 5,
+    "nbFollowings": 5,
+    "nbStarredRepos": 168,
+    "nbRepos": 56,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4869,14 +4382,51 @@ const fans = {
     ],
     "forked": []
   },
+  "sangkyunyoon": {
+    "login": "sangkyunyoon",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8344155?v=4",
+    "createdAt": "8/3/2014",
+    "nbFollowers": 17,
+    "nbFollowings": 36,
+    "nbStarredRepos": 4229,
+    "nbRepos": 3442,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "websiteUrl": "https://bcuts.tistory.com"
+  },
+  "bigdrum": {
+    "login": "bigdrum",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/45750?v=4",
+    "createdAt": "1/11/2009",
+    "nbFollowers": 24,
+    "nbFollowings": 4,
+    "nbStarredRepos": 317,
+    "nbRepos": 37,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "New York, NY"
+  },
   "CNTRS": {
     "login": "CNTRS",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/12638486?v=4",
     "createdAt": "5/27/2015",
     "nbFollowers": 12,
     "nbFollowings": 34,
-    "nbStarredRepos": 739,
-    "nbRepos": 18,
+    "nbStarredRepos": 750,
+    "nbRepos": 25,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4898,13 +4448,32 @@ const fans = {
     ],
     "forked": []
   },
+  "hemantkamalakar": {
+    "login": "hemantkamalakar",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1947238?v=4",
+    "createdAt": "7/9/2012",
+    "nbFollowers": 8,
+    "nbFollowings": 17,
+    "nbStarredRepos": 35,
+    "nbRepos": 11,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://hemantkamalakar.github.io/",
+    "bio": "\r\n    Home automation, IoT and data science enthusiast.\r\n",
+    "location": "Pune, India",
+    "company": "TietoEVRY"
+  },
   "hpetru": {
     "login": "hpetru",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1880766?u=eb7b6e3804a87599681030e1a01b2ed5440e9b67&v=4",
     "createdAt": "6/22/2012",
     "nbFollowers": 39,
-    "nbFollowings": 190,
-    "nbStarredRepos": 844,
+    "nbFollowings": 191,
+    "nbStarredRepos": 850,
     "nbRepos": 122,
     "follower": false,
     "starred": [
@@ -4921,8 +4490,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1215177?v=4",
     "createdAt": "11/23/2011",
     "nbFollowers": 24,
-    "nbFollowings": 41,
-    "nbStarredRepos": 581,
+    "nbFollowings": 42,
+    "nbStarredRepos": 585,
     "nbRepos": 430,
     "follower": false,
     "starred": [
@@ -4936,7 +4505,7 @@ const fans = {
     "createdAt": "8/10/2014",
     "nbFollowers": 18,
     "nbFollowings": 44,
-    "nbStarredRepos": 359,
+    "nbStarredRepos": 358,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -4948,9 +4517,9 @@ const fans = {
     "login": "alexsorokoletov",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1788581?v=4",
     "createdAt": "5/29/2012",
-    "nbFollowers": 40,
+    "nbFollowers": 41,
     "nbFollowings": 44,
-    "nbStarredRepos": 325,
+    "nbStarredRepos": 328,
     "nbRepos": 71,
     "follower": false,
     "starred": [
@@ -4962,14 +4531,50 @@ const fans = {
     "location": "Washington, D.C.",
     "company": "Founder of @DreamTeamMobile"
   },
+  "nyimbi": {
+    "login": "nyimbi",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2156185?v=4",
+    "createdAt": "8/15/2012",
+    "nbFollowers": 20,
+    "nbFollowings": 18,
+    "nbStarredRepos": 2219,
+    "nbRepos": 664,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "bio": "Data Wrangler, Code Spiffer-upper, Generalist",
+    "location": "Nairobi",
+    "company": "Seme Research"
+  },
+  "vintageplayer": {
+    "login": "vintageplayer",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17234935?u=3b4a910dcb0523e3814160fe370f134c2d923f17&v=4",
+    "createdAt": "2/14/2016",
+    "nbFollowers": 45,
+    "nbFollowings": 3,
+    "nbStarredRepos": 92,
+    "nbRepos": 25,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "bio": "Jack of all, master of none (yet). I believe \"One can learn anything and one can never learn enough\". Interested in Data Mining and Data Science.",
+    "location": "Bangalore, India"
+  },
   "thomasklemm": {
     "login": "thomasklemm",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1100176?v=4",
     "createdAt": "10/3/2011",
-    "nbFollowers": 80,
-    "nbFollowings": 302,
-    "nbStarredRepos": 7370,
-    "nbRepos": 106,
+    "nbFollowers": 85,
+    "nbFollowings": 336,
+    "nbStarredRepos": 7691,
+    "nbRepos": 107,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -4977,14 +4582,29 @@ const fans = {
     "forked": [],
     "location": "Würzburg, Germany"
   },
+  "fibarra75": {
+    "login": "fibarra75",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20311199?u=a4c04cb56209ac1fda6ec6d2f92da716a919ec31&v=4",
+    "createdAt": "7/5/2016",
+    "nbFollowers": 1,
+    "nbFollowings": 15,
+    "nbStarredRepos": 33,
+    "nbRepos": 12,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
   "huangwind205": {
     "login": "huangwind205",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/13348321?v=4",
     "createdAt": "7/15/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": 501,
-    "nbRepos": 42,
+    "nbStarredRepos": 508,
+    "nbRepos": 43,
     "follower": false,
     "starred": [
       "evolutility-server-node"
@@ -5011,7 +4631,7 @@ const fans = {
     "createdAt": "9/16/2012",
     "nbFollowers": 4,
     "nbFollowings": 9,
-    "nbStarredRepos": 87,
+    "nbStarredRepos": 94,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -5023,13 +4643,28 @@ const fans = {
     "location": "Sweden",
     "company": "SBAB BANK AB"
   },
+  "Pavonian": {
+    "login": "Pavonian",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/62995124?v=4",
+    "createdAt": "4/1/2020",
+    "nbFollowers": 1,
+    "nbFollowings": 2,
+    "nbStarredRepos": 217,
+    "nbRepos": 31,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
   "liuping-github": {
     "login": "liuping-github",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/20900616?u=0118c7d27c22da5d09a26b31fc43bbdce85eaf26&v=4",
     "createdAt": "8/8/2016",
     "nbFollowers": 8,
-    "nbFollowings": 160,
-    "nbStarredRepos": 600,
+    "nbFollowings": 162,
+    "nbStarredRepos": 638,
     "nbRepos": 48,
     "follower": false,
     "starred": [
@@ -5037,10 +4672,57 @@ const fans = {
     ],
     "forked": []
   },
+  "pomazanbohdan": {
+    "login": "pomazanbohdan",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/696713?u=3ce8426bb4db71573e891cffc0c35205486f8036&v=4",
+    "createdAt": "3/29/2011",
+    "nbFollowers": 5,
+    "nbFollowings": 3,
+    "nbStarredRepos": 307,
+    "nbRepos": 13,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.facebook.com/pomazanbogdan",
+    "location": "Kyiv"
+  },
+  "clarenceeda": {
+    "login": "clarenceeda",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/42695235?u=6dbb894935daab340738520a768e6fa25dcbe87c&v=4",
+    "createdAt": "8/25/2018",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 15,
+    "nbRepos": 6,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": []
+  },
+  "cataua": {
+    "login": "cataua",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1001818?u=f9877f5f25d0fa606eb7efb49200cd316b4dcee4&v=4",
+    "createdAt": "8/24/2011",
+    "nbFollowers": 7,
+    "nbFollowings": 23,
+    "nbStarredRepos": 24,
+    "nbRepos": 15,
+    "follower": false,
+    "starred": [
+      "evolutility-server-node"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.caetanorama.com",
+    "location": "Juiz de Fora, MG, Brasil",
+    "company": "Caetanorama Art Studio"
+  },
   "Why-Not-Sky": {
     "login": "Why-Not-Sky",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7097435?u=55c7db46c287159c50f38f29659d4b8e52d7ddde&v=4",
-    "nbRepos": 577,
+    "nbRepos": 583,
     "forked": [
       "evolutility-server-node",
       "structured-filter"
@@ -5050,7 +4732,7 @@ const fans = {
   "l3dlp-sandbox": {
     "login": "l3dlp-sandbox",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/19497174?v=4",
-    "nbRepos": 1047,
+    "nbRepos": 1065,
     "forked": [
       "evolutility-server-node",
       "evolutility-ui-jquery"
@@ -5085,12 +4767,74 @@ const fans = {
     ],
     "starred": []
   },
+  "cuulee": {
+    "login": "cuulee",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1776179?v=4",
+    "nbRepos": 5781,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "starred": []
+  },
+  "briancartercst": {
+    "login": "briancartercst",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7414768?u=5c85acc471f8323a6d1f262838c93412e25f3a06&v=4",
+    "nbRepos": 257,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "rishabhchandel": {
+    "login": "rishabhchandel",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/17413018?u=2afe2a8e9f0d6010487c2efe1082249ae5841d85&v=4",
+    "nbRepos": 23,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "starred": []
+  },
   "wclwksn": {
     "login": "wclwksn",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1761877?v=4",
-    "nbRepos": 216,
+    "nbRepos": 219,
     "forked": [
       "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "dodohee": {
+    "login": "dodohee",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/4029141?v=4",
+    "nbRepos": 102,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "ignaciovazqueza": {
+    "login": "ignaciovazqueza",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/13736519?v=4",
+    "nbRepos": 10,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
+    ],
+    "starred": []
+  },
+  "matiasjlopez": {
+    "login": "matiasjlopez",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/13739922?v=4",
+    "nbRepos": 14,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
     ],
     "starred": []
   },
@@ -5107,16 +4851,26 @@ const fans = {
   "andyTsing": {
     "login": "andyTsing",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3162544?u=c7004cb7e23118729003f402af3d218410f3a320&v=4",
-    "nbRepos": 342,
+    "nbRepos": 341,
     "forked": [
       "evolutility-server-node"
+    ],
+    "starred": []
+  },
+  "mainjavagmail": {
+    "login": "mainjavagmail",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/23260128?u=f36a41f08e4b88af9729280c6c3db746d8572367&v=4",
+    "nbRepos": 108,
+    "forked": [
+      "evolutility-server-node",
+      "evolutility-ui-react"
     ],
     "starred": []
   },
   "Smembe812": {
     "login": "Smembe812",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/20711940?u=00cfab42a7205a7a1767e6017ea46a814abaffe5&v=4",
-    "nbRepos": 36,
+    "nbRepos": 35,
     "forked": [
       "evolutility-server-node"
     ],
@@ -5131,15 +4885,6 @@ const fans = {
     ],
     "starred": []
   },
-  "cataua": {
-    "login": "cataua",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/1001818?u=dff9ba7e89e000759f948178fdf30d644a1f92c8&v=4",
-    "nbRepos": 21,
-    "forked": [
-      "evolutility-server-node"
-    ],
-    "starred": []
-  },
   "corvello": {
     "login": "corvello",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1138309?v=4",
@@ -5147,6 +4892,619 @@ const fans = {
     "forked": [
       "evolutility-server-node",
       "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "skariel": {
+    "login": "skariel",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2347816?u=8952f318e56853a216eed63834207722d8c88745&v=4",
+    "createdAt": "9/14/2012",
+    "nbFollowers": 41,
+    "nbFollowings": 35,
+    "nbStarredRepos": 2014,
+    "nbRepos": 44,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "bio": "Physics PhD,\r\nHigh performance computing,\r\nMachine learning,\r\nStatistics,\r\netc.\r\n",
+    "location": "Haifa, Israel",
+    "company": "Huawei / Senior Software Architect"
+  },
+  "SamXP2004": {
+    "login": "SamXP2004",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1940915?u=170348787c9e2db377ba70b200cd1497b934cb2a&v=4",
+    "createdAt": "7/8/2012",
+    "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 70,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "bio": "Never Ever Give Up."
+  },
+  "thepearson": {
+    "login": "thepearson",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1651296?v=4",
+    "createdAt": "4/17/2012",
+    "nbFollowers": 16,
+    "nbFollowings": 34,
+    "nbStarredRepos": 311,
+    "nbRepos": 59,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [
+      "evolutility-ui-react"
+    ],
+    "websiteUrl": "http://www.pixelite.co.nz",
+    "location": "Wellington NZ",
+    "company": "@haunt-digital "
+  },
+  "kulakowka": {
+    "login": "kulakowka",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/557190?u=7f2445e125a2258715ebb74d22362a93ce218ef8&v=4",
+    "createdAt": "1/11/2011",
+    "nbFollowers": 129,
+    "nbFollowings": 288,
+    "nbStarredRepos": 4861,
+    "nbRepos": 101,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://sportrecs.com",
+    "bio": "Fullstack JavaScript Developer",
+    "location": "Russian, Moscow"
+  },
+  "Vishal-Isharani": {
+    "login": "Vishal-Isharani",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10386581?u=ad330ae234ee5a2287806c06b9bf4b98722bea56&v=4",
+    "createdAt": "1/3/2015",
+    "nbFollowers": 21,
+    "nbFollowings": 131,
+    "nbStarredRepos": 5351,
+    "nbRepos": 18,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "josx": {
+    "login": "josx",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/791137?u=3387bcd15ffe314a399d54ff667617aec8080e22&v=4",
+    "createdAt": "5/16/2011",
+    "nbFollowers": 28,
+    "nbFollowings": 9,
+    "nbStarredRepos": 678,
+    "nbRepos": 54,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.camba.coop",
+    "location": "Buenos Aires, Argentina",
+    "company": "Cambá"
+  },
+  "gingerhot": {
+    "login": "gingerhot",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1658618?u=715c816dcacd998ee7a387a5554f877f2c678406&v=4",
+    "createdAt": "4/19/2012",
+    "nbFollowers": 42,
+    "nbFollowings": 35,
+    "nbStarredRepos": 1970,
+    "nbRepos": 220,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Beijing"
+  },
+  "HalidCisse": {
+    "login": "HalidCisse",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6313791?u=a01bd0b035e3412bc5b67ea1b19b7115b327525e&v=4",
+    "createdAt": "1/3/2014",
+    "nbFollowers": 110,
+    "nbFollowings": 353,
+    "nbStarredRepos": 2809,
+    "nbRepos": 36,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://halidcisse.me",
+    "bio": "I do lots of things. some of them well.\r\nTalk less, Think more.\r\n　　　　　　　　　　🚀　　　　 　　　　　　　　★○•　　　　　 　　　　　¸. ¸☆　☆　　　　　　 　　　　°　○ °　★　　　　　　　 　　　☾　",
+    "location": "Nigeria",
+    "company": "@Microsoft"
+  },
+  "kiskovacs": {
+    "login": "kiskovacs",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2733311?u=fb69916c5695ec4fce22b9e3104a35f3bb5bf276&v=4",
+    "createdAt": "11/6/2012",
+    "nbFollowers": 1,
+    "nbFollowings": 2,
+    "nbStarredRepos": 365,
+    "nbRepos": 64,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "company": "SMILEUPPS-080433C6C5"
+  },
+  "ovidiusabou": {
+    "login": "ovidiusabou",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/991166?u=8178ab89c5710a9549cc4dd989d5357f95efd022&v=4",
+    "createdAt": "8/19/2011",
+    "nbFollowers": 10,
+    "nbFollowings": 18,
+    "nbStarredRepos": 225,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Cluj-Napoca",
+    "company": "@SectorLabs "
+  },
+  "dkimot": {
+    "login": "dkimot",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20249639?u=26acbf195866cec0ca11e72abba6204a1765d4c5&v=4",
+    "createdAt": "7/1/2016",
+    "nbFollowers": 4,
+    "nbFollowings": 11,
+    "nbStarredRepos": 127,
+    "nbRepos": 42,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://insidertrading.deals",
+    "bio": "I'm a Rails and JavaScript developer from SLC Utah.",
+    "location": "SLC, UT",
+    "company": "@solium"
+  },
+  "julio347": {
+    "login": "julio347",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6179232?u=173640a84707db47447001230f11193284926105&v=4",
+    "createdAt": "12/13/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 1,
+    "nbStarredRepos": 127,
+    "nbRepos": 14,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "McAllen, TX"
+  },
+  "Bulletninja": {
+    "login": "Bulletninja",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/71659?v=4",
+    "createdAt": "4/7/2009",
+    "nbFollowers": 14,
+    "nbFollowings": 103,
+    "nbStarredRepos": 657,
+    "nbRepos": 93,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "klugem": {
+    "login": "klugem",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4368200?u=8dbe23fc4a93305ffcce5f43182ac445fcc1e75a&v=4",
+    "createdAt": "5/7/2013",
+    "nbFollowers": 1,
+    "nbFollowings": 0,
+    "nbStarredRepos": 21,
+    "nbRepos": 22,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "chucktrukk": {
+    "login": "chucktrukk",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/65679?u=f3d6705b4bcf89e4e8989b116d7c675dc3843a99&v=4",
+    "createdAt": "3/21/2009",
+    "nbFollowers": 31,
+    "nbFollowings": 61,
+    "nbStarredRepos": 1052,
+    "nbRepos": 73,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "company": "ProWebscape"
+  },
+  "championo": {
+    "login": "championo",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/37641372?v=4",
+    "createdAt": "3/21/2018",
+    "nbFollowers": 0,
+    "nbFollowings": 4,
+    "nbStarredRepos": 77,
+    "nbRepos": 5,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "jamesfowler": {
+    "login": "jamesfowler",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1284971?u=523de2ec6b18cacc140d1faf8f2aa2861c028284&v=4",
+    "createdAt": "12/25/2011",
+    "nbFollowers": 12,
+    "nbFollowings": 24,
+    "nbStarredRepos": 274,
+    "nbRepos": 3,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "company": "Shieldpay"
+  },
+  "clonardo": {
+    "login": "clonardo",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7379800?v=4",
+    "createdAt": "4/22/2014",
+    "nbFollowers": 22,
+    "nbFollowings": 183,
+    "nbStarredRepos": 3778,
+    "nbRepos": 113,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react",
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "sleepsterz": {
+    "login": "sleepsterz",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/22344026?v=4",
+    "createdAt": "9/21/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 1,
+    "nbStarredRepos": 90,
+    "nbRepos": 13,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "JulianWei": {
+    "login": "JulianWei",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/22549647?v=4",
+    "createdAt": "9/30/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 16,
+    "nbRepos": 16,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "SolutionYogi": {
+    "login": "SolutionYogi",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/127397?v=4",
+    "createdAt": "9/15/2009",
+    "nbFollowers": 6,
+    "nbFollowings": 10,
+    "nbStarredRepos": 115,
+    "nbRepos": 13,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "websiteUrl": "http://solutionyogi.com",
+    "location": "NYC, NY, USA",
+    "company": "SolutionYogi LLC"
+  },
+  "ichtestemalwieder": {
+    "login": "ichtestemalwieder",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/54768881?v=4",
+    "createdAt": "9/1/2019",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 94,
+    "nbRepos": 7,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "madibalive": {
+    "login": "madibalive",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/7702063?u=5842e0fa5ff130114879f0acdcb568a7024261c8&v=4",
+    "createdAt": "5/26/2014",
+    "nbFollowers": 6,
+    "nbFollowings": 11,
+    "nbStarredRepos": 610,
+    "nbRepos": 37,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Accra, Gh",
+    "company": "mate-aid.blogspot.com"
+  },
+  "adatoo": {
+    "login": "adatoo",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1885244?u=d7b4b96dcbc9cae56efdc5a724b840f3523cd4f1&v=4",
+    "createdAt": "6/23/2012",
+    "nbFollowers": 7,
+    "nbFollowings": 2,
+    "nbStarredRepos": 1600,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "litteZe": {
+    "login": "litteZe",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19704226?u=8d6a1f32d08c07a4013854ae3b84bd6ed229926e&v=4",
+    "createdAt": "6/2/2016",
+    "nbFollowers": 16,
+    "nbFollowings": 318,
+    "nbStarredRepos": 4474,
+    "nbRepos": 162,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "bio": "Frontend web developer",
+    "location": "tianchao"
+  },
+  "felipereina": {
+    "login": "felipereina",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/41518538?u=98376b2866ec58165de141953921eaf165961c3e&v=4",
+    "createdAt": "7/21/2018",
+    "nbFollowers": 9,
+    "nbFollowings": 22,
+    "nbStarredRepos": 15,
+    "nbRepos": 18,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://felipereina.netlify.com",
+    "bio": "Developer at Fruition Partners",
+    "location": "lisbon",
+    "company": "Fruition Partners"
+  },
+  "minasvisual": {
+    "login": "minasvisual",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7904806?u=48df989bcf754b1e4c80ed3517fca78bbb8eb23a&v=4",
+    "createdAt": "6/16/2014",
+    "nbFollowers": 4,
+    "nbFollowings": 6,
+    "nbStarredRepos": 78,
+    "nbRepos": 48,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [
+      "evolutility-ui-react"
+    ],
+    "websiteUrl": "http://mantovaniarts.com",
+    "bio": "Ulisses Mantovani\r\nPersonal Contact: mantovaniarts@hotmail.com",
+    "location": "São Paulo / Brazil",
+    "company": "Minas Visual"
+  },
+  "philamander": {
+    "login": "philamander",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/16353044?v=4",
+    "createdAt": "12/18/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 15,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "BrunoTuy": {
+    "login": "BrunoTuy",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/26278903?u=eb1083126571f22dcb551c05cf146cf48ff6b792&v=4",
+    "createdAt": "3/8/2017",
+    "nbFollowers": 7,
+    "nbFollowings": 4,
+    "nbStarredRepos": 12,
+    "nbRepos": 11,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "location": "Salvador - BA"
+  },
+  "platform-kit": {
+    "login": "platform-kit",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/54647524?u=1cb7191699fb4c83946d962727cf4a15f498990b&v=4",
+    "createdAt": "8/28/2019",
+    "nbFollowers": 2,
+    "nbFollowings": 2,
+    "nbStarredRepos": 222,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.platformkit.com"
+  },
+  "animalizm": {
+    "login": "animalizm",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11823944?v=4",
+    "createdAt": "4/6/2015",
+    "nbFollowers": 0,
+    "nbFollowings": 0,
+    "nbStarredRepos": 713,
+    "nbRepos": 5,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.animalizm.me",
+    "location": "Riga, Latvia",
+    "company": "freelance"
+  },
+  "leostarcevic": {
+    "login": "leostarcevic",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/7224001?v=4",
+    "createdAt": "4/8/2014",
+    "nbFollowers": 12,
+    "nbFollowings": 130,
+    "nbStarredRepos": 729,
+    "nbRepos": 23,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "bio": "Software Engineer"
+  },
+  "andriyor": {
+    "login": "andriyor",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/11459840?u=4088c2608ab81d873e45e9952828f43eb0185851&v=4",
+    "createdAt": "3/13/2015",
+    "nbFollowers": 55,
+    "nbFollowings": 387,
+    "nbStarredRepos": 4149,
+    "nbRepos": 197,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://www.linkedin.com/in/andrey-oriekhov-8b8724103/",
+    "location": "Ukraine, Cherkassy, Cherkasy"
+  },
+  "atefBB": {
+    "login": "atefBB",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10966925?v=4",
+    "createdAt": "2/11/2015",
+    "nbFollowers": 47,
+    "nbFollowings": 201,
+    "nbStarredRepos": 3058,
+    "nbRepos": 583,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://atefbb.github.io/cv-react-app/",
+    "bio": "Muslim | Engineer",
+    "location": "Tunis"
+  },
+  "zakaluka": {
+    "login": "zakaluka",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1186367?v=4",
+    "createdAt": "11/10/2011",
+    "nbFollowers": 3,
+    "nbFollowings": 26,
+    "nbStarredRepos": 303,
+    "nbRepos": 36,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": []
+  },
+  "ciro-maciel": {
+    "login": "ciro-maciel",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/349602?u=27582a6942290aa86de831fa4f6d60cf1a84ed5c&v=4",
+    "createdAt": "7/30/2010",
+    "nbFollowers": 14,
+    "nbFollowings": 8,
+    "nbStarredRepos": 1321,
+    "nbRepos": 16,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-react"
+    ],
+    "forked": [],
+    "websiteUrl": "https://ciro-maciel.me/",
+    "bio": "Software engineer in a fantastic Family (team 👨🏽👩🏻👦🏻)",
+    "location": "São Paulo, BRA"
+  },
+  "CodeFork": {
+    "login": "CodeFork",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19376886?v=4",
+    "nbRepos": 516,
+    "forked": [
+      "evolutility-ui-react"
+    ],
+    "starred": []
+  },
+  "nejoshi": {
+    "login": "nejoshi",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2087875?v=4",
+    "nbRepos": 26,
+    "forked": [
+      "evolutility-ui-react"
+    ],
+    "starred": []
+  },
+  "eTarget1": {
+    "login": "eTarget1",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/25442481?v=4",
+    "nbRepos": 387,
+    "forked": [
+      "evolutility-ui-react"
+    ],
+    "starred": []
+  },
+  "JonesWilly": {
+    "login": "JonesWilly",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/47700929?v=4",
+    "nbRepos": 11,
+    "forked": [
+      "evolutility-ui-react",
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "Fakhrudin-MFM": {
+    "login": "Fakhrudin-MFM",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/68215427?u=4e0edf457a1b7eef3bde231b9717c937683320f7&v=4",
+    "nbRepos": 144,
+    "forked": [
+      "evolutility-ui-react"
     ],
     "starred": []
   },
@@ -5176,7 +5534,7 @@ const fans = {
     "nbFollowers": 1,
     "nbFollowings": 0,
     "nbStarredRepos": 111,
-    "nbRepos": 16,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker",
@@ -5191,7 +5549,7 @@ const fans = {
     "createdAt": "3/19/2011",
     "nbFollowers": 5,
     "nbFollowings": 2,
-    "nbStarredRepos": 360,
+    "nbStarredRepos": 363,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -5217,10 +5575,10 @@ const fans = {
     "login": "leonardoweslei",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/942453?v=4",
     "createdAt": "7/27/2011",
-    "nbFollowers": 15,
+    "nbFollowers": 16,
     "nbFollowings": 46,
-    "nbStarredRepos": 599,
-    "nbRepos": 16,
+    "nbStarredRepos": 600,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5236,7 +5594,7 @@ const fans = {
     "createdAt": "3/29/2012",
     "nbFollowers": 2,
     "nbFollowings": 0,
-    "nbStarredRepos": 157,
+    "nbStarredRepos": 160,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -5280,7 +5638,7 @@ const fans = {
     "createdAt": "1/2/2012",
     "nbFollowers": 22,
     "nbFollowings": 57,
-    "nbStarredRepos": 2787,
+    "nbStarredRepos": 2791,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -5295,8 +5653,8 @@ const fans = {
     "createdAt": "7/6/2011",
     "nbFollowers": 2,
     "nbFollowings": 5,
-    "nbStarredRepos": 503,
-    "nbRepos": 17,
+    "nbStarredRepos": 504,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5323,7 +5681,7 @@ const fans = {
     "createdAt": "2/28/2013",
     "nbFollowers": 12,
     "nbFollowings": 6,
-    "nbStarredRepos": 985,
+    "nbStarredRepos": 994,
     "nbRepos": 22,
     "follower": false,
     "starred": [
@@ -5337,7 +5695,7 @@ const fans = {
     "createdAt": "8/6/2011",
     "nbFollowers": 3,
     "nbFollowings": 5,
-    "nbStarredRepos": 261,
+    "nbStarredRepos": 262,
     "nbRepos": 37,
     "follower": false,
     "starred": [
@@ -5395,8 +5753,8 @@ const fans = {
     "createdAt": "4/6/2010",
     "nbFollowers": 50,
     "nbFollowings": 120,
-    "nbStarredRepos": 337,
-    "nbRepos": 65,
+    "nbStarredRepos": 338,
+    "nbRepos": 66,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5413,7 +5771,7 @@ const fans = {
     "createdAt": "5/19/2011",
     "nbFollowers": 43,
     "nbFollowings": 42,
-    "nbStarredRepos": 707,
+    "nbStarredRepos": 708,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -5427,9 +5785,9 @@ const fans = {
     "login": "artlantis",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/188478?v=4",
     "createdAt": "1/23/2010",
-    "nbFollowers": 28,
-    "nbFollowings": 42,
-    "nbStarredRepos": 6928,
+    "nbFollowers": 29,
+    "nbFollowings": 43,
+    "nbStarredRepos": 6938,
     "nbRepos": 265,
     "follower": false,
     "starred": [
@@ -5447,8 +5805,8 @@ const fans = {
     "createdAt": "1/18/2009",
     "nbFollowers": 31,
     "nbFollowings": 10,
-    "nbStarredRepos": 949,
-    "nbRepos": 54,
+    "nbStarredRepos": 977,
+    "nbRepos": 55,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5464,8 +5822,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1637162?u=722b4a02c63f6536b96a2d0f63fed48829b69102&v=4",
     "createdAt": "4/12/2012",
     "nbFollowers": 21,
-    "nbFollowings": 36,
-    "nbStarredRepos": 989,
+    "nbFollowings": 37,
+    "nbStarredRepos": 993,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -5480,8 +5838,8 @@ const fans = {
     "createdAt": "11/28/2010",
     "nbFollowers": 196,
     "nbFollowings": 433,
-    "nbStarredRepos": 25274,
-    "nbRepos": 12,
+    "nbStarredRepos": 25302,
+    "nbRepos": 13,
     "follower": false,
     "starred": [
       "colorpicker",
@@ -5531,7 +5889,7 @@ const fans = {
     "createdAt": "4/8/2013",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": 74,
+    "nbStarredRepos": 73,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -5545,7 +5903,7 @@ const fans = {
     "createdAt": "2/14/2012",
     "nbFollowers": 39,
     "nbFollowings": 17,
-    "nbStarredRepos": 307,
+    "nbStarredRepos": 312,
     "nbRepos": 53,
     "follower": false,
     "starred": [
@@ -5578,7 +5936,7 @@ const fans = {
     "createdAt": "3/23/2011",
     "nbFollowers": 36,
     "nbFollowings": 34,
-    "nbStarredRepos": 3615,
+    "nbStarredRepos": 3616,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -5592,7 +5950,7 @@ const fans = {
     "createdAt": "1/25/2013",
     "nbFollowers": 151,
     "nbFollowings": 5,
-    "nbStarredRepos": 11485,
+    "nbStarredRepos": 11480,
     "nbRepos": 11918,
     "follower": false,
     "starred": [
@@ -5610,8 +5968,8 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/2252355?u=c8e387c3564672c2abc41b2bffc7f778b2591b51&v=4",
     "createdAt": "8/30/2012",
     "nbFollowers": 127,
-    "nbFollowings": 63,
-    "nbStarredRepos": 1024,
+    "nbFollowings": 64,
+    "nbStarredRepos": 1004,
     "nbRepos": 62,
     "follower": false,
     "starred": [
@@ -5629,7 +5987,7 @@ const fans = {
     "createdAt": "10/10/2011",
     "nbFollowers": 7,
     "nbFollowings": 18,
-    "nbStarredRepos": 403,
+    "nbStarredRepos": 404,
     "nbRepos": 16,
     "follower": false,
     "starred": [
@@ -5646,7 +6004,7 @@ const fans = {
     "createdAt": "2/9/2012",
     "nbFollowers": 114,
     "nbFollowings": 16,
-    "nbStarredRepos": 4128,
+    "nbStarredRepos": 4122,
     "nbRepos": 67,
     "follower": false,
     "starred": [
@@ -5663,9 +6021,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1013698?u=90d4250da4a84fa8f7f9faed9f4a3bfa375777e5&v=4",
     "createdAt": "8/29/2011",
     "nbFollowers": 75,
-    "nbFollowings": 156,
-    "nbStarredRepos": 3985,
-    "nbRepos": 218,
+    "nbFollowings": 162,
+    "nbStarredRepos": 3998,
+    "nbRepos": 220,
     "follower": false,
     "starred": [
       "colorpicker",
@@ -5673,6 +6031,7 @@ const fans = {
       "structured-filter"
     ],
     "forked": [],
+    "bio": "Instantes de coragem definem nossa historia!",
     "location": "Brazil, Rondônia - Porto velho",
     "company": "PnA & Immensa"
   },
@@ -5696,7 +6055,7 @@ const fans = {
     "createdAt": "1/15/2013",
     "nbFollowers": 45,
     "nbFollowings": 9,
-    "nbStarredRepos": 398,
+    "nbStarredRepos": 404,
     "nbRepos": 29,
     "follower": false,
     "starred": [
@@ -5713,8 +6072,8 @@ const fans = {
     "createdAt": "10/12/2010",
     "nbFollowers": 5,
     "nbFollowings": 24,
-    "nbStarredRepos": 482,
-    "nbRepos": 46,
+    "nbStarredRepos": 488,
+    "nbRepos": 47,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5727,8 +6086,8 @@ const fans = {
     "createdAt": "1/27/2012",
     "nbFollowers": 10,
     "nbFollowings": 1,
-    "nbStarredRepos": 574,
-    "nbRepos": 45,
+    "nbStarredRepos": 575,
+    "nbRepos": 46,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5759,7 +6118,7 @@ const fans = {
     "createdAt": "10/5/2012",
     "nbFollowers": 6,
     "nbFollowings": 10,
-    "nbStarredRepos": 223,
+    "nbStarredRepos": 225,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -5769,7 +6128,7 @@ const fans = {
     "forked": [],
     "websiteUrl": "https://www.linkedin.com/in/jdilip",
     "location": "Mumbai",
-    "company": "ICLP"
+    "company": "HCL"
   },
   "dwcdev": {
     "login": "dwcdev",
@@ -5794,8 +6153,8 @@ const fans = {
     "createdAt": "2/7/2013",
     "nbFollowers": 7,
     "nbFollowings": 6,
-    "nbStarredRepos": 980,
-    "nbRepos": 4,
+    "nbStarredRepos": 986,
+    "nbRepos": 5,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5808,9 +6167,9 @@ const fans = {
     "login": "shampine",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1027737?u=8384d83bf7eaec325d9fae154c86a2827719a3f0&v=4",
     "createdAt": "9/5/2011",
-    "nbFollowers": 49,
+    "nbFollowers": 50,
     "nbFollowings": 193,
-    "nbStarredRepos": 891,
+    "nbStarredRepos": 893,
     "nbRepos": 33,
     "follower": false,
     "starred": [
@@ -5824,12 +6183,12 @@ const fans = {
   },
   "lesichkovm": {
     "login": "lesichkovm",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/7744963?v=4",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7744963?u=7748ad29fa4d68fe87fb9d56c05c4ac412cfe355&v=4",
     "createdAt": "5/30/2014",
-    "nbFollowers": 22,
-    "nbFollowings": 84,
-    "nbStarredRepos": 1273,
-    "nbRepos": 130,
+    "nbFollowers": 23,
+    "nbFollowings": 88,
+    "nbStarredRepos": 1310,
+    "nbRepos": 131,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5844,7 +6203,7 @@ const fans = {
     "createdAt": "3/31/2014",
     "nbFollowers": 52,
     "nbFollowings": 16,
-    "nbStarredRepos": 328,
+    "nbStarredRepos": 330,
     "nbRepos": 42,
     "follower": false,
     "starred": [
@@ -5859,8 +6218,8 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/944894?v=4",
     "createdAt": "7/28/2011",
     "nbFollowers": 22,
-    "nbFollowings": 151,
-    "nbStarredRepos": 1095,
+    "nbFollowings": 158,
+    "nbStarredRepos": 1118,
     "nbRepos": 43,
     "follower": false,
     "starred": [
@@ -5891,8 +6250,8 @@ const fans = {
     "createdAt": "8/31/2011",
     "nbFollowers": 22,
     "nbFollowings": 35,
-    "nbStarredRepos": 304,
-    "nbRepos": 42,
+    "nbStarredRepos": 308,
+    "nbRepos": 43,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -5906,9 +6265,9 @@ const fans = {
     "login": "garbles",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1139884?u=61542da26f4867ee9837ee69daad4eafe7ba1b8f&v=4",
     "createdAt": "10/19/2011",
-    "nbFollowers": 212,
-    "nbFollowings": 88,
-    "nbStarredRepos": 576,
+    "nbFollowers": 213,
+    "nbFollowings": 89,
+    "nbStarredRepos": 583,
     "nbRepos": 99,
     "follower": false,
     "starred": [
@@ -5923,8 +6282,8 @@ const fans = {
     "login": "neatlife",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4076198?u=1ae920abeebd201586bc4d9d65887dfbc18fbb98&v=4",
     "createdAt": "4/6/2013",
-    "nbFollowers": 108,
-    "nbFollowings": 11,
+    "nbFollowers": 110,
+    "nbFollowings": 10,
     "nbStarredRepos": 2338,
     "nbRepos": 145,
     "follower": false,
@@ -5957,7 +6316,7 @@ const fans = {
     "createdAt": "10/14/2013",
     "nbFollowers": 26,
     "nbFollowings": 33,
-    "nbStarredRepos": 1009,
+    "nbStarredRepos": 1011,
     "nbRepos": 60,
     "follower": false,
     "starred": [
@@ -5973,7 +6332,7 @@ const fans = {
     "createdAt": "11/9/2011",
     "nbFollowers": 10,
     "nbFollowings": 10,
-    "nbStarredRepos": 959,
+    "nbStarredRepos": 957,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -5987,7 +6346,7 @@ const fans = {
     "login": "Gosivn",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/9900679?u=cc408122a441c635f3a10b049137ce4a0d732b03&v=4",
     "createdAt": "11/22/2014",
-    "nbFollowers": 7,
+    "nbFollowers": 8,
     "nbFollowings": 18,
     "nbStarredRepos": 345,
     "nbRepos": 4,
@@ -6017,7 +6376,7 @@ const fans = {
     "createdAt": "4/11/2011",
     "nbFollowers": 11,
     "nbFollowings": 4,
-    "nbStarredRepos": 774,
+    "nbStarredRepos": 787,
     "nbRepos": 37,
     "follower": false,
     "starred": [
@@ -6065,7 +6424,7 @@ const fans = {
     "nbFollowers": 1,
     "nbFollowings": 6,
     "nbStarredRepos": 45,
-    "nbRepos": 6,
+    "nbRepos": 7,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6108,7 +6467,7 @@ const fans = {
     "createdAt": "3/13/2012",
     "nbFollowers": 16,
     "nbFollowings": 35,
-    "nbStarredRepos": 1395,
+    "nbStarredRepos": 1405,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -6157,8 +6516,8 @@ const fans = {
     "createdAt": "11/26/2014",
     "nbFollowers": 8,
     "nbFollowings": 27,
-    "nbStarredRepos": 217,
-    "nbRepos": 41,
+    "nbStarredRepos": 218,
+    "nbRepos": 25,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6175,7 +6534,7 @@ const fans = {
     "createdAt": "12/1/2014",
     "nbFollowers": 35,
     "nbFollowings": 38,
-    "nbStarredRepos": 548,
+    "nbStarredRepos": 547,
     "nbRepos": 25,
     "follower": false,
     "starred": [
@@ -6190,7 +6549,7 @@ const fans = {
     "login": "quilin",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5960226?u=2c8adbfb33dd4fd1f1754b888e187bf9d897e3e1&v=4",
     "createdAt": "11/17/2013",
-    "nbFollowers": 5,
+    "nbFollowers": 6,
     "nbFollowings": 4,
     "nbStarredRepos": 11,
     "nbRepos": 21,
@@ -6206,9 +6565,9 @@ const fans = {
     "login": "chlab",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1931446?u=66bae87dfbb662d7a4a3754d6b50fc912e079bc5&v=4",
     "createdAt": "7/6/2012",
-    "nbFollowers": 23,
+    "nbFollowers": 24,
     "nbFollowings": 16,
-    "nbStarredRepos": 156,
+    "nbStarredRepos": 157,
     "nbRepos": 33,
     "follower": false,
     "starred": [
@@ -6227,7 +6586,7 @@ const fans = {
     "createdAt": "11/7/2013",
     "nbFollowers": 30,
     "nbFollowings": 324,
-    "nbStarredRepos": 2227,
+    "nbStarredRepos": 2226,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -6241,9 +6600,9 @@ const fans = {
     "login": "datanotion",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/4722782?u=69e0a714dc09502e828dadd83a6171672b0e823d&v=4",
     "createdAt": "6/17/2013",
-    "nbFollowers": 16,
+    "nbFollowers": 17,
     "nbFollowings": 49,
-    "nbStarredRepos": 2403,
+    "nbStarredRepos": 2413,
     "nbRepos": 36,
     "follower": false,
     "starred": [
@@ -6260,7 +6619,7 @@ const fans = {
     "createdAt": "6/11/2013",
     "nbFollowers": 100,
     "nbFollowings": 137,
-    "nbStarredRepos": 806,
+    "nbStarredRepos": 805,
     "nbRepos": 78,
     "follower": false,
     "starred": [
@@ -6294,7 +6653,7 @@ const fans = {
     "createdAt": "3/11/2011",
     "nbFollowers": 18,
     "nbFollowings": 22,
-    "nbStarredRepos": 168,
+    "nbStarredRepos": 174,
     "nbRepos": 27,
     "follower": false,
     "starred": [
@@ -6321,9 +6680,9 @@ const fans = {
     "login": "comdan66",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6509690?u=6302b7c58be0aa28cd78d78fa2d51fb8d7196a5d&v=4",
     "createdAt": "1/26/2014",
-    "nbFollowers": 576,
+    "nbFollowers": 574,
     "nbFollowings": 24,
-    "nbStarredRepos": 423,
+    "nbStarredRepos": 422,
     "nbRepos": 214,
     "follower": false,
     "starred": [
@@ -6356,7 +6715,7 @@ const fans = {
     "createdAt": "3/15/2014",
     "nbFollowers": 8,
     "nbFollowings": 5,
-    "nbStarredRepos": 222,
+    "nbStarredRepos": 220,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -6385,7 +6744,7 @@ const fans = {
     "createdAt": "6/4/2012",
     "nbFollowers": 10,
     "nbFollowings": 8,
-    "nbStarredRepos": 2331,
+    "nbStarredRepos": 2336,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -6398,10 +6757,10 @@ const fans = {
     "login": "radum",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/46779?v=4",
     "createdAt": "1/15/2009",
-    "nbFollowers": 49,
-    "nbFollowings": 152,
-    "nbStarredRepos": 5065,
-    "nbRepos": 160,
+    "nbFollowers": 51,
+    "nbFollowings": 154,
+    "nbStarredRepos": 5134,
+    "nbRepos": 158,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6430,9 +6789,9 @@ const fans = {
     "login": "mcaskill",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/29353?u=d1c94f84d5930f40f25cfd10f5c896660c1ff4ab&v=4",
     "createdAt": "10/16/2008",
-    "nbFollowers": 55,
-    "nbFollowings": 65,
-    "nbStarredRepos": 2982,
+    "nbFollowers": 56,
+    "nbFollowings": 67,
+    "nbStarredRepos": 2998,
     "nbRepos": 73,
     "follower": false,
     "starred": [
@@ -6450,8 +6809,8 @@ const fans = {
     "createdAt": "6/11/2009",
     "nbFollowers": 12,
     "nbFollowings": 4,
-    "nbStarredRepos": 1149,
-    "nbRepos": 25,
+    "nbStarredRepos": 1175,
+    "nbRepos": 23,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6496,8 +6855,8 @@ const fans = {
     "createdAt": "5/29/2009",
     "nbFollowers": 77,
     "nbFollowings": 531,
-    "nbStarredRepos": 2941,
-    "nbRepos": 21,
+    "nbStarredRepos": 2948,
+    "nbRepos": 20,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6514,7 +6873,7 @@ const fans = {
     "createdAt": "6/28/2012",
     "nbFollowers": 34,
     "nbFollowings": 5,
-    "nbStarredRepos": 5108,
+    "nbStarredRepos": 5103,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -6527,9 +6886,9 @@ const fans = {
     "login": "jasondavis",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/186818?v=4",
     "createdAt": "1/21/2010",
-    "nbFollowers": 71,
+    "nbFollowers": 72,
     "nbFollowings": 203,
-    "nbStarredRepos": 3205,
+    "nbStarredRepos": 3197,
     "nbRepos": 583,
     "follower": false,
     "starred": [
@@ -6548,7 +6907,7 @@ const fans = {
     "createdAt": "10/29/2011",
     "nbFollowers": 11,
     "nbFollowings": 28,
-    "nbStarredRepos": 1058,
+    "nbStarredRepos": 1061,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -6564,19 +6923,19 @@ const fans = {
     "login": "lajpatshah",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6246143?u=98bb802f0177b248fa1a1883fadb114083040a69&v=4",
     "createdAt": "12/23/2013",
-    "nbFollowers": 14,
+    "nbFollowers": 15,
     "nbFollowings": 61,
-    "nbStarredRepos": 826,
-    "nbRepos": 20,
+    "nbStarredRepos": 828,
+    "nbRepos": 22,
     "follower": false,
     "starred": [
       "colorpicker",
       "structured-filter"
     ],
     "forked": [],
-    "websiteUrl": "https://curioussolutions.in",
+    "websiteUrl": "https://justclip.co",
     "location": "Mumbai",
-    "company": "Curious Solutions LLP"
+    "company": "JustClip - All purpose digital book"
   },
   "vinothkumar6692": {
     "login": "vinothkumar6692",
@@ -6599,7 +6958,7 @@ const fans = {
     "createdAt": "1/23/2013",
     "nbFollowers": 9,
     "nbFollowings": 12,
-    "nbStarredRepos": 391,
+    "nbStarredRepos": 392,
     "nbRepos": 40,
     "follower": false,
     "starred": [
@@ -6628,8 +6987,8 @@ const fans = {
     "createdAt": "6/22/2013",
     "nbFollowers": 19,
     "nbFollowings": 30,
-    "nbStarredRepos": 2009,
-    "nbRepos": 46,
+    "nbStarredRepos": 2010,
+    "nbRepos": 47,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6642,7 +7001,7 @@ const fans = {
     "createdAt": "2/7/2011",
     "nbFollowers": 6,
     "nbFollowings": 9,
-    "nbStarredRepos": 607,
+    "nbStarredRepos": 608,
     "nbRepos": 76,
     "follower": false,
     "starred": [
@@ -6668,10 +7027,10 @@ const fans = {
     "login": "davemackintosh",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1430657?u=47687e4cbf01ce381c01a14ad6959918b4b654a1&v=4",
     "createdAt": "2/12/2012",
-    "nbFollowers": 58,
-    "nbFollowings": 8,
-    "nbStarredRepos": 676,
-    "nbRepos": 42,
+    "nbFollowers": 57,
+    "nbFollowings": 9,
+    "nbStarredRepos": 678,
+    "nbRepos": 36,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -6686,17 +7045,17 @@ const fans = {
     "login": "manelpz",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2387874?u=ae894b4e947a0eb03346198332600f810f0c1f93&v=4",
     "createdAt": "9/20/2012",
-    "nbFollowers": 5,
+    "nbFollowers": 6,
     "nbFollowings": 56,
-    "nbStarredRepos": 41,
-    "nbRepos": 40,
+    "nbStarredRepos": 42,
+    "nbRepos": 44,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
     "forked": [],
     "websiteUrl": "https://mx.linkedin.com/in/manelpz",
-    "bio": "\r\n    \r\n    \r\n    \r\n    \r\nT-Shape developer at Citi • Individual Contributor L4.\r\nLead of www.nscodermexico.com community\r\n\r\n\r\n\r\n",
+    "bio": "\r\n    \r\n    \r\n    \r\n    \r\nT-Shape developer • Individual Contributor at CitiBank\r\n• Lead of www.nscodermexico.com community\r\n\r\n\r\n\r\n",
     "location": "Mexico City",
     "company": "@CitiBanamex"
   },
@@ -6874,7 +7233,7 @@ const fans = {
   "edwardyi": {
     "login": "edwardyi",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5842834?v=4",
-    "nbRepos": 150,
+    "nbRepos": 151,
     "forked": [
       "colorpicker"
     ],
@@ -6892,7 +7251,7 @@ const fans = {
   "goupviet": {
     "login": "goupviet",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/9402126?u=bbd7a3c020efbc77cf5fc64554af83bdac675c42&v=4",
-    "nbRepos": 881,
+    "nbRepos": 883,
     "forked": [
       "colorpicker",
       "structured-filter"
@@ -6902,7 +7261,7 @@ const fans = {
   "2ndkauboy": {
     "login": "2ndkauboy",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1793177?v=4",
-    "nbRepos": 112,
+    "nbRepos": 119,
     "forked": [
       "colorpicker"
     ],
@@ -6956,7 +7315,7 @@ const fans = {
   "tarlepp": {
     "login": "tarlepp",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/595561?u=5283b593d437f23bfe5c93737aad5a58bd3e8607&v=4",
-    "nbRepos": 133,
+    "nbRepos": 135,
     "forked": [
       "colorpicker"
     ],
@@ -7064,7 +7423,7 @@ const fans = {
   "AlfiyaZi": {
     "login": "AlfiyaZi",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2064644?u=a667bc23fc9fd780b68624225e1baeb62b050068&v=4",
-    "nbRepos": 944,
+    "nbRepos": 946,
     "forked": [
       "colorpicker"
     ],
@@ -7083,9 +7442,9 @@ const fans = {
     "login": "RobinMao",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3796054?u=1c29ebe16ef03238ac4ae688d676da36494fcd73&v=4",
     "createdAt": "3/7/2013",
-    "nbFollowers": 15,
+    "nbFollowers": 16,
     "nbFollowings": 45,
-    "nbStarredRepos": 722,
+    "nbStarredRepos": 724,
     "nbRepos": 25,
     "follower": false,
     "starred": [
@@ -7116,7 +7475,7 @@ const fans = {
   "ghettoboombox": {
     "login": "ghettoboombox",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/17091424?v=4",
-    "nbRepos": 134,
+    "nbRepos": 136,
     "forked": [
       "colorpicker"
     ],
@@ -7152,7 +7511,7 @@ const fans = {
   "DrRO": {
     "login": "DrRO",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5001886?v=4",
-    "nbRepos": 37,
+    "nbRepos": 39,
     "forked": [
       "colorpicker"
     ],
@@ -7295,7 +7654,7 @@ const fans = {
   "graphics80": {
     "login": "graphics80",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6921785?u=6fb1cb1f5124b7e94c3933b018121051feb1d929&v=4",
-    "nbRepos": 10,
+    "nbRepos": 11,
     "forked": [
       "colorpicker"
     ],
@@ -7437,7 +7796,7 @@ const fans = {
   "datnguyenthang": {
     "login": "datnguyenthang",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/4374246?v=4",
-    "nbRepos": 28,
+    "nbRepos": 29,
     "forked": [
       "colorpicker"
     ],
@@ -7455,7 +7814,7 @@ const fans = {
   "marcelomelofreitas": {
     "login": "marcelomelofreitas",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7517306?u=eb4d392ad8dcb4d2badf31069134fbaa659c81aa&v=4",
-    "nbRepos": 362,
+    "nbRepos": 363,
     "forked": [
       "colorpicker"
     ],
@@ -7464,7 +7823,7 @@ const fans = {
   "mocharfian1": {
     "login": "mocharfian1",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/23516814?v=4",
-    "nbRepos": 8,
+    "nbRepos": 10,
     "forked": [
       "colorpicker"
     ],
@@ -7485,7 +7844,7 @@ const fans = {
     "createdAt": "7/17/2014",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": 22,
+    "nbStarredRepos": 23,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -7498,7 +7857,7 @@ const fans = {
   "danood": {
     "login": "danood",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/25718223?v=4",
-    "nbRepos": 173,
+    "nbRepos": 174,
     "forked": [
       "colorpicker"
     ],
@@ -7564,8 +7923,8 @@ const fans = {
     "createdAt": "8/16/2010",
     "nbFollowers": 10,
     "nbFollowings": 1,
-    "nbStarredRepos": 1393,
-    "nbRepos": 39,
+    "nbStarredRepos": 1422,
+    "nbRepos": 40,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -7578,7 +7937,7 @@ const fans = {
     "createdAt": "10/23/2010",
     "nbFollowers": 6,
     "nbFollowings": 28,
-    "nbStarredRepos": 117,
+    "nbStarredRepos": 118,
     "nbRepos": 57,
     "follower": false,
     "starred": [
@@ -7592,8 +7951,8 @@ const fans = {
     "createdAt": "3/10/2008",
     "nbFollowers": 53,
     "nbFollowings": 17,
-    "nbStarredRepos": 4644,
-    "nbRepos": 186,
+    "nbStarredRepos": 4690,
+    "nbRepos": 187,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery",
@@ -7636,9 +7995,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/648039?u=0e9b6c947551ecfa395b4e798ffd8bfc3fc57d18&v=4",
     "createdAt": "3/2/2011",
     "nbFollowers": 55,
-    "nbFollowings": 602,
-    "nbStarredRepos": 1625,
-    "nbRepos": 8,
+    "nbFollowings": 603,
+    "nbStarredRepos": 1652,
+    "nbRepos": 10,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -7653,7 +8012,7 @@ const fans = {
     "createdAt": "9/22/2012",
     "nbFollowers": 79,
     "nbFollowings": 26,
-    "nbStarredRepos": 77,
+    "nbStarredRepos": 78,
     "nbRepos": 37,
     "follower": false,
     "starred": [
@@ -7672,7 +8031,7 @@ const fans = {
     "nbFollowers": 16,
     "nbFollowings": 0,
     "nbStarredRepos": 720,
-    "nbRepos": 53,
+    "nbRepos": 45,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery",
@@ -7750,7 +8109,7 @@ const fans = {
     "createdAt": "8/2/2012",
     "nbFollowers": 4,
     "nbFollowings": 5,
-    "nbStarredRepos": 49,
+    "nbStarredRepos": 50,
     "nbRepos": 16,
     "follower": false,
     "starred": [
@@ -7783,8 +8142,8 @@ const fans = {
     "createdAt": "6/28/2011",
     "nbFollowers": 22,
     "nbFollowings": 10,
-    "nbStarredRepos": 190,
-    "nbRepos": 59,
+    "nbStarredRepos": 191,
+    "nbRepos": 60,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -7799,8 +8158,8 @@ const fans = {
     "createdAt": "2/7/2010",
     "nbFollowers": 13,
     "nbFollowings": 15,
-    "nbStarredRepos": 544,
-    "nbRepos": 236,
+    "nbStarredRepos": 543,
+    "nbRepos": 238,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -7857,7 +8216,7 @@ const fans = {
     "createdAt": "2/29/2012",
     "nbFollowers": 14,
     "nbFollowings": 7,
-    "nbStarredRepos": 3132,
+    "nbStarredRepos": 3131,
     "nbRepos": 19,
     "follower": false,
     "starred": [
@@ -7873,9 +8232,9 @@ const fans = {
     "login": "jasonjef",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6558023?u=681a8bd22473978c9f30269285d59e22cb1b94d4&v=4",
     "createdAt": "1/31/2014",
-    "nbFollowers": 4,
+    "nbFollowers": 3,
     "nbFollowings": 24,
-    "nbStarredRepos": 366,
+    "nbStarredRepos": 367,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -7892,7 +8251,7 @@ const fans = {
     "createdAt": "8/1/2010",
     "nbFollowers": 6,
     "nbFollowings": 6,
-    "nbStarredRepos": 417,
+    "nbStarredRepos": 416,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -7908,7 +8267,7 @@ const fans = {
     "createdAt": "5/21/2012",
     "nbFollowers": 11,
     "nbFollowings": 0,
-    "nbStarredRepos": 1602,
+    "nbStarredRepos": 1617,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -7922,7 +8281,7 @@ const fans = {
     "createdAt": "7/6/2011",
     "nbFollowers": 29,
     "nbFollowings": 41,
-    "nbStarredRepos": 1726,
+    "nbStarredRepos": 1724,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -8012,7 +8371,7 @@ const fans = {
     "createdAt": "11/20/2012",
     "nbFollowers": 10,
     "nbFollowings": 25,
-    "nbStarredRepos": 867,
+    "nbStarredRepos": 873,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -8024,7 +8383,7 @@ const fans = {
     "login": "dqduc",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/186656?u=bb375b644b84b102a1b91cb190e43d5a4731e3b5&v=4",
     "createdAt": "1/20/2010",
-    "nbFollowers": 19,
+    "nbFollowers": 20,
     "nbFollowings": 15,
     "nbStarredRepos": 1297,
     "nbRepos": 32,
@@ -8039,7 +8398,7 @@ const fans = {
     "login": "amitabhaghosh197",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/735279?u=1fb19c9467c71be80eb850b143a498c7cb459a4e&v=4",
     "createdAt": "4/17/2011",
-    "nbFollowers": 13,
+    "nbFollowers": 14,
     "nbFollowings": 60,
     "nbStarredRepos": 592,
     "nbRepos": 249,
@@ -8072,10 +8431,10 @@ const fans = {
     "login": "stenio123",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3443868?v=4",
     "createdAt": "1/31/2013",
-    "nbFollowers": 39,
+    "nbFollowers": 40,
     "nbFollowings": 12,
     "nbStarredRepos": 104,
-    "nbRepos": 47,
+    "nbRepos": 50,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8103,8 +8462,8 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1771339?v=4",
     "createdAt": "5/23/2012",
     "nbFollowers": 10,
-    "nbFollowings": 111,
-    "nbStarredRepos": 801,
+    "nbFollowings": 112,
+    "nbStarredRepos": 820,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -8136,7 +8495,7 @@ const fans = {
     "createdAt": "10/22/2014",
     "nbFollowers": 3,
     "nbFollowings": 7,
-    "nbStarredRepos": 385,
+    "nbStarredRepos": 388,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -8150,8 +8509,8 @@ const fans = {
     "createdAt": "2/24/2013",
     "nbFollowers": 3,
     "nbFollowings": 7,
-    "nbStarredRepos": 156,
-    "nbRepos": 14,
+    "nbStarredRepos": 167,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8166,7 +8525,7 @@ const fans = {
     "createdAt": "3/13/2014",
     "nbFollowers": 6,
     "nbFollowings": 33,
-    "nbStarredRepos": 690,
+    "nbStarredRepos": 693,
     "nbRepos": 12,
     "follower": false,
     "starred": [
@@ -8180,7 +8539,7 @@ const fans = {
     "createdAt": "6/19/2013",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": 39,
+    "nbStarredRepos": 40,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -8194,8 +8553,8 @@ const fans = {
     "createdAt": "11/19/2012",
     "nbFollowers": 17,
     "nbFollowings": 2,
-    "nbStarredRepos": 2457,
-    "nbRepos": 96,
+    "nbStarredRepos": 2466,
+    "nbRepos": 97,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8224,7 +8583,7 @@ const fans = {
     "createdAt": "9/29/2013",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": 134,
+    "nbStarredRepos": 136,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -8255,8 +8614,8 @@ const fans = {
     "createdAt": "4/11/2010",
     "nbFollowers": 4,
     "nbFollowings": 1,
-    "nbStarredRepos": 175,
-    "nbRepos": 34,
+    "nbStarredRepos": 180,
+    "nbRepos": 38,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8285,8 +8644,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3237785?u=eb22c5b2d9c456b8f78ca767ea06ba588d130463&v=4",
     "createdAt": "1/10/2013",
     "nbFollowers": 21,
-    "nbFollowings": 76,
-    "nbStarredRepos": 511,
+    "nbFollowings": 77,
+    "nbStarredRepos": 512,
     "nbRepos": 30,
     "follower": false,
     "starred": [
@@ -8318,8 +8677,8 @@ const fans = {
     "createdAt": "12/6/2011",
     "nbFollowers": 13,
     "nbFollowings": 15,
-    "nbStarredRepos": 348,
-    "nbRepos": 29,
+    "nbStarredRepos": 349,
+    "nbRepos": 30,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8336,7 +8695,7 @@ const fans = {
     "createdAt": "2/17/2011",
     "nbFollowers": 7,
     "nbFollowings": 6,
-    "nbStarredRepos": 447,
+    "nbStarredRepos": 448,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -8351,9 +8710,9 @@ const fans = {
     "login": "OhMyMndy",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/2277717?u=7d3bb39f3fab7b1f20e27815c5a6bdd801feb845&v=4",
     "createdAt": "9/4/2012",
-    "nbFollowers": 10,
+    "nbFollowers": 12,
     "nbFollowings": 10,
-    "nbStarredRepos": 1376,
+    "nbStarredRepos": 1402,
     "nbRepos": 22,
     "follower": false,
     "starred": [
@@ -8367,9 +8726,9 @@ const fans = {
     "login": "hacfi",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/428841?u=d0919fce9e13164ace7e836df2839c14cda8b67b&v=4",
     "createdAt": "10/5/2010",
-    "nbFollowers": 177,
-    "nbFollowings": 1867,
-    "nbStarredRepos": 4164,
+    "nbFollowers": 176,
+    "nbFollowings": 1872,
+    "nbStarredRepos": 4173,
     "nbRepos": 89,
     "follower": false,
     "starred": [
@@ -8400,9 +8759,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1877440?u=8d2b32cf1087a39d0db3eff19e7d1b0a798094ed&v=4",
     "createdAt": "6/21/2012",
     "nbFollowers": 3,
-    "nbFollowings": 7,
-    "nbStarredRepos": 277,
-    "nbRepos": 13,
+    "nbFollowings": 8,
+    "nbStarredRepos": 292,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8418,7 +8777,7 @@ const fans = {
     "createdAt": "6/26/2014",
     "nbFollowers": 21,
     "nbFollowings": 120,
-    "nbStarredRepos": 2957,
+    "nbStarredRepos": 2954,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -8446,8 +8805,8 @@ const fans = {
     "createdAt": "7/3/2012",
     "nbFollowers": 85,
     "nbFollowings": 31,
-    "nbStarredRepos": 1166,
-    "nbRepos": 47,
+    "nbStarredRepos": 1175,
+    "nbRepos": 48,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8477,8 +8836,8 @@ const fans = {
     "createdAt": "2/27/2014",
     "nbFollowers": 19,
     "nbFollowings": 6,
-    "nbStarredRepos": 480,
-    "nbRepos": 78,
+    "nbStarredRepos": 485,
+    "nbRepos": 80,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8494,7 +8853,7 @@ const fans = {
     "createdAt": "7/17/2013",
     "nbFollowers": 11,
     "nbFollowings": 9,
-    "nbStarredRepos": 109,
+    "nbStarredRepos": 110,
     "nbRepos": 30,
     "follower": false,
     "starred": [
@@ -8525,7 +8884,7 @@ const fans = {
     "createdAt": "11/18/2010",
     "nbFollowers": 34,
     "nbFollowings": 62,
-    "nbStarredRepos": 3883,
+    "nbStarredRepos": 3877,
     "nbRepos": 151,
     "follower": false,
     "starred": [
@@ -8560,7 +8919,7 @@ const fans = {
     "nbFollowers": 8,
     "nbFollowings": 5,
     "nbStarredRepos": 1795,
-    "nbRepos": 3,
+    "nbRepos": 2,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery",
@@ -8577,7 +8936,7 @@ const fans = {
     "createdAt": "9/4/2013",
     "nbFollowers": 2,
     "nbFollowings": 13,
-    "nbStarredRepos": 380,
+    "nbStarredRepos": 410,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -8591,9 +8950,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1288676?u=7d0816c160cf7a28dc7b86a14e21c38f79ebc82b&v=4",
     "createdAt": "12/27/2011",
     "nbFollowers": 65,
-    "nbFollowings": 45,
-    "nbStarredRepos": 1100,
-    "nbRepos": 68,
+    "nbFollowings": 46,
+    "nbStarredRepos": 1106,
+    "nbRepos": 69,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8607,9 +8966,9 @@ const fans = {
     "login": "jan-matthis",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1239529?u=a08111ae31b9469860ccb06ba989598a1907358a&v=4",
     "createdAt": "12/4/2011",
-    "nbFollowers": 36,
+    "nbFollowers": 37,
     "nbFollowings": 44,
-    "nbStarredRepos": 813,
+    "nbStarredRepos": 830,
     "nbRepos": 63,
     "follower": false,
     "starred": [
@@ -8640,8 +8999,8 @@ const fans = {
     "createdAt": "4/4/2010",
     "nbFollowers": 26,
     "nbFollowings": 56,
-    "nbStarredRepos": 565,
-    "nbRepos": 26,
+    "nbStarredRepos": 584,
+    "nbRepos": 29,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8674,7 +9033,7 @@ const fans = {
     "createdAt": "9/14/2012",
     "nbFollowers": 31,
     "nbFollowings": 47,
-    "nbStarredRepos": 2221,
+    "nbStarredRepos": 2225,
     "nbRepos": 193,
     "follower": false,
     "starred": [
@@ -8705,9 +9064,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/9137981?u=d5235f73f3c36986cb5531e94df0d1009735df68&v=4",
     "createdAt": "10/10/2014",
     "nbFollowers": 5,
-    "nbFollowings": 33,
-    "nbStarredRepos": 187,
-    "nbRepos": 20,
+    "nbFollowings": 34,
+    "nbStarredRepos": 191,
+    "nbRepos": 9,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8740,7 +9099,7 @@ const fans = {
     "nbFollowers": 4,
     "nbFollowings": 2,
     "nbStarredRepos": 9,
-    "nbRepos": 18,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8752,9 +9111,9 @@ const fans = {
     "login": "jlVidal",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6402003?v=4",
     "createdAt": "1/14/2014",
-    "nbFollowers": 7,
+    "nbFollowers": 8,
     "nbFollowings": 54,
-    "nbStarredRepos": 568,
+    "nbStarredRepos": 572,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -8769,8 +9128,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/692844?u=44ae1d48909ce51c47bd53ef104c46813a6ef830&v=4",
     "createdAt": "3/26/2011",
     "nbFollowers": 46,
-    "nbFollowings": 392,
-    "nbStarredRepos": 3433,
+    "nbFollowings": 394,
+    "nbStarredRepos": 3441,
     "nbRepos": 57,
     "follower": false,
     "starred": [
@@ -8789,7 +9148,7 @@ const fans = {
     "createdAt": "10/1/2013",
     "nbFollowers": 62,
     "nbFollowings": 125,
-    "nbStarredRepos": 2638,
+    "nbStarredRepos": 2652,
     "nbRepos": 61,
     "follower": false,
     "starred": [
@@ -8806,9 +9165,9 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/272612?u=d5a602c4b87d93c5497e13c2badc0f5d6f895ac4&v=4",
     "createdAt": "5/10/2010",
     "nbFollowers": 83,
-    "nbFollowings": 149,
-    "nbStarredRepos": 1799,
-    "nbRepos": 127,
+    "nbFollowings": 150,
+    "nbStarredRepos": 1829,
+    "nbRepos": 131,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -8823,10 +9182,10 @@ const fans = {
     "login": "postacik",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/3977227?u=3aae07cffa9c1adc3e7a649e04394fa17ed7ca00&v=4",
     "createdAt": "3/26/2013",
-    "nbFollowers": 19,
+    "nbFollowers": 20,
     "nbFollowings": 0,
-    "nbStarredRepos": 747,
-    "nbRepos": 9,
+    "nbStarredRepos": 760,
+    "nbRepos": 10,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery",
@@ -8838,7 +9197,7 @@ const fans = {
   "llenroc": {
     "login": "llenroc",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/7454468?u=31bb1e5b8271c90a516f0eda280afd9f1a5f8e84&v=4",
-    "nbRepos": 3587,
+    "nbRepos": 3622,
     "forked": [
       "evolutility-ui-jquery",
       "structured-filter"
@@ -8875,7 +9234,7 @@ const fans = {
   "alfonsor": {
     "login": "alfonsor",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/8367573?v=4",
-    "nbRepos": 38,
+    "nbRepos": 39,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -8902,7 +9261,7 @@ const fans = {
   "tanapop": {
     "login": "tanapop",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1018703?u=5244cd576181a736e48f8bc0ce4500f7c92216ae&v=4",
-    "nbRepos": 201,
+    "nbRepos": 202,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -8954,10 +9313,10 @@ const fans = {
     ],
     "starred": []
   },
-  "thismedium": {
-    "login": "thismedium",
+  "automotola": {
+    "login": "automotola",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3161681?u=1cd4503df921694ea7cd026849502ec221b1cb9d&v=4",
-    "nbRepos": 216,
+    "nbRepos": 214,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -8984,7 +9343,7 @@ const fans = {
   "dataReactive": {
     "login": "dataReactive",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/16281596?v=4",
-    "nbRepos": 278,
+    "nbRepos": 298,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -9011,7 +9370,7 @@ const fans = {
   "artpar": {
     "login": "artpar",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1142886?v=4",
-    "nbRepos": 127,
+    "nbRepos": 128,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -9029,7 +9388,7 @@ const fans = {
   "boban-dj": {
     "login": "boban-dj",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/5364226?u=e7ad009373d2110981891b84ea3f0a6016dad89e&v=4",
-    "nbRepos": 311,
+    "nbRepos": 313,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -9040,8 +9399,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2017339?u=0fca41028150cffde390c8416d840665258197ab&v=4",
     "createdAt": "7/21/2012",
     "nbFollowers": 47,
-    "nbFollowings": 529,
-    "nbStarredRepos": 1323,
+    "nbFollowings": 530,
+    "nbStarredRepos": 1324,
     "nbRepos": 974,
     "follower": false,
     "starred": [
@@ -9066,9 +9425,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2165397?u=a58b9b88b9274af003d26224b4d859dfea1ac1ef&v=4",
     "createdAt": "8/16/2012",
     "nbFollowers": 33,
-    "nbFollowings": 122,
-    "nbStarredRepos": 374,
-    "nbRepos": 265,
+    "nbFollowings": 124,
+    "nbStarredRepos": 405,
+    "nbRepos": 270,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -9154,7 +9513,7 @@ const fans = {
   "rendrapraisindo": {
     "login": "rendrapraisindo",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/37527416?v=4",
-    "nbRepos": 5,
+    "nbRepos": 7,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -9163,7 +9522,16 @@ const fans = {
   "richiwarmen": {
     "login": "richiwarmen",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/9944807?u=a794417571366c0725156af51bba77bce7c21623&v=4",
-    "nbRepos": 30,
+    "nbRepos": 33,
+    "forked": [
+      "evolutility-ui-jquery"
+    ],
+    "starred": []
+  },
+  "dalalsunil1986": {
+    "login": "dalalsunil1986",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/39991302?v=4",
+    "nbRepos": 6808,
     "forked": [
       "evolutility-ui-jquery"
     ],
@@ -9192,7 +9560,7 @@ const fans = {
     "createdAt": "10/7/2010",
     "nbFollowers": 12,
     "nbFollowings": 2,
-    "nbStarredRepos": 2188,
+    "nbStarredRepos": 2195,
     "nbRepos": 47,
     "follower": false,
     "starred": [
@@ -9207,7 +9575,7 @@ const fans = {
     "nbFollowers": 68,
     "nbFollowings": 1,
     "nbStarredRepos": 36,
-    "nbRepos": 24,
+    "nbRepos": 23,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9221,24 +9589,23 @@ const fans = {
     "createdAt": "7/10/2011",
     "nbFollowers": 57,
     "nbFollowings": 42,
-    "nbStarredRepos": 528,
-    "nbRepos": 59,
+    "nbStarredRepos": 530,
+    "nbRepos": 61,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [],
-    "websiteUrl": "https://twitter.com/tomyun",
     "location": "Seattle, WA"
   },
   "recca0120": {
     "login": "recca0120",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1390554?u=c4eb46f1f98546e3a993bfe8769d5e814cb93542&v=4",
     "createdAt": "1/29/2012",
-    "nbFollowers": 287,
+    "nbFollowers": 289,
     "nbFollowings": 366,
-    "nbStarredRepos": 1797,
-    "nbRepos": 124,
+    "nbStarredRepos": 1824,
+    "nbRepos": 125,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9299,7 +9666,7 @@ const fans = {
     "createdAt": "4/10/2011",
     "nbFollowers": 6,
     "nbFollowings": 3,
-    "nbStarredRepos": 679,
+    "nbStarredRepos": 680,
     "nbRepos": 133,
     "follower": false,
     "starred": [
@@ -9313,8 +9680,8 @@ const fans = {
     "createdAt": "3/4/2010",
     "nbFollowers": 7,
     "nbFollowings": 4,
-    "nbStarredRepos": 617,
-    "nbRepos": 14,
+    "nbStarredRepos": 620,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9330,7 +9697,7 @@ const fans = {
     "createdAt": "12/1/2010",
     "nbFollowers": 47,
     "nbFollowings": 10,
-    "nbStarredRepos": 4863,
+    "nbStarredRepos": 4888,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -9345,7 +9712,7 @@ const fans = {
     "createdAt": "7/9/2010",
     "nbFollowers": 13,
     "nbFollowings": 4,
-    "nbStarredRepos": 264,
+    "nbStarredRepos": 267,
     "nbRepos": 38,
     "follower": false,
     "starred": [
@@ -9377,9 +9744,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/203540?v=4",
     "createdAt": "2/14/2010",
     "nbFollowers": 72,
-    "nbFollowings": 478,
-    "nbStarredRepos": 5832,
-    "nbRepos": 81,
+    "nbFollowings": 493,
+    "nbStarredRepos": 5904,
+    "nbRepos": 85,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9392,7 +9759,7 @@ const fans = {
     "createdAt": "2/7/2010",
     "nbFollowers": 9,
     "nbFollowings": 8,
-    "nbStarredRepos": 1910,
+    "nbStarredRepos": 1917,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -9483,7 +9850,7 @@ const fans = {
     "createdAt": "2/5/2012",
     "nbFollowers": 10,
     "nbFollowings": 1,
-    "nbStarredRepos": 605,
+    "nbStarredRepos": 612,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -9497,10 +9864,10 @@ const fans = {
     "login": "deluxebear",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/485793?u=83d233c2d20871cf34047ec5e30ae288efdd1ff2&v=4",
     "createdAt": "11/17/2010",
-    "nbFollowers": 4,
+    "nbFollowers": 6,
     "nbFollowings": 1,
-    "nbStarredRepos": 425,
-    "nbRepos": 61,
+    "nbStarredRepos": 431,
+    "nbRepos": 62,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9534,8 +9901,8 @@ const fans = {
     "createdAt": "8/12/2008",
     "nbFollowers": 109,
     "nbFollowings": 230,
-    "nbStarredRepos": 2016,
-    "nbRepos": 89,
+    "nbStarredRepos": 2020,
+    "nbRepos": 90,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9551,7 +9918,7 @@ const fans = {
     "createdAt": "11/3/2012",
     "nbFollowers": 5,
     "nbFollowings": 1,
-    "nbStarredRepos": 935,
+    "nbStarredRepos": 934,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -9565,8 +9932,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1612740?u=3e823646b1f3398c2023dbc722230b002a0a6163&v=4",
     "createdAt": "4/4/2012",
     "nbFollowers": 6,
-    "nbFollowings": 8,
-    "nbStarredRepos": 633,
+    "nbFollowings": 7,
+    "nbStarredRepos": 634,
     "nbRepos": 123,
     "follower": false,
     "starred": [
@@ -9592,10 +9959,10 @@ const fans = {
     "login": "bodrick",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/552827?u=caf2163904e5a3dbaebf19a42c9b0bac9bd3e97b&v=4",
     "createdAt": "1/7/2011",
-    "nbFollowers": 11,
+    "nbFollowers": 12,
     "nbFollowings": 9,
-    "nbStarredRepos": 1785,
-    "nbRepos": 28,
+    "nbStarredRepos": 1821,
+    "nbRepos": 30,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9608,7 +9975,7 @@ const fans = {
     "createdAt": "11/16/2010",
     "nbFollowers": 5,
     "nbFollowings": 5,
-    "nbStarredRepos": 918,
+    "nbStarredRepos": 931,
     "nbRepos": 9,
     "follower": false,
     "starred": [
@@ -9653,10 +10020,10 @@ const fans = {
     "login": "Vaviloff",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/458893?u=f04e6f9aeb4f418efb836fa67ce959343a4ae193&v=4",
     "createdAt": "10/28/2010",
-    "nbFollowers": 9,
+    "nbFollowers": 10,
     "nbFollowings": 10,
-    "nbStarredRepos": 1427,
-    "nbRepos": 7,
+    "nbStarredRepos": 1439,
+    "nbRepos": 9,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9672,7 +10039,7 @@ const fans = {
     "createdAt": "2/23/2012",
     "nbFollowers": 4,
     "nbFollowings": 21,
-    "nbStarredRepos": 52,
+    "nbStarredRepos": 56,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -9707,7 +10074,7 @@ const fans = {
     "createdAt": "9/26/2010",
     "nbFollowers": 9,
     "nbFollowings": 2,
-    "nbStarredRepos": 253,
+    "nbStarredRepos": 255,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -9723,8 +10090,8 @@ const fans = {
     "createdAt": "10/5/2010",
     "nbFollowers": 18,
     "nbFollowings": 19,
-    "nbStarredRepos": 2532,
-    "nbRepos": 37,
+    "nbStarredRepos": 2551,
+    "nbRepos": 38,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9794,8 +10161,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/374136?u=b3feff8553060163217cec528d30e98fd729f8c6&v=4",
     "createdAt": "8/23/2010",
     "nbFollowers": 11,
-    "nbFollowings": 95,
-    "nbStarredRepos": 239,
+    "nbFollowings": 96,
+    "nbStarredRepos": 251,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -9811,7 +10178,7 @@ const fans = {
     "createdAt": "8/31/2012",
     "nbFollowers": 15,
     "nbFollowings": 3,
-    "nbStarredRepos": 309,
+    "nbStarredRepos": 310,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -9826,7 +10193,7 @@ const fans = {
     "createdAt": "8/8/2012",
     "nbFollowers": 42,
     "nbFollowings": 40,
-    "nbStarredRepos": 758,
+    "nbStarredRepos": 780,
     "nbRepos": 34,
     "follower": false,
     "starred": [
@@ -9859,7 +10226,7 @@ const fans = {
     "createdAt": "4/19/2012",
     "nbFollowers": 17,
     "nbFollowings": 3,
-    "nbStarredRepos": 3123,
+    "nbStarredRepos": 3169,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -9889,8 +10256,8 @@ const fans = {
     "createdAt": "3/17/2010",
     "nbFollowers": 10,
     "nbFollowings": 6,
-    "nbStarredRepos": 1297,
-    "nbRepos": 157,
+    "nbStarredRepos": 1301,
+    "nbRepos": 158,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9918,10 +10285,10 @@ const fans = {
     "login": "tylerlong",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/733544?u=9f0c72d22ac493fd57c9c97c58522e713d7261ec&v=4",
     "createdAt": "4/16/2011",
-    "nbFollowers": 307,
+    "nbFollowers": 308,
     "nbFollowings": 126,
-    "nbStarredRepos": 817,
-    "nbRepos": 384,
+    "nbStarredRepos": 824,
+    "nbRepos": 392,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9936,9 +10303,9 @@ const fans = {
     "login": "IanTeng",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/7042367?v=4",
     "createdAt": "3/23/2014",
-    "nbFollowers": 4,
+    "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": 647,
+    "nbStarredRepos": 648,
     "nbRepos": 28,
     "follower": false,
     "starred": [
@@ -9952,8 +10319,8 @@ const fans = {
     "createdAt": "11/1/2013",
     "nbFollowers": 7,
     "nbFollowings": 0,
-    "nbStarredRepos": 63,
-    "nbRepos": 30,
+    "nbStarredRepos": 64,
+    "nbRepos": 36,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -9966,7 +10333,7 @@ const fans = {
     "createdAt": "2/11/2014",
     "nbFollowers": 2,
     "nbFollowings": 7,
-    "nbStarredRepos": 338,
+    "nbStarredRepos": 336,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -9993,9 +10360,9 @@ const fans = {
     "login": "bigfatsea",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/322011?v=4",
     "createdAt": "7/3/2010",
-    "nbFollowers": 15,
+    "nbFollowers": 16,
     "nbFollowings": 20,
-    "nbStarredRepos": 359,
+    "nbStarredRepos": 365,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -10009,8 +10376,8 @@ const fans = {
     "createdAt": "9/11/2009",
     "nbFollowers": 6,
     "nbFollowings": 0,
-    "nbStarredRepos": 610,
-    "nbRepos": 101,
+    "nbStarredRepos": 617,
+    "nbRepos": 103,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10020,27 +10387,27 @@ const fans = {
   },
   "vamsiikrishna": {
     "login": "vamsiikrishna",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/554887?u=25a328212865684917dbfeeff0723f2e035ad38d&v=4",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/554887?v=4",
     "createdAt": "1/9/2011",
-    "nbFollowers": 42,
+    "nbFollowers": 41,
     "nbFollowings": 188,
-    "nbStarredRepos": 3461,
-    "nbRepos": 41,
+    "nbStarredRepos": 3463,
+    "nbRepos": 44,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [],
-    "websiteUrl": "https://vamsii.com/",
+    "bio": "Elixir, GoLang, PHP, Python, DevOps",
     "location": "Bengaluru - India"
   },
   "vladiibine": {
     "login": "vladiibine",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6544669?u=73f7db0467079842d78deb34efcfd5df26e2dee9&v=4",
     "createdAt": "1/30/2014",
-    "nbFollowers": 34,
-    "nbFollowings": 63,
-    "nbStarredRepos": 402,
+    "nbFollowers": 35,
+    "nbFollowings": 65,
+    "nbStarredRepos": 403,
     "nbRepos": 65,
     "follower": false,
     "starred": [
@@ -10074,7 +10441,7 @@ const fans = {
     "nbFollowers": 2,
     "nbFollowings": 1,
     "nbStarredRepos": 599,
-    "nbRepos": 0,
+    "nbRepos": 1,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10087,14 +10454,15 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/200180?u=84be624c6fdf361cd88b4223b7291d162e1c4545&v=4",
     "createdAt": "2/9/2010",
     "nbFollowers": 9,
-    "nbFollowings": 28,
-    "nbStarredRepos": 836,
+    "nbFollowings": 30,
+    "nbStarredRepos": 516,
     "nbRepos": 17,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [],
+    "bio": "Frontend developer and UX engineer, performance enthusiast, JAMstack and statics fan",
     "location": "Riga, Latvia",
     "company": "@intexsys"
   },
@@ -10102,10 +10470,10 @@ const fans = {
     "login": "mehkar",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7346046?v=4",
     "createdAt": "4/19/2014",
-    "nbFollowers": 7,
+    "nbFollowers": 8,
     "nbFollowings": 0,
-    "nbStarredRepos": 317,
-    "nbRepos": 1,
+    "nbStarredRepos": 321,
+    "nbRepos": 0,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10150,7 +10518,7 @@ const fans = {
     "createdAt": "3/1/2012",
     "nbFollowers": 26,
     "nbFollowings": 3,
-    "nbStarredRepos": 1190,
+    "nbStarredRepos": 1189,
     "nbRepos": 107,
     "follower": false,
     "starred": [
@@ -10166,7 +10534,7 @@ const fans = {
     "createdAt": "5/30/2014",
     "nbFollowers": 28,
     "nbFollowings": 92,
-    "nbStarredRepos": 747,
+    "nbStarredRepos": 748,
     "nbRepos": 77,
     "follower": false,
     "starred": [
@@ -10183,7 +10551,7 @@ const fans = {
     "createdAt": "4/12/2013",
     "nbFollowers": 9,
     "nbFollowings": 1,
-    "nbStarredRepos": 393,
+    "nbStarredRepos": 395,
     "nbRepos": 9,
     "follower": false,
     "starred": [
@@ -10191,7 +10559,7 @@ const fans = {
     ],
     "forked": [],
     "websiteUrl": "http://lejnine.com",
-    "bio": "Senior Mobile Engineer @Panera\r\nFounder @cloudbuilds-io",
+    "bio": "Senior Mobile Engineer @Panera\r\nFounder drawnow.app",
     "location": "Fort Collins, CO"
   },
   "kpavlovsky": {
@@ -10200,8 +10568,8 @@ const fans = {
     "createdAt": "8/29/2012",
     "nbFollowers": 13,
     "nbFollowings": 31,
-    "nbStarredRepos": 595,
-    "nbRepos": 27,
+    "nbStarredRepos": 602,
+    "nbRepos": 28,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10214,9 +10582,9 @@ const fans = {
     "login": "MattKetmo",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/334996?u=8f9106701751ef744c809150b995230e73ac7023&v=4",
     "createdAt": "7/17/2010",
-    "nbFollowers": 162,
+    "nbFollowers": 163,
     "nbFollowings": 26,
-    "nbStarredRepos": 2282,
+    "nbStarredRepos": 2293,
     "nbRepos": 95,
     "follower": false,
     "starred": [
@@ -10297,8 +10665,8 @@ const fans = {
     "createdAt": "3/18/2009",
     "nbFollowers": 6,
     "nbFollowings": 1,
-    "nbStarredRepos": 504,
-    "nbRepos": 5,
+    "nbStarredRepos": 505,
+    "nbRepos": 6,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10309,10 +10677,10 @@ const fans = {
     "login": "bitsapien",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3462960?u=5c8ec26841414e6ae225ff4f37cd9a297e5b4ec5&v=4",
     "createdAt": "2/3/2013",
-    "nbFollowers": 15,
-    "nbFollowings": 17,
-    "nbStarredRepos": 46,
-    "nbRepos": 87,
+    "nbFollowers": 14,
+    "nbFollowings": 20,
+    "nbStarredRepos": 47,
+    "nbRepos": 88,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10343,7 +10711,7 @@ const fans = {
     "createdAt": "6/20/2013",
     "nbFollowers": 7,
     "nbFollowings": 6,
-    "nbStarredRepos": 70,
+    "nbStarredRepos": 71,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -10376,7 +10744,7 @@ const fans = {
     "createdAt": "12/11/2012",
     "nbFollowers": 10,
     "nbFollowings": 8,
-    "nbStarredRepos": 64,
+    "nbStarredRepos": 65,
     "nbRepos": 19,
     "follower": false,
     "starred": [
@@ -10390,10 +10758,10 @@ const fans = {
     "login": "manojSelvam",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/4885821?v=4",
     "createdAt": "6/29/2013",
-    "nbFollowers": 15,
+    "nbFollowers": 16,
     "nbFollowings": 17,
-    "nbStarredRepos": 1075,
-    "nbRepos": 18,
+    "nbStarredRepos": 1112,
+    "nbRepos": 19,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10449,7 +10817,7 @@ const fans = {
   "jkso": {
     "login": "jkso",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1902849?v=4",
-    "nbRepos": 336,
+    "nbRepos": 340,
     "forked": [
       "structured-filter"
     ],
@@ -10458,7 +10826,7 @@ const fans = {
   "themotleyfool": {
     "login": "themotleyfool",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1427453?v=4",
-    "nbRepos": 40,
+    "nbRepos": 39,
     "forked": [
       "structured-filter"
     ],
@@ -10521,7 +10889,7 @@ const fans = {
   "modulexcite": {
     "login": "modulexcite",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/12729391?u=cfea496d75552e2a100485f84de63e9f4bd98b0a&v=4",
-    "nbRepos": 14592,
+    "nbRepos": 14593,
     "forked": [
       "structured-filter"
     ],
@@ -10530,7 +10898,7 @@ const fans = {
   "antx42": {
     "login": "antx42",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3909670?v=4",
-    "nbRepos": 16,
+    "nbRepos": 18,
     "forked": [
       "structured-filter"
     ],
@@ -10548,7 +10916,7 @@ const fans = {
   "mfazekas": {
     "login": "mfazekas",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/52435?v=4",
-    "nbRepos": 95,
+    "nbRepos": 96,
     "forked": [
       "structured-filter"
     ],
@@ -10602,7 +10970,7 @@ const fans = {
   "phpmind": {
     "login": "phpmind",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1281267?u=5825f8af8722670dd223a125649efdd3f24d9bc0&v=4",
-    "nbRepos": 466,
+    "nbRepos": 467,
     "forked": [
       "structured-filter"
     ],
@@ -10632,7 +11000,7 @@ const fans = {
     "createdAt": "4/19/2016",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": 183,
+    "nbStarredRepos": 189,
     "nbRepos": 13,
     "follower": false,
     "starred": [
@@ -10655,7 +11023,7 @@ const fans = {
     "login": "fanhaipeng0403",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/19604944?u=485f3b26a108ab8c682e678c1d227b10ca72ad14&v=4",
     "createdAt": "5/27/2016",
-    "nbFollowers": 26,
+    "nbFollowers": 27,
     "nbFollowings": 193,
     "nbStarredRepos": 233,
     "nbRepos": 309,
@@ -10710,8 +11078,8 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10147174?u=47665b90354cb7296a20c312a4b41c3be4c9f411&v=4",
     "createdAt": "12/10/2014",
     "nbFollowers": 1,
-    "nbFollowings": 29,
-    "nbStarredRepos": 46,
+    "nbFollowings": 32,
+    "nbStarredRepos": 49,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -10750,7 +11118,7 @@ const fans = {
     "nbFollowers": 6,
     "nbFollowings": 6,
     "nbStarredRepos": 56,
-    "nbRepos": 53,
+    "nbRepos": 54,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -10806,13 +11174,22 @@ const fans = {
     ],
     "starred": []
   },
+  "imakshat47": {
+    "login": "imakshat47",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/47633507?u=952d0a2bb2150bae543a09e9a6329982972167ce&v=4",
+    "nbRepos": 49,
+    "forked": [
+      "structured-filter"
+    ],
+    "starred": []
+  },
   "beevelop": {
     "login": "beevelop",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/6891349?u=dff0ebf6066246b02b8785df7c6d3a2037e5a562&v=4",
     "createdAt": "3/8/2014",
-    "nbFollowers": 144,
-    "nbFollowings": 71,
-    "nbStarredRepos": 915,
+    "nbFollowers": 150,
+    "nbFollowings": 73,
+    "nbStarredRepos": 929,
     "nbRepos": 142,
     "follower": false,
     "starred": [
@@ -10830,7 +11207,7 @@ const fans = {
     "createdAt": "7/9/2012",
     "nbFollowers": 46,
     "nbFollowings": 50,
-    "nbStarredRepos": 7671,
+    "nbStarredRepos": 7683,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -10845,7 +11222,7 @@ const fans = {
     "createdAt": "6/23/2008",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": 227,
+    "nbStarredRepos": 230,
     "nbRepos": 66,
     "follower": false,
     "starred": [
@@ -10875,8 +11252,8 @@ const fans = {
     "createdAt": "7/14/2012",
     "nbFollowers": 85,
     "nbFollowings": 15,
-    "nbStarredRepos": 66,
-    "nbRepos": 29,
+    "nbStarredRepos": 67,
+    "nbRepos": 30,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -10893,7 +11270,7 @@ const fans = {
     "createdAt": "3/4/2013",
     "nbFollowers": 6,
     "nbFollowings": 3,
-    "nbStarredRepos": 617,
+    "nbStarredRepos": 625,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -10969,7 +11346,7 @@ const fans = {
     "createdAt": "12/24/2010",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": 133,
+    "nbStarredRepos": 137,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -10983,8 +11360,8 @@ const fans = {
     "createdAt": "6/3/2013",
     "nbFollowers": 11,
     "nbFollowings": 49,
-    "nbStarredRepos": 694,
-    "nbRepos": 24,
+    "nbStarredRepos": 708,
+    "nbRepos": 25,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery",
@@ -10996,9 +11373,9 @@ const fans = {
     "login": "HelioGuilherme66",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2866630?u=0826de1bda7201e43ae9888c12e4d85023a17467&v=4",
     "createdAt": "11/22/2012",
-    "nbFollowers": 89,
+    "nbFollowers": 93,
     "nbFollowings": 25,
-    "nbStarredRepos": 455,
+    "nbStarredRepos": 462,
     "nbRepos": 43,
     "follower": false,
     "starred": [
@@ -11014,7 +11391,7 @@ const fans = {
     "nbFollowers": 0,
     "nbFollowings": 0,
     "nbStarredRepos": 5,
-    "nbRepos": 4,
+    "nbRepos": 6,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11055,9 +11432,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/17864683?v=4",
     "createdAt": "3/15/2016",
     "nbFollowers": 15,
-    "nbFollowings": 3,
-    "nbStarredRepos": 4872,
-    "nbRepos": 83,
+    "nbFollowings": 2,
+    "nbStarredRepos": 4912,
+    "nbRepos": 84,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11069,7 +11446,7 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/920624?u=3a03a1244c834af6e042286f8112695f760d881d&v=4",
     "createdAt": "7/16/2011",
     "nbFollowers": 20,
-    "nbFollowings": 9,
+    "nbFollowings": 10,
     "nbStarredRepos": 109,
     "nbRepos": 25,
     "follower": false,
@@ -11085,7 +11462,7 @@ const fans = {
     "createdAt": "8/25/2010",
     "nbFollowers": 9,
     "nbFollowings": 110,
-    "nbStarredRepos": 1087,
+    "nbStarredRepos": 1086,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -11101,7 +11478,7 @@ const fans = {
     "createdAt": "2/12/2015",
     "nbFollowers": 4,
     "nbFollowings": 0,
-    "nbStarredRepos": 152,
+    "nbStarredRepos": 153,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -11114,10 +11491,10 @@ const fans = {
     "login": "filipi",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/133966?u=cddf7aa9cc1ed7d009a9fd9a74a8c053352111ae&v=4",
     "createdAt": "10/1/2009",
-    "nbFollowers": 18,
+    "nbFollowers": 19,
     "nbFollowings": 19,
-    "nbStarredRepos": 71,
-    "nbRepos": 16,
+    "nbStarredRepos": 73,
+    "nbRepos": 19,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11149,8 +11526,8 @@ const fans = {
     "createdAt": "2/8/2017",
     "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": 684,
-    "nbRepos": 15,
+    "nbStarredRepos": 695,
+    "nbRepos": 16,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11161,10 +11538,10 @@ const fans = {
     "login": "davideuler",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/377983?v=4",
     "createdAt": "8/27/2010",
-    "nbFollowers": 1466,
-    "nbFollowings": 92,
-    "nbStarredRepos": 1991,
-    "nbRepos": 142,
+    "nbFollowers": 1477,
+    "nbFollowings": 93,
+    "nbStarredRepos": 2060,
+    "nbRepos": 144,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11177,10 +11554,10 @@ const fans = {
     "login": "flashfoxter",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2852886?u=3d36d6067e512a6531c09c830799893a3882ed4a&v=4",
     "createdAt": "11/21/2012",
-    "nbFollowers": 54,
+    "nbFollowers": 53,
     "nbFollowings": 103,
-    "nbStarredRepos": 499,
-    "nbRepos": 763,
+    "nbStarredRepos": 567,
+    "nbRepos": 821,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11196,8 +11573,8 @@ const fans = {
     "createdAt": "7/25/2010",
     "nbFollowers": 4,
     "nbFollowings": 13,
-    "nbStarredRepos": 1164,
-    "nbRepos": 32,
+    "nbStarredRepos": 1150,
+    "nbRepos": 33,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11220,12 +11597,12 @@ const fans = {
   },
   "swapnilshrikhande": {
     "login": "swapnilshrikhande",
-    "avatarUrl": "https://avatars0.githubusercontent.com/u/7020969?u=4bc85297c4d0b688ec825db229febf97081dd11a&v=4",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/7020969?u=f3e4e63117324dcda5e57c63174d259a201b39fb&v=4",
     "createdAt": "3/21/2014",
     "nbFollowers": 13,
-    "nbFollowings": 43,
-    "nbStarredRepos": 238,
-    "nbRepos": 98,
+    "nbFollowings": 45,
+    "nbStarredRepos": 249,
+    "nbRepos": 99,
     "follower": false,
     "starred": [
       "evolutility-ui-jquery"
@@ -11254,7 +11631,7 @@ const fans = {
     "createdAt": "10/28/2017",
     "nbFollowers": 6,
     "nbFollowings": 116,
-    "nbStarredRepos": 1518,
+    "nbStarredRepos": 1519,
     "nbRepos": 205,
     "follower": false,
     "starred": [
@@ -11267,8 +11644,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1330905?v=4",
     "createdAt": "1/14/2012",
     "nbFollowers": 7,
-    "nbFollowings": 31,
-    "nbStarredRepos": 259,
+    "nbFollowings": 38,
+    "nbStarredRepos": 272,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -11276,11 +11653,26 @@ const fans = {
     ],
     "forked": []
   },
+  "fairhopeweb": {
+    "login": "fairhopeweb",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/64338319?v=4",
+    "createdAt": "4/25/2020",
+    "nbFollowers": 3,
+    "nbFollowings": 17,
+    "nbStarredRepos": 1301,
+    "nbRepos": 4,
+    "follower": false,
+    "starred": [
+      "evolutility-ui-jquery"
+    ],
+    "forked": [],
+    "company": "SiteCommand"
+  },
   "mihai-varga": {
     "login": "mihai-varga",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3279158?v=4",
     "createdAt": "1/15/2013",
-    "nbFollowers": 27,
+    "nbFollowers": 26,
     "nbFollowings": 20,
     "nbStarredRepos": 132,
     "nbRepos": 14,
@@ -11309,7 +11701,7 @@ const fans = {
     "login": "billhibazzz",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/6156069?v=4",
     "createdAt": "12/10/2013",
-    "nbFollowers": 113,
+    "nbFollowers": 118,
     "nbFollowings": 166,
     "nbStarredRepos": 34,
     "nbRepos": 44,
@@ -11339,8 +11731,8 @@ const fans = {
     "createdAt": "7/2/2012",
     "nbFollowers": 14,
     "nbFollowings": 18,
-    "nbStarredRepos": 188,
-    "nbRepos": 46,
+    "nbStarredRepos": 189,
+    "nbRepos": 48,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11354,9 +11746,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/961856?u=331bbbc1c575db30f41eb389f715d3bd358ab056&v=4",
     "createdAt": "8/5/2011",
     "nbFollowers": 53,
-    "nbFollowings": 138,
-    "nbStarredRepos": 7048,
-    "nbRepos": 383,
+    "nbFollowings": 139,
+    "nbStarredRepos": 7061,
+    "nbRepos": 384,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11387,8 +11779,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1884768?u=62f328213735a25759e7af2ff49d23a7c638de5c&v=4",
     "createdAt": "6/23/2012",
     "nbFollowers": 26,
-    "nbFollowings": 33,
-    "nbStarredRepos": 609,
+    "nbFollowings": 34,
+    "nbStarredRepos": 614,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -11405,7 +11797,7 @@ const fans = {
     "createdAt": "2/5/2010",
     "nbFollowers": 4,
     "nbFollowings": 8,
-    "nbStarredRepos": 362,
+    "nbStarredRepos": 363,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -11419,9 +11811,9 @@ const fans = {
     "login": "rothanachoun",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/5331630?u=9cd29eec08310a0e176b48f336325eef486a4fb8&v=4",
     "createdAt": "8/28/2013",
-    "nbFollowers": 40,
+    "nbFollowers": 41,
     "nbFollowings": 241,
-    "nbStarredRepos": 4234,
+    "nbStarredRepos": 4270,
     "nbRepos": 87,
     "follower": false,
     "starred": [
@@ -11437,7 +11829,7 @@ const fans = {
     "createdAt": "6/15/2015",
     "nbFollowers": 2,
     "nbFollowings": 49,
-    "nbStarredRepos": 358,
+    "nbStarredRepos": 359,
     "nbRepos": 23,
     "follower": false,
     "starred": [
@@ -11471,7 +11863,7 @@ const fans = {
     "createdAt": "1/1/2014",
     "nbFollowers": 5,
     "nbFollowings": 13,
-    "nbStarredRepos": 252,
+    "nbStarredRepos": 261,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -11484,9 +11876,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/6257587?u=47ea1270c91b79999c2a5683d3d47ddf3c2e7c57&v=4",
     "createdAt": "12/24/2013",
     "nbFollowers": 5,
-    "nbFollowings": 3,
-    "nbStarredRepos": 324,
-    "nbRepos": 13,
+    "nbFollowings": 2,
+    "nbStarredRepos": 346,
+    "nbRepos": 14,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11561,7 +11953,7 @@ const fans = {
     "createdAt": "7/26/2011",
     "nbFollowers": 7,
     "nbFollowings": 2,
-    "nbStarredRepos": 828,
+    "nbStarredRepos": 836,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -11574,9 +11966,9 @@ const fans = {
     "login": "usayamadx",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/17489619?u=3d815c160dcab67ff39bf3cdba608e1a3819c1c8&v=4",
     "createdAt": "2/25/2016",
-    "nbFollowers": 20,
+    "nbFollowers": 21,
     "nbFollowings": 94,
-    "nbStarredRepos": 1320,
+    "nbStarredRepos": 1342,
     "nbRepos": 107,
     "follower": false,
     "starred": [
@@ -11593,7 +11985,7 @@ const fans = {
     "createdAt": "11/28/2011",
     "nbFollowers": 1,
     "nbFollowings": 9,
-    "nbStarredRepos": 201,
+    "nbStarredRepos": 202,
     "nbRepos": 18,
     "follower": false,
     "starred": [
@@ -11607,7 +11999,7 @@ const fans = {
     "createdAt": "4/20/2013",
     "nbFollowers": 6,
     "nbFollowings": 3,
-    "nbStarredRepos": 1404,
+    "nbStarredRepos": 1403,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -11637,9 +12029,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/13221634?u=f72652422d792acc1f6ebfeae35d98c75c064bb1&v=4",
     "createdAt": "7/7/2015",
     "nbFollowers": 2,
-    "nbFollowings": 5,
-    "nbStarredRepos": 102,
-    "nbRepos": 55,
+    "nbFollowings": 6,
+    "nbStarredRepos": 103,
+    "nbRepos": 56,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11652,7 +12044,7 @@ const fans = {
     "createdAt": "1/17/2013",
     "nbFollowers": 18,
     "nbFollowings": 109,
-    "nbStarredRepos": 1153,
+    "nbStarredRepos": 1157,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -11667,7 +12059,7 @@ const fans = {
     "createdAt": "10/31/2013",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": 435,
+    "nbStarredRepos": 436,
     "nbRepos": 10,
     "follower": false,
     "starred": [
@@ -11683,7 +12075,7 @@ const fans = {
     "createdAt": "3/1/2012",
     "nbFollowers": 4,
     "nbFollowings": 4,
-    "nbStarredRepos": 326,
+    "nbStarredRepos": 328,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -11726,7 +12118,7 @@ const fans = {
     "createdAt": "1/3/2012",
     "nbFollowers": 18,
     "nbFollowings": 26,
-    "nbStarredRepos": 2275,
+    "nbStarredRepos": 2296,
     "nbRepos": 139,
     "follower": false,
     "starred": [
@@ -11742,7 +12134,7 @@ const fans = {
     "createdAt": "12/19/2011",
     "nbFollowers": 19,
     "nbFollowings": 14,
-    "nbStarredRepos": 1112,
+    "nbStarredRepos": 1113,
     "nbRepos": 64,
     "follower": false,
     "starred": [
@@ -11773,7 +12165,7 @@ const fans = {
     "createdAt": "4/20/2015",
     "nbFollowers": 5,
     "nbFollowings": 23,
-    "nbStarredRepos": 265,
+    "nbStarredRepos": 272,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -11787,7 +12179,7 @@ const fans = {
     "createdAt": "9/16/2008",
     "nbFollowers": 6,
     "nbFollowings": 9,
-    "nbStarredRepos": 745,
+    "nbStarredRepos": 751,
     "nbRepos": 28,
     "follower": false,
     "starred": [
@@ -11805,8 +12197,8 @@ const fans = {
     "createdAt": "5/15/2009",
     "nbFollowers": 20,
     "nbFollowings": 22,
-    "nbStarredRepos": 896,
-    "nbRepos": 75,
+    "nbStarredRepos": 895,
+    "nbRepos": 76,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11818,9 +12210,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7109839?u=53564a0991d22ff448eaccdf241818ac56fc9cc9&v=4",
     "createdAt": "3/30/2014",
     "nbFollowers": 7,
-    "nbFollowings": 16,
-    "nbStarredRepos": 402,
-    "nbRepos": 45,
+    "nbFollowings": 17,
+    "nbStarredRepos": 407,
+    "nbRepos": 46,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11835,9 +12227,9 @@ const fans = {
     "login": "dy",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/300067?u=78fdbf0c095f8c558952433bd95b3badbd4978b6&v=4",
     "createdAt": "6/8/2010",
-    "nbFollowers": 330,
-    "nbFollowings": 299,
-    "nbStarredRepos": 3939,
+    "nbFollowers": 332,
+    "nbFollowings": 300,
+    "nbStarredRepos": 3959,
     "nbRepos": 241,
     "follower": false,
     "starred": [
@@ -11853,7 +12245,7 @@ const fans = {
     "createdAt": "5/10/2014",
     "nbFollowers": 7,
     "nbFollowings": 35,
-    "nbStarredRepos": 327,
+    "nbStarredRepos": 328,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -11868,7 +12260,7 @@ const fans = {
     "createdAt": "1/22/2013",
     "nbFollowers": 45,
     "nbFollowings": 34,
-    "nbStarredRepos": 2034,
+    "nbStarredRepos": 2039,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -11886,7 +12278,7 @@ const fans = {
     "nbFollowers": 2,
     "nbFollowings": 1,
     "nbStarredRepos": 74,
-    "nbRepos": 24,
+    "nbRepos": 25,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -11915,7 +12307,7 @@ const fans = {
     "createdAt": "1/8/2011",
     "nbFollowers": 54,
     "nbFollowings": 116,
-    "nbStarredRepos": 1283,
+    "nbStarredRepos": 1284,
     "nbRepos": 47,
     "follower": false,
     "starred": [
@@ -11973,7 +12365,7 @@ const fans = {
     "createdAt": "3/18/2015",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": 88,
+    "nbStarredRepos": 87,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -11987,7 +12379,7 @@ const fans = {
     "createdAt": "9/30/2014",
     "nbFollowers": 4,
     "nbFollowings": 0,
-    "nbStarredRepos": 1079,
+    "nbStarredRepos": 1135,
     "nbRepos": 9,
     "follower": false,
     "starred": [
@@ -12054,7 +12446,7 @@ const fans = {
     "createdAt": "12/24/2012",
     "nbFollowers": 11,
     "nbFollowings": 8,
-    "nbStarredRepos": 1219,
+    "nbStarredRepos": 1235,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -12068,7 +12460,7 @@ const fans = {
     "createdAt": "9/16/2012",
     "nbFollowers": 45,
     "nbFollowings": 85,
-    "nbStarredRepos": 3190,
+    "nbStarredRepos": 3204,
     "nbRepos": 70,
     "follower": false,
     "starred": [
@@ -12084,7 +12476,7 @@ const fans = {
     "nbFollowers": 0,
     "nbFollowings": 1,
     "nbStarredRepos": 37,
-    "nbRepos": 8,
+    "nbRepos": 9,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12112,7 +12504,7 @@ const fans = {
     "createdAt": "4/9/2013",
     "nbFollowers": 73,
     "nbFollowings": 691,
-    "nbStarredRepos": 1610,
+    "nbStarredRepos": 1609,
     "nbRepos": 36,
     "follower": false,
     "starred": [
@@ -12127,7 +12519,7 @@ const fans = {
     "createdAt": "12/14/2010",
     "nbFollowers": 26,
     "nbFollowings": 3,
-    "nbStarredRepos": 4753,
+    "nbStarredRepos": 4807,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -12142,8 +12534,8 @@ const fans = {
     "createdAt": "5/15/2016",
     "nbFollowers": 5,
     "nbFollowings": 14,
-    "nbStarredRepos": 218,
-    "nbRepos": 11,
+    "nbStarredRepos": 221,
+    "nbRepos": 12,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12158,7 +12550,7 @@ const fans = {
     "createdAt": "8/18/2012",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": 93,
+    "nbStarredRepos": 94,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -12172,7 +12564,7 @@ const fans = {
     "createdAt": "12/16/2013",
     "nbFollowers": 9,
     "nbFollowings": 12,
-    "nbStarredRepos": 173,
+    "nbStarredRepos": 174,
     "nbRepos": 16,
     "follower": false,
     "starred": [
@@ -12188,7 +12580,7 @@ const fans = {
     "createdAt": "5/30/2010",
     "nbFollowers": 9,
     "nbFollowings": 3,
-    "nbStarredRepos": 596,
+    "nbStarredRepos": 607,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -12220,7 +12612,7 @@ const fans = {
     "createdAt": "9/2/2013",
     "nbFollowers": 5,
     "nbFollowings": 4,
-    "nbStarredRepos": 114,
+    "nbStarredRepos": 115,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -12250,7 +12642,7 @@ const fans = {
     "createdAt": "11/29/2010",
     "nbFollowers": 6,
     "nbFollowings": 4,
-    "nbStarredRepos": 1030,
+    "nbStarredRepos": 1032,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -12264,7 +12656,7 @@ const fans = {
     "login": "uestla",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/373888?u=a2dba673740886d317a9fafd80b63052e9547a4a&v=4",
     "createdAt": "8/23/2010",
-    "nbFollowers": 27,
+    "nbFollowers": 28,
     "nbFollowings": 8,
     "nbStarredRepos": 164,
     "nbRepos": 71,
@@ -12297,7 +12689,7 @@ const fans = {
     "createdAt": "6/13/2017",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": 33,
+    "nbStarredRepos": 34,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -12310,9 +12702,9 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/8165854?u=5b2cad471351118bf76ed86e0f6712883e41a954&v=4",
     "createdAt": "7/14/2014",
     "nbFollowers": 15,
-    "nbFollowings": 59,
-    "nbStarredRepos": 367,
-    "nbRepos": 159,
+    "nbFollowings": 60,
+    "nbStarredRepos": 382,
+    "nbRepos": 163,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12369,7 +12761,7 @@ const fans = {
     ],
     "forked": [],
     "bio": "Becoming a Good Programer!",
-    "location": "Beijing,China"
+    "location": "Guangzhou,China"
   },
   "siddarthpushparaj": {
     "login": "siddarthpushparaj",
@@ -12391,8 +12783,8 @@ const fans = {
     "createdAt": "2/27/2017",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": 18,
-    "nbRepos": 9,
+    "nbStarredRepos": 19,
+    "nbRepos": 10,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12405,9 +12797,9 @@ const fans = {
     "login": "pvictor",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4415580?u=20521e4b00f77d0e22b042bff019ed86abd03913&v=4",
     "createdAt": "5/13/2013",
-    "nbFollowers": 204,
-    "nbFollowings": 124,
-    "nbStarredRepos": 843,
+    "nbFollowers": 206,
+    "nbFollowings": 125,
+    "nbStarredRepos": 860,
     "nbRepos": 64,
     "follower": false,
     "starred": [
@@ -12423,9 +12815,9 @@ const fans = {
     "login": "qingo",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1926054?u=9db08a515c906b68e16294befc69b3c608b6c49a&v=4",
     "createdAt": "7/5/2012",
-    "nbFollowers": 43,
-    "nbFollowings": 54,
-    "nbStarredRepos": 2427,
+    "nbFollowers": 44,
+    "nbFollowings": 53,
+    "nbStarredRepos": 2434,
     "nbRepos": 8,
     "follower": false,
     "starred": [
@@ -12441,7 +12833,7 @@ const fans = {
     "createdAt": "2/17/2016",
     "nbFollowers": 3,
     "nbFollowings": 8,
-    "nbStarredRepos": 225,
+    "nbStarredRepos": 227,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -12453,9 +12845,9 @@ const fans = {
     "login": "yetwanng",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/12440110?u=8f9ecef6bf6233f8a7ce7f6f12f196118a20da17&v=4",
     "createdAt": "5/13/2015",
-    "nbFollowers": 1,
+    "nbFollowers": 2,
     "nbFollowings": 9,
-    "nbStarredRepos": 121,
+    "nbStarredRepos": 122,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -12468,9 +12860,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/4105507?v=4",
     "createdAt": "4/9/2013",
     "nbFollowers": 35,
-    "nbFollowings": 33,
-    "nbStarredRepos": 781,
-    "nbRepos": 33,
+    "nbFollowings": 35,
+    "nbStarredRepos": 789,
+    "nbRepos": 32,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12521,7 +12913,7 @@ const fans = {
     "createdAt": "3/9/2013",
     "nbFollowers": 52,
     "nbFollowings": 25,
-    "nbStarredRepos": 494,
+    "nbStarredRepos": 495,
     "nbRepos": 44,
     "follower": false,
     "starred": [
@@ -12551,10 +12943,10 @@ const fans = {
     "login": "tengge1",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10705556?u=9601c5c79959a925b55835feff7ca5cdb995e39c&v=4",
     "createdAt": "1/26/2015",
-    "nbFollowers": 426,
-    "nbFollowings": 2101,
-    "nbStarredRepos": 2341,
-    "nbRepos": 69,
+    "nbFollowers": 437,
+    "nbFollowings": 2106,
+    "nbStarredRepos": 2407,
+    "nbRepos": 70,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12570,7 +12962,7 @@ const fans = {
     "createdAt": "6/7/2015",
     "nbFollowers": 7,
     "nbFollowings": 23,
-    "nbStarredRepos": 217,
+    "nbStarredRepos": 218,
     "nbRepos": 9,
     "follower": false,
     "starred": [
@@ -12588,7 +12980,7 @@ const fans = {
     "nbFollowers": 2,
     "nbFollowings": 9,
     "nbStarredRepos": 37,
-    "nbRepos": 7,
+    "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12602,7 +12994,7 @@ const fans = {
     "createdAt": "6/3/2015",
     "nbFollowers": 4,
     "nbFollowings": 13,
-    "nbStarredRepos": 323,
+    "nbStarredRepos": 325,
     "nbRepos": 19,
     "follower": false,
     "starred": [
@@ -12632,9 +13024,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/31311433?u=b589c122d677d1e2276fa0ec5cde7b1e6928cba6&v=4",
     "createdAt": "8/24/2017",
     "nbFollowers": 9,
-    "nbFollowings": 75,
+    "nbFollowings": 76,
     "nbStarredRepos": 1317,
-    "nbRepos": 348,
+    "nbRepos": 349,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12649,7 +13041,7 @@ const fans = {
     "createdAt": "11/27/2014",
     "nbFollowers": 3,
     "nbFollowings": 2,
-    "nbStarredRepos": 458,
+    "nbStarredRepos": 466,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -12662,9 +13054,9 @@ const fans = {
     "login": "jaffreyjoy",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/20588777?v=4",
     "createdAt": "7/21/2016",
-    "nbFollowers": 24,
-    "nbFollowings": 182,
-    "nbStarredRepos": 2739,
+    "nbFollowers": 26,
+    "nbFollowings": 197,
+    "nbStarredRepos": 2791,
     "nbRepos": 34,
     "follower": false,
     "starred": [
@@ -12693,9 +13085,9 @@ const fans = {
     "login": "chrdek",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/10632099?v=4",
     "createdAt": "1/21/2015",
-    "nbFollowers": 87,
-    "nbFollowings": 151,
-    "nbStarredRepos": 110,
+    "nbFollowers": 89,
+    "nbFollowings": 158,
+    "nbStarredRepos": 111,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -12710,8 +13102,8 @@ const fans = {
     "createdAt": "1/31/2012",
     "nbFollowers": 21,
     "nbFollowings": 36,
-    "nbStarredRepos": 619,
-    "nbRepos": 849,
+    "nbStarredRepos": 629,
+    "nbRepos": 857,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12726,7 +13118,7 @@ const fans = {
   "sskram": {
     "login": "sskram",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2053631?v=4",
-    "nbRepos": 67,
+    "nbRepos": 68,
     "forked": [
       "colorpicker"
     ],
@@ -12789,7 +13181,7 @@ const fans = {
   "nam162": {
     "login": "nam162",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/24108799?v=4",
-    "nbRepos": 51,
+    "nbRepos": 52,
     "forked": [
       "colorpicker"
     ],
@@ -12807,7 +13199,7 @@ const fans = {
   "LawAlias": {
     "login": "LawAlias",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/29730306?u=7f03681b5a40f7d8756e7ea59187439cdccef801&v=4",
-    "nbRepos": 23,
+    "nbRepos": 24,
     "forked": [
       "colorpicker"
     ],
@@ -12816,7 +13208,7 @@ const fans = {
   "fgcp020": {
     "login": "fgcp020",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/12007517?v=4",
-    "nbRepos": 168,
+    "nbRepos": 170,
     "forked": [
       "colorpicker"
     ],
@@ -12843,7 +13235,7 @@ const fans = {
   "lingyunju": {
     "login": "lingyunju",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/18436669?u=c8380aac817b35063341879d36a0122c06eafeb6&v=4",
-    "nbRepos": 10,
+    "nbRepos": 12,
     "forked": [
       "colorpicker"
     ],
@@ -12864,8 +13256,24 @@ const fans = {
     "createdAt": "11/26/2013",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": 186,
-    "nbRepos": 70,
+    "nbStarredRepos": 189,
+    "nbRepos": 71,
+    "follower": false,
+    "starred": [
+      "colorpicker"
+    ],
+    "forked": [
+      "colorpicker"
+    ]
+  },
+  "jardeng": {
+    "login": "jardeng",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19302222?v=4",
+    "createdAt": "5/11/2016",
+    "nbFollowers": 0,
+    "nbFollowings": 19,
+    "nbStarredRepos": 170,
+    "nbRepos": 59,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -12878,9 +13286,9 @@ const fans = {
     "login": "tiberiuichim",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/141568?v=4",
     "createdAt": "10/19/2009",
-    "nbFollowers": 74,
-    "nbFollowings": 983,
-    "nbStarredRepos": 4885,
+    "nbFollowers": 81,
+    "nbFollowings": 1000,
+    "nbStarredRepos": 5087,
     "nbRepos": 164,
     "follower": false,
     "starred": [
@@ -12911,8 +13319,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/3761867?u=c3f880af96646d0a4b253ced4a5a0468d08e181c&v=4",
     "createdAt": "3/3/2013",
     "nbFollowers": 12,
-    "nbFollowings": 49,
-    "nbStarredRepos": 2185,
+    "nbFollowings": 50,
+    "nbStarredRepos": 2215,
     "nbRepos": 49,
     "follower": false,
     "starred": [
@@ -12944,8 +13352,8 @@ const fans = {
     "createdAt": "6/20/2011",
     "nbFollowers": 17,
     "nbFollowings": 6,
-    "nbStarredRepos": 4701,
-    "nbRepos": 577,
+    "nbStarredRepos": 4699,
+    "nbRepos": 581,
     "follower": false,
     "starred": [
       "structured-filter",
@@ -12959,8 +13367,8 @@ const fans = {
     "createdAt": "6/14/2011",
     "nbFollowers": 9,
     "nbFollowings": 30,
-    "nbStarredRepos": 879,
-    "nbRepos": 57,
+    "nbStarredRepos": 932,
+    "nbRepos": 55,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -12976,7 +13384,7 @@ const fans = {
     "createdAt": "10/20/2010",
     "nbFollowers": 9,
     "nbFollowings": 1,
-    "nbStarredRepos": 300,
+    "nbStarredRepos": 304,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -12993,7 +13401,7 @@ const fans = {
     "createdAt": "8/13/2015",
     "nbFollowers": 23,
     "nbFollowings": 211,
-    "nbStarredRepos": 900,
+    "nbStarredRepos": 903,
     "nbRepos": 44,
     "follower": false,
     "starred": [
@@ -13009,7 +13417,7 @@ const fans = {
     "createdAt": "9/5/2010",
     "nbFollowers": 5,
     "nbFollowings": 5,
-    "nbStarredRepos": 907,
+    "nbStarredRepos": 912,
     "nbRepos": 26,
     "follower": false,
     "starred": [
@@ -13022,10 +13430,10 @@ const fans = {
     "login": "creadone",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/990803?u=fcb48ba59f2f937c7257c7d0b065ad1b310e35a3&v=4",
     "createdAt": "8/19/2011",
-    "nbFollowers": 69,
-    "nbFollowings": 805,
-    "nbStarredRepos": 3620,
-    "nbRepos": 52,
+    "nbFollowers": 70,
+    "nbFollowings": 807,
+    "nbStarredRepos": 3705,
+    "nbRepos": 55,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13037,26 +13445,24 @@ const fans = {
     "login": "pretzelhammer",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/7769424?u=5ee2444b73eedbc1165c8cd8b68f92cbd59170cc&v=4",
     "createdAt": "6/2/2014",
-    "nbFollowers": 54,
-    "nbFollowings": 97,
-    "nbStarredRepos": 1029,
-    "nbRepos": 17,
+    "nbFollowers": 67,
+    "nbFollowings": 98,
+    "nbStarredRepos": 1042,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
       "structured-filter"
     ],
     "forked": [],
-    "websiteUrl": "http://twitter.com/pretzelhammer",
-    "bio": "js dev by day, rustacean by night",
-    "location": "earth"
+    "websiteUrl": "http://twitter.com/pretzelhammer"
   },
   "fabiodr": {
     "login": "fabiodr",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/2953025?u=a9562d527e0113fef70574ae9ae7df25c61c5b17&v=4",
     "createdAt": "12/3/2012",
-    "nbFollowers": 108,
-    "nbFollowings": 541,
-    "nbStarredRepos": 16521,
+    "nbFollowers": 109,
+    "nbFollowings": 540,
+    "nbStarredRepos": 16520,
     "nbRepos": 47,
     "follower": false,
     "starred": [
@@ -13115,7 +13521,7 @@ const fans = {
     "createdAt": "1/9/2013",
     "nbFollowers": 13,
     "nbFollowings": 4,
-    "nbStarredRepos": 549,
+    "nbStarredRepos": 548,
     "nbRepos": 281,
     "follower": false,
     "starred": [
@@ -13129,8 +13535,8 @@ const fans = {
     "createdAt": "12/2/2014",
     "nbFollowers": 8,
     "nbFollowings": 0,
-    "nbStarredRepos": 2189,
-    "nbRepos": 16,
+    "nbStarredRepos": 2201,
+    "nbRepos": 17,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13159,8 +13565,8 @@ const fans = {
     "createdAt": "6/11/2015",
     "nbFollowers": 4,
     "nbFollowings": 1,
-    "nbStarredRepos": 167,
-    "nbRepos": 37,
+    "nbStarredRepos": 171,
+    "nbRepos": 40,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13191,7 +13597,7 @@ const fans = {
     "createdAt": "2/24/2014",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": 78,
+    "nbStarredRepos": 81,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -13204,8 +13610,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/304837?u=598901f80177a42f31f2cf663c333fd33bf070e1&v=4",
     "createdAt": "6/14/2010",
     "nbFollowers": 79,
-    "nbFollowings": 331,
-    "nbStarredRepos": 5320,
+    "nbFollowings": 335,
+    "nbStarredRepos": 5337,
     "nbRepos": 76,
     "follower": false,
     "starred": [
@@ -13223,7 +13629,7 @@ const fans = {
     "createdAt": "12/11/2009",
     "nbFollowers": 8,
     "nbFollowings": 13,
-    "nbStarredRepos": 908,
+    "nbStarredRepos": 923,
     "nbRepos": 43,
     "follower": false,
     "starred": [
@@ -13240,7 +13646,7 @@ const fans = {
     "createdAt": "8/5/2012",
     "nbFollowers": 4,
     "nbFollowings": 19,
-    "nbStarredRepos": 1116,
+    "nbStarredRepos": 1143,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -13252,10 +13658,10 @@ const fans = {
     "login": "Misiu",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1741838?v=4",
     "createdAt": "5/15/2012",
-    "nbFollowers": 5,
+    "nbFollowers": 6,
     "nbFollowings": 1,
-    "nbStarredRepos": 100,
-    "nbRepos": 58,
+    "nbStarredRepos": 101,
+    "nbRepos": 59,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13281,8 +13687,8 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/3845814?u=ce72bac18b0a20f46ba45202d509fdbff909458a&v=4",
     "createdAt": "3/12/2013",
     "nbFollowers": 31,
-    "nbFollowings": 107,
-    "nbStarredRepos": 2072,
+    "nbFollowings": 109,
+    "nbStarredRepos": 2146,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -13294,9 +13700,9 @@ const fans = {
     "login": "mlanin",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/467159?u=d921504d076ea68d256210a78b694ffa484e3d4a&v=4",
     "createdAt": "11/4/2010",
-    "nbFollowers": 15,
+    "nbFollowers": 14,
     "nbFollowings": 0,
-    "nbStarredRepos": 228,
+    "nbStarredRepos": 229,
     "nbRepos": 22,
     "follower": false,
     "starred": [
@@ -13314,7 +13720,7 @@ const fans = {
     "createdAt": "12/12/2011",
     "nbFollowers": 5,
     "nbFollowings": 0,
-    "nbStarredRepos": 357,
+    "nbStarredRepos": 360,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -13327,8 +13733,8 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/17234623?u=dea17b5b13f52c4d7005a85913da79e8e744e61b&v=4",
     "createdAt": "2/14/2016",
     "nbFollowers": 13,
-    "nbFollowings": 198,
-    "nbStarredRepos": 1797,
+    "nbFollowings": 200,
+    "nbStarredRepos": 1822,
     "nbRepos": 48,
     "follower": false,
     "starred": [
@@ -13345,8 +13751,8 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/222181?v=4",
     "createdAt": "3/13/2010",
     "nbFollowers": 17,
-    "nbFollowings": 43,
-    "nbStarredRepos": 1414,
+    "nbFollowings": 44,
+    "nbStarredRepos": 1422,
     "nbRepos": 35,
     "follower": false,
     "starred": [
@@ -13363,9 +13769,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/40820?v=4",
     "createdAt": "12/16/2008",
     "nbFollowers": 200,
-    "nbFollowings": 440,
-    "nbStarredRepos": 9255,
-    "nbRepos": 201,
+    "nbFollowings": 469,
+    "nbStarredRepos": 10005,
+    "nbRepos": 228,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13381,8 +13787,8 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/12045200?v=4",
     "createdAt": "4/20/2015",
     "nbFollowers": 5,
-    "nbFollowings": 30,
-    "nbStarredRepos": 395,
+    "nbFollowings": 31,
+    "nbStarredRepos": 398,
     "nbRepos": 20,
     "follower": false,
     "starred": [
@@ -13399,7 +13805,7 @@ const fans = {
     "createdAt": "10/21/2013",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": 347,
+    "nbStarredRepos": 351,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -13411,9 +13817,9 @@ const fans = {
     "login": "vbarbarosh",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/352973?u=936283b0c4874ce4c58ccb41d80333fc1b8a5d26&v=4",
     "createdAt": "8/3/2010",
-    "nbFollowers": 17,
+    "nbFollowers": 18,
     "nbFollowings": 4,
-    "nbStarredRepos": 760,
+    "nbStarredRepos": 763,
     "nbRepos": 20,
     "follower": false,
     "starred": [
@@ -13427,10 +13833,10 @@ const fans = {
     "login": "leandrosimoes",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5066378?u=98d81da11220a6d0f7f51532e2c3e949b50a445b&v=4",
     "createdAt": "7/22/2013",
-    "nbFollowers": 59,
-    "nbFollowings": 130,
-    "nbStarredRepos": 516,
-    "nbRepos": 74,
+    "nbFollowers": 60,
+    "nbFollowings": 131,
+    "nbStarredRepos": 531,
+    "nbRepos": 58,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13447,7 +13853,7 @@ const fans = {
     "createdAt": "11/19/2011",
     "nbFollowers": 5,
     "nbFollowings": 14,
-    "nbStarredRepos": 66,
+    "nbStarredRepos": 67,
     "nbRepos": 20,
     "follower": false,
     "starred": [
@@ -13461,7 +13867,7 @@ const fans = {
     "login": "NikoRoberts",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/697418?u=fc9022ed1711befac582d56853ddb2893ae881f7&v=4",
     "createdAt": "3/29/2011",
-    "nbFollowers": 40,
+    "nbFollowers": 39,
     "nbFollowings": 171,
     "nbStarredRepos": 202,
     "nbRepos": 63,
@@ -13510,7 +13916,7 @@ const fans = {
     "login": "Pobux",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/5279756?u=1324706a9210785872c875635a7825ab36a1652d&v=4",
     "createdAt": "8/21/2013",
-    "nbFollowers": 9,
+    "nbFollowers": 10,
     "nbFollowings": 5,
     "nbStarredRepos": 7,
     "nbRepos": 20,
@@ -13556,9 +13962,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/2506499?u=34f533d57dc08b0653c979410edfe96d058f2890&v=4",
     "createdAt": "10/7/2012",
     "nbFollowers": 15,
-    "nbFollowings": 55,
-    "nbStarredRepos": 1288,
-    "nbRepos": 25,
+    "nbFollowings": 56,
+    "nbStarredRepos": 1341,
+    "nbRepos": 13,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13610,7 +14016,7 @@ const fans = {
     "nbFollowers": 1,
     "nbFollowings": 2,
     "nbStarredRepos": 38,
-    "nbRepos": 11,
+    "nbRepos": 12,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13623,7 +14029,7 @@ const fans = {
     "createdAt": "4/4/2017",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": 90,
+    "nbStarredRepos": 91,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -13635,10 +14041,10 @@ const fans = {
     "login": "SourcingDenis",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/24542687?u=73f985f409246996c2720fb94a6348a17b284036&v=4",
     "createdAt": "12/13/2016",
-    "nbFollowers": 163,
-    "nbFollowings": 1963,
-    "nbStarredRepos": 572,
-    "nbRepos": 129,
+    "nbFollowers": 165,
+    "nbFollowings": 1964,
+    "nbStarredRepos": 573,
+    "nbRepos": 130,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13671,7 +14077,7 @@ const fans = {
     "createdAt": "5/4/2010",
     "nbFollowers": 19,
     "nbFollowings": 30,
-    "nbStarredRepos": 282,
+    "nbStarredRepos": 283,
     "nbRepos": 21,
     "follower": false,
     "starred": [
@@ -13685,10 +14091,10 @@ const fans = {
     "login": "wukuan405",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/16629605?v=4",
     "createdAt": "1/9/2016",
-    "nbFollowers": 18,
-    "nbFollowings": 82,
-    "nbStarredRepos": 2915,
-    "nbRepos": 403,
+    "nbFollowers": 17,
+    "nbFollowings": 85,
+    "nbStarredRepos": 3027,
+    "nbRepos": 417,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13701,7 +14107,7 @@ const fans = {
     "createdAt": "10/24/2013",
     "nbFollowers": 0,
     "nbFollowings": 2,
-    "nbStarredRepos": 211,
+    "nbStarredRepos": 213,
     "nbRepos": 15,
     "follower": false,
     "starred": [
@@ -13715,10 +14121,10 @@ const fans = {
     "login": "waldenn",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/1248919?u=5f9af92a98a8b72871dba509e66fcc93eb79d7e2&v=4",
     "createdAt": "12/7/2011",
-    "nbFollowers": 17,
+    "nbFollowers": 18,
     "nbFollowings": 5,
-    "nbStarredRepos": 2945,
-    "nbRepos": 291,
+    "nbStarredRepos": 3013,
+    "nbRepos": 300,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13733,8 +14139,8 @@ const fans = {
     "createdAt": "9/30/2015",
     "nbFollowers": 6,
     "nbFollowings": 13,
-    "nbStarredRepos": 334,
-    "nbRepos": 22,
+    "nbStarredRepos": 339,
+    "nbRepos": 23,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13750,7 +14156,7 @@ const fans = {
     "createdAt": "2/26/2009",
     "nbFollowers": 95,
     "nbFollowings": 737,
-    "nbStarredRepos": 8055,
+    "nbStarredRepos": 8096,
     "nbRepos": 16,
     "follower": false,
     "starred": [
@@ -13767,7 +14173,7 @@ const fans = {
     "createdAt": "4/8/2010",
     "nbFollowers": 11,
     "nbFollowings": 9,
-    "nbStarredRepos": 258,
+    "nbStarredRepos": 259,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -13781,7 +14187,7 @@ const fans = {
     "createdAt": "10/5/2012",
     "nbFollowers": 5,
     "nbFollowings": 4,
-    "nbStarredRepos": 244,
+    "nbStarredRepos": 248,
     "nbRepos": 28,
     "follower": false,
     "starred": [
@@ -13816,7 +14222,7 @@ const fans = {
     "createdAt": "7/27/2010",
     "nbFollowers": 3,
     "nbFollowings": 15,
-    "nbStarredRepos": 486,
+    "nbStarredRepos": 491,
     "nbRepos": 24,
     "follower": false,
     "starred": [
@@ -13831,7 +14237,7 @@ const fans = {
     "createdAt": "8/24/2015",
     "nbFollowers": 1,
     "nbFollowings": 1,
-    "nbStarredRepos": 248,
+    "nbStarredRepos": 256,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -13848,7 +14254,7 @@ const fans = {
     "createdAt": "2/23/2013",
     "nbFollowers": 1,
     "nbFollowings": 0,
-    "nbStarredRepos": 178,
+    "nbStarredRepos": 188,
     "nbRepos": 6,
     "follower": false,
     "starred": [
@@ -13862,7 +14268,7 @@ const fans = {
     "createdAt": "10/26/2018",
     "nbFollowers": 1,
     "nbFollowings": 5,
-    "nbStarredRepos": 197,
+    "nbStarredRepos": 198,
     "nbRepos": 11,
     "follower": false,
     "starred": [
@@ -13872,7 +14278,7 @@ const fans = {
   },
   "tomoki-ya": {
     "login": "tomoki-ya",
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/61718013?u=60053360e83bc11b1d5c66c3cdbef538d79ff498&v=4",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/61718013?u=c0f7a095400c7b629dd909b9697e3efde78ecdda&v=4",
     "createdAt": "3/2/2020",
     "nbFollowers": 0,
     "nbFollowings": 0,
@@ -13890,7 +14296,7 @@ const fans = {
     "createdAt": "3/22/2016",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": 32,
+    "nbStarredRepos": 34,
     "nbRepos": 14,
     "follower": false,
     "starred": [
@@ -13904,8 +14310,8 @@ const fans = {
     "createdAt": "7/24/2012",
     "nbFollowers": 5,
     "nbFollowings": 7,
-    "nbStarredRepos": 321,
-    "nbRepos": 42,
+    "nbStarredRepos": 328,
+    "nbRepos": 44,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13920,9 +14326,9 @@ const fans = {
     "login": "KennedyTedesco",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/999232?u=15e7240955e60c93d5f37a0d5e0a97e414ab5707&v=4",
     "createdAt": "8/23/2011",
-    "nbFollowers": 174,
-    "nbFollowings": 363,
-    "nbStarredRepos": 1814,
+    "nbFollowers": 175,
+    "nbFollowings": 365,
+    "nbStarredRepos": 1845,
     "nbRepos": 50,
     "follower": false,
     "starred": [
@@ -13939,9 +14345,9 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/5200312?v=4",
     "createdAt": "8/9/2013",
     "nbFollowers": 8,
-    "nbFollowings": 19,
-    "nbStarredRepos": 1160,
-    "nbRepos": 123,
+    "nbFollowings": 20,
+    "nbStarredRepos": 1161,
+    "nbRepos": 128,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -13952,9 +14358,9 @@ const fans = {
     "login": "lorismaz",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/2421972?u=8d49ecaa56ff107c98f88cd9d73258dabfa7e47a&v=4",
     "createdAt": "9/25/2012",
-    "nbFollowers": 16,
-    "nbFollowings": 41,
-    "nbStarredRepos": 315,
+    "nbFollowers": 17,
+    "nbFollowings": 42,
+    "nbStarredRepos": 338,
     "nbRepos": 49,
     "follower": false,
     "starred": [
@@ -13980,7 +14386,7 @@ const fans = {
     "login": "Sicos1977",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/6692947?u=8123dbea8b613791a831d6d1c687b613da8933f2&v=4",
     "createdAt": "2/15/2014",
-    "nbFollowers": 58,
+    "nbFollowers": 59,
     "nbFollowings": 0,
     "nbStarredRepos": 91,
     "nbRepos": 22,
@@ -13992,27 +14398,13 @@ const fans = {
     "bio": "Programming since I was a kid. Started on the C64 with BASIC. Since then I used programming languages like Turbo Pascal, Delphi, C++, VB6 and of course C#",
     "location": "Netherlands"
   },
-  "hakkisagdic": {
-    "login": "hakkisagdic",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/11720433?u=00c4dff1b2aad19ce3f3d1e312c8619e476da20e&v=4",
-    "createdAt": "3/30/2015",
-    "nbFollowers": 45,
-    "nbFollowings": 22,
-    "nbStarredRepos": 1237,
-    "nbRepos": 183,
-    "follower": false,
-    "starred": [
-      "structured-filter"
-    ],
-    "forked": []
-  },
   "ricardok1": {
     "login": "ricardok1",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/550792?v=4",
     "createdAt": "1/6/2011",
     "nbFollowers": 5,
     "nbFollowings": 12,
-    "nbStarredRepos": 321,
+    "nbStarredRepos": 337,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -14022,12 +14414,12 @@ const fans = {
   },
   "dotnetpowered": {
     "login": "dotnetpowered",
-    "avatarUrl": "https://avatars2.githubusercontent.com/u/1025328?v=4",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1025328?u=02bb6a521cbbb8c2fe745fbc196f7825f1d16916&v=4",
     "createdAt": "9/4/2011",
     "nbFollowers": 10,
     "nbFollowings": 0,
-    "nbStarredRepos": 226,
-    "nbRepos": 5,
+    "nbStarredRepos": 231,
+    "nbRepos": 4,
     "follower": false,
     "starred": [
       "structured-filter"
@@ -14035,7 +14427,8 @@ const fans = {
     "forked": [],
     "websiteUrl": "http://dotnetpowered.com",
     "bio": "CTO for XeoHealth \r\n| technology | architecture | operations | open source",
-    "location": "Jacksonville, FL"
+    "location": "Jacksonville, FL",
+    "company": "@XeoHealth "
   },
   "buyixiaohan": {
     "login": "buyixiaohan",
@@ -14043,7 +14436,7 @@ const fans = {
     "createdAt": "6/8/2014",
     "nbFollowers": 4,
     "nbFollowings": 2,
-    "nbStarredRepos": 343,
+    "nbStarredRepos": 346,
     "nbRepos": 13,
     "follower": false,
     "starred": [
@@ -14057,9 +14450,9 @@ const fans = {
     "login": "apchenjun",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/4964551?u=c0b225eddae8ed483acbb8f48ff3eaa3ac469bff&v=4",
     "createdAt": "7/8/2013",
-    "nbFollowers": 28,
-    "nbFollowings": 2481,
-    "nbStarredRepos": 2465,
+    "nbFollowers": 29,
+    "nbFollowings": 2537,
+    "nbStarredRepos": 2502,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14073,9 +14466,9 @@ const fans = {
     "login": "tecte",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1809317?u=4d5436f60aeefd9125bf42e911cf255d4c034da7&v=4",
     "createdAt": "6/2/2012",
-    "nbFollowers": 5,
+    "nbFollowers": 6,
     "nbFollowings": 0,
-    "nbStarredRepos": 1088,
+    "nbStarredRepos": 1162,
     "nbRepos": 188,
     "follower": false,
     "starred": [
@@ -14087,7 +14480,7 @@ const fans = {
     "login": "sdrdis",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1104414?v=4",
     "createdAt": "10/5/2011",
-    "nbFollowers": 62,
+    "nbFollowers": 64,
     "nbFollowings": 30,
     "nbStarredRepos": 403,
     "nbRepos": 95,
@@ -14103,8 +14496,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/486331?v=4",
     "createdAt": "11/17/2010",
     "nbFollowers": 1,
-    "nbFollowings": 4,
-    "nbStarredRepos": 110,
+    "nbFollowings": 5,
+    "nbStarredRepos": 119,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14117,8 +14510,8 @@ const fans = {
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2101568?v=4",
     "createdAt": "8/5/2012",
     "nbFollowers": 13,
-    "nbFollowings": 6,
-    "nbStarredRepos": 2117,
+    "nbFollowings": 7,
+    "nbStarredRepos": 2138,
     "nbRepos": 20,
     "follower": false,
     "starred": [
@@ -14133,7 +14526,7 @@ const fans = {
     "createdAt": "6/12/2011",
     "nbFollowers": 25,
     "nbFollowings": 47,
-    "nbStarredRepos": 1180,
+    "nbStarredRepos": 1181,
     "nbRepos": 4,
     "follower": false,
     "starred": [
@@ -14175,7 +14568,7 @@ const fans = {
     "createdAt": "10/1/2014",
     "nbFollowers": 9,
     "nbFollowings": 8,
-    "nbStarredRepos": 357,
+    "nbStarredRepos": 360,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -14192,8 +14585,8 @@ const fans = {
     "createdAt": "7/18/2015",
     "nbFollowers": 9,
     "nbFollowings": 30,
-    "nbStarredRepos": 1218,
-    "nbRepos": 17,
+    "nbStarredRepos": 1222,
+    "nbRepos": 18,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14219,9 +14612,9 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/10137621?u=05152cab0a156ccc2711460c8065aa751d8ce4d0&v=4",
     "createdAt": "12/9/2014",
     "nbFollowers": 372,
-    "nbFollowings": 11,
-    "nbStarredRepos": 235,
-    "nbRepos": 46,
+    "nbFollowings": 12,
+    "nbStarredRepos": 248,
+    "nbRepos": 51,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14234,9 +14627,9 @@ const fans = {
     "login": "hl-stone",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/26757108?u=9d1c3977c380372a0eaef78bd8dc671bff9e40e5&v=4",
     "createdAt": "3/28/2017",
-    "nbFollowers": 4,
+    "nbFollowers": 5,
     "nbFollowings": 3,
-    "nbStarredRepos": 680,
+    "nbStarredRepos": 695,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -14265,9 +14658,9 @@ const fans = {
     "login": "linfenpan",
     "avatarUrl": "https://avatars0.githubusercontent.com/u/11516495?u=dd935be4f5475c8070c08283093b2adc596b223c&v=4",
     "createdAt": "3/17/2015",
-    "nbFollowers": 6,
+    "nbFollowers": 7,
     "nbFollowings": 0,
-    "nbStarredRepos": 163,
+    "nbStarredRepos": 164,
     "nbRepos": 55,
     "follower": false,
     "starred": [
@@ -14324,13 +14717,14 @@ const fans = {
     "createdAt": "3/31/2012",
     "nbFollowers": 54,
     "nbFollowings": 98,
-    "nbStarredRepos": 1799,
+    "nbStarredRepos": 1835,
     "nbRepos": 200,
     "follower": false,
     "starred": [
       "colorpicker"
     ],
     "forked": [],
+    "websiteUrl": "https://bagisto.eu",
     "location": "Belgium",
     "company": "Digibytes / Bagisto Europe"
   },
@@ -14339,8 +14733,8 @@ const fans = {
     "avatarUrl": "https://avatars0.githubusercontent.com/u/30406289?u=727bb1b9c1f1f3959ac859e0084b04e6315cdb2a&v=4",
     "createdAt": "7/24/2017",
     "nbFollowers": 5,
-    "nbFollowings": 39,
-    "nbStarredRepos": 209,
+    "nbFollowings": 40,
+    "nbStarredRepos": 216,
     "nbRepos": 17,
     "follower": false,
     "starred": [
@@ -14356,7 +14750,7 @@ const fans = {
     "createdAt": "3/9/2012",
     "nbFollowers": 132,
     "nbFollowings": 0,
-    "nbStarredRepos": 2663,
+    "nbStarredRepos": 2676,
     "nbRepos": 47,
     "follower": false,
     "starred": [
@@ -14372,10 +14766,10 @@ const fans = {
     "login": "denji",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/3759759?u=ba13cf42f86e102ea0d26285493f49a0aa2e1941&v=4",
     "createdAt": "3/3/2013",
-    "nbFollowers": 330,
-    "nbFollowings": 475,
-    "nbStarredRepos": 40198,
-    "nbRepos": 97,
+    "nbFollowers": 336,
+    "nbFollowings": 476,
+    "nbStarredRepos": 40463,
+    "nbRepos": 100,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14403,8 +14797,8 @@ const fans = {
     "createdAt": "4/21/2017",
     "nbFollowers": 6,
     "nbFollowings": 76,
-    "nbStarredRepos": 272,
-    "nbRepos": 16,
+    "nbStarredRepos": 274,
+    "nbRepos": 28,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14430,9 +14824,9 @@ const fans = {
     "login": "dc7303",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/40932237?u=29e8b0ef6be864379c5545b2cce24f42f4092e5e&v=4",
     "createdAt": "7/8/2018",
-    "nbFollowers": 22,
-    "nbFollowings": 44,
-    "nbStarredRepos": 155,
+    "nbFollowers": 29,
+    "nbFollowings": 50,
+    "nbStarredRepos": 161,
     "nbRepos": 75,
     "follower": false,
     "starred": [
@@ -14442,7 +14836,7 @@ const fans = {
     "websiteUrl": "http://dc7303.github.io",
     "bio": "“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”\r\n- Martin Golding",
     "location": "South Korea",
-    "company": "@codef-io"
+    "company": "@codef-io @yorkie-team"
   },
   "he19920226he": {
     "login": "he19920226he",
@@ -14450,8 +14844,8 @@ const fans = {
     "createdAt": "8/7/2015",
     "nbFollowers": 5,
     "nbFollowings": 26,
-    "nbStarredRepos": 263,
-    "nbRepos": 7,
+    "nbStarredRepos": 264,
+    "nbRepos": 8,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14464,7 +14858,7 @@ const fans = {
     "createdAt": "2/28/2013",
     "nbFollowers": 4,
     "nbFollowings": 0,
-    "nbStarredRepos": 223,
+    "nbStarredRepos": 225,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14506,9 +14900,9 @@ const fans = {
     "login": "polygonplanet",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/519107?u=6643549589372cb98ce5544246ca9a0e867fafd8&v=4",
     "createdAt": "12/11/2010",
-    "nbFollowers": 85,
+    "nbFollowers": 86,
     "nbFollowings": 13,
-    "nbStarredRepos": 1640,
+    "nbStarredRepos": 1641,
     "nbRepos": 34,
     "follower": false,
     "starred": [
@@ -14554,8 +14948,8 @@ const fans = {
     "avatarUrl": "https://avatars3.githubusercontent.com/u/749141?u=fb582ad02c0d869c75d4b34c86d758d04b70e27d&v=4",
     "createdAt": "4/24/2011",
     "nbFollowers": 5,
-    "nbFollowings": 3,
-    "nbStarredRepos": 361,
+    "nbFollowings": 4,
+    "nbStarredRepos": 366,
     "nbRepos": 18,
     "follower": false,
     "starred": [
@@ -14570,7 +14964,7 @@ const fans = {
     "createdAt": "12/30/2015",
     "nbFollowers": 4,
     "nbFollowings": 3,
-    "nbStarredRepos": 136,
+    "nbStarredRepos": 138,
     "nbRepos": 18,
     "follower": false,
     "starred": [
@@ -14618,7 +15012,7 @@ const fans = {
     "createdAt": "2/2/2016",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": 56,
+    "nbStarredRepos": 60,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -14631,8 +15025,8 @@ const fans = {
     "login": "DavidSuescunPelegay",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/9980174?u=b58b0fc0a24628bce0b459243d6e0cad34f3db17&v=4",
     "createdAt": "11/27/2014",
-    "nbFollowers": 6,
-    "nbFollowings": 22,
+    "nbFollowers": 7,
+    "nbFollowings": 23,
     "nbStarredRepos": 116,
     "nbRepos": 24,
     "follower": false,
@@ -14663,9 +15057,9 @@ const fans = {
     "login": "StarZ3r0",
     "avatarUrl": "https://avatars2.githubusercontent.com/u/1798791?v=4",
     "createdAt": "5/31/2012",
-    "nbFollowers": 25,
+    "nbFollowers": 24,
     "nbFollowings": 3,
-    "nbStarredRepos": 3576,
+    "nbStarredRepos": 3619,
     "nbRepos": 9,
     "follower": false,
     "starred": [
@@ -14701,7 +15095,7 @@ const fans = {
     "createdAt": "1/8/2015",
     "nbFollowers": 2,
     "nbFollowings": 2,
-    "nbStarredRepos": 319,
+    "nbStarredRepos": 320,
     "nbRepos": 1,
     "follower": false,
     "starred": [
@@ -14747,9 +15141,9 @@ const fans = {
     "avatarUrl": "https://avatars2.githubusercontent.com/u/11674203?v=4",
     "createdAt": "3/26/2015",
     "nbFollowers": 46,
-    "nbFollowings": 303,
-    "nbStarredRepos": 2441,
-    "nbRepos": 310,
+    "nbFollowings": 327,
+    "nbStarredRepos": 2453,
+    "nbRepos": 342,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14779,8 +15173,8 @@ const fans = {
     "createdAt": "3/28/2012",
     "nbFollowers": 4,
     "nbFollowings": 44,
-    "nbStarredRepos": 450,
-    "nbRepos": 38,
+    "nbStarredRepos": 453,
+    "nbRepos": 39,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14797,7 +15191,7 @@ const fans = {
     "createdAt": "4/17/2011",
     "nbFollowers": 42,
     "nbFollowings": 88,
-    "nbStarredRepos": 492,
+    "nbStarredRepos": 497,
     "nbRepos": 29,
     "follower": false,
     "starred": [
@@ -14814,8 +15208,8 @@ const fans = {
     "createdAt": "5/1/2016",
     "nbFollowers": 43,
     "nbFollowings": 56,
-    "nbStarredRepos": 453,
-    "nbRepos": 85,
+    "nbStarredRepos": 457,
+    "nbRepos": 84,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14829,9 +15223,9 @@ const fans = {
     "login": "neilzh",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/2967144?v=4",
     "createdAt": "12/4/2012",
-    "nbFollowers": 39,
-    "nbFollowings": 25,
-    "nbStarredRepos": 1360,
+    "nbFollowers": 41,
+    "nbFollowings": 28,
+    "nbStarredRepos": 1391,
     "nbRepos": 3,
     "follower": false,
     "starred": [
@@ -14845,9 +15239,9 @@ const fans = {
     "login": "m-ahmadi",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/16363767?u=a9d8d8b1fe50e05b378bf0061f8601c53637d57e&v=4",
     "createdAt": "12/19/2015",
-    "nbFollowers": 14,
+    "nbFollowers": 15,
     "nbFollowings": 22,
-    "nbStarredRepos": 393,
+    "nbStarredRepos": 396,
     "nbRepos": 56,
     "follower": false,
     "starred": [
@@ -14909,7 +15303,7 @@ const fans = {
     "createdAt": "5/20/2015",
     "nbFollowers": 0,
     "nbFollowings": 1,
-    "nbStarredRepos": 298,
+    "nbStarredRepos": 307,
     "nbRepos": 0,
     "follower": false,
     "starred": [
@@ -14921,10 +15315,10 @@ const fans = {
     "login": "xieguigang",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/9410171?u=5b76d49b29b192abd2c752ec9299f15f0e32ded6&v=4",
     "createdAt": "10/26/2014",
-    "nbFollowers": 181,
+    "nbFollowers": 184,
     "nbFollowings": 187,
-    "nbStarredRepos": 190,
-    "nbRepos": 57,
+    "nbStarredRepos": 196,
+    "nbRepos": 56,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14939,10 +15333,10 @@ const fans = {
     "login": "benben-miao",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/19424626?u=2dee7e685a39fac8f165a92312fe85885789984f&v=4",
     "createdAt": "5/18/2016",
-    "nbFollowers": 26,
-    "nbFollowings": 100,
-    "nbStarredRepos": 1759,
-    "nbRepos": 32,
+    "nbFollowers": 30,
+    "nbFollowings": 108,
+    "nbStarredRepos": 1828,
+    "nbRepos": 34,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -14959,7 +15353,7 @@ const fans = {
     "createdAt": "3/17/2015",
     "nbFollowers": 0,
     "nbFollowings": 0,
-    "nbStarredRepos": 66,
+    "nbStarredRepos": 67,
     "nbRepos": 2,
     "follower": false,
     "starred": [
@@ -14972,9 +15366,9 @@ const fans = {
     "login": "aelassas",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/1339626?u=8dee52b8e9109d329447c7dcd900c882ba6264a3&v=4",
     "createdAt": "1/17/2012",
-    "nbFollowers": 138,
+    "nbFollowers": 140,
     "nbFollowings": 0,
-    "nbStarredRepos": 803,
+    "nbStarredRepos": 804,
     "nbRepos": 5,
     "follower": false,
     "starred": [
@@ -15008,7 +15402,7 @@ const fans = {
     "createdAt": "3/18/2017",
     "nbFollowers": 3,
     "nbFollowings": 3,
-    "nbStarredRepos": 143,
+    "nbStarredRepos": 176,
     "nbRepos": 7,
     "follower": false,
     "starred": [
@@ -15022,8 +15416,8 @@ const fans = {
     "createdAt": "4/16/2012",
     "nbFollowers": 8,
     "nbFollowings": 25,
-    "nbStarredRepos": 750,
-    "nbRepos": 46,
+    "nbStarredRepos": 759,
+    "nbRepos": 48,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -15034,10 +15428,10 @@ const fans = {
     "login": "hyperjiang",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/12892368?u=8d0c46faae92696a33ac3345240861a78562ebf7&v=4",
     "createdAt": "6/15/2015",
-    "nbFollowers": 18,
+    "nbFollowers": 19,
     "nbFollowings": 19,
-    "nbStarredRepos": 633,
-    "nbRepos": 27,
+    "nbStarredRepos": 643,
+    "nbRepos": 28,
     "follower": false,
     "starred": [
       "colorpicker"
@@ -15046,5 +15440,120 @@ const fans = {
     "bio": "Life is like floating duckweed",
     "location": "HongKong/ShenZhen",
     "company": "@lalamove"
+  },
+  "jimbrig": {
+    "login": "jimbrig",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/32652297?u=f418a81b6bb7b9e828cc6a74c0f9fc2593dc9597&v=4",
+    "createdAt": "10/9/2017",
+    "nbFollowers": 53,
+    "nbFollowings": 360,
+    "nbStarredRepos": 4801,
+    "nbRepos": 53,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://www.linkedin.com/in/james-briggs-a5aaa144",
+    "bio": "Consultant,\r\nDeveloper,\r\nActuary,\r\nInformation Specialist,\r\nKnowledge Management,\r\nData Scientist,\r\nSoftware Engineer,\r\nApplication Design,\r\nPhysics Enthusiast",
+    "location": "Atlanta",
+    "company": "@Tychobra"
+  },
+  "markitosgv": {
+    "login": "markitosgv",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1706470?v=4",
+    "createdAt": "5/4/2012",
+    "nbFollowers": 14,
+    "nbFollowings": 9,
+    "nbStarredRepos": 203,
+    "nbRepos": 63,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://viterbit.com",
+    "location": "Madrid, Spain.",
+    "company": "Viterbit"
+  },
+  "Zardoz89": {
+    "login": "Zardoz89",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/888483?u=c4262aea71a670b4e2ac4db6ff370315c94ddc0a&v=4",
+    "createdAt": "7/1/2011",
+    "nbFollowers": 21,
+    "nbFollowings": 29,
+    "nbStarredRepos": 345,
+    "nbRepos": 51,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "http://zardoz89.github.io/",
+    "location": "Spain",
+    "company": "Digibis"
+  },
+  "mr-rob": {
+    "login": "mr-rob",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5370769?v=4",
+    "createdAt": "9/3/2013",
+    "nbFollowers": 2,
+    "nbFollowings": 0,
+    "nbStarredRepos": 5,
+    "nbRepos": 6,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "Braunson": {
+    "login": "Braunson",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/577273?v=4",
+    "createdAt": "1/21/2011",
+    "nbFollowers": 103,
+    "nbFollowings": 147,
+    "nbStarredRepos": 4888,
+    "nbRepos": 95,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "websiteUrl": "https://geekybeaver.ca",
+    "bio": "Designer, Developer, Entrepreneur",
+    "location": "Ontario, Canada",
+    "company": "@geekybeaver "
+  },
+  "unc134r": {
+    "login": "unc134r",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16391550?u=a7c97c46f4656ec35e9e57e250e69aaac3d1af45&v=4",
+    "createdAt": "12/21/2015",
+    "nbFollowers": 27,
+    "nbFollowings": 721,
+    "nbStarredRepos": 3402,
+    "nbRepos": 768,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": []
+  },
+  "pachacamac": {
+    "login": "pachacamac",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/543577?u=3ccb370ca0e4360b6e3438cfdc5c6c8ecd00bd6e&v=4",
+    "createdAt": "1/1/2011",
+    "nbFollowers": 83,
+    "nbFollowings": 99,
+    "nbStarredRepos": 2913,
+    "nbRepos": 70,
+    "follower": false,
+    "starred": [
+      "structured-filter"
+    ],
+    "forked": [],
+    "bio": "In love with web technologies, open soft- and hardware, computer vision, robotics, complex simplicity, thinking differently, traveling.",
+    "location": "Germany, Berlin",
+    "company": "Hacker/Founder"
   }
 };
