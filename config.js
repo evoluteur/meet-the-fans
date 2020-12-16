@@ -1,5 +1,5 @@
 const config = {
-    height: 2500,
+    height: 2000,
     width: 2000,
     strength: -30,
     distance: 50,

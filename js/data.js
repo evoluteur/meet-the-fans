@@ -43,7 +43,6 @@ function userColorGroup(u){
     }else if(u.follower){
         return 'follower'
     }
-    
     return 'star'
 }
 
@@ -53,7 +52,7 @@ function getData(){
 
     repos.forEach((r, idx) => {
         r.group = idx+2
-        nodes.push({id: r.name, oType: 'repo', radius: 10 + r.nbStars / 10, group: r.group, isRepo: true})
+        nodes.push({id: r.name, oType: 'repo', radius: Math.min(10 + r.nbStars / 10, 100), group: r.group, isRepo: true})
         links.push({source: '*', target: r.name, "value": 4})
     })
 

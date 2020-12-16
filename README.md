@@ -1,4 +1,5 @@
-![Meet-the-Fans](screenshots/mtf.gif)
+![Meet-the-Fans](screenshots/mtf.gif) &middot; [![GitHub license](https://img.shields.io/github/license/evoluteur/meet-the-fans)](https://github.com/evoluteur/meet-the-fans/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/meet-the-fans)](https://www.npmjs.com/package/meet-the-fans) 
+
 
 Network graph of repositories, followers, stargazers, and forks to meet your GitHub fans.
 
@@ -23,7 +24,7 @@ You will need a [GitHub Access Token](https://docs.github.com/en/free-pro-team@l
 You will have to change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
 
 
-Clicking a project on the graph shows its details and highlights it with its stargazers and forks.
+Clicking a project dot (on the graph or in the left pane) highlights it with its stargazers and forks.
 
 [![Evoluteur's graph](screenshots/mtf-data-viz-2.gif)](https://evoluteur.github.io/meet-the-fans/)
 

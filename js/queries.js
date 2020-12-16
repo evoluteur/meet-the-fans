@@ -381,7 +381,7 @@ function getFans(repo) {
         }
 
         if (runningQueries) {
-            setStatus('Waiting on ' + (runningQueries>1 ? runningQueries + ' queries...' : '1 last query...'))
+            setStatus('Waiting on ' + (runningQueries>1 ? runningQueries + ' queries...' : '1 query...'))
         } else {
             document.getElementById('fans').value = JSON.stringify(fans, null, 2);
         }
