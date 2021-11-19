@@ -1,6 +1,6 @@
 
 /*
-  evoluteur on 7/18/2021 8:34:42 PM
+  evoluteur on 11/18/2021 11:39:33 PM
   meet-the-fans: https://github.com/evoluteur/meet-the-fans
 */
 
@@ -8,7 +8,7 @@ const gitUser = {
   "login": "evoluteur",
   "avatarUrl": "https://avatars.githubusercontent.com/u/880119?u=072c4e106f55eba09e92f565e982bf21cbf99a65&v=4",
   "createdAt": "6/27/2011",
-  "nbFollowers": 92,
+  "nbFollowers": 96,
   "nbFollowings": 30,
   "nbStarredRepos": 0,
   "nbRepos": 24,
@@ -54,10 +54,10 @@ const gitUser = {
     {
       "name": "braille-tools",
       "description": "CSS and Javascript to display Braille in web pages (for sighted people).",
-      "nbStars": 5,
+      "nbStars": 6,
       "nbForks": 3,
       "createdAt": "11/29/2016",
-      "updatedAt": "4/26/2021",
+      "updatedAt": "8/15/2021",
       "homepageUrl": "http://evoluteur.github.io/braille-tools/index.html",
       "licenseInfo": {
         "key": "mit",
@@ -96,10 +96,10 @@ const gitUser = {
     {
       "name": "colorpicker",
       "description": "jQuery UI widget for color picking (similar to the one in Microsoft Office 2010).",
-      "nbStars": 276,
-      "nbForks": 124,
+      "nbStars": 278,
+      "nbForks": 125,
       "createdAt": "6/3/2012",
-      "updatedAt": "7/10/2021",
+      "updatedAt": "11/15/2021",
       "homepageUrl": "https://evoluteur.github.io/colorpicker/",
       "licenseInfo": {
         "key": "mit",
@@ -199,10 +199,10 @@ const gitUser = {
     {
       "name": "d3-table-cards",
       "description": "Table/Cards views using D3.js for animated transitions on sorting and changing view.",
-      "nbStars": 15,
+      "nbStars": 16,
       "nbForks": 2,
       "createdAt": "4/11/2017",
-      "updatedAt": "7/16/2021",
+      "updatedAt": "9/5/2021",
       "homepageUrl": "https://evoluteur.github.io/d3-table-cards/",
       "licenseInfo": {
         "key": "mit",
@@ -351,10 +351,10 @@ const gitUser = {
     {
       "name": "evolutility-asp.net",
       "description": "Lightweight CRUD framework for heavy lifting using ASP.net and MS-SQL Server.",
-      "nbStars": 25,
-      "nbForks": 9,
+      "nbStars": 28,
+      "nbForks": 10,
       "createdAt": "6/8/2018",
-      "updatedAt": "6/12/2021",
+      "updatedAt": "11/1/2021",
       "homepageUrl": "http://evolutility.com",
       "licenseInfo": {
         "key": "agpl-3.0",
@@ -388,7 +388,7 @@ const gitUser = {
         },
         {
           "name": "TSQL",
-          "color": null
+          "color": "#e38c00"
         }
       ],
       "nbReleases": 5,
@@ -414,10 +414,10 @@ const gitUser = {
     {
       "name": "evolutility-models",
       "description": "Models for Evolutility CRUD Apps",
-      "nbStars": 6,
+      "nbStars": 7,
       "nbForks": 3,
       "createdAt": "12/9/2018",
-      "updatedAt": "11/29/2020",
+      "updatedAt": "8/10/2021",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -450,10 +450,10 @@ const gitUser = {
     {
       "name": "evolutility-server-node",
       "description": "Model-driven REST or GraphQL backend for CRUD and more, written in Javascript, using Node.js, Express, and PostgreSQL.",
-      "nbStars": 88,
+      "nbStars": 91,
       "nbForks": 30,
       "createdAt": "7/12/2015",
-      "updatedAt": "6/18/2021",
+      "updatedAt": "8/8/2021",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -494,10 +494,10 @@ const gitUser = {
     {
       "name": "evolutility-ui-jquery",
       "description": "Model-driven Web UI for CRUD using REST or localStorage.",
-      "nbStars": 168,
+      "nbStars": 171,
       "nbForks": 55,
       "createdAt": "12/12/2012",
-      "updatedAt": "6/22/2021",
+      "updatedAt": "10/6/2021",
       "homepageUrl": "https://evoluteur.github.io/evolutility-ui-jquery/",
       "licenseInfo": {
         "key": "mit",
@@ -546,10 +546,10 @@ const gitUser = {
     {
       "name": "evolutility-ui-react",
       "description": "Model-driven Web UI for CRUD using REST or GraphQL.",
-      "nbStars": 82,
-      "nbForks": 24,
+      "nbStars": 86,
+      "nbForks": 25,
       "createdAt": "6/16/2016",
-      "updatedAt": "6/1/2021",
+      "updatedAt": "11/8/2021",
       "homepageUrl": "",
       "licenseInfo": {
         "key": "mit",
@@ -594,10 +594,10 @@ const gitUser = {
     {
       "name": "isomorphic-table-cards",
       "description": "Table and Cards views with animated transitions. No dependencies, just Vanilla Javascript, CSS, and HTML.",
-      "nbStars": 2,
+      "nbStars": 4,
       "nbForks": 0,
       "createdAt": "10/2/2020",
-      "updatedAt": "1/20/2021",
+      "updatedAt": "8/10/2021",
       "homepageUrl": "https://evoluteur.github.io/isomorphic-table-cards/",
       "licenseInfo": {
         "key": "mit",
@@ -646,10 +646,10 @@ const gitUser = {
     {
       "name": "kaggle-look-alike",
       "description": "Kaggle Data Explorer look-alike.",
-      "nbStars": 1,
+      "nbStars": 3,
       "nbForks": 1,
       "createdAt": "6/4/2020",
-      "updatedAt": "9/28/2020",
+      "updatedAt": "10/3/2021",
       "homepageUrl": "https://evoluteur.github.io/kaggle-look-alike/",
       "licenseInfo": null,
       "languages": [
@@ -766,10 +766,10 @@ const gitUser = {
     {
       "name": "meet-the-fans",
       "description": "Query and Visualize the network graph of your GitHub repositories, followers, stargazers, and forks.",
-      "nbStars": 6,
+      "nbStars": 20,
       "nbForks": 0,
       "createdAt": "9/27/2020",
-      "updatedAt": "2/13/2021",
+      "updatedAt": "11/18/2021",
       "homepageUrl": "https://evoluteur.github.io/meet-the-fans/",
       "licenseInfo": {
         "key": "mit",
@@ -814,11 +814,11 @@ const gitUser = {
     },
     {
       "name": "motivational-numerology",
-      "description": "Simple web page to calculate and interpret the numerology numbers derived from your name and birth date (in English or French).",
-      "nbStars": 12,
+      "description": "Simple web page to calculate and interpret the numerology numbers derived from your name and birth date (in English, French, and Turkish).",
+      "nbStars": 15,
       "nbForks": 6,
       "createdAt": "9/5/2018",
-      "updatedAt": "6/21/2021",
+      "updatedAt": "11/14/2021",
       "homepageUrl": "https://evoluteur.github.io/motivational-numerology/",
       "licenseInfo": null,
       "languages": [
@@ -835,8 +835,8 @@ const gitUser = {
           "color": "#f1e05a"
         }
       ],
-      "nbReleases": 2,
-      "version": "2.0.0",
+      "nbReleases": 3,
+      "version": "2.0.1",
       "topics": [
         "numerology",
         "numbers",
@@ -854,11 +854,11 @@ const gitUser = {
     },
     {
       "name": "react-crud-icons",
-      "description": "48 SVG icons for CRUD applications, packaged as a React component with light & dark themes and tooltip.",
-      "nbStars": 13,
-      "nbForks": 2,
+      "description": "57 SVG icons for CRUD applications, packaged as a React component with light & dark themes and tooltip.",
+      "nbStars": 14,
+      "nbForks": 3,
       "createdAt": "8/31/2019",
-      "updatedAt": "1/1/2021",
+      "updatedAt": "10/18/2021",
       "homepageUrl": "https://evoluteur.github.io/react-crud-icons/",
       "licenseInfo": {
         "key": "mit",
@@ -875,8 +875,8 @@ const gitUser = {
           "color": "#c6538c"
         }
       ],
-      "nbReleases": 9,
-      "version": "1.0.1",
+      "nbReleases": 10,
+      "version": "1.1.0",
       "topics": [
         "icons",
         "svg-icons",
@@ -901,10 +901,10 @@ const gitUser = {
     {
       "name": "structured-filter",
       "description": "jQuery UI widget for structured queries like \"Contacts where Firstname starts with A and Birthday before 1/1/2000 and State in (CA, NY, FL)\"...",
-      "nbStars": 215,
-      "nbForks": 57,
+      "nbStars": 220,
+      "nbForks": 59,
       "createdAt": "9/2/2012",
-      "updatedAt": "7/11/2021",
+      "updatedAt": "10/27/2021",
       "homepageUrl": "https://evoluteur.github.io/structured-filter/",
       "licenseInfo": {
         "key": "mit",
@@ -1012,8 +1012,8 @@ const gitUser = {
       ]
     }
   ],
-  "nbStars": 926,
-  "nbForks": 323
+  "nbStars": 971,
+  "nbForks": 329
 };
 
 const fans = {
