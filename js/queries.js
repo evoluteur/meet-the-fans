@@ -5,6 +5,7 @@
 */
 
 const apiPathGraphQL = "https://api.github.com/graphql";
+const pageSize = 20; // max=100 but GitHub times out
 let token;
 let login;
 
@@ -220,7 +221,7 @@ function getUserInfo() {
       ? `
     query{
       user(login:"${login}"){
-        followers(first:100 after:"${cursor}"){
+        followers(first:${pageSize} after:"${cursor}"){
           totalCount
           nodes{
             ${userDetails}
@@ -327,7 +328,7 @@ function getFans(repo) {
     const details = object === "stargazers" ? userDetails : ownerDetails;
     const starDates = object === "stargazers" ? "edges{starredAt}" : "";
     return `
-      ${object}(first:100 ${cursor ? 'after:"' + cursor + '"' : ""}){
+      ${object}(first:${pageSize} ${cursor ? 'after:"' + cursor + '"' : ""}){
         totalCount
         nodes{
           ${details}
