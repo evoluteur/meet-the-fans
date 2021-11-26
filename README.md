@@ -44,11 +44,11 @@ const config = {
 };
 ```
 
-To rebuild the project (minimizing the JS and CSS), run the following commands:
+To rebuild the project (minimizing the JS), run the following commands:
 
 ```javascript
 npm install
-gulp
+npm run mini
 ```
 
 ## License

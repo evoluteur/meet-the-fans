@@ -9,12 +9,11 @@
   "copyright": "(c) 2020 Olivier Giulieri",
   "author": "Olivier Giulieri (https://evoluteur.github.io/)",
   "license": "MIT",
+  "scripts": {
+    "mini": "uglifyjs js/data.js js/graph.js js/views.js --compress --mangle --warn --output dist/meet-the-fans.min.js"
+  },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-uglify-es": "^2.0.0",
-    "gulp-header": "^2.0.9"
+    "uglify-js": "^3.3.11"
   },
   "keywords": [
     "github",
