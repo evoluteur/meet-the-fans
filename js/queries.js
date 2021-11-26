@@ -34,7 +34,7 @@ const runQuery = (q, cb, cbError) => {
         setStatus(
           '<span class="red">' +
             data.errors.map((err) => err.message).join("<br/>") +
-            "</span"
+            "</span>"
         );
         if (cbError) {
           cbError(data.errors);
@@ -42,14 +42,14 @@ const runQuery = (q, cb, cbError) => {
         cb(null, true);
       } else if (data.message && data.documentation_url) {
         runningQueries -= 1;
-        setStatus('<span class="red">' + data.message + "</span");
+        setStatus('<span class="red">' + data.message + "</span>");
       } else {
         cb(data.data);
       }
     })
     .catch((err) => {
       runningQueries -= 1;
-      setStatus('<span class="red">' + err.message + "</span");
+      setStatus('<span class="red">' + err.message + "</span>");
     });
 };
 
@@ -255,12 +255,6 @@ function getUserInfo() {
     }
   `;
 
-  function getVersion(r) {
-    if (r.repoRelease.nodes && r.repoRelease.nodes.length) {
-      return r.repoRelease.nodes[0].name;
-    }
-  }
-
   function cbRepos(data) {
     runningQueries -= 1;
     if (isFirstUserQuery) {
@@ -273,7 +267,7 @@ function getUserInfo() {
         .map(cleanRepo)
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      setStatus(user.repos.length + " repos.");
+      setStatus(user.repos.length + " repos (forks excluded).");
 
       addTotals(user);
 
@@ -291,6 +285,8 @@ function getUserInfo() {
       user.repos.forEach((r) => {
         if (r.nbStars + r.nbForks) {
           getFans(r);
+        } else {
+          setStatus("Skipping repo " + r.name + ".");
         }
       });
       //user.repos.forEach(r => getFans(r))
@@ -300,14 +296,14 @@ function getUserInfo() {
     });
   }
 
-  setStatus("Querying user " + login + ".");
+  setStatus("Querying user " + login + "...");
   runQuery(qRepos(""), cbRepos, cbError);
 }
 
 function getFans(repo) {
   console.log(repo.name);
   document.getElementById("fans").value = "Waiting...";
-  setStatus("Querying repo " + repo.name + ".");
+  setStatus("Querying fans for repo " + repo.name + ".");
   if (!(repo.nbStars || repo.nbForks)) {
     return;
   }

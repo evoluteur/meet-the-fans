@@ -11,7 +11,7 @@ body {
 }
 body {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Overpass", arial;
   color: rgb(112, 112, 112);
   background-color: #0288d1;
 }
@@ -113,6 +113,9 @@ svg.home:hover {
 }
 .h190 {
   min-height: 190px;
+}
+.reposList {
+  padding-bottom: 20px;
 }
 .reposList > div .multi {
   display: none;

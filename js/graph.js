@@ -18,22 +18,22 @@ const linksDistance = config.linksDistance || 50;
 const linksCharge = config.linksDistance || -30;
 
 const drag = (simulation) => {
-  function dragstarted(evt) {
+  const dragstarted = (evt) => {
     if (!evt.active) simulation.alphaTarget(0.3).restart();
     evt.subject.fx = evt.subject.x;
     evt.subject.fy = evt.subject.y;
-  }
+  };
 
-  function dragged(evt) {
+  const dragged = (evt) => {
     evt.subject.fx = evt.x;
     evt.subject.fy = evt.y;
-  }
+  };
 
-  function dragended(evt) {
+  const dragended = (evt) => {
     if (!evt.active) simulation.alphaTarget(0);
     evt.subject.fx = null;
     evt.subject.fy = null;
-  }
+  };
 
   return d3
     .drag()
@@ -145,7 +145,7 @@ function graph(data) {
   return svg.node();
 }
 
-function hideDetails(evt) {
+const hideDetails = (evt) => {
   d3.selectAll("circle")
     .transition()
     .duration(600)
@@ -155,9 +155,9 @@ function hideDetails(evt) {
   d3.selectAll("line").transition().duration(600).style("stroke", lineColor);
 
   selectedRepo = null;
-}
+};
 
-function showDetails(evt, d) {
+const showDetails = (evt, d) => {
   evt.stopPropagation();
   if (evt.target.style.fill === "rgb(238, 238, 238)" && d.oType !== "repo") {
     return null;
@@ -219,13 +219,13 @@ function showDetails(evt, d) {
   } else {
     hideDetails();
   }
-}
+};
 
-function selectProject(id) {
-  var evt = new CustomEvent("click", { detail: { skipModal: true } });
-  var e = document.getElementById(id);
+const selectProject = (id) => {
+  const evt = new CustomEvent("click", { detail: { skipModal: true } });
+  const e = document.getElementById(id);
   if (e) e.dispatchEvent(evt);
-}
+};
 
 const renderGraph = () => {
   document.getElementById("graph").appendChild(graph(getData()));
