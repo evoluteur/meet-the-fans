@@ -1,4 +1,3 @@
-
 body {
   padding: 20px;
   font-size: 14pt;
@@ -7,33 +6,34 @@ body {
   color: white;
 }
 svg.home {
-    position: relative;
-    top: 8px;
-    height: 40px;
-    width: 40px;
-    fill: #86BDDC;
-    cursor: pointer;
+  position: relative;
+  top: 8px;
+  height: 40px;
+  width: 40px;
+  fill: #86bddc;
+  cursor: pointer;
 }
 svg.home:hover {
-    fill: #ffb74d;
+  fill: #ffb74d;
 }
-a, a:visited{
-    color: #ffb74d;
-    text-decoration: none;
+a,
+a:visited {
+  color: #ffb74d;
+  text-decoration: none;
 }
-a:hover{
-    color: #ffcc80;
-    text-decoration: underline;
+a:hover {
+  color: #ffcc80;
+  text-decoration: underline;
 }
-label{
-    color: white;
+label {
+  color: white;
 }
 textarea {
   width: 100%;
 }
-#status{
-    border: dashed 1px white;
-    font-style: italic;
+#status {
+  border: dashed 1px white;
+  font-style: italic;
   padding: 0 20px;
   height: 210px;
   width: 100%;
@@ -44,60 +44,58 @@ textarea {
   font-size: 14px;
 }
 #user,
-#fans{
+#fans {
   height: 410px;
 }
-.r-user{
-    padding-right: 20px;
-    width: 410px;
+.r-user {
+  padding-right: 20px;
+  width: 410px;
 }
-.r-fans{
-    flex-grow: 1;
+.r-fans {
+  flex-grow: 1;
 }
 
-.response2c{
+.response2c {
   display: flex;
   justify-content: space-between;
-
 }
 #response > div {
   flex-grow: 1;
   margin: 0 5px;
 }
 #response textarea {
-    font-size: 14px;
+  font-size: 14px;
 }
-.form-login-token{
+.form-login-token {
   display: flex;
   justify-content: left;
   width: 100%;
   margin: 40px 0;
 }
-.form-login-token{
-    display: flex;
-    justify-content: left;
-  }
+.form-login-token {
+  display: flex;
+  justify-content: left;
+}
 .form-field label {
   display: block;
-  font-size: .8em;
+  font-size: 0.8em;
   margin-bottom: 4px;
-
 }
-.form-field{
+.form-field {
   margin-bottom: 10px;
 }
-.hidden{
-    display: none;
-    opacity: 0;
+.hidden {
+  display: none;
+  opacity: 0;
 }
 
 textarea,
-input{
+input {
   font-size: 20px;
   padding: 10px;
   font-family: "Overpass", arial;
 }
-.btn.mtf{
+.btn.mtf {
   margin: 22px 20px;
   white-space: nowrap;
   width: 150px;
@@ -106,16 +104,15 @@ input{
   background-color: #0277bd;
   color: white;
 }
-#github_token{
+#github_token {
   height: 92px;
-  font-size: .9em;
+  font-size: 0.9em;
   padding: 10px;
-
 }
-.red{
+.red {
   color: pink;
 }
-.icon.copy{
+.icon.copy {
   position: relative;
   top: 4px;
   left: 6px;
@@ -125,15 +122,15 @@ input{
   cursor: pointer;
   background-image: url(checkbox-multiple-blank-outline.svg);
 }
-.github{
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    fill: white;
+.github {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  fill: white;
 }
-.github:hover{
-    fill: orange;
+.github:hover {
+  fill: orange;
 }
-footer{
-    margin-top: 50px;
+footer {
+  margin-top: 50px;
 }

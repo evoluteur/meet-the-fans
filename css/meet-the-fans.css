@@ -1,291 +1,289 @@
-/*  
+/*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2020 Olivier Giulieri
+    (c) 2021 Olivier Giulieri
 */
 
 html,
-body{
-	padding:0;
-	margin:0;
+body {
+  padding: 0;
+  margin: 0;
 }
-body{
-	font-size: 14px;;
-	font-family: Arial, Helvetica, sans-serif;
-	color: rgb(112, 112, 112);
-	background-color: #0288d1;
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(112, 112, 112);
+  background-color: #0288d1;
 }
 
-a{
-	text-decoration: none;
-    color: #0099cc;
-    font-weight: 500;
+a {
+  text-decoration: none;
+  color: #0099cc;
+  font-weight: 500;
 }
-a:hover{
-	text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 10px;
-    padding: 10px;
-    color: white;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  padding: 10px;
+  color: white;
 }
 footer a {
-    color: #ffb74d;
+  color: #ffb74d;
 }
 footer a:hover {
-    color: #ffcc80;
+  color: #ffcc80;
 }
-#graph svg{
-	/*background-color: white;*/
-    width: 100%;
-    height:100%;
+#graph svg {
+  /*background-color: white;*/
+  width: 100%;
+  height: 100%;
 }
-label{
-	color: silver;
-    display: inline-block;
-	margin-bottom: 4px;
-	font-size: 15px;
+label {
+  color: silver;
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 15px;
 }
-.bold{
-	font-weight: 700;;
+.bold {
+  font-weight: 700;
 }
 svg.home {
-    position: fixed;
-    top: 5px;
-    left: 5px;
-    height: 40px;
-    width: 40px;
-    fill: #86BDDC;
-    cursor: pointer;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  height: 40px;
+  width: 40px;
+  fill: #86bddc;
+  cursor: pointer;
 }
 svg.home:hover {
-    fill: white;
+  fill: white;
 }
-#details{
-    /*background-image: url(bg.gif);*/
-	display: none;
-	position: fixed;
-	top: 0;
-	min-height: 140px;
-    max-height: 100%;
-	overflow-y: scroll;	
-	top: -1px;
-	width: 190px;
-	border: solid grey 1px;
-	padding: 10px 20px 10px;
-	background-color: white;
-	overflow-x: hidden;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#details {
+  /*background-image: url(bg.gif);*/
+  display: none;
+  position: fixed;
+  top: 0;
+  min-height: 140px;
+  max-height: 100%;
+  overflow-y: scroll;
+  top: -1px;
+  width: 190px;
+  border: solid grey 1px;
+  padding: 10px 20px 10px;
+  background-color: white;
+  overflow-x: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#details.right{
-	right: -1px;
-	display: block;
-	border-bottom-left-radius: 10px;
+#details.right {
+  right: -1px;
+  display: block;
+  border-bottom-left-radius: 10px;
 }
-#details.left{
-	left: -1px;
-	display: block;
-	border-bottom-right-radius: 10px;
+#details.left {
+  left: -1px;
+  display: block;
+  border-bottom-right-radius: 10px;
 }
-#details.w220{
-	width: 220px;
+#details.w220 {
+  width: 220px;
 }
-#details > h1{
-	font-size: 20px;
+#details > h1 {
+  font-size: 20px;
 }
-#details > label{
-	color: grey;
-	margin: 0 0 5px;
+#details > label {
+  color: grey;
+  margin: 0 0 5px;
 }
-#details > div{
-	margin: 0 0 10px;
+#details > div {
+  margin: 0 0 10px;
 }
 #details > div > img {
-	height: 190px;
-	min-height: 190px;
-	width: 190px;
-	border-radius: 50%;
+  height: 190px;
+  min-height: 190px;
+  width: 190px;
+  border-radius: 50%;
 }
 .w220 {
-	width: 220px;
+  width: 220px;
 }
-.h190{
-	min-height: 190px;
+.h190 {
+  min-height: 190px;
 }
-.reposList > div .multi{
-	display: none;
+.reposList > div .multi {
+  display: none;
 }
-.reposList > div:hover .multi{
-	display: block;
+.reposList > div:hover .multi {
+  display: block;
 }
-.reposList > div{
-	margin: 0 -6px;
-	padding: 5px 5px 0 5px;
-	border: solid 1px white;
-	border-radius: 5px;
+.reposList > div {
+  margin: 0 -6px;
+  padding: 5px 5px 0 5px;
+  border: solid 1px white;
+  border-radius: 5px;
 }
-.reposList > div:hover{
-	border-color: silver;
+.reposList > div:hover {
+  border-color: silver;
 }
-.reposList .repoIco{
-	display: inline-block;
-	margin-bottom: 5px;
-
+.reposList .repoIco {
+  display: inline-block;
+  margin-bottom: 5px;
 }
 .gituser {
-	color: black;
+  color: black;
 }
-h1{
-	font-size: 22px;;
+h1 {
+  font-size: 22px;
 }
 h1 > a {
-	text-decoration: none;
+  text-decoration: none;
 }
 h1 > a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-.topics{
-	margin: 15px 0 0 0 !important;
+.topics {
+  margin: 15px 0 0 0 !important;
 }
 .topics > div {
-	display: inline-block;
-	border: solid 1px transparent;
-	padding: 0 5px 2px;
-	font-size: .9em;
-	margin: 0 5px 5px 0;
+  display: inline-block;
+  border: solid 1px transparent;
+  padding: 0 5px 2px;
+  font-size: 0.9em;
+  margin: 0 5px 5px 0;
 
-	box-sizing: border-box;
-	text-decoration: none;
-	font-size: 12px;
-	white-space: nowrap;
-	background-color: #f1f8ff;
-	border-radius: 2em;
-	padding: 0 10px;
-	line-height: 22px;
-	color: #0366d6;
-	margin-bottom: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 12px;
+  white-space: nowrap;
+  background-color: #f1f8ff;
+  border-radius: 2em;
+  padding: 0 10px;
+  line-height: 22px;
+  color: #0366d6;
+  margin-bottom: 8px;
 }
 .topics > div:hover {
-    text-decoration: none;
-    background-color: #def;
+  text-decoration: none;
+  background-color: #def;
 }
-.morelink{
-	cursor: pointer;
+.morelink {
+  cursor: pointer;
 }
 
-.field{
-	display: block;
-	margin: 10px 0 10px 0;
+.field {
+  display: block;
+  margin: 10px 0 10px 0;
 }
 .field.multi > div:not(:first-child) {
-	display: inline-block;
-	margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
-.field.multi div { 
-	margin-right: 5px;
+.field.multi div {
+  margin-right: 5px;
 }
 
 .field.ellipsis > a {
-    display: inline-block;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	width: calc(100% - 25px); 
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100% - 25px);
 }
-.repo-circle{
-    background-color: silver;
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    position: relative;
-    top: 2px;
-    border-radius: 50%;
-    margin-right: 5px;
+.repo-circle {
+  background-color: silver;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 #topbar > div,
-.score, 
+.score,
 .score > div {
-	display: inline-block;
+  display: inline-block;
 }
 
 /* Icons */
-.icon{
-	position: relative;
-	top: 4px;
-    display: inline-block;
-	width: 20px;
-	height: 20px;
+.icon {
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
-.icon.star{
-	background-image: url(../svg/star-outline.svg);
+.icon.star {
+  background-image: url(../svg/star-outline.svg);
 }
-.icon.fork{
-	background-image: url(../svg/source-fork.svg);
+.icon.fork {
+  background-image: url(../svg/source-fork.svg);
 }
-.icon.tag{
-	background-image: url(../svg/tag-outline.svg);
+.icon.tag {
+  background-image: url(../svg/tag-outline.svg);
 }
-.icon.repos{
-	background-image: url(../svg/book-outline.svg);
+.icon.repos {
+  background-image: url(../svg/book-outline.svg);
 }
-.icon.link{
-	background-image: url(../svg/link-variant.svg);
+.icon.link {
+  background-image: url(../svg/link-variant.svg);
 }
-.icon.location{
-	background-image: url(../svg/map-marker.svg);
+.icon.location {
+  background-image: url(../svg/map-marker.svg);
 }
-.icon.followers{
-	background-image: url(../svg/account-multiple.svg);
+.icon.followers {
+  background-image: url(../svg/account-multiple.svg);
 }
-.icon.license{
-	background-image: url(../svg/scale-balance.svg);
+.icon.license {
+  background-image: url(../svg/scale-balance.svg);
 }
 
 /* Graph */
 line {
-	stroke-opacity: 0.6;
+  stroke-opacity: 0.6;
 }
 
 g > circle {
-	stroke-width: 1.5px;
-	cursor: pointer;
+  stroke-width: 1.5px;
+  cursor: pointer;
 }
 g > circle.disabled {
-	cursor: default;
+  cursor: default;
 }
 g > circle:hover {
-	stroke: black !important;
-	opacity: 1 !important;
-} 
-.graph{
-	width: 100%;
+  stroke: black !important;
+  opacity: 1 !important;
+}
+.graph {
+  width: 100%;
 }
 
 /* Graph Tooltip */
-.ln-dot{
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-	border-radius: 50%;
-	margin: 0 7px;
+.ln-dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 0 7px;
 }
-div.tooltip {	
-	display: block;
-    position: absolute;		
-    padding: 5px;	
-    background: white;
-    border-radius: 8px;			
-	pointer-events: none;
-	border: solid 1px silver;
-	
+div.tooltip {
+  display: block;
+  position: absolute;
+  padding: 5px;
+  background: white;
+  border-radius: 8px;
+  pointer-events: none;
+  border: solid 1px silver;
 }
-.avatar-small > img{
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	margin: 0 5px 0 10px;
+.avatar-small > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 5px 0 10px;
 }
