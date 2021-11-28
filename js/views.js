@@ -24,7 +24,7 @@ const iconTextField = (icon, text) =>
 
 const icon = (name) => '<div class="icon ' + name + '"></div>';
 
-function infoRepo(name) {
+const infoRepo = (name) => {
   const o = repos.find((item) => item.name === name);
   let h = "";
   let url = "https://github.com/" + gitUser.login + "/" + o.name;
@@ -61,7 +61,7 @@ function infoRepo(name) {
       : "";
   h += htmlTopics(o.topics);
   return h;
-}
+};
 
 const avatarPix = (url, css) => `<div class="${css}"><img src="${url}"></div>`;
 const userTooltip = (d) =>
@@ -197,12 +197,12 @@ const htmlTopics = (ts) => {
   );
 };
 
-function moreTopics(evt) {
+const moreTopics = (evt) => {
   evt.stopPropagation();
   document.getElementById("my_topics").innerHTML = topicList
     .map(htmlTopic)
     .join("");
-}
+};
 
 const repoItemPop = (r) => {
   const url = `https://github.com/${gitUser.login}/${r.name}/`;

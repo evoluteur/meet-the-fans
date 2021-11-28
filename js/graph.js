@@ -44,7 +44,7 @@ const drag = (simulation) => {
 
 let selectedRepo = null;
 
-function graph(data) {
+const graph = (data) => {
   const links = data.links; //.map(d => Object.create(d));
   const nodes = data.nodes; //.map(d => Object.create(d));
 
@@ -78,6 +78,10 @@ function graph(data) {
 
   const g = svg.append("g");
 
+  const zoomed = ({ transform }) => {
+    g.attr("transform", transform);
+  };
+
   svg.call(
     d3
       .zoom()
@@ -88,10 +92,6 @@ function graph(data) {
       .scaleExtent([1, 8])
       .on("zoom", zoomed)
   );
-
-  function zoomed({ transform }) {
-    g.attr("transform", transform);
-  }
 
   const link = g
     .attr("stroke", lineColor)
@@ -143,7 +143,7 @@ function graph(data) {
 
   //invalidation.then(() => simulation.stop());
   return svg.node();
-}
+};
 
 const hideDetails = (evt) => {
   d3.selectAll("circle")

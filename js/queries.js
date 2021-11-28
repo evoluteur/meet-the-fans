@@ -14,6 +14,7 @@ let fans = {};
 let runningQueries = 0;
 let startTime;
 
+const toJSON = (obj) => JSON.stringify(obj, null, 2);
 const formatDate = (dateString) => new Date(dateString).toLocaleDateString();
 const gqlOptions = (query) => ({
   method: "POST",
@@ -108,11 +109,11 @@ const cleanRepo = (r) => ({
     : null,
 });
 
-function cbError(err) {
+const cbError = (err) => {
   if (err && err.message) {
     console.error(err.message);
   }
-}
+};
 
 const userScalars = `
   login
@@ -194,7 +195,7 @@ const pageInfo = `
   }
 `;
 
-function getUserInfo() {
+const getUserInfo = () => {
   login = document.getElementById("github_user").value;
   token = document.getElementById("github_token").value;
 
@@ -255,7 +256,7 @@ function getUserInfo() {
     }
   `;
 
-  function cbRepos(data) {
+  const cbRepos = (data) => {
     runningQueries -= 1;
     if (isFirstUserQuery) {
       isFirstUserQuery = false;
@@ -266,13 +267,10 @@ function getUserInfo() {
         .filter((r) => !r.isFork)
         .map(cleanRepo)
         .sort((a, b) => a.name.localeCompare(b.name));
-
       setStatus(user.repos.length + " repos (forks excluded).");
-
       addTotals(user);
-
-      document.getElementById("user").value =
-        "const gitUser = " + JSON.stringify(user, null, 2);
+      document.getElementById("user").value = "const gitUser = " + toJSON(user);
+      setStatus("Generating queries...");
     }
     if (data.user.followers && data.user.followers.pageInfo.hasNextPage) {
       console.log("followers", data.user.followers.pageInfo.endCursor);
@@ -294,13 +292,12 @@ function getUserInfo() {
     data.user.followers.nodes.forEach((u) => {
       fans[u.login] = cleanUser(u, "*");
     });
-  }
-
+  };
   setStatus("Querying user " + login + "...");
   runQuery(qRepos(""), cbRepos, cbError);
-}
+};
 
-function getFans(repo) {
+const getFans = (repo) => {
   console.log(repo.name);
   document.getElementById("fans").value = "Waiting...";
   setStatus("Querying fans for repo " + repo.name + ".");
@@ -335,13 +332,12 @@ function getFans(repo) {
     `;
   };
 
-  function cbFans(data, hasError) {
+  const cbFans = (data, hasError) => {
     let curStars = "skip";
     let curForks = "skip";
     if (!hasError) {
       const repo = data.repository;
       const project = repo.name;
-
       if (repo.stargazers) {
         repo.stargazers.nodes.forEach((u) => {
           const fan = fans[u.login];
@@ -402,9 +398,9 @@ function getFans(repo) {
           (runningQueries > 1 ? runningQueries + " queries..." : "1 query...")
       );
     } else {
-      document.getElementById("fans").value = JSON.stringify(fans, null, 2);
+      document.getElementById("fans").value = toJSON(fans);
     }
-    document.getElementById("user").value = JSON.stringify(user, null, 2);
+    document.getElementById("user").value = toJSON(user);
     if (!runningQueries) {
       setStatus(
         "Data fetched in " +
@@ -414,10 +410,10 @@ function getFans(repo) {
       setStatus(dataSummary());
       showElem("bDownload");
     }
-  }
+  };
 
   runQuery(qFans("", ""), cbFans, cbError);
-}
+};
 
 const showElem = (id) => document.getElementById(id).classList.remove("hidden");
 const hideElem = (id) => document.getElementById(id).classList.add("hidden");
@@ -448,11 +444,11 @@ const addTotals = (user) => {
   return totals;
 };
 
-function setStatus(msg, onlyMsg) {
+const setStatus = (msg, onlyMsg) => {
   const e = document.getElementById("status");
   e.innerHTML = onlyMsg ? msg : e.innerHTML + "<br>" + msg;
   e.scroll(0, e.scrollHeight);
-}
+};
 
 const startQuery = () => {
   user = {};
@@ -467,15 +463,15 @@ const startQuery = () => {
   getUserInfo();
 };
 
-function copy(fieldName) {
+const copy = (fieldName) => {
   var copyText = document.getElementById(fieldName);
   copyText.select();
   copyText.setSelectionRange(0, 99999); /*For mobile devices*/
   document.execCommand("copy");
-}
+};
 
 // https://stackoverflow.com/questions/3665115/how-to-create-a-file-in-memory-for-user-to-download-but-not-through-server
-function download() {
+const download = () => {
   const dNow = new Date();
   const txt = `
 /*
@@ -485,9 +481,9 @@ function download() {
   meet-the-fans: https://github.com/evoluteur/meet-the-fans
 */
 
-const gitUser = ${JSON.stringify(user, null, 2)};
+const gitUser = ${toJSON(user)};
 
-const fans = ${JSON.stringify(fans, null, 2)};
+const fans = ${toJSON(fans)};
 `;
   var element = document.createElement("a");
   element.setAttribute(
@@ -499,4 +495,4 @@ const fans = ${JSON.stringify(fans, null, 2)};
   document.body.appendChild(element);
   element.click();
   document.body.removeChild(element);
-}
+};

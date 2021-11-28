@@ -37,16 +37,16 @@ if (fans[gitUser.login]) {
 
 const size = (user) => 5 + (user.starred.length + user.forked.length) * 2;
 
-function userColorGroup(u) {
+const userColorGroup = (u) => {
   if (u.forked.length) {
     return u.starred.length ? "both" : "fork";
   } else if (u.follower) {
     return "follower";
   }
   return "star";
-}
+};
 
-function getData() {
+const getData = () => {
   let nodes = [];
   let links = [];
 
@@ -88,4 +88,4 @@ function getData() {
     nodes: nodes,
     links: links,
   };
-}
+};
