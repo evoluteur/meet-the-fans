@@ -285,8 +285,8 @@ div.tooltip {
   border: solid 1px silver;
 }
 .avatar-small > img {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   margin: 0 5px 0 10px;
 }
