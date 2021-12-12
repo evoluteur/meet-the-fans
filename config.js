@@ -1,8 +1,11 @@
 const config = {
+  // svg size
   height: 2000,
   width: 2000,
+  // graph params
   strength: -30,
   distance: 50,
+  // colors
   userColors: {
     follower: "#B9D7EB",
     star: "#86BDDC",
@@ -11,5 +14,6 @@ const config = {
   },
   colorFaded: "#37a3de", // '#e1e1e1', '#eeeeee',
   circleBorder: "white",
+  // misc.
   maxTopics: 5,
 };

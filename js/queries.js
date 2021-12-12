@@ -11,6 +11,7 @@ let login;
 
 let user = {};
 let fans = {};
+let totalQueries = 0;
 let runningQueries = 0;
 let startTime;
 
@@ -27,6 +28,7 @@ const gqlOptions = (query) => ({
 });
 
 const runQuery = (q, cb, cbError) => {
+  totalQueries += 1;
   runningQueries += 1;
   fetch(apiPathGraphQL, gqlOptions(q))
     .then((r) => r.json())
@@ -257,7 +259,6 @@ const getUserInfo = () => {
   `;
 
   const cbRepos = (data) => {
-    runningQueries -= 1;
     if (isFirstUserQuery) {
       isFirstUserQuery = false;
       user = cleanUser(data.user);
@@ -292,6 +293,7 @@ const getUserInfo = () => {
     data.user.followers.nodes.forEach((u) => {
       fans[u.login] = cleanUser(u, "*");
     });
+    runningQueries -= 1;
   };
   setStatus("Querying user " + login + "...");
   runQuery(qRepos(""), cbRepos, cbError);
@@ -405,7 +407,9 @@ const getFans = (repo) => {
       setStatus(
         "Data fetched in " +
           Math.floor((new Date() - startTime) / 1000) +
-          " seconds."
+          " seconds using " +
+          totalQueries +
+          " queries."
       );
       setStatus(dataSummary());
       showElem("bDownload");
@@ -446,7 +450,7 @@ const addTotals = (user) => {
 
 const setStatus = (msg, onlyMsg) => {
   const e = document.getElementById("status");
-  e.innerHTML = onlyMsg ? msg : e.innerHTML + "<br>" + msg;
+  e.innerHTML = onlyMsg ? msg : e.innerHTML + "<br/>" + msg;
   e.scroll(0, e.scrollHeight);
 };
 
