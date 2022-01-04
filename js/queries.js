@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2021 Olivier Giulieri
+    (c) 2022 Olivier Giulieri
 */
 
 const apiPathGraphQL = "https://api.github.com/graphql";
@@ -26,7 +26,7 @@ const gqlOptions = (query) => ({
   },
   body: JSON.stringify({ query: query }),
 });
-
+const setStatusRed = (msg) => setStatus('<span class="red">' + msg + "</span>");
 const runQuery = (q, cb, cbError) => {
   totalQueries += 1;
   runningQueries += 1;
@@ -34,25 +34,21 @@ const runQuery = (q, cb, cbError) => {
     .then((r) => r.json())
     .then((data) => {
       if (data.errors) {
-        setStatus(
-          '<span class="red">' +
-            data.errors.map((err) => err.message).join("<br/>") +
-            "</span>"
-        );
+        setStatusRed(data.errors.map((err) => err.message).join("<br/>"));
         if (cbError) {
           cbError(data.errors);
         }
         cb(null, true);
       } else if (data.message && data.documentation_url) {
         runningQueries -= 1;
-        setStatus('<span class="red">' + data.message + "</span>");
+        setStatusRed(data.message);
       } else {
         cb(data.data);
       }
     })
     .catch((err) => {
       runningQueries -= 1;
-      setStatus('<span class="red">' + err.message + "</span>");
+      setStatusRed(err.message);
     });
 };
 
@@ -273,19 +269,16 @@ const getUserInfo = () => {
       document.getElementById("user").value = "const gitUser = " + toJSON(user);
       setStatus("Generating queries...");
     }
-    if (data.user.followers && data.user.followers.pageInfo.hasNextPage) {
-      console.log("followers", data.user.followers.pageInfo.endCursor);
-      runQuery(
-        qRepos(data.user.followers.pageInfo.endCursor),
-        cbRepos,
-        cbError
-      );
+    const fs = data.user.followers;
+    if (fs && fs.pageInfo.hasNextPage) {
+      console.log("followers", fs.pageInfo.endCursor);
+      runQuery(qRepos(fs.pageInfo.endCursor), cbRepos, cbError);
     } else {
       user.repos.forEach((r) => {
         if (r.nbStars + r.nbForks) {
           getFans(r);
         } else {
-          setStatus("Skipping repo " + r.name + ".");
+          setStatus(`Skipping repo ${r.name}.`);
         }
       });
       //user.repos.forEach(r => getFans(r))
@@ -295,14 +288,14 @@ const getUserInfo = () => {
     });
     runningQueries -= 1;
   };
-  setStatus("Querying user " + login + "...");
+  setStatus(`Querying user ${login}...`);
   runQuery(qRepos(""), cbRepos, cbError);
 };
 
 const getFans = (repo) => {
   console.log(repo.name);
   document.getElementById("fans").value = "Waiting...";
-  setStatus("Querying fans for repo " + repo.name + ".");
+  setStatus(`Querying fans for repo ${repo.name}.`);
   if (!(repo.nbStars || repo.nbForks)) {
     return;
   }
@@ -423,6 +416,8 @@ const showElem = (id) => document.getElementById(id).classList.remove("hidden");
 const hideElem = (id) => document.getElementById(id).classList.add("hidden");
 
 const dataSummary = () =>
+  login +
+  ": " +
   user.nbRepos +
   " repos, " +
   user.nbStars +
@@ -432,7 +427,7 @@ const dataSummary = () =>
   user.nbFollowers +
   " followers => " +
   Object.keys(fans).length +
-  " fans.";
+  " fans.<br/>";
 
 const addTotals = (user) => {
   let totals = {

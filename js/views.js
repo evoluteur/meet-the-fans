@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2021 Olivier Giulieri
+    (c) 2022 Olivier Giulieri
 */
 
 const repoArr = (repoIds) =>
@@ -19,15 +19,14 @@ const urlField = (o, prop) =>
   </div>
 `
     : "";
-const iconTextField = (icon, text) =>
-  `<div class="icon ${icon}"></div><span>${text}</span>`;
-
-const icon = (name) => '<div class="icon ' + name + '"></div>';
+const icon = (iconName) => '<div class="icon ' + iconName + '"></div>';
+const condIcon = (iconName, count) =>
+  count ? `${icon(iconName)}<span>${count}</span>` : "";
 
 const infoRepo = (name) => {
   const o = repos.find((item) => item.name === name);
   let h = "";
-  let url = "https://github.com/" + gitUser.login + "/" + o.name;
+  let url = `https://github.com/${gitUser.login}/${o.name}`;
 
   h += `<h1><a href="${url}" target="${o.name}">
       <div class="repo-circle" style="background-color:${color({
@@ -37,12 +36,13 @@ const infoRepo = (name) => {
       })}"></div>
       ${o.name}
     </a></h1>`;
-  h += urlField(o, "homepageUrl");
-  h += repoItemPop(o);
-  h += o.repos ? repoList(repos) : "";
-  h += o.description ? `<div class="field">${o.description}</div>` : "";
-  h += textField("Updated", o.updatedAt);
-  h += textField("Created", o.createdAt);
+  h +=
+    urlField(o, "homepageUrl") +
+    repoItemPop(o) +
+    (o.repos ? repoList(repos) : "") +
+    (o.description ? `<div class="field">${o.description}</div>` : "") +
+    textField("Updated", o.updatedAt) +
+    textField("Created", o.createdAt);
   h += o.licenseInfo
     ? `<div class="field multi">${icon("license")}<a href="${
         o.licenseInfo.url
@@ -68,9 +68,7 @@ const userTooltip = (d) =>
   avatarPix(fans[d.id].avatarUrl, "avatar-small") +
   d.id +
   textField("Updated", d.updatedAt);
-//const iconDiv = icon => '<div class="icon '+icon+'"></div>'
 
-//const cField = (css, value) =>
 const infoUser = (name) => {
   const o = name === "*" ? gitUser : fans[name];
   let h = "";
@@ -82,11 +80,10 @@ const infoUser = (name) => {
     : "";
   h += `<h1><a href="${url}" target="${o.login}">${o.login}</a></h1>`;
   h += o.fullName ? `<div class="fullName">${o.fullName}</div>` : "";
-  h += urlField(o, "websiteUrl");
-  h += urlField(o, "webURL");
+  h += urlField(o, "websiteUrl") + urlField(o, "webURL");
 
   h += o.location
-    ? `<div class="field"><div class="icon location"></div><span> ${o.location}</span></div>`
+    ? `<div class="field"><div class="icon location"></div> <span>${o.location}</span></div>`
     : "";
   h += o.bio ? `<div class="field">${o.bio}</div>` : "";
 
@@ -99,8 +96,7 @@ const infoUser = (name) => {
       }</a>`
     : "";
   if (isMe) {
-    h += o.nbStars ? iconTextField("star", o.nbStars) : "";
-    h += o.nbForks ? iconTextField("fork", o.nbForks) : "";
+    h += condIcon("star", o.nbStars) + condIcon("fork", o.nbForks);
   } else {
     h += o.nbRepos
       ? `${icon("repos")}<a href="https://github.com/${
@@ -170,9 +166,9 @@ const repoItem = (r, skipMe) => {
         ${
           isMe
             ? `<div class="field multi">
-          ${r.nbFollowers ? icon("followers") + r.nbFollowers : ""}
-          ${r.nbStars ? icon("star") + r.nbStars : ""}
-          ${r.nbForks ? icon("fork") + r.nbForks : ""}
+          ${condIcon("followers", r.nbFollowers)}
+          ${condIcon("star", r.nbStars)}
+          ${condIcon("fork", r.nbForks)}
         </div>`
             : repoItemPop(r)
         }

@@ -1,63 +1,129 @@
-<html xmlns="http://www.w3.org/1999/xhtml" > 
-<head>
-	<meta charset="utf-8">
-    <title>Meet-the-Fans: Data Fetching</title> 
-    <meta name="description" content="Query GitHub for your followers, stargazers, and forks.">
-    <meta name="keywords" content="github data graphql api query network followers stars forks fans graph">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Meet-the-Fans: Data Fetching</title>
+    <meta
+      name="description"
+      content="Query GitHub for your followers, stargazers, and forks."
+    />
+    <meta
+      name="keywords"
+      content="github data graphql api query network followers stars forks fans graph"
+    />
     <meta name="author" content="Olivier Giulieri" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#bbdefb" />
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">
-	<link href="css/meet-the-fans-data.css" rel="stylesheet" />
-	<script src="js/queries.js"></script>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Overpass"
+    />
+    <link href="css/meet-the-fans-data.css" rel="stylesheet" />
+    <script src="js/queries.js"></script>
+  </head>
 
-<body>  
+  <body>
     <h1>
-        <a href="index.html"><svg class="home" onclick="showDetails(event, {id:'*'})" width="24" height="24" viewBox="0 0 24 24"><path d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg></a>
-        Meet-the-Fans
+      <a href="index.html"
+        ><svg
+          class="home"
+          onclick="showDetails(event, {id:'*'})"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+          /></svg
+      ></a>
+      Meet-the-Fans
     </h1>
 
-    <a href="https://github.com/evoluteur/meet-the-fans"><svg class="github" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+    <a href="https://github.com/evoluteur/meet-the-fans"
+      ><svg
+        class="github"
+        height="32"
+        viewBox="0 0 16 16"
+        version="1.1"
+        width="32"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+        ></path></svg
+    ></a>
 
-    <p>Let's fetch your user info, repositories, followers, stars, and forks using <a href="https://docs.github.com/en/graphql" target="_blank" rel="noopener">GitHub GraphQL API</a>.</p>
-	<div class="form-login-token">
-		<div class="form-fields">
-			<div class="form-field">
-				<label>GitHub User:</label>
-				<input id="github_user" value="">
-			</div>
-			<div class="form-field">
-				<label>GitHub Token <a href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token" target="gh" rel="noopener">[?]</a>:</label>
-				<textarea id="github_token"></textarea>
-			</div>
-		</div>
-		<div>
-            <button id="btnMTF" class="btn mtf" onclick="startQuery()">Fetch data</button>
-            <button id="bDownload" class="btn mtf hidden" onclick="download()">
-                Download
-            </button>
-		</div>
-		<div id="status" class="hidden"></div>
-	</div>
+    <p>
+      Let's fetch your user info, repositories, followers, stars, and forks
+      using
+      <a
+        href="https://docs.github.com/en/graphql"
+        target="_blank"
+        rel="noopener"
+        >GitHub GraphQL API</a
+      >.
+    </p>
+    <div class="form-login-token">
+      <div class="form-fields">
+        <div class="form-field">
+          <label>GitHub User:</label>
+          <input id="github_user" value="evoluteur" />
+        </div>
+        <div class="form-field">
+          <label
+            >GitHub Token
+            <a
+              href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token"
+              target="gh"
+              rel="noopener"
+              >[?]</a
+            >:</label
+          >
+          <textarea id="github_token">
+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</textarea
+          >
+        </div>
+      </div>
+      <div>
+        <button id="btnMTF" class="btn mtf" onclick="startQuery()">
+          Fetch data
+        </button>
+        <button id="bDownload" class="btn mtf hidden" onclick="download()">
+          Download
+        </button>
+      </div>
+      <div id="status" class="hidden"></div>
+    </div>
 
     <div id="response" class="hidden">
-        <div class="response2c">
-            <div class="form-field r-user">
-                <label for="user">User and repos<div class="icon copy" onclick="copy('user')"></div></label>
-                <textarea id="user">Waiting for query response...</textarea>  
-            </div>
-            <div class="form-field r-fans">
-                <label for="user">Fans <div class="icon copy" onclick="copy('fans')"></div></label>
-                <textarea id="fans"></textarea>  
-            </div>
+      <div class="response2c">
+        <div class="form-field r-user">
+          <label for="user"
+            >User and repos
+            <div class="icon copy" onclick="copy('user')"></div
+          ></label>
+          <textarea id="user">Waiting for query response...</textarea>
         </div>
+        <div class="form-field r-fans">
+          <label for="user"
+            >Fans
+            <div class="icon copy" onclick="copy('fans')"></div
+          ></label>
+          <textarea id="fans"></textarea>
+        </div>
+      </div>
     </div>
     <footer>
-		<p>Code: <a href="https://github.com/evoluteur/meet-the-fans">evoluteur/meet-the-fans</a> at GitHub.</p>
-		<p>© 2021 <a href="https://evoluteur.github.io/">Olivier Giulieri</a></p>
-	</footer>
-</body>
+      <p>
+        Code:
+        <a href="https://github.com/evoluteur/meet-the-fans"
+          >evoluteur/meet-the-fans</a
+        >
+        at GitHub.
+      </p>
+      <p>© 2022 <a href="https://evoluteur.github.io/">Olivier Giulieri</a></p>
+    </footer>
+  </body>
 </html>

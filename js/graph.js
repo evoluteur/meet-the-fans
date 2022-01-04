@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2021 Olivier Giulieri
+    (c) 2022 Olivier Giulieri
 */
 
 const height = config.height || 2000;
@@ -174,7 +174,6 @@ const showDetails = (evt, d) => {
   let fnFilterLines = (c) => d.id !== c.source.id && d.id !== c.target.id;
   if (d.oType === "repo") {
     selectedRepo = d.id;
-    //console.log(selectedRepo)
     fnFilterCircles = (c) => {
       if (c.oType === "repo") {
         return d.id !== c.id || c.id == "";
