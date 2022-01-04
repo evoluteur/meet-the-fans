@@ -24,7 +24,7 @@ Clicking a project dot (on the graph or in the left pane) highlights it with its
 
 [![Evoluteur's graph](screenshots/mtf-data-viz-2.png)](https://evoluteur.github.io/meet-the-fans/)
 
-The graph can be configured in the [config.js](https://github.com/evoluteur/meet-the-fans/blob/master/config.js) file. You may also want to modify the [CSS](https://github.com/evoluteur/meet-the-fans/blob/master/css/meet-the-fans.css).
+The graph supports zoom and pan. Colors, size and force layout can be configured in the [config.js](https://github.com/evoluteur/meet-the-fans/blob/master/config.js) file. You may also want to modify the [CSS](https://github.com/evoluteur/meet-the-fans/blob/master/css/meet-the-fans.css).
 
 ```javascript
 const config = {
@@ -55,4 +55,4 @@ npm run mini
 
 Meet-the-Fans is released under the [MIT license](http://github.com/evoluteur/meet-the-fans/blob/master/LICENSE).
 
-Copyright (c) 2021 [Olivier Giulieri](https://evoluteur.github.io/).
+Copyright (c) 2022 [Olivier Giulieri](https://evoluteur.github.io/).
