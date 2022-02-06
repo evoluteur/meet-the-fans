@@ -5,7 +5,7 @@
 */
 
 const apiPathGraphQL = "https://api.github.com/graphql";
-const pageSize = 20; // max=100 but GitHub times out
+const pageSize = 25; // max=100 but GitHub times out
 let token;
 let login;
 
@@ -237,7 +237,7 @@ const getUserInfo = () => {
         following {
           totalCount
         }
-        followers(first:100){
+        followers(first:50){
           totalCount
           nodes{
             ${userDetails}
