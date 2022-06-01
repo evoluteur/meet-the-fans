@@ -20,7 +20,7 @@ You will need a [GitHub Access Token](https://docs.github.com/en/free-pro-team@l
 
 You will have to change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
 
-Clicking a project dot (on the graph or in the left pane) highlights it with its stargazers and forks.
+Clicking a project dot (on the graph or in the side pane) highlights it with its stargazers and forks.
 
 [![Evoluteur's graph](screenshots/mtf-data-viz-2.png)](https://evoluteur.github.io/meet-the-fans/)
 
