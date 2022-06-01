@@ -1,6 +1,6 @@
 {
   "name": "meet-the-fans",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Network graph of GitHub repositories, followers, stars, and forks.",
   "repository": {
     "type": "git",
