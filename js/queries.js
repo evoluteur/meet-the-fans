@@ -5,7 +5,9 @@
 */
 
 const apiPathGraphQL = "https://api.github.com/graphql";
-const pageSize = 25; // max=100 but GitHub times out
+const pageSize = 15; // max=100 but GitHub times out
+const timeBwQueries = 2000; // milliseconds to wait b/w queries to avoid exceeding GitHub secondary rate limit.
+
 let token;
 let login;
 
@@ -15,6 +17,14 @@ let totalQueries;
 let runningQueries;
 let nbErrors;
 let startTime;
+
+function sleep() {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < timeBwQueries);
+}
 
 const toJSON = (obj) => JSON.stringify(obj, null, 2);
 const formatDate = (dateString) => new Date(dateString).toLocaleDateString();
@@ -330,6 +340,7 @@ const getFans = (repo) => {
   };
 
   const cbFans = (data, hasError) => {
+    sleep();
     let curStars = "skip";
     let curForks = "skip";
     if (!hasError) {
