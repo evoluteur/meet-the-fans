@@ -11,8 +11,9 @@ let login;
 
 let user = {};
 let fans = {};
-let totalQueries = 0;
-let runningQueries = 0;
+let totalQueries;
+let runningQueries;
+let nbErrors;
 let startTime;
 
 const toJSON = (obj) => JSON.stringify(obj, null, 2);
@@ -34,12 +35,14 @@ const runQuery = (q, cb, cbError) => {
     .then((r) => r.json())
     .then((data) => {
       if (data.errors) {
+        nbErrors += 1;
         setStatusRed(data.errors.map((err) => err.message).join("<br/>"));
         if (cbError) {
           cbError(data.errors);
         }
         cb(null, true);
       } else if (data.message && data.documentation_url) {
+        nbErrors += 1;
         runningQueries -= 1;
         setStatusRed(data.message);
       } else {
@@ -129,7 +132,7 @@ const userDetails = `
   followers {
     totalCount
   }
-  repositories{
+  repositories {
     totalCount
   }
   following {
@@ -140,10 +143,10 @@ const userDetails = `
   }
 `;
 const ownerDetails = `
-  owner{
+  owner {
     login
     avatarUrl
-    repositories{
+    repositories {
       totalCount
     }
   }
@@ -157,13 +160,13 @@ const repoDetails = `
   description
   isFork
   forkCount
-  licenseInfo{
+  licenseInfo  {
     key
     name
     url
   }
   languages(first:50){
-    nodes{
+    nodes {
       name
       color
     }
@@ -180,7 +183,7 @@ const repoDetails = `
   }
   repoRelease: releases(last:1){
     totalCount
-    nodes{
+    nodes {
      name
       publishedAt
    }
@@ -281,7 +284,6 @@ const getUserInfo = () => {
           setStatus(`Skipping repo ${r.name}.`);
         }
       });
-      //user.repos.forEach(r => getFans(r))
     }
     data.user.followers.nodes.forEach((u) => {
       fans[u.login] = cleanUser(u, "*");
@@ -388,10 +390,7 @@ const getFans = (repo) => {
     }
 
     if (runningQueries) {
-      setStatus(
-        "Waiting on " +
-          (runningQueries > 1 ? runningQueries + " queries..." : "1 query...")
-      );
+      setStatus(`Waiting on ${runningQueries} of ${totalQueries} queries...`);
     } else {
       document.getElementById("fans").value = toJSON(fans);
     }
@@ -402,8 +401,11 @@ const getFans = (repo) => {
           Math.floor((new Date() - startTime) / 1000) +
           " seconds using " +
           totalQueries +
-          " queries."
+          " GraphQL queries."
       );
+      if (nbErrors) {
+        setStatus(nbErrors + " queries with error or timeout.");
+      }
       setStatus(dataSummary());
       showElem("bDownload");
     }
@@ -427,7 +429,9 @@ const dataSummary = () =>
   user.nbFollowers +
   " followers => " +
   Object.keys(fans).length +
-  " fans.<br/>";
+  " fans" +
+  (nbErrors ? " (partial results due to errors)" : "") +
+  ".<br/>";
 
 const addTotals = (user) => {
   let totals = {
@@ -450,6 +454,9 @@ const setStatus = (msg, onlyMsg) => {
 };
 
 const startQuery = () => {
+  totalQueries = 0;
+  runningQueries = 0;
+  nbErrors = 0;
   user = {};
   fans = {};
   showElem("status");
