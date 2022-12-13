@@ -44,6 +44,7 @@ textarea {
   flex-grow: 1;
   margin-right: 10px;
   font-size: 14px;
+  border-radius: 6px;
 }
 #user,
 #fans {
@@ -96,6 +97,7 @@ input {
   font-size: 20px;
   padding: 10px;
   font-family: "Overpass", arial;
+  border-radius: 6px;
 }
 .btn.mtf {
   margin: 22px 20px;
@@ -103,8 +105,10 @@ input {
   width: 150px;
   padding: 10px;
   font-size: 16px;
+  font-weight: 700;
   background-color: #0277bd;
   color: white;
+  border-radius: 6px;
 }
 #github_token {
   height: 92px;
