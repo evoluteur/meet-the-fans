@@ -191,7 +191,7 @@ const repoDetails = `
   stargazers{
     totalCount
   }
-  repoRelease: releases(last:1){
+  repoRelease: releases(first:1){
     totalCount
     nodes {
      name
