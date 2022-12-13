@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <title>Meet-the-Fans</title>
-        <meta property="og:title" content="Meet-the-Fans" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/evoluteur/meet-the-fans/master/screenshots/evoluteur.gif" />
-		<meta name="description" content="Query GitHub for the followers, stargazers, and forks of your repositiories.">
-		<meta name="keywords" content="d3 d3js data visualization network graph github followers stars forks repository fans">
-    	<meta name="author" content="Olivier Giulieri" />
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta name="theme-color" content="#bbdefb" />
-		<meta charset="utf-8">
-		<link rel="icon" type="image/png" href="favicon.png" />
-		<link rel="stylesheet" type="text/css" href="css/meet-the-fans.css">
-		<script src="https://d3js.org/d3.v6.min.js"></script>
-		<script src="config.js"></script>
-		<script src="data/data-evoluteur.js"></script>
-		<script src="dist/meet-the-fans.min.js"></script>
-	</head>
+  <head>
+    <title>Meet-the-Fans</title>
+    <meta property="og:title" content="Meet-the-Fans" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/evoluteur/meet-the-fans/master/screenshots/evoluteur.gif"
+    />
+    <meta
+      name="description"
+      content="Query GitHub for the followers, stargazers, and forks of your repositiories."
+    />
+    <meta
+      name="keywords"
+      content="d3 d3js data visualization network graph github followers stars forks repository fans"
+    />
+    <meta name="author" content="Olivier Giulieri" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#bbdefb" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/meet-the-fans.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="config.js"></script>
+    <script src="data/data-evoluteur.js"></script>
+    <script src="dist/meet-the-fans.min.js"></script>
+  </head>
 
-	<body onload="renderGraph()">
-        <svg class="home" onclick="showDetails(event, {id:'*'})" width="24" height="24" viewBox="0 0 24 24"><path d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+  <body onload="renderGraph()">
+    <svg
+      class="home"
+      onclick="showDetails(event, {id:'*'})"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+      />
+    </svg>
 
-        <div id="graph"></div>
-        <div id="details"></div>
-        <footer>
-            <a href="https://evoluteur.github.io/" style="color:white">evoluteur</a> / <a href="https://github.com/evoluteur/meet-the-fans">meet-the-fans</a>
-        </footer>
-	</body>
-	
+    <div id="graph"></div>
+    <div id="details"></div>
+    <footer>
+      <a href="https://evoluteur.github.io/" style="color: white">evoluteur</a>
+      / <a href="https://github.com/evoluteur/meet-the-fans">meet-the-fans</a>
+    </footer>
+  </body>
 </html>

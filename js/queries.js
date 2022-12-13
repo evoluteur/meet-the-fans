@@ -5,8 +5,8 @@
 */
 
 const apiPathGraphQL = "https://api.github.com/graphql";
-const pageSize = 15; // max=100 but GitHub times out
-const timeBwQueries = 2000; // milliseconds to wait b/w queries to avoid exceeding GitHub secondary rate limit.
+const pageSize = 10; // max=100 but GitHub times out
+const timeBwQueries = 5000; // milliseconds to wait b/w queries to avoid exceeding GitHub secondary rate limit.
 
 let token;
 let login;
@@ -33,7 +33,7 @@ const gqlOptions = (query) => ({
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
-    Authorization: "Bearer " + token,
+    Authorization: `Bearer ${token}`,
   },
   body: JSON.stringify({ query: query }),
 });
@@ -95,6 +95,11 @@ const cleanUser = (node, repo) => {
   return user;
 };
 
+const getVersion = (releases) => {
+  const releaseCount = releases?.length;
+  return releaseCount ? releases[releaseCount - 1].name : "";
+};
+
 const cleanRepo = (r) => ({
   //oType: 'repo',
   name: r.name,
@@ -110,10 +115,7 @@ const cleanRepo = (r) => ({
   //starHistory: [],
   //forkHistory: [],
   nbReleases: r.repoRelease.totalCount || 0,
-  version:
-    r.repoRelease.nodes && r.repoRelease.nodes.length
-      ? r.repoRelease.nodes[0].name
-      : "",
+  version: getVersion(r.repoRelease.nodes),
   //releasedAt: r.releases.nodes[0],
   topics: r.repositoryTopics
     ? r.repositoryTopics.nodes.map((rt) => rt.topic.name || "N/A")
