@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/evoluteur/meet-the-fans.git"
   },
-  "copyright": "(c) 2022 Olivier Giulieri",
+  "copyright": "(c) 2023 Olivier Giulieri",
   "author": "Olivier Giulieri (https://evoluteur.github.io/)",
   "license": "MIT",
   "scripts": {

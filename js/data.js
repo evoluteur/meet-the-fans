@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2022 Olivier Giulieri
+    (c) 2023 Olivier Giulieri
 */
 
 let reposH = { "*": gitUser };
