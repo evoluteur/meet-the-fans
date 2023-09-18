@@ -2,7 +2,7 @@ body {
   padding: 20px;
   font-size: 14pt;
   font-family: "Overpass", arial;
-  background-color: #0288d1;
+  background: #0288d1 url("spirals.png");
   color: white;
 }
 svg.home {

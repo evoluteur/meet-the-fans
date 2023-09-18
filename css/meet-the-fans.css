@@ -13,7 +13,7 @@ body {
   font-size: 14px;
   font-family: "Overpass", arial;
   color: rgb(112, 112, 112);
-  background-color: #0288d1;
+  background: #0288d1 url("spirals.png");
 }
 
 a {
