@@ -13,6 +13,7 @@ body {
   font-size: 14px;
   font-family: "Overpass", arial;
   color: rgb(112, 112, 112);
+  scroll-behavior: smooth;
   background: #0288d1 url("spirals.png");
 }
 
@@ -72,9 +73,9 @@ svg.home:hover {
   max-height: 100%;
   overflow-y: scroll;
   top: -1px;
-  width: 190px;
+  width: 230px;
   border: solid grey 1px;
-  padding: 10px 20px 10px;
+  padding: 10px;
   background-color: white;
   overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -90,7 +91,7 @@ svg.home:hover {
   border-bottom-right-radius: 10px;
 }
 #details.w220 {
-  width: 220px;
+  width: 240px;
 }
 #details > h1 {
   font-size: 20px;
@@ -113,12 +114,17 @@ svg.home:hover {
 }
 .h190 {
   min-height: 190px;
+  text-align: center;
+}
+#summary-count {
+  margin-left: 10px;
+  color: grey;
+}
+.project {
+  cursor: pointer;
 }
 .reposList {
   padding-bottom: 20px;
-}
-.reposList > div .multi {
-  display: none;
 }
 .reposList > div:hover .multi {
   display: block;
@@ -188,6 +194,9 @@ h1 > a:hover {
 }
 .field.multi div {
   margin-right: 5px;
+}
+.reposList .field.multi div {
+  margin-left: 20px;
 }
 
 .field.ellipsis > a {
@@ -289,4 +298,15 @@ div.tooltip {
   width: 80px;
   border-radius: 50%;
   margin: 0 5px 0 10px;
+}
+.field-holder {
+  display: inline;
+  padding: 5px;
+  > input {
+    height: 24px;
+    border-radius: 4px;
+    padding: 4px 7px;
+    font-size: 16px;
+    max-width: 130px;
+  }
 }

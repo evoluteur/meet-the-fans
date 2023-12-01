@@ -4,6 +4,29 @@
     (c) 2023 Olivier Giulieri
 */
 
+const $ = (id) => document.getElementById(id);
+
+const refreshRepos = (fRepos, summary) => {
+  $("reposList").innerHTML = repoList(fRepos);
+  $("summary-count").innerHTML = '<span class="summary">' + summary + "</span>";
+};
+
+var searchChange = (evt, elem) => {
+  const search = evt?.currentTarget?.value;
+  const totalCount = repos?.length || 0;
+  if (search) {
+    const fRepos = repos.filter((r) => r.name.includes(search));
+    const filteredCount = fRepos.length;
+    refreshRepos(fRepos, filteredCount + " / " + totalCount);
+  } else {
+    refreshRepos(repos, totalCount);
+  }
+};
+
+const search = () => {
+  const count = repos.length;
+  return `<div class="field-holder"><input type="text class="field" onkeyup="javascript:searchChange(event,this)"/><span id="summary-count">${count}</span></div>`;
+};
 const repoArr = (repoIds) =>
   repoIds
     .sort((a, b) => a.localeCompare(b))
@@ -107,6 +130,7 @@ const infoUser = (name) => {
   h += "</div>";
 
   if (isMe) {
+    h += search();
     h += repoList(gitUser.repos, true);
   } else {
     if (o.starred && o.starred.length) {
@@ -130,14 +154,14 @@ const infoUser = (name) => {
 };
 
 const repoList = (repos, skipMe, skipLabel) =>
-  '<div class="reposList">' +
-  (skipLabel
-    ? ""
-    : '<span class="repoIco">' +
-      icon("repos") +
-      " " +
-      repos.length +
-      "</span>") +
+  '<div id="reposList" class="reposList">' +
+  // (skipLabel
+  //   ? ""
+  //   : '<span class="repoIco">' +
+  //     icon("repos") +
+  //     " " +
+  //     repos.length +
+  //     "</span>") +
   repos.map((r) => repoItem(r, skipMe)).join("") +
   "</div>";
 
@@ -149,7 +173,7 @@ const repoItem = (r, skipMe) => {
   const name = isMe ? r.login : r.name;
   const url = isMe ? r.login : gitUser.login + "/" + r.name;
   return `
-      <div>
+      <div onclick="javascript:selectProject('${r.name}')" class="project">
         <a class="${isMe ? "gituser" : ""}" href="javascript:selectProject('${
     r.name
   }')">
