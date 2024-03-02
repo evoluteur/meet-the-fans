@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2023 Olivier Giulieri
+    (c) 2024 Olivier Giulieri
 */
 
 html,
@@ -124,7 +124,7 @@ svg.home:hover {
   cursor: pointer;
 }
 .reposList {
-  padding-bottom: 20px;
+  padding: 10px 0 20px;
 }
 .reposList > div:hover .multi {
   display: block;
@@ -147,14 +147,13 @@ svg.home:hover {
 }
 h1 {
   font-size: 22px;
+  > a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
-h1 > a {
-  text-decoration: none;
-}
-h1 > a:hover {
-  text-decoration: underline;
-}
-
 .topics {
   margin: 15px 0 0 0 !important;
 }
@@ -175,10 +174,10 @@ h1 > a:hover {
   line-height: 22px;
   color: #0366d6;
   margin-bottom: 8px;
-}
-.topics > div:hover {
-  text-decoration: none;
-  background-color: #def;
+  &:hover {
+    text-decoration: none;
+    background-color: #def;
+  }
 }
 .morelink {
   cursor: pointer;
@@ -196,7 +195,7 @@ h1 > a:hover {
   margin-right: 5px;
 }
 .reposList .field.multi div {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .field.ellipsis > a {
@@ -260,17 +259,18 @@ h1 > a:hover {
 line {
   stroke-opacity: 0.6;
 }
-
-g > circle {
-  stroke-width: 1.5px;
-  cursor: pointer;
-}
-g > circle.disabled {
-  cursor: default;
-}
-g > circle:hover {
-  stroke: black !important;
-  opacity: 1 !important;
+g {
+  > circle {
+    stroke-width: 1.5px;
+    cursor: pointer;
+  }
+  > circle.disabled {
+    cursor: default;
+  }
+  > circle:hover {
+    stroke: black !important;
+    opacity: 1 !important;
+  }
 }
 .graph {
   width: 100%;
