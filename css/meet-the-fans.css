@@ -31,13 +31,14 @@ footer {
   left: 10px;
   padding: 10px;
   color: white;
+  a {
+    color: #ffb74d;
+    &:hover {
+      color: #ffcc80;
+    }
+  }
 }
-footer a {
-  color: #ffb74d;
-}
-footer a:hover {
-  color: #ffcc80;
-}
+
 #graph svg {
   /*background-color: white;*/
   width: 100%;
@@ -69,6 +70,7 @@ svg.home:hover {
   display: none;
   position: fixed;
   top: 0;
+  z-index: 100;
   min-height: 140px;
   max-height: 100%;
   overflow-y: scroll;
@@ -79,35 +81,35 @@ svg.home:hover {
   background-color: white;
   overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#details.right {
-  right: -1px;
-  display: block;
-  border-bottom-left-radius: 10px;
-}
-#details.left {
-  left: -1px;
-  display: block;
-  border-bottom-right-radius: 10px;
-}
-#details.w220 {
-  width: 240px;
-}
-#details > h1 {
-  font-size: 20px;
-}
-#details > label {
-  color: grey;
-  margin: 0 0 5px;
-}
-#details > div {
-  margin: 0 0 10px;
-}
-#details > div > img {
-  height: 190px;
-  min-height: 190px;
-  width: 190px;
-  border-radius: 50%;
+  &.right {
+    right: -1px;
+    display: block;
+    border-bottom-left-radius: 10px;
+  }
+  &.left {
+    left: -1px;
+    display: block;
+    border-bottom-right-radius: 10px;
+  }
+  &.w220 {
+    width: 240px;
+  }
+  > h1 {
+    font-size: 20px;
+  }
+  > label {
+    color: grey;
+    margin: 0 0 5px;
+  }
+  > div {
+    margin: 0 0 10px;
+    > img {
+      height: 190px;
+      min-height: 190px;
+      width: 190px;
+      border-radius: 50%;
+    }
+  }
 }
 .w220 {
   width: 220px;
@@ -125,22 +127,22 @@ svg.home:hover {
 }
 .reposList {
   padding: 10px 0 20px;
-}
-.reposList > div:hover .multi {
-  display: block;
-}
-.reposList > div {
-  margin: 0 -6px;
-  padding: 5px 5px 0 5px;
-  border: solid 1px white;
-  border-radius: 5px;
-}
-.reposList > div:hover {
-  border-color: silver;
-}
-.reposList .repoIco {
-  display: inline-block;
-  margin-bottom: 5px;
+  > div:hover .multi {
+    display: block;
+  }
+  > div {
+    margin: 0 -6px;
+    padding: 5px 5px 0 5px;
+    border: solid 1px white;
+    border-radius: 5px;
+  }
+  > div:hover {
+    border-color: silver;
+  }
+  .repoIco {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
 }
 .gituser {
   color: black;

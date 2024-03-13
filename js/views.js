@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2023 Olivier Giulieri
+    (c) 2024 Olivier Giulieri
 */
 
 const $ = (id) => document.getElementById(id);
@@ -36,11 +36,9 @@ const textField = (label, value) =>
   value ? `<div class="field"><label>${label}:</label> ${value}</div>` : "";
 const urlField = (o, prop) =>
   o[prop]
-    ? `
-  <div class="field ellipsis">
+    ? `<div class="field ellipsis">
     <div class="icon link"></div> <a href="${o[prop]}" target="${o.name}" rel="noopener">${o[prop]}</a>
-  </div>
-`
+  </div>`
     : "";
 const icon = (iconName) => '<div class="icon ' + iconName + '"></div>';
 const condIcon = (iconName, count) =>
