@@ -2,7 +2,7 @@
 
 Network graph of repositories, followers, stargazers, and forks to meet your GitHub fans.
 
-[![Evoluteur's graph](screenshots/evoluteur.png)](https://evoluteur.github.io/meet-the-fans/)
+[![Evoluteur's graph](screenshots/mtf-data-viz.png)](https://evoluteur.github.io/meet-the-fans/)
 
 ## Getting the data
 
@@ -15,8 +15,6 @@ You will need a [GitHub Access Token](https://docs.github.com/en/free-pro-team@l
 ## Visualizing the data
 
 [Visualize your data](https://evoluteur.github.io/meet-the-fans/) using D3 force layout.
-
-[![Evoluteur's graph](screenshots/mtf-data-viz.png)](https://evoluteur.github.io/meet-the-fans/)
 
 You will have to change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
 
