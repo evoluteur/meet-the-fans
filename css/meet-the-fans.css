@@ -20,10 +20,11 @@ body {
 .sort-dir,
 a {
   text-decoration: none;
-  color: #0099cc;
+  color: #dbeef3;
   font-weight: 500;
   &:hover {
     text-decoration: underline;
+    color: #b7dde8;
   }
 }
 .sort-dir {
@@ -72,7 +73,8 @@ svg.home {
   }
 }
 #details {
-  /*background-image: url(bg.gif);*/
+  background-color: #1a212d;
+  color: white;
   display: none;
   position: fixed;
   top: 0;
@@ -83,8 +85,7 @@ svg.home {
   top: -1px;
   width: 230px;
   border: solid grey 1px;
-  padding: 10px;
-  background-color: white;
+  padding: 10px 0;
   overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   &.right {
@@ -107,6 +108,9 @@ svg.home {
     color: grey;
     margin: 0 0 5px;
   }
+  > * {
+    padding: 5px;
+  }
   > div {
     margin: 0 0 10px;
     > img {
@@ -115,6 +119,18 @@ svg.home {
       width: 190px;
       border-radius: 50%;
     }
+  }
+  .profile-top {
+    padding: 0 15px;
+    > .icon {
+      margin-left: 10px;
+    }
+    > span {
+      display: inline-block;
+    }
+  }
+  .repo-body {
+    padding: 0 15px;
   }
 }
 .w220 {
@@ -126,7 +142,7 @@ svg.home {
 }
 #summary-count {
   margin-left: 10px;
-  color: grey;
+  color: silver;
 }
 .project {
   cursor: pointer;
@@ -135,23 +151,21 @@ svg.home {
   }
 }
 .reposList {
-  padding: 10px 0 20px;
-  > div:hover .multi {
-    display: block;
-  }
+  padding: 10px 0;
   > div {
-    margin: 0 -6px;
-    padding: 5px 5px 0 5px;
-    border: solid 1px white;
-    border-radius: 5px;
-  }
-  > div:hover {
-    border-color: silver;
+    padding: 5px 10px 2px;
+    transition: background-color 0.3s 0.01s;
+    &:hover {
+      background-color: #2d3848;
+    }
   }
   .repoIco {
     display: inline-block;
     margin-bottom: 5px;
   }
+}
+.profile-top > .field.multi {
+  display: inline-block;
 }
 .gituser {
   color: black;
@@ -167,28 +181,21 @@ h1 {
 }
 .topics {
   margin: 15px 0 0 0 !important;
-
   > div {
     display: inline-block;
     border: solid 1px transparent;
     padding: 0 5px 2px;
     font-size: 0.9em;
     margin: 0 5px 5px 0;
-
     box-sizing: border-box;
     text-decoration: none;
     font-size: 12px;
     white-space: nowrap;
-    background-color: #f1f8ff;
     border-radius: 2em;
     padding: 0 10px;
     line-height: 22px;
-    color: #0366d6;
     margin-bottom: 8px;
-    &:hover {
-      text-decoration: none;
-      background-color: #def;
-    }
+    background-color: #3a4d5d;
   }
 }
 .morelink {
@@ -197,7 +204,7 @@ h1 {
 
 .field {
   display: block;
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 .field.multi > div:not(:first-child) {
   display: inline-block;
@@ -226,6 +233,12 @@ h1 {
   top: 2px;
   border-radius: 50%;
   margin-right: 5px;
+}
+.lbl-10 {
+  margin-left: 10px;
+}
+.f-desc {
+  margin: 15px 0;
 }
 
 #topbar > div,
@@ -300,10 +313,11 @@ div.tooltip {
   display: block;
   position: absolute;
   padding: 5px;
-  background: white;
   border-radius: 8px;
   pointer-events: none;
   border: solid 1px silver;
+  background-color: #1a212d;
+  color: white;
 }
 .avatar-small > img {
   height: 80px;
@@ -316,9 +330,13 @@ div.tooltip {
   padding: 5px;
   > input {
     height: 24px;
+    border: solid 1px #61656b;
     border-radius: 4px;
     padding: 4px 7px;
     font-size: 16px;
-    max-width: 120px;
+    max-width: 114px;
+    color: white;
+    background-color: #1a212d;
+    margin-left: 5px;
   }
 }

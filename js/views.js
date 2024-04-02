@@ -55,13 +55,17 @@ const onSort = (evt, id) => {
 };
 
 const searchBox = () =>
-  `<div class="field-holder"><input type="text class="field" onkeyup="javascript:onSearch(event,this)"/><span id="summary-count">${
+  `<input type="text class="field" onkeyup="javascript:onSearch(event,this)"/><span id="summary-count">${
     repos?.length || ""
   }</span></div>`;
 
 const sortOptions = () =>
+  `<div class="sort-dir" onclick="javascript:onSort(event, 'n')"/>N</div>/<div class="sort-dir" onclick="javascript:onSort(event, 's')"/>S</div>`;
+
+const searchSortElems = () =>
   `<div class="field-holder">
-  <div class="sort-dir" onclick="javascript:onSort(event, 'n')"/>N</div>/<div class="sort-dir" onclick="javascript:onSort(event, 's')"/>S</div>
+  ${searchBox()}
+  ${sortOptions()}
   </div>`;
 
 const repoArr = (repoIds) =>
@@ -86,7 +90,7 @@ const infoRepo = (name) => {
   let h = "";
   let url = `https://github.com/${gitUser.login}/${o.name}`;
 
-  h += `<h1><a href="${url}" target="${o.name}">
+  h += `<div class="repo-body"><h1><a href="${url}" target="${o.name}">
       <div class="repo-circle" style="background-color:${color({
         isRepo: true,
         name: o.name || r.id,
@@ -97,7 +101,7 @@ const infoRepo = (name) => {
   h +=
     urlField(o, "homepageUrl") +
     repoItemPop(o) +
-    (o.description ? `<div class="field">${o.description}</div>` : "") +
+    (o.description ? `<div class="field f-desc">${o.description}</div>` : "") +
     textField("Updated", o.updatedAt) +
     textField("Created", o.createdAt);
   h += o.licenseInfo
@@ -117,6 +121,7 @@ const infoRepo = (name) => {
           .join("")
       : "";
   h += htmlTopics(o.topics);
+  h += "</div>";
   return h;
 };
 
@@ -135,7 +140,7 @@ const infoUser = (name) => {
   h += o.avatarUrl
     ? '<div class="h190"><img src="' + o.avatarUrl + '"></div>'
     : "";
-  h += `<h1><a href="${url}" target="${o.login}">${o.login}</a></h1>`;
+  h += `<div class="profile-top"><h1><a href="${url}" target="${o.login}">${o.login}</a></h1>`;
   h += o.fullName ? `<div class="fullName">${o.fullName}</div>` : "";
   h += urlField(o, "websiteUrl") + urlField(o, "webURL");
 
@@ -152,6 +157,7 @@ const infoUser = (name) => {
         o.nbFollowers
       }</a>`
     : "";
+  h += "</div>";
   if (isMe) {
     h += condIcon("star", o.nbStars) + condIcon("fork", o.nbForks);
   } else {
@@ -161,14 +167,14 @@ const infoUser = (name) => {
         }?tab=repositories" target="${o.name}" rel="noopener">${o.nbRepos}</a>`
       : "";
   }
-  h += "</div>";
 
+  h += "</div>";
   if (isMe) {
-    h += searchBox() + sortOptions() + repoList(gitUser.repos, true, true);
+    h += searchSortElems() + repoList(gitUser.repos, true, true);
   } else {
     if (o.starred && o.starred.length) {
       h +=
-        '<div class="field"><label>Starred: ' +
+        '<div class="field"><label class="lbl-10">Starred: ' +
         o.starred.length +
         "</label>" +
         repoList(repoArr(o.starred), false, true) +
@@ -176,7 +182,7 @@ const infoUser = (name) => {
     }
     if (o.forked && o.forked.length) {
       h +=
-        '<div class="field"><label>Forked: ' +
+        '<div class="field"><label class="lbl-10">Forked: ' +
         o.forked.length +
         "</label>" +
         repoList(repoArr(o.forked), false, true) +
@@ -208,7 +214,8 @@ const repoItem = (r, skipMe) => {
   const url = isMe ? r.login : gitUser.login + "/" + r.name;
   return `
       <div onclick="javascript:selectProject('${r.name}')" class="project">
-        <a class="${isMe ? "gituser" : ""}" href="javascript:selectProject('${
+      <div>
+      <a class="${isMe ? "gituser" : ""}" href="javascript:selectProject('${
     r.name
   }')">
           <div class="repo-circle" style="background-color:${color({
@@ -221,6 +228,7 @@ const repoItem = (r, skipMe) => {
         }" href="https://github.com/${url}" target="${name}" rel="noopener">
           ${name}
         </a>
+         </div>
         ${
           isMe
             ? `<div class="field multi">
