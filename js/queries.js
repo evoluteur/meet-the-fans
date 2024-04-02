@@ -38,7 +38,7 @@ const gqlOptions = (query) => ({
   body: JSON.stringify({ query: query }),
 });
 const setStatusRed = (msg) => setStatus('<span class="red">' + msg + "</span>");
-const runQuery = (q, cb, cbError) => {
+const runQuery = async (q, cb, cbError) => {
   totalQueries += 1;
   runningQueries += 1;
   fetch(apiPathGraphQL, gqlOptions(q))
@@ -269,7 +269,7 @@ const getUserInfo = () => {
     }
   `;
 
-  const cbRepos = (data) => {
+  const cbRepos = async (data) => {
     if (isFirstUserQuery) {
       isFirstUserQuery = false;
       user = cleanUser(data.user);

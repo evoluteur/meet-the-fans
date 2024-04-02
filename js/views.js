@@ -4,14 +4,28 @@
     (c) 2024 Olivier Giulieri
 */
 
-const $ = (id) => document.getElementById(id);
-
-const refreshRepos = (fRepos, summary) => {
-  $("reposList").innerHTML = repoList(fRepos);
-  $("summary-count").innerHTML = '<span class="summary">' + summary + "</span>";
+const eMap = {};
+const $ = (id) => {
+  const em = eMap[id];
+  if (em) {
+    return em;
+  }
+  const e = document.getElementById(id);
+  if (e) {
+    eMap[id] = e;
+  }
+  return e;
 };
 
-var searchChange = (evt, elem) => {
+const refreshRepos = (fRepos, summary) => {
+  $("reposList").innerHTML = repoList(fRepos, false, true, true);
+  if (summary) {
+    $("summary-count").innerHTML =
+      '<span class="summary">' + summary + "</span>";
+  }
+};
+
+const onSearch = (evt, elem) => {
   const search = evt?.currentTarget?.value;
   const totalCount = repos?.length || 0;
   if (search) {
@@ -23,10 +37,33 @@ var searchChange = (evt, elem) => {
   }
 };
 
-const search = () => {
-  const count = repos.length;
-  return `<div class="field-holder"><input type="text class="field" onkeyup="javascript:searchChange(event,this)"/><span id="summary-count">${count}</span></div>`;
+let sortDirection = 1;
+let lastSortKey = "n";
+const onSort = (evt, id) => {
+  evt.stopPropagation();
+  if (lastSortKey === id) {
+    sortDirection = -sortDirection;
+  } else {
+    sortDirection = 1;
+    lastSortKey = id;
+  }
+  const sortFn =
+    id === "s"
+      ? (a, b) => sortDirection * (b.nbStars - a.nbStars)
+      : (a, b) => sortDirection * a.name.localeCompare(b.name);
+  refreshRepos(repos.sort(sortFn));
 };
+
+const searchBox = () =>
+  `<div class="field-holder"><input type="text class="field" onkeyup="javascript:onSearch(event,this)"/><span id="summary-count">${
+    repos?.length || ""
+  }</span></div>`;
+
+const sortOptions = () =>
+  `<div class="field-holder">
+  <div class="sort-dir" onclick="javascript:onSort(event, 'n')"/>N</div>/<div class="sort-dir" onclick="javascript:onSort(event, 's')"/>S</div>
+  </div>`;
+
 const repoArr = (repoIds) =>
   repoIds
     .sort((a, b) => a.localeCompare(b))
@@ -60,7 +97,6 @@ const infoRepo = (name) => {
   h +=
     urlField(o, "homepageUrl") +
     repoItemPop(o) +
-    (o.repos ? repoList(repos) : "") +
     (o.description ? `<div class="field">${o.description}</div>` : "") +
     textField("Updated", o.updatedAt) +
     textField("Created", o.createdAt);
@@ -128,8 +164,7 @@ const infoUser = (name) => {
   h += "</div>";
 
   if (isMe) {
-    h += search();
-    h += repoList(gitUser.repos, true);
+    h += searchBox() + sortOptions() + repoList(gitUser.repos, true, true);
   } else {
     if (o.starred && o.starred.length) {
       h +=
@@ -143,7 +178,7 @@ const infoUser = (name) => {
       h +=
         '<div class="field"><label>Forked: ' +
         o.forked.length +
-        "</label> " +
+        "</label>" +
         repoList(repoArr(o.forked), false, true) +
         "</div>";
     }
@@ -151,17 +186,15 @@ const infoUser = (name) => {
   return h;
 };
 
-const repoList = (repos, skipMe, skipLabel) =>
-  '<div id="reposList" class="reposList">' +
-  // (skipLabel
-  //   ? ""
-  //   : '<span class="repoIco">' +
-  //     icon("repos") +
-  //     " " +
-  //     repos.length +
-  //     "</span>") +
-  repos.map((r) => repoItem(r, skipMe)).join("") +
-  "</div>";
+const repoList = (repos, skipMe, skipLabel, noTag) => {
+  const body = repos.map((r) => repoItem(r, skipMe)).join("");
+  const label = skipLabel
+    ? ""
+    : '<span class="repoIco">' + icon("repos") + " " + repos.length + "</span>";
+  return noTag
+    ? body
+    : '<div id="reposList" class="reposList">' + label + body + "</div>";
+};
 
 const repoItem = (r, skipMe) => {
   const isMe = r.login || r.name === "*";
@@ -169,6 +202,9 @@ const repoItem = (r, skipMe) => {
     return "";
   }
   const name = isMe ? r.login : r.name;
+  if (!name) {
+    return "";
+  }
   const url = isMe ? r.login : gitUser.login + "/" + r.name;
   return `
       <div onclick="javascript:selectProject('${r.name}')" class="project">
@@ -241,9 +277,9 @@ const repoItemPop = (r) => {
   }
   ${
     r.version
-      ? `${icon("tag")}<a href="${url}releases/tag/${
+      ? `${icon("tag")}<a href="${url}releases/tag/${r.version}" ${target}>${
           r.version
-        }" class="bold" ${target}>${r.version}</a>`
+        }</a>`
       : ""
   }
 </div>
