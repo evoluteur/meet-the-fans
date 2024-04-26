@@ -15,6 +15,9 @@ body {
   color: rgb(112, 112, 112);
   scroll-behavior: smooth;
   background: #0288d1 url("spirals.png");
+  > h1 {
+    margin-bottom: 50px;
+  }
 }
 
 .sort-dir,
@@ -168,7 +171,7 @@ svg.home {
   display: inline-block;
 }
 .gituser {
-  color: black;
+  color: white;
 }
 h1 {
   font-size: 22px;
@@ -254,6 +257,12 @@ h1 {
   display: inline-block;
   width: 20px;
   height: 20px;
+}
+.icon.w-star {
+  background-image: url(../svg/star.svg);
+}
+.icon.w-fork {
+  background-image: url(../svg/fork.svg);
 }
 .icon.star {
   background-image: url(../svg/star-outline.svg);

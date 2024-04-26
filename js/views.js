@@ -173,27 +173,23 @@ const infoUser = (name) => {
     h += searchSortElems() + repoList(gitUser.repos, true, true);
   } else {
     if (o.starred && o.starred.length) {
-      h +=
-        '<div class="field"><label class="lbl-10">Starred: ' +
-        o.starred.length +
-        "</label>" +
-        repoList(repoArr(o.starred), false, true) +
-        "</div>";
+      h += `<div class="field">
+      <label class="lbl-10">Starred: ${o.starred.length}</label>
+      ${repoList(repoArr(o.starred), false, true, null, false)}
+      </div>`;
     }
     if (o.forked && o.forked.length) {
-      h +=
-        '<div class="field"><label class="lbl-10">Forked: ' +
-        o.forked.length +
-        "</label>" +
-        repoList(repoArr(o.forked), false, true) +
-        "</div>";
+      h += `<div class="field">
+      <label class="lbl-10">Forked: ${o.forked.length}</label>
+      ${repoList(repoArr(o.forked), false, true, null, false)}
+      </div>`;
     }
   }
   return h;
 };
 
-const repoList = (repos, skipMe, skipLabel, noTag) => {
-  const body = repos.map((r) => repoItem(r, skipMe)).join("");
+const repoList = (repos, skipMe, skipLabel, noTag, withSummary) => {
+  const body = repos.map((r) => repoItem(r, skipMe, withSummary)).join("");
   const label = skipLabel
     ? ""
     : '<span class="repoIco">' + icon("repos") + " " + repos.length + "</span>";
@@ -202,7 +198,7 @@ const repoList = (repos, skipMe, skipLabel, noTag) => {
     : '<div id="reposList" class="reposList">' + label + body + "</div>";
 };
 
-const repoItem = (r, skipMe) => {
+const repoItem = (r, skipMe, withSummary = true) => {
   const isMe = r.login || r.name === "*";
   if (isMe && skipMe) {
     return "";
@@ -236,7 +232,9 @@ const repoItem = (r, skipMe) => {
           ${condIcon("star", r.nbStars)}
           ${condIcon("fork", r.nbForks)}
         </div>`
-            : repoItemPop(r)
+            : withSummary
+            ? repoItemPop(r)
+            : ""
         }
       </div>
     `;

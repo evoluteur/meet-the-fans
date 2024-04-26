@@ -4,6 +4,9 @@ body {
   font-family: "Overpass", arial;
   background: #0288d1 url("spirals.png");
   color: white;
+  > h1 {
+    margin-bottom: 50px;
+  }
 }
 svg.home {
   position: relative;
