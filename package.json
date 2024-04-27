@@ -1,6 +1,6 @@
 {
   "name": "meet-the-fans",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Network graph of GitHub repositories, followers, stars, and forks.",
   "repository": {
     "type": "git",
@@ -9,6 +9,10 @@
   "copyright": "(c) 2024 Olivier Giulieri",
   "author": "Olivier Giulieri (https://evoluteur.github.io/)",
   "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/evoluteur"
+  },
   "scripts": {
     "mini": "uglifyjs js/data.js js/graph.js js/views.js --compress --mangle --warn --output dist/meet-the-fans.min.js"
   },
@@ -18,11 +22,14 @@
   "keywords": [
     "github",
     "visualization",
+    "repo",
+    "repository",
     "network",
     "graph",
     "stars",
     "forks",
     "stargazers",
+    "stars",
     "followers",
     "repository",
     "fans",
