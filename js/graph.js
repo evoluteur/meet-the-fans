@@ -227,8 +227,8 @@ const selectProject = (id) => {
 };
 
 const renderGraph = () => {
-  showDetails(null, { id: "*" });
   document.getElementById("graph").appendChild(graph(getData()));
   document.getElementById("details").onclick = (evt) => evt.stopPropagation();
   document.onclick = () => (document.getElementById("details").className = "");
+  setTimeout(() => showDetails(null, { id: "*" }), 10);
 };
