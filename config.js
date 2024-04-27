@@ -12,7 +12,7 @@ const config = {
     fork: "#1966AC",
     both: "#4A96C9",
   },
-  colorFaded: "#3f3f3f", //"#5594F4", // '#e1e1e1', '#eeeeee',
+  colorFaded: "#5f5f5f", //"#5594F4", // '#e1e1e1', '#eeeeee',
   circleBorder: "white",
   // misc.
   maxTopics: 5,

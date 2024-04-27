@@ -158,11 +158,11 @@ const hideDetails = (evt) => {
 };
 
 const showDetails = (evt, d) => {
-  evt.stopPropagation();
-  if (evt.target.style.fill === "rgb(238, 238, 238)" && d.oType !== "repo") {
+  evt?.stopPropagation();
+  if (evt?.target?.style.fill === "rgb(238, 238, 238)" && d.oType !== "repo") {
     return null;
   }
-  if (!evt.detail.skipModal) {
+  if (!evt?.detail?.skipModal) {
     const e = document.getElementById("details");
     e.innerHTML = d.isRepo && d.id !== "*" ? infoRepo(d.id) : infoUser(d.id);
     e.className =
@@ -227,6 +227,7 @@ const selectProject = (id) => {
 };
 
 const renderGraph = () => {
+  showDetails(null, { id: "*" });
   document.getElementById("graph").appendChild(graph(getData()));
   document.getElementById("details").onclick = (evt) => evt.stopPropagation();
   document.onclick = () => (document.getElementById("details").className = "");
