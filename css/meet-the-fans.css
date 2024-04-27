@@ -14,7 +14,7 @@ body {
   font-family: arial;
   color: rgb(112, 112, 112);
   scroll-behavior: smooth;
-  background: #0288d1 url("spirals.png");
+  background-color: #1a212d;
   > h1 {
     margin-bottom: 50px;
   }
@@ -76,7 +76,7 @@ svg.home {
   }
 }
 #details {
-  background-color: #1a212d;
+  background-color: #2d3848;
   color: white;
   display: none;
   position: fixed;
