@@ -159,7 +159,7 @@ svg.home {
     padding: 5px 10px 2px;
     transition: background-color 0.3s 0.01s;
     &:hover {
-      background-color: #2d3848;
+      background-color: #3c495f;
     }
   }
   .repoIco {
