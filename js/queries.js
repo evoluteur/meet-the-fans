@@ -74,9 +74,6 @@ const cleanUser = (node, repo) => {
     createdAt: formatDate(node.createdAt),
     nbFollowers: node.followers.totalCount,
     nbFollowings: node.following.totalCount,
-    nbStarredRepos: node.starredRepositories
-      ? node.starredRepositories.totalCount
-      : 0,
     nbRepos: node.repositories.totalCount,
     follower: repo === "*",
     //starred: repo==='*' ? [] : [repo],
@@ -106,7 +103,6 @@ const cleanRepo = (r) => ({
   description: r.description,
   nbStars: r.stargazers.totalCount,
   nbForks: r.forkCount,
-  nbStarredRepos: r.nbStarredRepos,
   createdAt: formatDate(r.createdAt),
   updatedAt: formatDate(r.updatedAt),
   homepageUrl: r.homepageUrl,
@@ -141,17 +137,14 @@ const userScalars = `
 // fullName
 const userDetails = `
   ${userScalars}
-  followers {
+  repositories {
     totalCount
   }
-  repositories {
+  followers {
     totalCount
   }
   following {
     totalCount
-  }
-  starredRepositories {
-   totalCount
   }
 `;
 const ownerDetails = `
@@ -183,7 +176,7 @@ const repoDetails = `
       color
     }
   }
-  repositoryTopics(first:100){
+  repositoryTopics(first:20){
     nodes{
       topic {
          name
