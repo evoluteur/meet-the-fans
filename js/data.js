@@ -68,7 +68,7 @@ const getData = () => {
   });
   nodes.push({ id: "*", radius: 20, group: 0, isRepo: true });
 
-  for (var u in fans) {
+  for (let u in fans) {
     const user = fans[u];
     nodes.push({
       id: u,

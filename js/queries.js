@@ -179,7 +179,7 @@ const repoDetails = `
   repositoryTopics(first:20){
     nodes{
       topic {
-         name
+        name
       }
     }
   }
@@ -189,7 +189,7 @@ const repoDetails = `
   repoRelease: releases(first:1){
     totalCount
     nodes {
-     name
+      name
       publishedAt
    }
   }
@@ -424,12 +424,7 @@ const showElem = (id) => document.getElementById(id).classList.remove("hidden");
 const hideElem = (id) => document.getElementById(id).classList.add("hidden");
 
 const dataSummary = () =>
-  login +
-  ": " +
-  user.nbRepos +
-  " repos, " +
-  user.nbStars +
-  " stars, " +
+  `${login}: ${user.nbRepos} repos, ${user.nbStars} stars, ` +
   user.nbForks +
   " forks, " +
   user.nbFollowers +

@@ -226,7 +226,7 @@ const repoItem = (r, skipMe, withSummary = true) => {
         </a>
          </div>
         ${
-          isMe
+          isMe && withSummary
             ? `<div class="field multi">
           ${condIcon("followers", r.nbFollowers)}
           ${condIcon("star", r.nbStars)}
