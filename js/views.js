@@ -271,21 +271,21 @@ const repoItemPop = (r) => {
 <div class="field multi">
   ${
     r.nbStars
-      ? `${icon("star")}<a href="${url}stargazers" ${target}>${r.nbStars}</a>`
+      ? `<a href="${url}stargazers" ${target}>${icon("star")}${r.nbStars}</a>`
       : ""
   }
   ${
     r.nbForks
-      ? `${icon("fork")}<a href="${url}network/members" ${target}>${
+      ? `<a href="${url}network/members" ${target}>${icon("fork")}${
           r.nbForks
         }</a>`
       : ""
   }
   ${
-    r.version
-      ? `${icon("tag")}<a href="${url}releases/tag/${r.version}" ${target}>${
-          r.version
-        }</a>`
+    r.nbStars
+      ? `<a href="https://star-history.com/#${gitUser.login}/${
+          r.name
+        }" ${target}>${icon("chart")}</a>`
       : ""
   }
 </div>

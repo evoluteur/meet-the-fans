@@ -213,8 +213,14 @@ h1 {
   display: inline-block;
   margin-left: 10px;
 }
-.field.multi div {
-  margin-right: 5px;
+.field.multi {
+  margin-left: 10px;
+  > a {
+    margin-right: 5px;
+  }
+  div {
+    margin-right: 5px;
+  }
 }
 .reposList .field.multi div {
   margin-left: 10px;
@@ -287,6 +293,9 @@ h1 {
 }
 .icon.license {
   background-image: url(../svg/scale-balance.svg);
+}
+.icon.chart {
+  background-image: url(../svg/chart-bell-curve-cumulative.svg);
 }
 
 /* Graph */
