@@ -52,6 +52,10 @@ npm run mini
 ## License
 
 Meet-the-Fans is released under the [MIT license](http://github.com/evoluteur/meet-the-fans/blob/master/LICENSE).
+
+Encourage Meet-the-Fans by [becoming a sponsor](https://github.com/sponsors/evoluteur).
+
+
 ## More...
 
 Check out my other project [GitHub-Projects-Cards](https://github.com/evoluteur/github-projects-cards) for a [Cards view](https://evoluteur.github.io/github-projects-cards/) of your Github projects.
