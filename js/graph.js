@@ -1,7 +1,7 @@
 /*
     Meet-the-Fans
     https://github.com/evoluteur/meet-the-fans
-    (c) 2024 Olivier Giulieri
+    (c) 2025 Olivier Giulieri
 */
 
 const height = config.height || 2000;

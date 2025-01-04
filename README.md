@@ -66,5 +66,5 @@ Get the [Cool Code Ninja T-Shirt](https://www.redbubble.com/i/t-shirt/Cool-Code-
 [![Screenshot](screenshots/cool-code-ninja.jpg)](https://www.redbubble.com/i/t-shirt/Cool-Code-Ninja-by-evoluteur/163497552.A5PYK)
 
 
-Copyright (c) 2024 [Olivier Giulieri](https://evoluteur.github.io/).
+Copyright (c) 2025 [Olivier Giulieri](https://evoluteur.github.io/).
 
