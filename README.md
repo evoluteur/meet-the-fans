@@ -46,7 +46,7 @@ To rebuild the project (minimizing the JS), run the following commands:
 
 ```javascript
 npm install
-npm run mini
+npm run build
 ```
 
 ## License

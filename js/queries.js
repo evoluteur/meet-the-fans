@@ -396,7 +396,11 @@ const getFans = (repo) => {
     }
 
     if (runningQueries) {
-      setStatus(`Waiting on ${runningQueries} of ${totalQueries} queries...`);
+      setStatus(
+        `${totalQueries} queries: ${
+          totalQueries - runningQueries
+        } done + ${runningQueries} pending...`
+      );
     } else {
       document.getElementById("fans").value = toJSON(fans);
     }

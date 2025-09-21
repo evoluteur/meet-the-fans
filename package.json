@@ -14,7 +14,7 @@
     "url": "https://github.com/sponsors/evoluteur"
   },
   "scripts": {
-    "mini": "uglifyjs js/data.js js/graph.js js/views.js --compress --mangle --warn --output dist/meet-the-fans.min.js"
+    "build": "uglifyjs js/data.js js/graph.js js/views.js --compress --mangle --warn --output dist/meet-the-fans.min.js"
   },
   "devDependencies": {
     "uglify-js": "^3.3.11"
