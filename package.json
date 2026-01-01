@@ -1,12 +1,12 @@
 {
   "name": "meet-the-fans",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Network graph of GitHub repositories, followers, stars, and forks.",
   "repository": {
     "type": "git",
     "url": "git://github.com/evoluteur/meet-the-fans.git"
   },
-  "copyright": "(c) 2025 Olivier Giulieri",
+  "copyright": "(c) 2026 Olivier Giulieri",
   "author": "Olivier Giulieri (https://evoluteur.github.io/)",
   "license": "MIT",
   "funding": {
