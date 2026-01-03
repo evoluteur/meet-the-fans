@@ -60,8 +60,4 @@ Encourage Meet-the-Fans by [becoming a sponsor](https://github.com/sponsors/evol
 Check out my other project [GitHub-Projects-Cards](https://github.com/evoluteur/github-projects-cards) for a [Cards view](https://evoluteur.github.io/github-projects-cards/) of your Github projects.
 
 
-Get the [Cool Code Ninja T-Shirt](https://www.redbubble.com/i/t-shirt/Cool-Code-Ninja-by-evoluteur/163497552.A5PYK).
-
-[![Screenshot](screenshots/cool-code-ninja.jpg)](https://www.redbubble.com/i/t-shirt/Cool-Code-Ninja-by-evoluteur/163497552.A5PYK)
-
 Copyright (c) 2026 [Olivier Giulieri](https://evoluteur.github.io/).
