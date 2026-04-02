@@ -3,20 +3,40 @@
 Network graph of repositories, followers, stargazers, and forks to meet your GitHub fans.
 
 [![Evoluteur's graph](screenshots/mtf-data-viz.png)](https://evoluteur.github.io/meet-the-fans/)
+## Installation
+
+[**Download**](https://github.com/evoluteur/meet-the-fans/archive/master.zip) or **clone** from [GitHub](https://github.com/evoluteur/meet-the-fans/).
+
+```bash
+# To get the latest stable version, use git from the command line.
+git clone https://github.com/evoluteur/meet-the-fans
+```
+
+or use the [npm package](https://www.npmjs.com/package/meet-the-fans):
+
+```bash
+# To get the latest stable version, use npm from the command line.
+npm install meet-the-fans
+```
+
 
 ## Getting the data
 
 [Get your data](https://evoluteur.github.io/meet-the-fans/index-data.html) (user info, repositories, followers, stars, and forks) using [GitHub GraphQL API](https://docs.github.com/en/free-pro-team@latest/graphql).
 
+Open index-data.html in your browser to fetch and download your data easily. Just enter your GitHub user name and your [GitHub Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token), then click the "Fetch data" button.
+
 [![Get your Data](screenshots/mtf-data-fetch.png)](https://evoluteur.github.io/meet-the-fans/index-data.html)
 
-You will need a [GitHub Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
+When fetching is done a "Download" button appears. Use it to download your data.
+ 
+Note: it is only fetching original repositories (not including forked repos) but it is easy to change in the code.
 
 ## Visualizing the data
 
 [Visualize your data](https://evoluteur.github.io/meet-the-fans/) using D3 force layout.
 
-You will have to change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
+To switch to your data, change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
 
 Clicking a project dot (on the graph or in the side pane) highlights it with its stargazers and forks.
 
@@ -53,7 +73,7 @@ npm run build
 
 Meet-the-Fans is released under the [MIT license](http://github.com/evoluteur/meet-the-fans/blob/master/LICENSE).
 
-Encourage Meet-the-Fans by [becoming a sponsor](https://github.com/sponsors/evoluteur).
+Encourage this project by [becoming a sponsor](https://github.com/sponsors/evoluteur).
 
 ## More...
 
