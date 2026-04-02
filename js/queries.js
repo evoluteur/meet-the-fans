@@ -6,7 +6,7 @@
 
 const apiPathGraphQL = "https://api.github.com/graphql";
 const pageSize = 10; // max=100 but GitHub times out
-const timeBwQueries = 5000; // milliseconds to wait b/w queries to avoid exceeding GitHub secondary rate limit.
+const timeBwQueries = 0; // milliseconds to wait b/w queries to avoid exceeding GitHub secondary rate limit.
 
 let token;
 let login;
@@ -19,11 +19,13 @@ let nbErrors;
 let startTime;
 
 function sleep() {
-  const date = Date.now();
-  let currentDate = null;
-  do {
-    currentDate = Date.now();
-  } while (currentDate - date < timeBwQueries);
+  if (timeBwQueries > 0) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < timeBwQueries);
+  }
 }
 
 const toJSON = (obj) => JSON.stringify(obj, null, 2);
@@ -391,7 +393,6 @@ const getFans = (repo) => {
     runningQueries -= 1;
 
     if (curStars !== "skip" || curForks !== "skip") {
-      console.log(project, curStars, curForks);
       runQuery(qFans(curStars, curForks), cbFans, cbError);
     }
 
@@ -399,7 +400,7 @@ const getFans = (repo) => {
       setStatus(
         `${totalQueries} queries: ${
           totalQueries - runningQueries
-        } done + ${runningQueries} pending...`
+        } done + ${runningQueries} pending...`,
       );
     } else {
       document.getElementById("fans").value = toJSON(fans);
@@ -411,7 +412,7 @@ const getFans = (repo) => {
           Math.floor((new Date() - startTime) / 1000) +
           " seconds using " +
           totalQueries +
-          " GraphQL queries."
+          " GraphQL queries.",
       );
       if (nbErrors) {
         setStatus(nbErrors + " queries with error or timeout.");
@@ -487,7 +488,7 @@ const download = () => {
   const txt = `
 /*
   ${user.login} on ${dNow.toLocaleDateString()} ${dNow.toLocaleTimeString(
-    "en-US"
+    "en-US",
   )}
   meet-the-fans: https://github.com/evoluteur/meet-the-fans
 */
@@ -499,7 +500,7 @@ const fans = ${toJSON(fans)};
   var element = document.createElement("a");
   element.setAttribute(
     "href",
-    "data:text/plain;charset=utf-8," + encodeURIComponent(txt)
+    "data:text/plain;charset=utf-8," + encodeURIComponent(txt),
   );
   element.setAttribute("download", "data-" + user.login + ".js");
   element.style.display = "none";
