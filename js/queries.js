@@ -6,7 +6,6 @@
 
 const apiPathGraphQL = "https://api.github.com/graphql";
 const pageSize = 10; // max=100 but GitHub times out
-const timeBwQueries = 0; // milliseconds to wait b/w queries to avoid exceeding GitHub secondary rate limit.
 
 let token;
 let login;
@@ -18,32 +17,22 @@ let runningQueries;
 let nbErrors;
 let startTime;
 
-function sleep() {
-  if (timeBwQueries > 0) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-      currentDate = Date.now();
-    } while (currentDate - date < timeBwQueries);
-  }
-}
-
 const toJSON = (obj) => JSON.stringify(obj, null, 2);
 const formatDate = (dateString) => new Date(dateString).toLocaleDateString();
-const gqlOptions = (query) => ({
+const gqlOptions = (query, variables) => ({
   method: "POST",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
     Authorization: `Bearer ${token}`,
   },
-  body: JSON.stringify({ query: query }),
+  body: JSON.stringify({ query, variables }),
 });
 const setStatusRed = (msg) => setStatus('<span class="red">' + msg + "</span>");
-const runQuery = async (q, cb, cbError) => {
+const runQuery = async (q, variables, cb, cbError) => {
   totalQueries += 1;
   runningQueries += 1;
-  fetch(apiPathGraphQL, gqlOptions(q))
+  fetch(apiPathGraphQL, gqlOptions(q, variables))
     .then((r) => r.json())
     .then((data) => {
       if (data.errors) {
@@ -55,15 +44,16 @@ const runQuery = async (q, cb, cbError) => {
         cb(null, true);
       } else if (data.message && data.documentation_url) {
         nbErrors += 1;
-        runningQueries -= 1;
         setStatusRed(data.message);
+        cb(null, true);
       } else {
         cb(data.data);
       }
     })
     .catch((err) => {
-      runningQueries -= 1;
+      nbErrors += 1;
       setStatusRed(err.message);
+      cb(null, true);
     });
 };
 
@@ -94,10 +84,7 @@ const cleanUser = (node, repo) => {
   return user;
 };
 
-const getVersion = (releases) => {
-  const releaseCount = releases?.length;
-  return releaseCount ? releases[releaseCount - 1].name : "";
-};
+const getVersion = (releases) => releases?.length ? releases[0].name : "";
 
 const cleanRepo = (r) => ({
   //oType: 'repo',
@@ -108,7 +95,7 @@ const cleanRepo = (r) => ({
   createdAt: formatDate(r.createdAt),
   updatedAt: formatDate(r.updatedAt),
   homepageUrl: r.homepageUrl,
-  licenseInfo: r.licenseInfo ? r.licenseInfo : null,
+  licenseInfo: r.licenseInfo ?? null,
   languages: r.languages ? r.languages.nodes : null,
   //starHistory: [],
   //forkHistory: [],
@@ -203,6 +190,44 @@ const pageInfo = `
   }
 `;
 
+const qReposFirst = `
+  query($login: String!){
+    user(login: $login){
+      ${userScalars}
+      following {
+        totalCount
+      }
+      followers(first:50){
+        totalCount
+        nodes{
+          ${userDetails}
+        }
+        ${pageInfo}
+      }
+      repositories (first: 100) {
+        totalCount
+        nodes{
+          ${repoDetails}
+        }
+      }
+    }
+  }
+`;
+
+const qReposPaged = `
+  query($login: String!, $cursor: String!){
+    user(login: $login){
+      followers(first:${pageSize} after: $cursor){
+        totalCount
+        nodes{
+          ${userDetails}
+        }
+        ${pageInfo}
+      }
+    }
+  }
+`;
+
 const getUserInfo = () => {
   login = document.getElementById("github_user").value;
   token = document.getElementById("github_token").value;
@@ -225,46 +250,12 @@ const getUserInfo = () => {
 
   let isFirstUserQuery = true;
   document.getElementById("response").style.display = "block";
-  const qRepos = (cursor) =>
-    cursor
-      ? `
-    query{
-      user(login:"${login}"){
-        followers(first:${pageSize} after:"${cursor}"){
-          totalCount
-          nodes{
-            ${userDetails}
-          }
-          ${pageInfo}
-        }
-      }
-    }
-  `
-      : `
-    query{
-      user(login:"${login}"){
-        ${userScalars}
-        following {
-          totalCount
-        }
-        followers(first:50){
-          totalCount
-          nodes{
-            ${userDetails}
-          }
-          ${pageInfo}
-        }
-        repositories (first: 100) {
-          totalCount
-          nodes{
-            ${repoDetails}
-          }
-        }
-      }
-    }
-  `;
 
-  const cbRepos = async (data) => {
+  const cbRepos = async (data, hasError) => {
+    if (hasError) {
+      runningQueries -= 1;
+      return;
+    }
     if (isFirstUserQuery) {
       isFirstUserQuery = false;
       user = cleanUser(data.user);
@@ -282,7 +273,7 @@ const getUserInfo = () => {
     const fs = data.user.followers;
     if (fs && fs.pageInfo.hasNextPage) {
       console.log("followers", fs.pageInfo.endCursor);
-      runQuery(qRepos(fs.pageInfo.endCursor), cbRepos, cbError);
+      runQuery(qReposPaged, { login, cursor: fs.pageInfo.endCursor }, cbRepos, cbError);
     } else {
       user.repos.forEach((r) => {
         if (r.nbStars + r.nbForks) {
@@ -298,7 +289,7 @@ const getUserInfo = () => {
     runningQueries -= 1;
   };
   setStatus(`Querying user ${login}...`);
-  runQuery(qRepos(""), cbRepos, cbError);
+  runQuery(qReposFirst, { login }, cbRepos, cbError);
 };
 
 const getFans = (repo) => {
@@ -310,8 +301,8 @@ const getFans = (repo) => {
   }
   const project = repo.name;
   const qFans = (starsCursor, forksCursor) => `
-    query{
-      repository(owner:"${login}", name:"${project}"){
+    query($login: String!, $project: String!){
+      repository(owner: $login, name: $project){
         name
         ${repo.nbStars ? subQ("stargazers", starsCursor) : ""}
         ${repo.nbForks ? subQ("forks", forksCursor) : ""}
@@ -337,7 +328,6 @@ const getFans = (repo) => {
   };
 
   const cbFans = (data, hasError) => {
-    sleep();
     let curStars = "skip";
     let curForks = "skip";
     if (!hasError) {
@@ -393,7 +383,7 @@ const getFans = (repo) => {
     runningQueries -= 1;
 
     if (curStars !== "skip" || curForks !== "skip") {
-      runQuery(qFans(curStars, curForks), cbFans, cbError);
+      runQuery(qFans(curStars, curForks), { login, project }, cbFans, cbError);
     }
 
     if (runningQueries) {
@@ -422,7 +412,7 @@ const getFans = (repo) => {
     }
   };
 
-  runQuery(qFans("", ""), cbFans, cbError);
+  runQuery(qFans(null, null), { login, project }, cbFans, cbError);
 };
 
 const showElem = (id) => document.getElementById(id).classList.remove("hidden");
@@ -450,7 +440,6 @@ const addTotals = (user) => {
   });
   user.nbStars = totals.nbStars;
   user.nbForks = totals.nbForks;
-  return totals;
 };
 
 const setStatus = (msg, onlyMsg) => {
@@ -476,10 +465,8 @@ const startQuery = () => {
 };
 
 const copy = (fieldName) => {
-  var copyText = document.getElementById(fieldName);
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-  document.execCommand("copy");
+  const text = document.getElementById(fieldName).value;
+  navigator.clipboard.writeText(text);
 };
 
 // https://stackoverflow.com/questions/3665115/how-to-create-a-file-in-memory-for-user-to-download-but-not-through-server
