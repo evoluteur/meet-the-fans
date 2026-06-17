@@ -90,7 +90,9 @@ svg.home {
   border: solid grey 1px;
   padding: 10px 0;
   overflow-x: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   &.right {
     right: -1px;
     display: block;
@@ -115,7 +117,6 @@ svg.home {
     padding: 5px;
   }
   > div {
-    margin: 0 0 10px;
     > img {
       height: 190px;
       min-height: 190px;
@@ -155,6 +156,7 @@ svg.home {
 }
 .reposList {
   padding: 10px 0;
+  margin-bottom: 10px;
   > div {
     padding: 5px 10px 2px;
     transition: background-color 0.3s 0.01s;
@@ -208,6 +210,9 @@ h1 {
 .field {
   display: block;
   margin: 10px 0;
+}
+input.field {
+  width: 90px;
 }
 .field.multi > div:not(:first-child) {
   display: inline-block;
@@ -344,17 +349,26 @@ div.tooltip {
   margin: 0 5px 0 10px;
 }
 .field-holder {
-  display: inline;
-  padding: 5px;
-  > input {
-    height: 24px;
-    border: solid 1px #61656b;
-    border-radius: 4px;
-    padding: 4px 7px;
-    font-size: 16px;
-    max-width: 114px;
-    color: white;
-    background-color: #1a212d;
-    margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px 0 10px !important;
+  margin: 0 !important;
+  > .search-div {
+    flex-grow: 1;
+    > input {
+      display: inline-block;
+      height: 24px;
+      border: solid 1px #61656b;
+      border-radius: 4px;
+      padding: 4px 7px;
+      font-size: 16px;
+      max-width: 100px;
+      color: white;
+      background-color: #1a212d;
+    }
+  }
+}
+
   }
 }

@@ -55,12 +55,11 @@ const onSort = (evt, id) => {
 };
 
 const searchBox = () =>
-  `<input type="text class="field" onkeyup="javascript:onSearch(event,this)"/><span id="summary-count">${
-    repos?.length || ""
-  }</span></div>`;
+  `<div class="search-div"><input id="search" type="text" class="field" onkeyup="javascript:onSearch(event,this)" placeholder="Search..."/>
+<span id="summary-count">${repos?.length || ""}</span></div>`;
 
 const sortOptions = () =>
-  `<div class="sort-dir" onclick="javascript:onSort(event, 'n')"/>N</div>/<div class="sort-dir" onclick="javascript:onSort(event, 's')"/>S</div>`;
+  `<div><span class="sort-dir" onclick="javascript:onSort(event,'n')">N</span>/<span class="sort-dir" onclick="javascript:onSort(event,'s')">S</span></div>`;
 
 const searchSortElems = () =>
   `<div class="field-holder">
@@ -116,7 +115,7 @@ const infoRepo = (name) => {
       ? o.languages
           .map(
             (l) =>
-              `<span><div style="background-color:${l.color}" class="ln-dot"></div>${l.name}</span>`
+              `<span><div style="background-color:${l.color}" class="ln-dot"></div>${l.name}</span>`,
           )
           .join("")
       : "";
@@ -212,8 +211,8 @@ const repoItem = (r, skipMe, withSummary = true) => {
       <div onclick="javascript:selectProject('${r.name}')" class="project">
       <div>
       <a class="${isMe ? "gituser" : ""}" href="javascript:selectProject('${
-    r.name
-  }')">
+        r.name
+      }')">
           <div class="repo-circle" style="background-color:${color({
             isRepo: true,
             group: isMe ? 0 : r.group,
@@ -233,8 +232,8 @@ const repoItem = (r, skipMe, withSummary = true) => {
           ${condIcon("fork", r.nbForks)}
         </div>`
             : withSummary
-            ? repoItemPop(r)
-            : ""
+              ? repoItemPop(r)
+              : ""
         }
       </div>
     `;
