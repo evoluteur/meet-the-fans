@@ -13,7 +13,9 @@
       gtag("js", new Date());
       gtag("config", "G-063933E3C2");
     </script>
-    <title>Meet-the-Fans: GitHub Network Graph of Repositories, Followers & Stars</title>
+    <title>
+      Meet-the-Fans: GitHub Network Graph of Repositories, Followers & Stars
+    </title>
     <link rel="canonical" href="https://evoluteur.github.io/meet-the-fans/" />
     <meta
       name="description"
@@ -29,8 +31,14 @@
     <meta charset="utf-8" />
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://evoluteur.github.io/meet-the-fans/" />
-    <meta property="og:title" content="Meet-the-Fans: GitHub Network Graph of Repositories, Followers & Stars" />
+    <meta
+      property="og:url"
+      content="https://evoluteur.github.io/meet-the-fans/"
+    />
+    <meta
+      property="og:title"
+      content="Meet-the-Fans: GitHub Network Graph of Repositories, Followers & Stars"
+    />
     <meta
       property="og:description"
       content="Visualize your GitHub network: query your repositories, followers, stargazers, and forks with GraphQL and explore the interactive D3 force graph."
@@ -41,7 +49,10 @@
     />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Meet-the-Fans: GitHub Network Graph of Repositories, Followers & Stars" />
+    <meta
+      name="twitter:title"
+      content="Meet-the-Fans: GitHub Network Graph of Repositories, Followers & Stars"
+    />
     <meta
       name="twitter:description"
       content="Visualize your GitHub network: query your repositories, followers, stargazers, and forks with GraphQL and explore the interactive D3 force graph."
@@ -52,22 +63,22 @@
     />
     <!-- Structured data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Meet-the-Fans",
-      "url": "https://evoluteur.github.io/meet-the-fans/",
-      "description": "Visualize your GitHub network: query your repositories, followers, stargazers, and forks with GraphQL and explore the interactive D3 force graph.",
-      "applicationCategory": "DeveloperApplication",
-      "operatingSystem": "Web",
-      "author": {
-        "@type": "Person",
-        "name": "Olivier Giulieri",
-        "url": "https://evoluteur.github.io/"
-      },
-      "screenshot": "https://raw.githubusercontent.com/evoluteur/meet-the-fans/main/screenshots/mtf-data-viz.png",
-      "keywords": "GitHub, network graph, D3, data visualization, followers, stargazers, forks"
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Meet-the-Fans",
+        "url": "https://evoluteur.github.io/meet-the-fans/",
+        "description": "Visualize your GitHub network: query your repositories, followers, stargazers, and forks with GraphQL and explore the interactive D3 force graph.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "author": {
+          "@type": "Person",
+          "name": "Olivier Giulieri",
+          "url": "https://evoluteur.github.io/"
+        },
+        "screenshot": "https://raw.githubusercontent.com/evoluteur/meet-the-fans/main/screenshots/mtf-data-viz.png",
+        "keywords": "GitHub, network graph, D3, data visualization, followers, stargazers, forks"
+      }
     </script>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/meet-the-fans.css" />
@@ -78,11 +89,6 @@
   </head>
 
   <body onload="renderGraph()">
-    <h1 class="sr-only">Meet-the-Fans: GitHub Network Graph</h1>
-    <p class="sr-only">
-      Query and visualize the network graph of your GitHub repositories,
-      followers, stargazers, and forks using GraphQL and D3 force layout.
-    </p>
     <svg
       class="home"
       onclick="showDetails(event, { id: '*' })"
