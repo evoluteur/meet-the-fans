@@ -62,13 +62,13 @@ const graph = (data) => {
       d3
         .forceLink(links)
         .distance(50)
-        .id((d) => d.id)
+        .id((d) => d.id),
     )
     .force("charge", d3.forceManyBody().strength(-30))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force(
       "collision",
-      d3.forceCollide().radius((d) => d.radius)
+      d3.forceCollide().radius((d) => d.radius),
     );
 
   const svg = d3
@@ -89,8 +89,8 @@ const graph = (data) => {
         [0, 0],
         [width, height],
       ])
-      .scaleExtent([1, 8])
-      .on("zoom", zoomed)
+      .scaleExtent([0.5, 8])
+      .on("zoom", zoomed),
   );
 
   const link = g
@@ -117,7 +117,7 @@ const graph = (data) => {
       div.transition().duration(200).delay(400).style("opacity", 0.9);
 
       const divHTML = div.html(
-        d.isRepo ? repoItem(reposH[d.id]) : userTooltip(d)
+        d.isRepo ? repoItem(reposH[d.id]) : userTooltip(d),
       );
 
       if (evt.pageX + 100 > window.innerWidth) {
