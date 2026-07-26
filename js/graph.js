@@ -8,8 +8,8 @@ const height = config.height || 2000;
 const width = config.width || 2500;
 const userColors = config.userColors;
 const colorFaded = config.colorFaded || "#eeeeee";
-const circleBorder = config.circleBorder || "white"; //'black'
-const lineColor = config.lineColor || "white"; //'black'
+const circleBorder = config.circleBorder || "white";
+const lineColor = config.lineColor || "white";
 
 const scaleProject = d3.scaleOrdinal(d3.schemeCategory10);
 const color = (d) => (d.isRepo ? scaleProject(d.group) : userColors[d.group]);
@@ -150,9 +150,14 @@ const hideDetails = (evt) => {
     .transition()
     .duration(600)
     .style("fill", color)
-    .style("stroke", circleBorder);
+    .style("stroke", circleBorder)
+    .style("opacity", 1);
 
-  d3.selectAll("line").transition().duration(600).style("stroke", lineColor);
+  d3.selectAll("line")
+    .transition()
+    .duration(600)
+    .style("stroke", lineColor)
+    .style("opacity", 1);
 
   selectedRepo = null;
 };
@@ -161,6 +166,10 @@ const showDetails = (evt, d) => {
   evt?.stopPropagation();
   if (evt?.target?.style.fill === "rgb(238, 238, 238)" && d.oType !== "repo") {
     return null;
+  }
+  if (d.oType === "repo" && d.id === selectedRepo) {
+    // clicking the already-selected repo again resets the view
+    d = { id: "*" };
   }
   if (!evt?.detail?.skipModal) {
     const e = document.getElementById("details");
@@ -189,12 +198,14 @@ const showDetails = (evt, d) => {
       .transition()
       .duration(600)
       .style("fill", (d) => (fnFilterCircles(d) ? colorFaded : color(d)))
-      .style("stroke", (d) => (fnFilterCircles(d) ? "#0288d1" : circleBorder));
+      .style("stroke", (d) => (fnFilterCircles(d) ? "#0288d1" : circleBorder))
+      .style("opacity", (d) => (fnFilterCircles(d) ? 0.3 : 1));
 
     d3.selectAll("line")
       .transition()
       .duration(600)
       .style("stroke", (d) => (fnFilterLines(d) ? colorFaded : lineColor))
+      .style("opacity", (d) => (fnFilterLines(d) ? 0.3 : 1))
       .filter((d) => !fnFilterLines(d));
   } else if (d.oType === "user") {
     fnFilterCircles = (c) => {
@@ -206,14 +217,16 @@ const showDetails = (evt, d) => {
       d3.selectAll("circle.repo")
         .transition()
         .duration(600)
-        .style("fill", (d) => (fnFilterCircles(d) ? colorFaded : color(d)));
+        .style("fill", (d) => (fnFilterCircles(d) ? colorFaded : color(d)))
+        .style("opacity", (d) => (fnFilterCircles(d) ? 0.3 : 1));
 
       fnFilterLines = (c) => d.id === c.source.id; // || d.id===c.target.id
       d3.selectAll("line")
         .transition()
         .duration(600)
         .filter(fnFilterLines)
-        .style("stroke", lineColor);
+        .style("stroke", lineColor)
+        .style("opacity", 1);
     }
   } else {
     hideDetails();

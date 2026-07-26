@@ -66,7 +66,7 @@ label {
 svg.home {
   position: fixed;
   top: 5px;
-  left: 5px;
+  right: 5px;
   height: 40px;
   width: 40px;
   fill: #86bddc;
@@ -150,8 +150,9 @@ svg.home {
 }
 .project {
   cursor: pointer;
-  > a {
-    font-weight: 600;
+  > .div {
+    display: flex;
+    align-items: center;
   }
 }
 .reposList {

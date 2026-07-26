@@ -210,9 +210,7 @@ const repoItem = (r, skipMe, withSummary = true) => {
   return `
       <div onclick="javascript:selectProject('${r.name}')" class="project">
       <div>
-      <a class="${isMe ? "gituser" : ""}" href="javascript:selectProject('${
-        r.name
-      }')">
+      <a class="${isMe ? "gituser" : ""}">
           <div class="repo-circle" style="background-color:${color({
             isRepo: true,
             group: isMe ? 0 : r.group,
