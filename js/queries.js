@@ -204,7 +204,7 @@ const qReposFirst = `
         }
         ${pageInfo}
       }
-      repositories (first: 100) {
+      repositories (first: 100, privacy: PUBLIC) {
         totalCount
         nodes{
           ${repoDetails}
