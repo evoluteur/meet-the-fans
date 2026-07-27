@@ -20,11 +20,20 @@ npm install meet-the-fans
 ```
 
 
+## Project structure
+
+The two files you'll actually use are:
+
+- `index-data.html` — fetches your GitHub data (see [Getting the data](#getting-the-data)).
+- `index.html` — renders the graph (see [Visualizing the data](#visualizing-the-data)).
+
 ## Getting the data
 
 [Get your data](https://evoluteur.github.io/meet-the-fans/index-data.html) (user info, repositories, followers, stars, and forks) using [GitHub GraphQL API](https://docs.github.com/en/free-pro-team@latest/graphql).
 
 Open index-data.html in your browser to fetch and download your data easily. Just enter your GitHub user name and your [GitHub Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token), then click the "Fetch data" button.
+
+Your token stays in your browser: it is used only to call the GitHub GraphQL API directly from your machine and is never sent to any server.
 
 [![Get your Data](screenshots/mtf-data-fetch.png)](https://evoluteur.github.io/meet-the-fans/index-data.html)
 
@@ -46,18 +55,22 @@ The graph supports zoom and pan. Colors, size and force layout can be configured
 
 ```javascript
 const config = {
-  height: 1600,
-  width: 1200,
+  // svg size
+  height: 2000,
+  width: 2000,
+  // graph params
   strength: -30,
   distance: 50,
+  // colors
   userColors: {
     follower: "#B9D7EB",
     star: "#86BDDC",
     fork: "#1966AC",
     both: "#4A96C9",
   },
-  colorFaded: "#e1e1e1",
+  colorFaded: "#5f5f5f",
   circleBorder: "white",
+  // misc.
   maxTopics: 5,
 };
 ```
