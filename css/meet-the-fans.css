@@ -240,14 +240,16 @@ input.field {
   width: calc(100% - 25px);
 }
 .repo-circle {
-  background-color: silver;
-  width: 16px;
-  height: 16px;
-  display: inline-block;
   position: relative;
-  top: 2px;
+  top: 3px;
+  display: inline-block;
+  background-color: silver;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
   border-radius: 50%;
   margin-right: 5px;
+  border: solid 1px #f6f6f6;
 }
 .lbl-10 {
   margin-left: 10px;
