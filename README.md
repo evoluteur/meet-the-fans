@@ -38,7 +38,7 @@ Your token stays in your browser: it is used only to call the GitHub GraphQL API
 [![Get your Data](screenshots/mtf-data-fetch.png)](https://evoluteur.github.io/meet-the-fans/index-data.html)
 
 When fetching is done a "Download" button appears. Use it to download your data.
- 
+
 Note: it is only fetching original repositories (not including forked repos) but it is easy to change in the code.
 
 ## Visualizing the data
@@ -88,9 +88,11 @@ Meet-the-Fans is released under the [MIT license](http://github.com/evoluteur/me
 
 Encourage this project by [becoming a sponsor](https://github.com/sponsors/evoluteur).
 
-## More...
+## Related projects
 
-Check out my other project [GitHub-Projects-Cards](https://github.com/evoluteur/github-projects-cards) for a [Cards view](https://evoluteur.github.io/github-projects-cards/) of your Github projects.
+You may also like these projects:
 
+- [GitHub-Projects-Cards](https://github.com/evoluteur/github-projects-cards) ([demo](https://evoluteur.github.io/github-projects-cards/)) for a cards view of your Github projects.
+- [npm-Pulse](https://github.com/evoluteur/npm-pulse) ([demo](https://evoluteur.github.io/npm-pulse/)) for a dashboard of the downloads, sparklines, and trends of your npm packages.
 
 Copyright (c) 2026 [Olivier Giulieri](https://evoluteur.github.io/).
