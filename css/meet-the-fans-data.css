@@ -40,9 +40,13 @@ textarea {
   border: dashed 1px white;
   font-style: italic;
   padding: 0 20px;
-  height: 210px;
+  /* fill the height of the form row (set by the fields on the left)
+     without letting its own content grow the row: it scrolls instead */
+  align-self: stretch;
+  contain: size;
+  min-height: 210px;
   width: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   color: white;
   flex-grow: 1;
   margin-right: 10px;
@@ -59,11 +63,15 @@ textarea {
 }
 .r-fans {
   flex-grow: 1;
+  /* min-width: 0 lets long JSON lines scroll inside the box
+     instead of stretching the column past the window */
+  min-width: 0;
+  max-width: 900px;
 }
 
 .response2c {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 #response > div {
   flex-grow: 1;
@@ -104,10 +112,6 @@ textarea {
   justify-content: left;
   width: 100%;
   margin: 40px 0;
-}
-.form-login-token {
-  display: flex;
-  justify-content: left;
 }
 .form-field label {
   display: block;
