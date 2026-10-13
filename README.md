@@ -92,12 +92,13 @@ npm run build
 
 Meet-the-Fans is released under the [MIT license](http://github.com/evoluteur/meet-the-fans/blob/master/LICENSE).
 
-Encourage this project by [becoming a sponsor](https://github.com/sponsors/evoluteur).
+Already one of the fans? [Become a sponsor](https://github.com/sponsors/evoluteur) to keep the project growing.
 
 ## Related projects
 
 You may also like these projects:
 
+- [Repo-Atlas](https://github.com/evoluteur/repo-atlas) ([demo](https://evoluteur.github.io/repo-atlas/)) for a map of what a GitHub user has built: repos clustered by topic, stars over time, and the popular-but-stale ones flagged.
 - [GitHub-Projects-Cards](https://github.com/evoluteur/github-projects-cards) ([demo](https://evoluteur.github.io/github-projects-cards/)) for a cards view of your Github projects.
 - [npm-Pulse](https://github.com/evoluteur/npm-pulse) ([demo](https://evoluteur.github.io/npm-pulse/)) for a dashboard of the downloads, sparklines, and trends of your npm packages.
 

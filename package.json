@@ -1,7 +1,7 @@
 {
   "name": "meet-the-fans",
   "version": "2.0.0",
-  "description": "Network graph of GitHub repositories, followers, stars, and forks.",
+  "description": "See who's behind your GitHub stars: an interactive network graph of your repos, followers, stargazers, and forks, right in your browser.",
   "repository": {
     "type": "git",
     "url": "git://github.com/evoluteur/meet-the-fans.git"
