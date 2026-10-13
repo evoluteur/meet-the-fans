@@ -239,3 +239,37 @@ footer {
   font-size: 0.85em;
   opacity: 0.85;
 }
+
+.steps {
+  margin: 0 0 12px;
+  padding-left: 1.4em;
+  font-size: 0.85em;
+  line-height: 1.5;
+  max-width: 900px;
+  li + li {
+    margin-top: 4px;
+  }
+}
+.notes {
+  font-size: 0.75em;
+  line-height: 1.5;
+  max-width: 900px;
+  summary {
+    cursor: pointer;
+    font-weight: 700;
+    width: fit-content;
+  }
+  ul {
+    margin: 8px 0 0;
+    padding-left: 1.4em;
+  }
+  li + li {
+    margin-top: 4px;
+  }
+  code {
+    font-size: 0.95em;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1px 5px;
+    border-radius: 4px;
+  }
+}

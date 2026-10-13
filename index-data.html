@@ -91,6 +91,57 @@
       >
       API.
     </p>
+    <ol class="steps">
+      <li>
+        Enter your GitHub user name and a
+        <a
+          href="https://github.com/settings/tokens/new?description=meet-the-fans"
+          target="_blank"
+          rel="noopener"
+          >personal access token</a
+        >
+        (a classic token with no scopes is enough: only public data is read).
+      </li>
+      <li>
+        Click <b>Fetch data</b>. Progress shows on the right, and your fans
+        appear below as they are found.
+      </li>
+      <li>
+        When it's done, click <b>View graph</b> to see your graph right away,
+        or <b>Download</b> to keep your data as a file.
+      </li>
+    </ol>
+    <details class="notes">
+      <summary>Good to know</summary>
+      <ul>
+        <li>
+          <b>Privacy:</b> everything runs in your browser. Your token is sent
+          only to GitHub, never to any other server.
+        </li>
+        <li>
+          <b>Remembered values:</b> your user name and API choice are kept in
+          this browser. The token is cleared when you close the tab, unless you
+          check "Remember token on this device".
+        </li>
+        <li>
+          <b>GraphQL or REST:</b> GraphQL (recommended) needs far fewer
+          requests, about 200 for an account with 2,000 fans. REST needs one
+          more request per fan, so it is slower and uses more of your hourly
+          limit (5,000 requests).
+        </li>
+        <li>
+          <b>What is fetched:</b> your profile, your original repositories
+          (forks are skipped), your followers, and the users who starred or
+          forked your repositories.
+        </li>
+        <li>
+          <b>View graph:</b> your data is saved in this browser and the graph
+          opens as <code>index.html?data=mine</code>. Bookmark that link to come
+          back without fetching again. Use <b>Download</b> to use your data in
+          another browser, or to make it the default graph.
+        </li>
+      </ul>
+    </details>
     <div class="form-login-token">
       <div class="form-fields">
         <div class="form-field">
