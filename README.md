@@ -1,4 +1,4 @@
-![Meet-the-Fans](screenshots/mtf.png) &middot; [![GitHub license](https://img.shields.io/github/license/evoluteur/meet-the-fans)](https://github.com/evoluteur/meet-the-fans/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/meet-the-fans)](https://www.npmjs.com/package/meet-the-fans)
+![Meet-the-Fans](screenshots/mtf.png) &middot; [![GitHub license](https://img.shields.io/github/license/evoluteur/meet-the-fans)](https://github.com/evoluteur/meet-the-fans/blob/master/LICENSE)
 
 Network graph of repositories, followers, stargazers, and forks to meet your GitHub fans.
 
@@ -10,13 +10,6 @@ Network graph of repositories, followers, stargazers, and forks to meet your Git
 ```bash
 # To get the latest stable version, use git from the command line.
 git clone https://github.com/evoluteur/meet-the-fans
-```
-
-or use the [npm package](https://www.npmjs.com/package/meet-the-fans):
-
-```bash
-# To get the latest stable version, use npm from the command line.
-npm install meet-the-fans
 ```
 
 
