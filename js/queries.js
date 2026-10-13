@@ -28,6 +28,26 @@ const gqlOptions = (query, variables) => ({
   },
   body: JSON.stringify({ query, variables }),
 });
+// Read-only JSON view with syntax colors (keys, strings, numbers, literals).
+const escapeHTML = (txt) =>
+  txt.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const jsonTokens =
+  /("(?:\\.|[^"\\])*")(\s*:)?|\b(true|false|null)\b|(-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?)|\b(const)\b/g;
+const highlightJSON = (txt) =>
+  escapeHTML(txt).replace(jsonTokens, (m, str, colon, lit, num, kw) => {
+    if (str) {
+      return colon
+        ? `<span class="j-key">${str}</span>${colon}`
+        : `<span class="j-str">${str}</span>`;
+    }
+    if (lit) return `<span class="j-lit">${lit}</span>`;
+    if (num) return `<span class="j-num">${num}</span>`;
+    return `<span class="j-kw">${kw}</span>`;
+  });
+const showJSON = (id, txt) => {
+  document.getElementById(id).innerHTML = highlightJSON(txt || "");
+};
+
 const setStatusRed = (msg) => setStatus('<span class="red">' + msg + "</span>");
 const runQuery = async (q, variables, cb, cbError) => {
   totalQueries += 1;
@@ -267,7 +287,7 @@ const getUserInfo = () => {
         .sort((a, b) => a.name.localeCompare(b.name));
       setStatus(user.repos.length + " repos (forks excluded).");
       addTotals(user);
-      document.getElementById("user").value = "const gitUser = " + toJSON(user);
+      showJSON("user", "const gitUser = " + toJSON(user));
       setStatus("Generating queries...");
     }
     const fs = data.user.followers;
@@ -294,7 +314,7 @@ const getUserInfo = () => {
 
 const getFans = (repo) => {
   console.log(repo.name);
-  document.getElementById("fans").value = "Waiting...";
+  showJSON("fans", "Waiting...");
   setStatus(`Querying fans for repo ${repo.name}.`);
   if (!(repo.nbStars || repo.nbForks)) {
     return;
@@ -393,9 +413,9 @@ const getFans = (repo) => {
         } done + ${runningQueries} pending...`,
       );
     } else {
-      document.getElementById("fans").value = toJSON(fans);
+      showJSON("fans", toJSON(fans));
     }
-    document.getElementById("user").value = toJSON(user);
+    showJSON("user", toJSON(user));
     if (!runningQueries) {
       setStatus(
         "Data fetched in " +
@@ -457,15 +477,29 @@ const startQuery = () => {
   showElem("status");
   setStatus("", true);
   showElem("response");
-  document.getElementById("user").value = "Waiting for query response...";
-  document.getElementById("fans").value = "";
+  showJSON("user", "Waiting for query response...");
+  showJSON("fans", "");
   startTime = new Date();
-  setStatus("meet-the-fans: " + startTime.toLocaleTimeString());
-  getUserInfo();
+  const api = getApiChoice();
+  setStatus(
+    `meet-the-fans: ${startTime.toLocaleTimeString()} (${
+      api === "rest" ? "REST" : "GraphQL"
+    } API)`,
+  );
+  if (api === "rest") {
+    getUserInfoRest();
+  } else {
+    getUserInfo();
+  }
+};
+
+const getApiChoice = () => {
+  const e = document.querySelector('input[name="api"]:checked');
+  return e ? e.value : "graphql";
 };
 
 const copy = (fieldName) => {
-  const text = document.getElementById(fieldName).value;
+  const text = document.getElementById(fieldName).textContent;
   navigator.clipboard.writeText(text);
 };
 
@@ -495,3 +529,64 @@ const fans = ${toJSON(fans)};
   element.click();
   document.body.removeChild(element);
 };
+
+// ---- Remember form values between visits ----
+// The username is kept in localStorage. The token stays in sessionStorage
+// (cleared when the tab closes) unless "Remember token" is checked, which
+// moves it to localStorage.
+const STORE_USER = "mtf-github-user";
+const STORE_TOKEN = "mtf-github-token";
+const STORE_REMEMBER = "mtf-remember-token";
+const STORE_API = "mtf-api";
+
+const store = {
+  get: (area, k) => {
+    try {
+      return window[area].getItem(k);
+    } catch (e) {
+      return null;
+    }
+  },
+  set: (area, k, v) => {
+    try {
+      if (v) window[area].setItem(k, v);
+      else window[area].removeItem(k);
+    } catch (e) {}
+  },
+};
+
+const saveFormValues = () => {
+  const user = document.getElementById("github_user").value.trim();
+  const token = document.getElementById("github_token").value.trim();
+  const remember = document.getElementById("remember_token").checked;
+  store.set("localStorage", STORE_USER, user);
+  store.set("localStorage", STORE_REMEMBER, remember ? "1" : "");
+  store.set("sessionStorage", STORE_TOKEN, token);
+  store.set("localStorage", STORE_TOKEN, remember ? token : "");
+  store.set("localStorage", STORE_API, getApiChoice());
+};
+
+const restoreFormValues = () => {
+  const eUser = document.getElementById("github_user");
+  const eToken = document.getElementById("github_token");
+  const eRemember = document.getElementById("remember_token");
+  if (!eUser || !eToken || !eRemember) return;
+  eUser.value = store.get("localStorage", STORE_USER) || eUser.value;
+  eRemember.checked = store.get("localStorage", STORE_REMEMBER) === "1";
+  eToken.value =
+    store.get("sessionStorage", STORE_TOKEN) ||
+    store.get("localStorage", STORE_TOKEN) ||
+    eToken.value;
+  [eUser, eToken].forEach((e) => e.addEventListener("input", saveFormValues));
+  eRemember.addEventListener("change", saveFormValues);
+  const api = store.get("localStorage", STORE_API);
+  const eApi = api && document.querySelector(`input[name="api"][value="${api}"]`);
+  if (eApi) {
+    eApi.checked = true;
+  }
+  document
+    .querySelectorAll('input[name="api"]')
+    .forEach((e) => e.addEventListener("change", saveFormValues));
+};
+
+document.addEventListener("DOMContentLoaded", restoreFormValues);

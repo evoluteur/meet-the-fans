@@ -37,6 +37,7 @@
     />
     <link href="css/meet-the-fans-data.css" rel="stylesheet" />
     <script src="js/queries.js"></script>
+    <script src="js/queries-rest.js"></script>
   </head>
 
   <body>
@@ -74,15 +75,36 @@
     <p>
       Let's fetch your user info, repositories, followers, stars, and forks
       using
+      the GitHub
       <a
         href="https://docs.github.com/en/graphql"
         target="_blank"
         rel="noopener"
-        >GitHub GraphQL API</a
-      >.
+        >GraphQL</a
+      >
+      or
+      <a
+        href="https://docs.github.com/en/rest"
+        target="_blank"
+        rel="noopener"
+        >REST</a
+      >
+      API.
     </p>
     <div class="form-login-token">
       <div class="form-fields">
+        <div class="form-field">
+          <label>GitHub API:</label>
+          <div class="api-switch" role="radiogroup" aria-label="GitHub API">
+            <label
+              ><input type="radio" name="api" value="graphql" checked />
+              GraphQL</label
+            >
+            <label
+              ><input type="radio" name="api" value="rest" /> REST</label
+            >
+          </div>
+        </div>
         <div class="form-field">
           <label>GitHub User:</label>
           <input id="github_user" value="" />
@@ -98,6 +120,10 @@
             >:</label
           >
           <textarea id="github_token"></textarea>
+          <label class="remember-token">
+            <input type="checkbox" id="remember_token" />
+            Remember token on this device
+          </label>
         </div>
       </div>
       <div>
@@ -118,14 +144,14 @@
             >User and repos
             <div class="icon copy" onclick="copy('user')"></div
           ></label>
-          <textarea id="user">Waiting for query response...</textarea>
+          <pre id="user" class="json-view" tabindex="0">Waiting for query response...</pre>
         </div>
         <div class="form-field r-fans">
-          <label for="user"
+          <label for="fans"
             >Fans
             <div class="icon copy" onclick="copy('fans')"></div
           ></label>
-          <textarea id="fans"></textarea>
+          <pre id="fans" class="json-view" tabindex="0"></pre>
         </div>
       </div>
     </div>

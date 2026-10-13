@@ -69,8 +69,35 @@ textarea {
   flex-grow: 1;
   margin: 0 5px;
 }
-#response textarea {
-  font-size: 14px;
+.json-view {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 10px 12px;
+  overflow: auto;
+  resize: vertical;
+  border-radius: 6px;
+  background-color: #1e2633;
+  color: #d4d4d4;
+  color-scheme: dark;
+  font: 13px/1.45 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  white-space: pre;
+  tab-size: 2;
+  .j-key {
+    color: #9cdcfe;
+  }
+  .j-str {
+    color: #ce9178;
+  }
+  .j-num {
+    color: #b5cea8;
+  }
+  .j-lit {
+    color: #569cd6;
+  }
+  .j-kw {
+    color: #c586c0;
+  }
 }
 .form-login-token {
   display: flex;
@@ -142,4 +169,44 @@ input {
 }
 footer {
   margin-top: 50px;
+}
+
+.form-field label.remember-token {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  input {
+    margin: 0;
+  }
+}
+
+.api-switch {
+  display: inline-flex;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  overflow: hidden;
+  label {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 6px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    &:has(input:checked) {
+      background-color: #0277bd;
+      font-weight: 700;
+    }
+  }
+  input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  &:focus-within {
+    outline: 2px solid white;
+    outline-offset: 2px;
+  }
 }

@@ -29,15 +29,21 @@ The two files you'll actually use are:
 
 ## Getting the data
 
-[Get your data](https://evoluteur.github.io/meet-the-fans/index-data.html) (user info, repositories, followers, stars, and forks) using [GitHub GraphQL API](https://docs.github.com/en/free-pro-team@latest/graphql).
+[Get your data](https://evoluteur.github.io/meet-the-fans/index-data.html) (user info, repositories, followers, stars, and forks) using the GitHub [GraphQL API](https://docs.github.com/en/graphql) or [REST API](https://docs.github.com/en/rest).
 
-Open index-data.html in your browser to fetch and download your data easily. Just enter your GitHub user name and your [GitHub Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token), then click the "Fetch data" button.
+Open index-data.html in your browser to fetch and download your data easily:
 
-Your token stays in your browser: it is used only to call the GitHub GraphQL API directly from your machine and is never sent to any server.
+1. Pick the API to use: **GraphQL** (default) or **REST**.
+2. Enter your GitHub user name and your [GitHub Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+3. Click the "Fetch data" button.
+
+Both APIs produce the same data file. GraphQL needs far fewer requests. REST needs one extra request per fan (to get their profile), but it also works without a token for very small accounts (GitHub allows only 60 unauthenticated REST requests per hour).
+
+Your token stays in your browser: it is used only to call the GitHub API directly from your machine and is never sent to any server. The page remembers your user name and API choice. The token is kept only for the current browser tab, unless you check "Remember token on this device".
 
 [![Get your Data](screenshots/mtf-data-fetch.png)](https://evoluteur.github.io/meet-the-fans/index-data.html)
 
-When fetching is done a "Download" button appears. Use it to download your data.
+The results are shown as syntax-colored JSON (use the copy icons to copy them). When fetching is done a "Download" button appears. Use it to download your data.
 
 Note: it is only fetching original repositories (not including forked repos) but it is easy to change in the code.
 
@@ -48,6 +54,8 @@ Note: it is only fetching original repositories (not including forked repos) but
 To switch to your data, change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
 
 Clicking a project dot (on the graph or in the side pane) highlights it with its stargazers and forks.
+
+The size of each user bubble grows on a log scale with the number of repos they starred or forked, so the most active fans stand out without hiding everyone else.
 
 [![Evoluteur's graph](screenshots/mtf-data-viz-2.png)](https://evoluteur.github.io/meet-the-fans/)
 
@@ -77,7 +85,7 @@ const config = {
 
 To rebuild the project (minimizing the JS), run the following commands:
 
-```javascript
+```bash
 npm install
 npm run build
 ```
