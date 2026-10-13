@@ -35,7 +35,12 @@ if (fans[gitUser.login]) {
   delete fans[gitUser.login];
 }
 
-const size = (user) => 5 + (user.starred.length + user.forked.length) * 2;
+// Bubble radius grows with the log of the user's interactions (stars + forks):
+// 1 -> 6px, then +5px each time the count doubles.
+const size = (user) => {
+  const n = Math.max(1, user.starred.length + user.forked.length);
+  return 6 + 5 * Math.log2(n);
+};
 
 const userColorGroup = (u) => {
   if (u.forked.length) {
