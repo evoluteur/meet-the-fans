@@ -84,7 +84,21 @@
     <link rel="stylesheet" type="text/css" href="css/meet-the-fans.css" />
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="config.js"></script>
-    <script src="data/data-evoluteur.js"></script>
+    <script>
+      // index.html?data=mine shows the data saved by index-data.html
+      // ("View graph" button) instead of the demo data.
+      window.mtfSaved = null;
+      try {
+        if (new URLSearchParams(location.search).get("data") === "mine") {
+          window.mtfSaved = JSON.parse(localStorage.getItem("mtf-data"));
+        }
+      } catch (e) {}
+      document.write(
+        window.mtfSaved && window.mtfSaved.gitUser
+          ? "<script>const gitUser = mtfSaved.gitUser; const fans = mtfSaved.fans;<\/script>"
+          : '<script src="data/data-evoluteur.js"><\/script>',
+      );
+    </script>
     <script src="dist/meet-the-fans.min.js"></script>
   </head>
 

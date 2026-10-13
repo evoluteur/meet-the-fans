@@ -69,7 +69,7 @@ const getData = () => {
 
   repos.push({
     name: "*",
-    description: "Evoluteur",
+    description: gitUser.login,
   });
   nodes.push({ id: "*", radius: 20, group: 0, isRepo: true });
 

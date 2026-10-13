@@ -2,6 +2,8 @@
 
 Network graph of repositories, followers, stargazers, and forks to meet your GitHub fans.
 
+Fetch your data and see your own graph right in the browser, with nothing to install or edit.
+
 [![Evoluteur's graph](screenshots/mtf-data-viz.png)](https://evoluteur.github.io/meet-the-fans/)
 ## Installation
 
@@ -18,7 +20,7 @@ git clone https://github.com/evoluteur/meet-the-fans
 The two files you'll actually use are:
 
 - `index-data.html` — fetches your GitHub data (see [Getting the data](#getting-the-data)).
-- `index.html` — renders the graph (see [Visualizing the data](#visualizing-the-data)).
+- `index.html` — renders the graph: the demo data by default, or your fetched data with `index.html?data=mine` (see [Visualizing the data](#visualizing-the-data)).
 
 ## Getting the data
 
@@ -36,7 +38,7 @@ Your token stays in your browser: it is used only to call the GitHub API directl
 
 [![Get your Data](screenshots/mtf-data-fetch.png)](https://evoluteur.github.io/meet-the-fans/index-data.html)
 
-The results are shown as syntax-colored JSON (use the copy icons to copy them). When fetching is done a "Download" button appears. Use it to download your data.
+The results are shown as syntax-colored JSON (use the copy icons to copy them). When fetching is done two buttons appear: "View graph" opens the graph with your data right away (it is saved in your browser and the graph opens as `index.html?data=mine`), and "Download" saves your data as a JS file.
 
 Note: it is only fetching original repositories (not including forked repos) but it is easy to change in the code.
 
@@ -44,7 +46,10 @@ Note: it is only fetching original repositories (not including forked repos) but
 
 [Visualize your data](https://evoluteur.github.io/meet-the-fans/) using D3 force layout.
 
-To switch to your data, change the path to "data/data-evoluteur.js" for the new file you just downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
+There are two ways to see the graph of your own data:
+
+1. **On the fly:** click "View graph" when fetching is done. Your data is saved in your browser (localStorage) and the graph opens as `index.html?data=mine`. You can come back to that link later without fetching again. The data stays only in that browser: another browser or computer will not see it (use Download for that).
+2. **From the downloaded file:** to make your data the default, or to publish your graph, change the path "data/data-evoluteur.js" to the file you downloaded (in [index.html](https://github.com/evoluteur/meet-the-fans/blob/master/index.html)).
 
 Clicking a project dot (on the graph or in the side pane) highlights it with its stargazers and forks.
 

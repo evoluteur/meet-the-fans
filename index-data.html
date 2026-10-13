@@ -126,12 +126,15 @@
           </label>
         </div>
       </div>
-      <div>
+      <div class="form-actions">
         <button id="btnMTF" class="btn mtf" onclick="startQuery()">
           Fetch data
         </button>
         <button id="bDownload" class="btn mtf hidden" onclick="download()">
           Download
+        </button>
+        <button id="bGraph" class="btn mtf hidden" onclick="viewGraph()">
+          View graph
         </button>
       </div>
       <div id="status"></div>
@@ -148,7 +151,7 @@
         </div>
         <div class="form-field r-fans">
           <label for="fans"
-            >Fans
+            >Fans<span id="fansCount" class="fans-count"></span>
             <div class="icon copy" onclick="copy('fans')"></div
           ></label>
           <pre id="fans" class="json-view" tabindex="0"></pre>

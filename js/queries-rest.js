@@ -234,23 +234,33 @@ const getUserInfoRest = async () => {
   addTotals(user);
   showJSON("user", "const gitUser = " + toJSON(user));
 
-  // Who interacted with what
-  const roles = {};
-  const role = (who) =>
-    roles[who.login] ||
-    (roles[who.login] = {
-      avatarUrl: who.avatar_url,
-      follower: false,
-      starred: [],
-      forked: [],
-    });
+  // Who interacted with what: fans are added as soon as they are found
+  // (login and avatar only), their profile is added at the end.
+  const fan = (who) => {
+    if (!fans[who.login]) {
+      fans[who.login] = {
+        login: who.login,
+        avatarUrl: who.avatar_url,
+        follower: false,
+        starred: [],
+        forked: [],
+      };
+    }
+    return fans[who.login];
+  };
 
   setStatus("Querying followers...");
   const followers = await tryRest(
     () => restGetAll(`/users/${ghLogin}/followers?per_page=${restPageSize}`),
     [],
   );
-  followers.forEach((f) => (role(f).follower = true));
+  followers.forEach((f) => {
+    const u = fan(f);
+    u.follower = true;
+    // same convention as the GraphQL fetch: followers "star" the user ("*")
+    u.starred.push("*");
+  });
+  refreshFans();
 
   const reposWithFans = user.repos.filter((r) => r.nbStars + r.nbForks);
   user.repos
@@ -264,7 +274,8 @@ const getUserInfoRest = async () => {
         () => restGetAll(`${repoPath}/stargazers?per_page=${restPageSize}`),
         [],
       );
-      stargazers.forEach((s) => role(s).starred.push(r.name));
+      stargazers.forEach((s) => fan(s).starred.push(r.name));
+      refreshFans();
     }
     if (r.nbForks) {
       const forks = await tryRest(
@@ -272,37 +283,38 @@ const getUserInfoRest = async () => {
         [],
       );
       forks.forEach((f) => {
-        const forked = role(f.owner).forked;
+        const forked = fan(f.owner).forked;
         if (!forked.includes(r.name)) {
           forked.push(r.name);
         }
       });
+      refreshFans();
     }
   });
 
   // Profile of each fan (one call per fan)
-  const logins = Object.keys(roles);
+  const logins = Object.keys(fans);
   setStatus(`Querying profiles for ${logins.length} fans...`);
   let nbDone = 0;
   await mapLimit(logins, 8, async (fanLogin) => {
-    const r = roles[fanLogin];
+    const f = fans[fanLogin];
     const details = await tryRest(
       () =>
         restGet(`/users/${encodeURIComponent(fanLogin)}`).then((x) => x.data),
       null,
     );
-    fans[fanLogin] = {
-      ...(details
-        ? cleanUserRest(details)
-        : { login: fanLogin, avatarUrl: r.avatarUrl }),
-      follower: r.follower,
-      // same convention as the GraphQL fetch: followers "star" the user ("*")
-      starred: (r.follower ? ["*"] : []).concat(r.starred),
-      forked: r.forked,
-    };
+    if (details) {
+      fans[fanLogin] = {
+        ...cleanUserRest(details),
+        follower: f.follower,
+        starred: f.starred,
+        forked: f.forked,
+      };
+    }
     nbDone += 1;
     if (nbDone % 50 === 0 && nbDone < logins.length) {
       setStatus(`${nbDone} / ${logins.length} fan profiles...`);
+      refreshFans();
     }
   });
 
@@ -311,7 +323,7 @@ const getUserInfoRest = async () => {
 
 const finishRest = () => {
   showJSON("user", toJSON(user));
-  showJSON("fans", toJSON(fans));
+  showFansFinal();
   setStatus(
     "Data fetched in " +
       Math.floor((new Date() - startTime) / 1000) +
@@ -325,5 +337,6 @@ const finishRest = () => {
   if (user.login) {
     setStatus(dataSummary());
     showElem("bDownload");
+      showElem("bGraph");
   }
 };

@@ -48,6 +48,51 @@ const showJSON = (id, txt) => {
   document.getElementById(id).innerHTML = highlightJSON(txt || "");
 };
 
+// Live progress for the Fans box while fetching: the count in its title is
+// updated on every result, the JSON (plain, not colored) every 2 seconds.
+// The colored JSON is shown once at the end (showFansFinal).
+const FANS_REFRESH_MS = 2000;
+let fansTimer = null;
+let fetching = false;
+const fansCountText = () => {
+  const list = Object.values(fans);
+  const nb = (test) => list.filter(test).length;
+  return (
+    `: ${list.length} (` +
+    `${nb((u) => u.starred && u.starred.some((r) => r !== "*"))} stargazers, ` +
+    `${nb((u) => u.forked && u.forked.length)} forkers, ` +
+    `${nb((u) => u.follower)} followers)`
+  );
+};
+const showFansCount = (done) => {
+  const e = document.getElementById("fansCount");
+  e.textContent = Object.keys(fans).length
+    ? fansCountText() + (done ? "" : " so far...")
+    : "";
+};
+const refreshFans = () => {
+  showFansCount(false);
+  if (fansTimer) {
+    return;
+  }
+  fansTimer = setTimeout(() => {
+    fansTimer = null;
+    if (fetching) {
+      const e = document.getElementById("fans");
+      const top = e.scrollTop;
+      e.textContent = toJSON(fans);
+      e.scrollTop = top;
+    }
+  }, FANS_REFRESH_MS);
+};
+const showFansFinal = () => {
+  fetching = false;
+  clearTimeout(fansTimer);
+  fansTimer = null;
+  showFansCount(true);
+  showJSON("fans", toJSON(fans));
+};
+
 const setStatusRed = (msg) => setStatus('<span class="red">' + msg + "</span>");
 const runQuery = async (q, variables, cb, cbError) => {
   totalQueries += 1;
@@ -306,6 +351,7 @@ const getUserInfo = () => {
     data.user.followers.nodes.forEach((u) => {
       fans[u.login] = cleanUser(u, "*");
     });
+    refreshFans();
     runningQueries -= 1;
   };
   setStatus(`Querying user ${login}...`);
@@ -314,7 +360,7 @@ const getUserInfo = () => {
 
 const getFans = (repo) => {
   console.log(repo.name);
-  showJSON("fans", "Waiting...");
+
   setStatus(`Querying fans for repo ${repo.name}.`);
   if (!(repo.nbStars || repo.nbForks)) {
     return;
@@ -400,6 +446,7 @@ const getFans = (repo) => {
         }
       }
     }
+    refreshFans();
     runningQueries -= 1;
 
     if (curStars !== "skip" || curForks !== "skip") {
@@ -413,7 +460,7 @@ const getFans = (repo) => {
         } done + ${runningQueries} pending...`,
       );
     } else {
-      showJSON("fans", toJSON(fans));
+      showFansFinal();
     }
     showJSON("user", toJSON(user));
     if (!runningQueries) {
@@ -429,6 +476,7 @@ const getFans = (repo) => {
       }
       setStatus(dataSummary());
       showElem("bDownload");
+      showElem("bGraph");
     }
   };
 
@@ -475,10 +523,14 @@ const startQuery = () => {
   user = {};
   fans = {};
   showElem("status");
+  hideElem("bDownload");
+  hideElem("bGraph");
   setStatus("", true);
   showElem("response");
   showJSON("user", "Waiting for query response...");
   showJSON("fans", "");
+  showFansCount(true);
+  fetching = true;
   startTime = new Date();
   const api = getApiChoice();
   setStatus(
@@ -496,6 +548,26 @@ const startQuery = () => {
 const getApiChoice = () => {
   const e = document.querySelector('input[name="api"]:checked');
   return e ? e.value : "graphql";
+};
+
+// Save the fetched data in localStorage and open the graph with it
+// (index.html?data=mine reads it back instead of the demo data).
+const STORE_DATA = "mtf-data";
+const viewGraph = () => {
+  try {
+    localStorage.setItem(
+      STORE_DATA,
+      JSON.stringify({ gitUser: user, fans, savedAt: new Date().toISOString() }),
+    );
+  } catch (e) {
+    setStatusRed(
+      "Could not save the data in the browser (" +
+        e.message +
+        "). Use Download instead.",
+    );
+    return;
+  }
+  window.location.href = "index.html?data=mine";
 };
 
 const copy = (fieldName) => {

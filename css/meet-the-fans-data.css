@@ -133,8 +133,27 @@ input {
   font-family: "Overpass", arial;
   border-radius: 6px;
 }
+/* left: fields (fixed width) | middle: buttons stacked from the top | right: status */
+.form-fields {
+  flex: none;
+  width: 340px;
+  textarea,
+  input:not([type]) {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+.form-actions {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  /* line the first button up with the first field, below its label */
+  padding-top: 26px;
+  margin: 0 24px;
+}
 .btn.mtf {
-  margin: 22px 20px;
+  margin: 0;
   white-space: nowrap;
   width: 150px;
   padding: 10px;
@@ -213,4 +232,10 @@ footer {
     outline: 2px solid white;
     outline-offset: 2px;
   }
+}
+
+.fans-count {
+  font-weight: 400;
+  font-size: 0.85em;
+  opacity: 0.85;
 }
