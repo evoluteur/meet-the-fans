@@ -94,30 +94,53 @@ const showFansFinal = () => {
 };
 
 const setStatusRed = (msg) => setStatus('<span class="red">' + msg + "</span>");
-const runQuery = async (q, variables, cb, cbError) => {
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// POST a GraphQL query, retrying when GitHub times out. A GitHub timeout is a
+// 502/504 without CORS headers, so the browser reports it as a CORS error
+// ("Failed to fetch") and the status code is not readable: retry those too.
+const MAX_TRIES = 3;
+const gql = async (q, variables) => {
   totalQueries += 1;
-  runningQueries += 1;
-  fetch(apiPathGraphQL, gqlOptions(q, variables))
-    .then((r) => r.json())
-    .then((data) => {
-      if (data.errors) {
-        nbErrors += 1;
-        setStatusRed(data.errors.map((err) => err.message).join("<br/>"));
-        if (cbError) {
-          cbError(data.errors);
-        }
-        cb(null, true);
-      } else if (data.message && data.documentation_url) {
-        nbErrors += 1;
-        setStatusRed(data.message);
-        cb(null, true);
-      } else {
-        cb(data.data);
+  for (let attempt = 1; ; attempt++) {
+    let res;
+    try {
+      res = await fetch(apiPathGraphQL, gqlOptions(q, variables));
+    } catch (err) {
+      if (attempt < MAX_TRIES) {
+        setStatus(`GitHub did not answer (timeout?), retrying (${attempt}/${MAX_TRIES - 1})...`);
+        await sleep(1500 * attempt);
+        continue;
       }
-    })
+      throw new Error("GitHub did not answer (" + err.message + "). The query may be too heavy, try again later.");
+    }
+    if (res.status >= 500 && attempt < MAX_TRIES) {
+      setStatus(`GitHub error ${res.status}, retrying (${attempt}/${MAX_TRIES - 1})...`);
+      await sleep(1500 * attempt);
+      continue;
+    }
+    const data = await res.json().catch(() => ({ message: `HTTP ${res.status}` }));
+    if (data.errors) {
+      throw new Error(data.errors.map((err) => err.message).join("<br/>"));
+    }
+    if (!data.data) {
+      throw new Error(data.message || `HTTP ${res.status}`);
+    }
+    return data.data;
+  }
+};
+
+// Callback style used by the per-repo fans queries.
+const runQuery = (q, variables, cb, cbError) => {
+  runningQueries += 1;
+  gql(q, variables)
+    .then((data) => cb(data))
     .catch((err) => {
       nbErrors += 1;
       setStatusRed(err.message);
+      if (cbError) {
+        cbError(err);
+      }
       cb(null, true);
     });
 };
@@ -255,37 +278,52 @@ const pageInfo = `
   }
 `;
 
-const qReposFirst = `
+// The user, the followers and the repos are fetched in small pages:
+// one big query (100 repos with languages and topics + followers) makes
+// GitHub time out with a 502.
+const followersPageSize = 25;
+const reposPageSize = 20;
+
+const qUser = `
   query($login: String!){
     user(login: $login){
       ${userScalars}
       following {
         totalCount
       }
-      followers(first:50){
+      repositories(privacy: PUBLIC) {
+        totalCount
+      }
+      followers(first:${followersPageSize}){
         totalCount
         nodes{
           ${userDetails}
         }
         ${pageInfo}
       }
-      repositories (first: 100, privacy: PUBLIC) {
-        totalCount
+    }
+  }
+`;
+
+const qFollowersPaged = `
+  query($login: String!, $cursor: String!){
+    user(login: $login){
+      followers(first:${followersPageSize} after: $cursor){
         nodes{
-          ${repoDetails}
+          ${userDetails}
         }
+        ${pageInfo}
       }
     }
   }
 `;
 
 const qReposPaged = `
-  query($login: String!, $cursor: String!){
+  query($login: String!, $cursor: String){
     user(login: $login){
-      followers(first:${pageSize} after: $cursor){
-        totalCount
+      repositories(first:${reposPageSize} after: $cursor, privacy: PUBLIC){
         nodes{
-          ${userDetails}
+          ${repoDetails}
         }
         ${pageInfo}
       }
@@ -293,9 +331,9 @@ const qReposPaged = `
   }
 `;
 
-const getUserInfo = () => {
-  login = document.getElementById("github_user").value;
-  token = document.getElementById("github_token").value;
+const getUserInfo = async () => {
+  login = document.getElementById("github_user").value.trim();
+  token = document.getElementById("github_token").value.trim();
 
   let msg = "";
   const invalidLogin = !login;
@@ -312,50 +350,68 @@ const getUserInfo = () => {
     hideElem("response");
     return;
   }
-
-  let isFirstUserQuery = true;
   document.getElementById("response").style.display = "block";
 
-  const cbRepos = async (data, hasError) => {
-    if (hasError) {
-      runningQueries -= 1;
-      return;
+  try {
+    // user + first page of followers
+    setStatus(`Querying user ${login}...`);
+    const data = await gql(qUser, { login });
+    if (!data.user) {
+      throw new Error(`User "${login}" not found.`);
     }
-    if (isFirstUserQuery) {
-      isFirstUserQuery = false;
-      user = cleanUser(data.user);
-      delete user.starred;
-      delete user.forked;
-      user.repos = data.user.repositories.nodes
-        .filter((r) => !r.isFork)
-        .map(cleanRepo)
-        .sort((a, b) => a.name.localeCompare(b.name));
-      setStatus(user.repos.length + " repos (forks excluded).");
-      addTotals(user);
-      showJSON("user", "const gitUser = " + toJSON(user));
-      setStatus("Generating queries...");
-    }
-    const fs = data.user.followers;
-    if (fs && fs.pageInfo.hasNextPage) {
-      console.log("followers", fs.pageInfo.endCursor);
-      runQuery(qReposPaged, { login, cursor: fs.pageInfo.endCursor }, cbRepos, cbError);
-    } else {
-      user.repos.forEach((r) => {
-        if (r.nbStars + r.nbForks) {
-          getFans(r);
-        } else {
-          setStatus(`Skipping repo ${r.name}.`);
-        }
+    user = cleanUser(data.user);
+    delete user.starred;
+    delete user.forked;
+
+    // followers (paged)
+    let fs = data.user.followers;
+    const addFollowers = (nodes) => {
+      nodes.forEach((u) => {
+        fans[u.login] = cleanUser(u, "*");
       });
+      refreshFans();
+    };
+    addFollowers(fs.nodes);
+    while (fs.pageInfo.hasNextPage) {
+      setStatus(`Followers: ${Object.keys(fans).length} / ${data.user.followers.totalCount}...`);
+      fs = (await gql(qFollowersPaged, { login, cursor: fs.pageInfo.endCursor })).user.followers;
+      addFollowers(fs.nodes);
     }
-    data.user.followers.nodes.forEach((u) => {
-      fans[u.login] = cleanUser(u, "*");
-    });
-    refreshFans();
-    runningQueries -= 1;
-  };
-  setStatus(`Querying user ${login}...`);
-  runQuery(qReposFirst, { login }, cbRepos, cbError);
+
+    // repos (paged)
+    let repos = [];
+    let cursor = null;
+    do {
+      setStatus(`Repos: ${repos.length} / ${data.user.repositories.totalCount}...`);
+      const rs = (await gql(qReposPaged, { login, cursor })).user.repositories;
+      repos = repos.concat(rs.nodes);
+      cursor = rs.pageInfo.hasNextPage ? rs.pageInfo.endCursor : null;
+    } while (cursor);
+    user.repos = repos
+      .filter((r) => !r.isFork)
+      .map(cleanRepo)
+      .sort((a, b) => a.name.localeCompare(b.name));
+    setStatus(user.repos.length + " repos (forks excluded).");
+    addTotals(user);
+    showJSON("user", "const gitUser = " + toJSON(user));
+  } catch (err) {
+    nbErrors += 1;
+    setStatusRed(err.message);
+    showFansFinal();
+    return;
+  }
+
+  // stargazers and forks, per repo (in parallel)
+  setStatus("Generating queries...");
+  const withFans = user.repos.filter((r) => r.nbStars + r.nbForks);
+  user.repos
+    .filter((r) => !(r.nbStars + r.nbForks))
+    .forEach((r) => setStatus(`Skipping repo ${r.name}.`));
+  if (withFans.length) {
+    withFans.forEach(getFans);
+  } else {
+    finishGraphQL();
+  }
 };
 
 const getFans = (repo) => {
@@ -460,27 +516,29 @@ const getFans = (repo) => {
         } done + ${runningQueries} pending...`,
       );
     } else {
-      showFansFinal();
-    }
-    showJSON("user", toJSON(user));
-    if (!runningQueries) {
-      setStatus(
-        "Data fetched in " +
-          Math.floor((new Date() - startTime) / 1000) +
-          " seconds using " +
-          totalQueries +
-          " GraphQL queries.",
-      );
-      if (nbErrors) {
-        setStatus(nbErrors + " queries with error or timeout.");
-      }
-      setStatus(dataSummary());
-      showElem("bDownload");
-      showElem("bGraph");
+      finishGraphQL();
     }
   };
 
   runQuery(qFans(null, null), { login, project }, cbFans, cbError);
+};
+
+const finishGraphQL = () => {
+  showFansFinal();
+  showJSON("user", toJSON(user));
+  setStatus(
+    "Data fetched in " +
+      Math.floor((new Date() - startTime) / 1000) +
+      " seconds using " +
+      totalQueries +
+      " GraphQL queries.",
+  );
+  if (nbErrors) {
+    setStatus(nbErrors + " queries with error or timeout.");
+  }
+  setStatus(dataSummary());
+  showElem("bDownload");
+  showElem("bGraph");
 };
 
 const showElem = (id) => document.getElementById(id).classList.remove("hidden");
