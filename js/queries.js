@@ -16,6 +16,8 @@ let totalQueries;
 let runningQueries;
 let nbErrors;
 let startTime;
+// repos where GitHub returned a star count but no stargazers (see warnStars)
+let hiddenStars;
 
 const toJSON = (obj) => JSON.stringify(obj, null, 2);
 const formatDate = (dateString) => new Date(dateString).toLocaleDateString();
@@ -449,12 +451,20 @@ const getFans = (repo) => {
     `;
   };
 
-  const cbFans = (data, hasError) => {
+  const cbFans = (data, hasError, starsCursor = null) => {
     let curStars = "skip";
     let curForks = "skip";
     if (!hasError) {
       const repo = data.repository;
       const project = repo.name;
+      if (
+        repo.stargazers &&
+        repo.stargazers.totalCount &&
+        !repo.stargazers.nodes.length &&
+        starsCursor === null
+      ) {
+        hiddenStars.push(project);
+      }
       if (repo.stargazers) {
         repo.stargazers.nodes.forEach((u) => {
           const fan = fans[u.login];
@@ -506,7 +516,12 @@ const getFans = (repo) => {
     runningQueries -= 1;
 
     if (curStars !== "skip" || curForks !== "skip") {
-      runQuery(qFans(curStars, curForks), { login, project }, cbFans, cbError);
+      runQuery(
+        qFans(curStars, curForks),
+        { login, project },
+        (d, err) => cbFans(d, err, curStars),
+        cbError,
+      );
     }
 
     if (runningQueries) {
@@ -536,9 +551,24 @@ const finishGraphQL = () => {
   if (nbErrors) {
     setStatus(nbErrors + " queries with error or timeout.");
   }
+  warnStars();
   setStatus(dataSummary());
   showElem("bDownload");
   showElem("bGraph");
+};
+
+// Since July 2026 GitHub lists stargazers only for the repo's admins and
+// collaborators: other tokens (or a classic token with no scopes) get the
+// star count but an empty list.
+const warnStars = () => {
+  if (hiddenStars && hiddenStars.length) {
+    setStatusRed(
+      `GitHub returned no stargazers for ${hiddenStars.length} repo(s) that have stars ` +
+        `(${hiddenStars.slice(0, 5).join(", ")}${hiddenStars.length > 5 ? "..." : ""}). ` +
+        "GitHub now shows stargazers only to the repo owner and collaborators: " +
+        "use a classic token with the public_repo scope (a token with no scopes no longer works).",
+    );
+  }
 };
 
 const showElem = (id) => document.getElementById(id).classList.remove("hidden");
@@ -578,6 +608,7 @@ const startQuery = () => {
   totalQueries = 0;
   runningQueries = 0;
   nbErrors = 0;
+  hiddenStars = [];
   user = {};
   fans = {};
   showElem("status");

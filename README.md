@@ -29,8 +29,10 @@ The two files you'll actually use are:
 Open index-data.html in your browser to fetch and download your data easily:
 
 1. Pick the API to use: **GraphQL** (default) or **REST**.
-2. Enter your GitHub user name and your [GitHub Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+2. Enter your GitHub user name and your [GitHub Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) (a classic token with the `public_repo` scope).
 3. Click the "Fetch data" button.
+
+Note: since July 2026 GitHub only lists who starred a repo to its owner and collaborators ([GitHub changelog](https://github.blog/changelog/2026-06-30-upcoming-access-restrictions-to-public-api-endpoints-and-ui-views/)). A token with no scopes still gets the star counts, forks and followers, but an empty list of stargazers. Use a token with the `public_repo` scope, for your own repos.
 
 Both APIs produce the same data file. GraphQL needs far fewer requests. REST needs one extra request per fan (to get their profile), but it also works without a token for very small accounts (GitHub allows only 60 unauthenticated REST requests per hour).
 

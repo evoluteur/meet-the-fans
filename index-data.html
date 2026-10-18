@@ -109,12 +109,14 @@
       <li>
         Enter your GitHub user name and a
         <a
-          href="https://github.com/settings/tokens/new?description=meet-the-fans"
+          href="https://github.com/settings/tokens/new?description=meet-the-fans&scopes=public_repo"
           target="_blank"
           rel="noopener"
           >personal access token</a
         >
-        (a classic token with no scopes is enough: only public data is read).
+        (classic token with the <b>public_repo</b> scope). Since July 2026 GitHub
+        only shows who starred a repo to its owner and collaborators, and a token
+        with no scopes gets an empty list of stargazers.
       </li>
       <li>
         Click <b>Fetch data</b>. Progress shows on the right, and your fans
