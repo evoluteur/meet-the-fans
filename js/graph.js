@@ -11,7 +11,9 @@ const colorFaded = config.colorFaded || "#eeeeee";
 const circleBorder = config.circleBorder || "white";
 const lineColor = config.lineColor || "white";
 
-const scaleProject = d3.scaleOrdinal(d3.schemeCategory10);
+const scaleProject = d3.scaleOrdinal(
+  config.projectColors || d3.schemeSet2
+);
 const color = (d) => (d.isRepo ? scaleProject(d.group) : userColors[d.group]);
 
 const linksDistance = config.linksDistance || 50;

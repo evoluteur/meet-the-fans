@@ -230,7 +230,7 @@ const repoItem = (r, skipMe, withSummary = true) => {
           ${condIcon("fork", r.nbForks)}
         </div>`
             : withSummary
-              ? repoItemPop(r)
+              ? repoItemPop(r, false)
               : ""
         }
       </div>
@@ -261,7 +261,7 @@ const moreTopics = (evt) => {
     .join("");
 };
 
-const repoItemPop = (r) => {
+const repoItemPop = (r, withHistory = true) => {
   const url = `https://github.com/${gitUser.login}/${r.name}/`;
   const target = ` target="${r.name}" rel="noopener"`;
   return `
@@ -279,7 +279,7 @@ const repoItemPop = (r) => {
       : ""
   }
   ${
-    r.nbStars
+    withHistory && r.nbStars
       ? `<a href="https://star-history.com/#${gitUser.login}/${
           r.name
         }" ${target}>${icon("chart")}</a>`
