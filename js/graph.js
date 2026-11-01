@@ -119,7 +119,7 @@ const graph = (data) => {
       div.transition().duration(200).delay(400).style("opacity", 0.9);
 
       const divHTML = div.html(
-        d.isRepo ? repoItem(reposH[d.id]) : userTooltip(d),
+        d.isRepo ? repoItem(reposH[d.id], false, true, false) : userTooltip(d),
       );
 
       if (evt.pageX + 100 > window.innerWidth) {

@@ -197,7 +197,8 @@ const repoList = (repos, skipMe, skipLabel, noTag, withSummary) => {
     : '<div id="reposList" class="reposList">' + label + body + "</div>";
 };
 
-const repoItem = (r, skipMe, withSummary = true) => {
+// withHistory: show the star-history link (shown in the list of projects, not in the graph tooltip)
+const repoItem = (r, skipMe, withSummary = true, withHistory = true) => {
   const isMe = r.login || r.name === "*";
   if (isMe && skipMe) {
     return "";
@@ -230,7 +231,7 @@ const repoItem = (r, skipMe, withSummary = true) => {
           ${condIcon("fork", r.nbForks)}
         </div>`
             : withSummary
-              ? repoItemPop(r, false)
+              ? repoItemPop(r, withHistory)
               : ""
         }
       </div>
